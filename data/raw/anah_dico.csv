@@ -1,0 +1,17 @@
+id_colonnes,libelle_colonnes,format,description
+com_arm_code,Code d'arrondissement municipal,texte (5 caractères),Code connu selon le dernier référentiel géographique disponible
+com_arm_name,Nom de l'arrondissement municipal,texte,Libellé connu selon le dernier référentiel géographique disponible
+com_code,Code commune,texte (5 caractères),Code connu selon le dernier référentiel géographique disponible
+com_name,Nom de la commune,texte,Libellé connu selon le dernier référentiel géographique disponible
+epci_code,Code EPCI,texte (8 caractères),Code connu selon le dernier référentiel géographique disponible
+epci_name,Nom de l'EPCI,texte,Libellé connu selon le dernier référentiel géographique disponible
+dep_code,Code département,texte (2 ou 3 caractères),Code connu selon le dernier référentiel géographique disponible
+dep_name,Nom du département,texte,Libellé connu selon le dernier référentiel géographique disponible
+reg_code,Code région,texte (2 caractères),Code connu selon le dernier référentiel géographique disponible
+reg_name,Nom de la région,texte,
+id_programme,Identifiant technique du programme,"texte (9 caractères : 3 chiffres, 3 lettres, 3 chiffres)",Identifiant également présent dans le jeu de données des périmètres géographiques des programmes
+libelle_programme,Nom du programme,texte,
+type_programme,Type de programme,"Une ou plusieurs des valeurs suivantes (séparées par un /) : OPAH,OPAH-CB,OPAH-D,OPAH-RU,OPAH-RR,PIG,PIG MOUS,PLS","Un programme peut avoir plusieurs types renseignés, par exemple dans le cas d'un avenant comprenant un volet Copropriétés Dégradés - CD"
+operateur,Opérateur,texte,
+debut_programme,Début du programme,Date en format DD/MM/YYYY,
+fin_programme,Fin prévisionnelle du programme,Date en format DD/MM/YYYY,Cette date est la date connue lors de l'extraction : elle peut être la date initiale de fin de programme ou une date modifiée par avenant

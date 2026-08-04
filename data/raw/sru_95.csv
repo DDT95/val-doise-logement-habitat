@@ -1,0 +1,65 @@
+hexagone_drom;Region;Departement;Code_Departement;Code_INSEE_commune;Nom_commune;Population_municipale_01_01_2025;Code_SIREN_EPCI;Nom_EPCI;EPCI_SRU;Code_unité_urbaine;Nom_unité_urbaine;UU_SRU;Commune_isolée_article_L_302_5_CCH;Commune_sru_au_01_01_2025;Commune_sru_au_01_01_2024;Nombre_lls_ Inventaire_au_01_01_2024;Taux_SRU_au_01_01_2024;commune_deficitaire;Commune_carencée;Commune_exemptée_2023_2025;Taux_cible_commune_2023_2025;Prélèvement_net_2025_dont_majoration
+Hexagone;Île-de-France;Val-d'Oise;95;95018;ARGENTEUIL;107135;200054781;Métropole du Grand Paris;1;00851;Paris;1;0;1;1;15102;35,28%;0;0;0;25%;0,00 
+Hexagone;Île-de-France;Val-d'Oise;95;95063;BEZONS;34314;200058519;CA Saint Germain Boucles de Seine;1;00851;Paris;1;0;1;1;5990;42,97%;0;0;0;25%;0,00 
+Hexagone;Île-de-France;Val-d'Oise;95;95585;SARCELLES;58576;200055655;CA Roissy Pays de France;1;00851;Paris;1;0;1;1;11562;59,41%;0;0;0;25%;0,00 
+Hexagone;Île-de-France;Val-d'Oise;95;95268;GARGES-LÈS-GONESSE;42388;200055655;CA Roissy Pays de France;1;00851;Paris;1;0;1;1;6668;51,26%;0;0;0;25%;0,00 
+Hexagone;Île-de-France;Val-d'Oise;95;95280;GOUSSAINVILLE;30952;200055655;CA Roissy Pays de France;1;00851;Paris;1;0;1;1;3413;33,44%;0;0;0;25%;0,00 
+Hexagone;Île-de-France;Val-d'Oise;95;95680;VILLIERS-LE-BEL;29238;200055655;CA Roissy Pays de France;1;00851;Paris;1;0;1;1;5177;53,03%;0;0;0;25%;0,00 
+Hexagone;Île-de-France;Val-d'Oise;95;95277;GONESSE;26959;200055655;CA Roissy Pays de France;1;00851;Paris;1;0;1;1;4592;48,24%;0;0;0;25%;0,00 
+Hexagone;Île-de-France;Val-d'Oise;95;95019;ARNOUVILLE;14898;200055655;CA Roissy Pays de France;1;00851;Paris;1;0;1;1;445;9,06%;1;0;1;25%;0,00 
+Hexagone;Île-de-France;Val-d'Oise;95;95351;LOUVRES;12226;200055655;CA Roissy Pays de France;1;95301;Louvres;0;0;1;1;1052;23,99%;1;0;0;25%;0,00 
+Hexagone;Île-de-France;Val-d'Oise;95;95250;FOSSES;10249;200055655;CA Roissy Pays de France;1;95303;Fosses;0;0;1;1;756;20,36%;1;0;0;25%;0,00 
+Hexagone;Île-de-France;Val-d'Oise;95;95205;ÉCOUEN;7173;200055655;CA Roissy Pays de France;1;00851;Paris;1;0;1;1;605;22,08%;1;0;1;25%;0,00 
+Hexagone;Île-de-France;Val-d'Oise;95;95371;MARLY-LA-VILLE;5852;200055655;CA Roissy Pays de France;1;95303;Fosses;0;0;1;1;264;11,97%;1;0;0;25%;157 608,00 
+Hexagone;Île-de-France;Val-d'Oise;95;95612;LE THILLAY;4575;200055655;CA Roissy Pays de France;1;00851;Paris;1;0;1;1;117;7,24%;1;0;1;25%;0,00 
+Hexagone;Île-de-France;Val-d'Oise;95;95604;SURVILLIERS;4154;200055655;CA Roissy Pays de France;1;95303;Fosses;0;0;1;1;379;23,22%;1;0;0;25%;10 085,33 
+Hexagone;Île-de-France;Val-d'Oise;95;95509;PUISEUX-EN-FRANCE;3755;200055655;CA Roissy Pays de France;1;95301;Louvres;0;0;1;1;64;4,59%;1;0;0;25%;67 867,05 
+Hexagone;Île-de-France;Val-d'Oise;95;95527;ROISSY-EN-FRANCE;2682;200055655;CA Roissy Pays de France;1;00851;Paris;1;0;1;1;423;45,63%;0;0;0;25%;0,00 
+Hexagone;Île-de-France;Val-d'Oise;95;95197;DEUIL-LA-BARRE;22903;200056380;CA Plaine Vallée;1;00851;Paris;1;0;1;1;2136;21,03%;1;0;0;25%;0,00 
+Hexagone;Île-de-France;Val-d'Oise;95;95428;MONTMORENCY;21677;200056380;CA Plaine Vallée;1;00851;Paris;1;0;1;1;2010;22,02%;1;1;0;25%;142 157,11 
+Hexagone;Île-de-France;Val-d'Oise;95;95555;SAINT-GRATIEN;21297;200056380;CA Plaine Vallée;1;00851;Paris;1;0;1;1;2945;33,75%;0;0;0;25%;0,00 
+Hexagone;Île-de-France;Val-d'Oise;95;95598;SOISY-SOUS-MONTMORENCY;18068;200056380;CA Plaine Vallée;1;00851;Paris;1;0;1;1;1912;25,68%;0;0;0;25%;0,00 
+Hexagone;Île-de-France;Val-d'Oise;95;95199;DOMONT;16075;200056380;CA Plaine Vallée;1;00851;Paris;1;0;1;1;1339;21,04%;1;0;0;25%;0,00 
+Hexagone;Île-de-France;Val-d'Oise;95;95539;SAINT-BRICE-SOUS-FORÊT;15209;200056380;CA Plaine Vallée;1;00851;Paris;1;0;1;1;1160;21,06%;1;1;0;25%;0,00 
+Hexagone;Île-de-France;Val-d'Oise;95;95427;MONTMAGNY;14632;200056380;CA Plaine Vallée;1;00851;Paris;1;0;1;1;1423;26,97%;0;0;0;25%;0,00 
+Hexagone;Île-de-France;Val-d'Oise;95;95210;ENGHIEN-LES-BAINS;11594;200056380;CA Plaine Vallée;1;00851;Paris;1;0;1;1;877;16,25%;1;1;0;25%;704 921,36 
+Hexagone;Île-de-France;Val-d'Oise;95;95229;ÉZANVILLE;9789;200056380;CA Plaine Vallée;1;00851;Paris;1;0;1;1;824;21,05%;1;1;0;25%;87 325,14 
+Hexagone;Île-de-France;Val-d'Oise;95;95288;GROSLAY;8378;200056380;CA Plaine Vallée;1;00851;Paris;1;0;1;1;425;13,03%;1;0;1;25%;0,00 
+Hexagone;Île-de-France;Val-d'Oise;95;95574;SAINT-PRIX;7588;200056380;CA Plaine Vallée;1;00851;Paris;1;0;1;1;566;18,96%;1;0;0;25%;48 007,78 
+Hexagone;Île-de-France;Val-d'Oise;95;95091;BOUFFÉMONT;6565;200056380;CA Plaine Vallée;1;00851;Paris;1;0;1;1;731;31,27%;0;0;0;25%;0,00 
+Hexagone;Île-de-France;Val-d'Oise;95;95426;MONTLIGNON;2966;200056380;CA Plaine Vallée;1;00851;Paris;1;0;1;1;109;8,96%;1;1;0;25%;135 149,98 
+Hexagone;Île-de-France;Val-d'Oise;95;95369;MARGENCY;2954;200056380;CA Plaine Vallée;1;00851;Paris;1;0;1;1;226;18,07%;1;0;0;25%;0,00 
+Hexagone;Île-de-France;Val-d'Oise;95;95014;ANDILLY;2691;200056380;CA Plaine Vallée;1;00851;Paris;1;0;1;1;163;17,51%;1;0;0;25%;22 213,10 
+Hexagone;Île-de-France;Val-d'Oise;95;95252;FRANCONVILLE;38024;200058485;CA Val Parisis;1;00851;Paris;1;0;1;1;3337;20,78%;1;1;0;25%;0,00 
+Hexagone;Île-de-France;Val-d'Oise;95;95306;HERBLAY-SUR-SEINE;31818;200058485;CA Val Parisis;1;00851;Paris;1;0;1;1;2487;20,57%;1;0;0;25%;0,00 
+Hexagone;Île-de-France;Val-d'Oise;95;95219;ERMONT;29189;200058485;CA Val Parisis;1;00851;Paris;1;0;1;1;4320;34,64%;0;0;0;25%;0,00 
+Hexagone;Île-de-France;Val-d'Oise;95;95176;CORMEILLES-EN-PARISIS;27086;200058485;CA Val Parisis;1;00851;Paris;1;0;1;1;2134;19,60%;1;0;0;25%;103 393,44 
+Hexagone;Île-de-France;Val-d'Oise;95;95607;TAVERNY;27065;200058485;CA Val Parisis;1;00851;Paris;1;0;1;1;2537;23,53%;1;0;0;25%;0,00 
+Hexagone;Île-de-France;Val-d'Oise;95;95582;SANNOIS;26772;200058485;CA Val Parisis;1;00851;Paris;1;0;1;1;3209;28,18%;0;0;0;25%;0,00 
+Hexagone;Île-de-France;Val-d'Oise;95;95203;EAUBONNE;25934;200058485;CA Val Parisis;1;00851;Paris;1;0;1;1;2418;22,46%;1;0;0;25%;0,00 
+Hexagone;Île-de-France;Val-d'Oise;95;95424;MONTIGNY-LÈS-CORMEILLES;22390;200058485;CA Val Parisis;1;00851;Paris;1;0;1;1;2625;34,30%;0;0;0;25%;0,00 
+Hexagone;Île-de-France;Val-d'Oise;95;95563;SAINT-LEU-LA-FORÊT;16047;200058485;CA Val Parisis;1;00851;Paris;1;0;1;1;1152;17,13%;1;1;0;25%;278 313,60 
+Hexagone;Île-de-France;Val-d'Oise;95;95488;PIERRELAYE;10230;200058485;CA Val Parisis;1;00851;Paris;1;0;1;1;1007;27,98%;0;0;0;25%;0,00 
+Hexagone;Île-de-France;Val-d'Oise;95;95051;BEAUCHAMP;9506;200058485;CA Val Parisis;1;00851;Paris;1;0;1;1;864;21,86%;1;0;0;25%;53 551,25 
+Hexagone;Île-de-France;Val-d'Oise;95;95060;BESSANCOURT;8521;200058485;CA Val Parisis;1;00851;Paris;1;0;1;1;1098;31,07%;0;0;0;25%;0,00 
+Hexagone;Île-de-France;Val-d'Oise;95;95491;LE PLESSIS-BOUCHARD;8333;200058485;CA Val Parisis;1;00851;Paris;1;0;1;1;414;11,56%;1;1;0;25%;260 443,88 
+Hexagone;Île-de-France;Val-d'Oise;95;95257;LA FRETTE-SUR-SEINE;4587;200058485;CA Val Parisis;1;00851;Paris;1;0;1;1;231;11,74%;1;0;0;25%;0,00 
+Hexagone;Île-de-France;Val-d'Oise;95;95256;FRÉPILLON;3327;200058485;CA Val Parisis;1;00851;Paris;1;0;1;1;184;14,89%;1;0;0;25%;30 297,50 
+Hexagone;Île-de-France;Val-d'Oise;95;95127;CERGY;69578;249500109;CA de Cergy-Pontoise;1;00851;Paris;1;0;1;1;12220;47,13%;0;0;0;25%;0,00 
+Hexagone;Île-de-France;Val-d'Oise;95;95500;PONTOISE;31623;249500109;CA de Cergy-Pontoise;1;00851;Paris;1;0;1;1;4975;40,84%;0;0;0;25%;0,00 
+Hexagone;Île-de-France;Val-d'Oise;95;95572;SAINT-OUEN-L'AUMÔNE;25614;249500109;CA de Cergy-Pontoise;1;00851;Paris;1;0;1;1;3512;36,03%;0;0;0;25%;0,00 
+Hexagone;Île-de-France;Val-d'Oise;95;95218;ÉRAGNY;18723;249500109;CA de Cergy-Pontoise;1;00851;Paris;1;0;1;1;2231;32,02%;0;0;0;25%;0,00 
+Hexagone;Île-de-France;Val-d'Oise;95;95476;OSNY;17471;249500109;CA de Cergy-Pontoise;1;00851;Paris;1;0;1;1;1463;23,13%;1;0;0;25%;0,00 
+Hexagone;Île-de-France;Val-d'Oise;95;95323;JOUY-LE-MOUTIER;17411;249500109;CA de Cergy-Pontoise;1;00851;Paris;1;0;1;1;1987;31,64%;0;0;0;25%;0,00 
+Hexagone;Île-de-France;Val-d'Oise;95;95637;VAURÉAL;16079;249500109;CA de Cergy-Pontoise;1;00851;Paris;1;0;1;1;1617;26,45%;0;0;0;25%;0,00 
+Hexagone;Île-de-France;Val-d'Oise;95;95183;COURDIMANCHE;7111;249500109;CA de Cergy-Pontoise;1;00851;Paris;1;0;1;1;621;23,20%;1;0;0;25%;15 625,61 
+Hexagone;Île-de-France;Val-d'Oise;95;95388;MENUCOURT;6189;249500109;CA de Cergy-Pontoise;1;95201;Menucourt;0;0;1;1;613;27,79%;0;0;0;25%;0,00 
+Hexagone;Île-de-France;Val-d'Oise;95;95450;NEUVILLE-SUR-OISE;2089;249500109;CA de Cergy-Pontoise;1;00851;Paris;1;0;1;1;360;51,95%;0;0;0;25%;0,00 
+Hexagone;Île-de-France;Val-d'Oise;95;95039;AUVERS-SUR-OISE;6820;249500430;CC Sausseron Impressionnistes;0;00851;Paris;1;0;1;1;251;8,51%;1;1;0;25%;355 154,49 
+Hexagone;Île-de-France;Val-d'Oise;95;95120;BUTRY-SUR-OISE;2242;249500430;CC Sausseron Impressionnistes;0;00851;Paris;1;0;1;1;140;16,07%;1;0;0;25%;14 451,06 
+Hexagone;Île-de-France;Val-d'Oise;95;95446;NESLES-LA-VALLÉE;1823;249500430;CC Sausseron Impressionnistes;0;00851;Paris;1;0;1;1;48;5,97%;1;1;0;25%;56 188,45 
+Hexagone;Île-de-France;Val-d'Oise;95;95313;L'ISLE-ADAM;12302;249500455;CC de la Vallée de l'Oise et des Trois Forêts;0;00851;Paris;1;0;1;1;1269;21,26%;1;0;0;25%;78 636,49 
+Hexagone;Île-de-France;Val-d'Oise;95;95394;MÉRY-SUR-OISE;10015;249500455;CC de la Vallée de l'Oise et des Trois Forêts;0;00851;Paris;1;0;1;1;727;19,41%;1;0;0;25%;44 475,90 
+Hexagone;Île-de-France;Val-d'Oise;95;95480;PARMAIN;5683;249500455;CC de la Vallée de l'Oise et des Trois Forêts;0;00851;Paris;1;0;1;1;278;12,60%;1;0;0;25%;0,00 
+Hexagone;Île-de-France;Val-d'Oise;95;95392;MÉRIEL;5337;249500455;CC de la Vallée de l'Oise et des Trois Forêts;0;00851;Paris;1;0;1;1;428;19,16%;1;0;0;25%;27 741,87 
+Hexagone;Île-de-France;Val-d'Oise;95;95134;CHAMPAGNE-SUR-OISE;5022;249500489;CC du Haut Val d'Oise;0;00851;Paris;1;0;1;1;408;20,75%;1;0;0;25%;19 443,48 

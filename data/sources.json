@@ -1,0 +1,88 @@
+{
+  "insee_logement_2023": {
+    "producteur": "Insee",
+    "jeu": "Recensement de la population 2023 — Logement, tableaux détaillés (géographie au 01/01/2026)",
+    "page": "https://www.insee.fr/fr/statistiques/8998387",
+    "fichiers": [
+      "https://www.insee.fr/fr/statistiques/fichier/8998387/TD_LOGEMENT_CARACT_PRINC_2023_xlsx.zip"
+    ],
+    "millesime": 2023,
+    "date_recuperation": "2026-08-04",
+    "licence": "Licence Ouverte / Open Licence 2.0",
+    "granularite": "commune",
+    "prudence": "Effectifs pondérés issus du sondage au quart ; valeurs décimales normales ; comparaisons déconseillées pour les effectifs < 200."
+  },
+  "rpls": {
+    "producteur": "SDES, ministère de la Transition écologique",
+    "jeu": "Données détaillées au logement du RPLS",
+    "page": "https://www.data.gouv.fr/datasets/donnees-detaillees-au-logement-du-repertoire-des-logements-locatifs-des-bailleurs-sociaux-rpls",
+    "fichier_source": "https://data.statistiques.developpement-durable.gouv.fr/dido/api/v1/datafiles/f3c2f2cb-8fb1-40fd-8733-964247744c9a/csv",
+    "millesime": "2025 (état au 1er janvier)",
+    "date_recuperation": "2026-08-04",
+    "licence": "Licence Ouverte",
+    "granularite": "logement individuel, agrégé en commune/EPCI",
+    "prudence": "Champ RPLS ≠ inventaire SRU. Identité du bailleur non diffusée."
+  },
+  "sru": {
+    "producteur": "Ministère chargé du Logement",
+    "jeu": "Communes et inventaire SRU",
+    "page": "https://www.data.gouv.fr/datasets/communes-et-inventaire-sru",
+    "fichier_source": "https://static.data.gouv.fr/resources/communes-et-inventaire-sru/20251219-143258/donnees-sru-data-gouv-2025-v2.csv",
+    "millesime": "2025",
+    "date_recuperation": "2026-08-04",
+    "licence": "Licence Ouverte",
+    "granularite": "commune",
+    "prudence": "Seules les communes du périmètre réglementaire SRU figurent dans le jeu. Absence ≠ zéro logement social."
+  },
+  "lovac": {
+    "producteur": "DGALN / Cerema (DataFoncier), à partir de la DGFiP",
+    "jeu": "Logements vacants du parc privé par commune 2020-2026",
+    "page": "https://www.data.gouv.fr/datasets/logements-vacants-du-parc-prive-par-commune-departement-region-france-de-2020-a-2026",
+    "fichier_source": "https://static.data.gouv.fr/resources/logements-vacants-du-parc-prive-par-commune-departement-region-france/20260625-163627/lovac-opendata-communes26.csv",
+    "millesime": "2026 (édition), séries 2020-2025",
+    "date_recuperation": "2026-08-04",
+    "licence": "Licence Ouverte 2.0",
+    "granularite": "commune",
+    "secret": "Valeurs inférieures à 11 logements secrétisées (\"s\") — jamais converties en zéro.",
+    "rupture": "Changement de collecte avec le dispositif GMBI en 2023, puis rupture de production en 2025. Toujours annoter visuellement toute série continue."
+  },
+  "sitadel3": {
+    "producteur": "SDES",
+    "jeu": "Logements autorisés et commencés, séries annuelles communales (données non estimées, date réelle)",
+    "page": "https://www.statistiques.developpement-durable.gouv.fr/catalogue?page=dataset&datasetId=6513ee3a3b05e5cd969c270f",
+    "fichier_source": "https://data.statistiques.developpement-durable.gouv.fr/dido/api/v1/datafiles/9c90a880-4ba0-49b4-b99d-d7dd6c810dd0/csv",
+    "millesime": "2013-2025",
+    "date_recuperation": "2026-08-04",
+    "licence": "Licence Ouverte",
+    "granularite": "commune",
+    "prudence": "Mesure des événements administratifs (autorisation / mise en chantier), pas des logements livrés. Données annuelles brutes incomplètes (documents non reçus)."
+  },
+  "dpe_ademe": {
+    "producteur": "ADEME",
+    "jeu": "DPE v2 logements existants (depuis juillet 2021)",
+    "page": "https://data.ademe.fr/datasets/dpe-v2-logements-existants",
+    "api": "https://data.ademe.fr/data-fair/api/v1/datasets/meg-83tjwtg8dyz4vv7h1dqe/values_agg",
+    "millesime": "DPE établis depuis juillet 2021, extraction 2026-08-04",
+    "date_recuperation": "2026-08-04",
+    "licence": "Licence Ouverte",
+    "granularite": "commune (via code_insee_ban), agrégation par étiquette DPE",
+    "prudence": "Observations, pas un recensement exhaustif. Toujours afficher le nombre de DPE observés comme dénominateur."
+  },
+  "anah_opah": {
+    "producteur": "Anah",
+    "jeu": "Liste des communes couvertes par une opération programmée",
+    "page": "https://www.data.gouv.fr/datasets/liste-des-communes-couvertes-par-une-operation-programmee",
+    "fichier_source": "https://static.data.gouv.fr/resources/liste-des-communes-couvertes-par-une-operation-programmee/20260804-060144/20260804-liste-communes-couvertes-par-programmes.csv",
+    "millesime": "extraction quotidienne, récupérée le 2026-08-04",
+    "date_recuperation": "2026-08-04",
+    "licence": "Licence Ouverte",
+    "granularite": "commune",
+    "prudence": "Signale un dispositif ou une politique active, pas le nombre de rénovations réalisées."
+  },
+  "geographie": {
+    "producteur": "Réutilisation du dépôt val-doise-domicile-travail (DDT95)",
+    "jeu": "Communes et EPCI du Val-d'Oise, COG au 1er janvier 2026",
+    "granularite": "commune / EPCI",
+    "note": "Territoires identiques au site Domicile ↔ Travail ; Argenteuil et Bezons traitées comme communes particulières en mode EPCI."
+  }
+}

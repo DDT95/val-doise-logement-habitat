@@ -1,0 +1,2398 @@
+{
+ "200035970": {
+  "code": "200035970",
+  "name": "CC Vexin Centre",
+  "kind": "epci",
+  "special": false,
+  "members": [
+   "95002",
+   "95040",
+   "95054",
+   "95059",
+   "95078",
+   "95102",
+   "95110",
+   "95142",
+   "95166",
+   "95169",
+   "95170",
+   "95177",
+   "95181",
+   "95253",
+   "95254",
+   "95287",
+   "95295",
+   "95298",
+   "95303",
+   "95348",
+   "95370",
+   "95422",
+   "95438",
+   "95447",
+   "95459",
+   "95483",
+   "95535",
+   "95584",
+   "95592",
+   "95610",
+   "95611",
+   "95625",
+   "95658"
+  ],
+  "members_covered": [
+   "95002",
+   "95040",
+   "95054",
+   "95059",
+   "95078",
+   "95102",
+   "95110",
+   "95142",
+   "95166",
+   "95169",
+   "95170",
+   "95177",
+   "95181",
+   "95253",
+   "95254",
+   "95287",
+   "95295",
+   "95298",
+   "95303",
+   "95348",
+   "95370",
+   "95422",
+   "95438",
+   "95447",
+   "95459",
+   "95483",
+   "95535",
+   "95584",
+   "95592",
+   "95610",
+   "95611",
+   "95625",
+   "95658"
+  ],
+  "perimetre_partiel": false,
+  "parc": {
+   "total": {
+    "value": 10754.351190000001,
+    "unit": "logements",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": null,
+    "quality_flag": "ok"
+   },
+   "residences_principales": {
+    "value": 9778.95283,
+    "unit": "logements",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": null,
+    "quality_flag": "ok"
+   },
+   "logements_vacants_rp": {
+    "value": 693.7793999999999,
+    "unit": "logements",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 10754.351190000001,
+    "quality_flag": "ok"
+   },
+   "maisons": {
+    "value": 8438.097269999998,
+    "unit": "logements",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 9778.95283,
+    "quality_flag": "ok"
+   },
+   "appartements": {
+    "value": 1257.07777,
+    "unit": "logements",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 9778.95283,
+    "quality_flag": "ok"
+   },
+   "part_avant_1971": {
+    "value": 46.64941803492024,
+    "unit": "%",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": null,
+    "quality_flag": "ok"
+   }
+  },
+  "occupation": {
+   "proprietaires": {
+    "value": 7780.0693200000005,
+    "unit": "résidences principales",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 9778.95283,
+    "quality_flag": "ok"
+   },
+   "locataires_prive": {
+    "value": 1457.1503700000003,
+    "unit": "résidences principales",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 9778.95283,
+    "quality_flag": "ok"
+   },
+   "locataires_social": {
+    "value": 334.26017999999993,
+    "unit": "résidences principales",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 9778.95283,
+    "quality_flag": "ok"
+   }
+  },
+  "social": {
+   "rpls_count": {
+    "value": null,
+    "unit": "logements",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": null,
+    "quality_flag": "missing"
+   },
+   "part_rpls_residences_principales": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls+insee_logement_2023",
+    "denominator": 9778.95283,
+    "quality_flag": "missing"
+   }
+  },
+  "vacance": {
+   "taux_vacance_rp": {
+    "value": 6.451150680713448,
+    "unit": "%",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 10754.351190000001,
+    "quality_flag": "ok"
+   },
+   "vacance_privee_longue_2025": {
+    "value": 214.0,
+    "unit": "logements",
+    "year": 2025,
+    "source": "lovac",
+    "denominator": null,
+    "quality_flag": "ok"
+   },
+   "rupture_serie": "Rupture méthodologique en 2023 (bascule GMBI) puis rupture de production en 2025 : ne pas tracer de tendance continue sans annotation."
+  },
+  "construction": {
+   "autorises_5ans": {
+    "value": 177.0,
+    "unit": "logements",
+    "year": "2021-2025",
+    "source": "sitadel3",
+    "denominator": null,
+    "quality_flag": "ok"
+   },
+   "commences_5ans": {
+    "value": 113.0,
+    "unit": "logements",
+    "year": "2021-2025",
+    "source": "sitadel3",
+    "denominator": null,
+    "quality_flag": "ok"
+   },
+   "serie_annuelle": []
+  },
+  "renovation": {
+   "dpe_observes": {
+    "value": 3404.0,
+    "unit": "diagnostics",
+    "year": 2026,
+    "source": "dpe_ademe",
+    "denominator": null,
+    "quality_flag": "ok"
+   },
+   "dpe_fg_part": {
+    "value": 18.53701527614571,
+    "unit": "%",
+    "year": 2026,
+    "source": "dpe_ademe",
+    "denominator": 3404.0,
+    "quality_flag": "ok"
+   },
+   "anah_programmes_actifs": []
+  }
+ },
+ "200055655": {
+  "code": "200055655",
+  "name": "CA Roissy Pays de France",
+  "kind": "epci",
+  "special": false,
+  "members": [
+   "77118",
+   "77123",
+   "77153",
+   "77214",
+   "77241",
+   "77259",
+   "77282",
+   "77291",
+   "77294",
+   "77322",
+   "77323",
+   "77349",
+   "77392",
+   "77420",
+   "77462",
+   "77511",
+   "77514",
+   "95019",
+   "95088",
+   "95094",
+   "95154",
+   "95205",
+   "95212",
+   "95241",
+   "95250",
+   "95268",
+   "95277",
+   "95280",
+   "95351",
+   "95371",
+   "95395",
+   "95492",
+   "95509",
+   "95527",
+   "95580",
+   "95585",
+   "95604",
+   "95612",
+   "95633",
+   "95641",
+   "95675",
+   "95680"
+  ],
+  "members_covered": [
+   "95019",
+   "95088",
+   "95094",
+   "95154",
+   "95205",
+   "95212",
+   "95241",
+   "95250",
+   "95268",
+   "95277",
+   "95280",
+   "95351",
+   "95371",
+   "95395",
+   "95492",
+   "95509",
+   "95527",
+   "95580",
+   "95585",
+   "95604",
+   "95612",
+   "95633",
+   "95641",
+   "95675",
+   "95680"
+  ],
+  "perimetre_partiel": true,
+  "parc": {
+   "total": {
+    "value": 99384.17183000002,
+    "unit": "logements",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": null,
+    "quality_flag": "partial_perimeter"
+   },
+   "residences_principales": {
+    "value": 93393.20291000002,
+    "unit": "logements",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": null,
+    "quality_flag": "partial_perimeter"
+   },
+   "logements_vacants_rp": {
+    "value": 4823.432360000001,
+    "unit": "logements",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 99384.17183000002,
+    "quality_flag": "partial_perimeter"
+   },
+   "maisons": {
+    "value": 35644.996810000004,
+    "unit": "logements",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 93393.20291000002,
+    "quality_flag": "partial_perimeter"
+   },
+   "appartements": {
+    "value": 56243.78331,
+    "unit": "logements",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 93393.20291000002,
+    "quality_flag": "partial_perimeter"
+   },
+   "part_avant_1971": {
+    "value": 34.256861916193145,
+    "unit": "%",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": null,
+    "quality_flag": "partial_perimeter"
+   }
+  },
+  "occupation": {
+   "proprietaires": {
+    "value": 42579.28143,
+    "unit": "résidences principales",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 93393.20291000002,
+    "quality_flag": "partial_perimeter"
+   },
+   "locataires_prive": {
+    "value": 14825.651099999995,
+    "unit": "résidences principales",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 93393.20291000002,
+    "quality_flag": "partial_perimeter"
+   },
+   "locataires_social": {
+    "value": 32711.28138,
+    "unit": "résidences principales",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 93393.20291000002,
+    "quality_flag": "partial_perimeter"
+   }
+  },
+  "social": {
+   "rpls_count": {
+    "value": null,
+    "unit": "logements",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": null,
+    "quality_flag": "missing"
+   },
+   "part_rpls_residences_principales": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls+insee_logement_2023",
+    "denominator": 93393.20291000002,
+    "quality_flag": "missing"
+   }
+  },
+  "vacance": {
+   "taux_vacance_rp": {
+    "value": 4.853320474663354,
+    "unit": "%",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 99384.17183000002,
+    "quality_flag": "partial_perimeter"
+   },
+   "vacance_privee_longue_2025": {
+    "value": 2047.0,
+    "unit": "logements",
+    "year": 2025,
+    "source": "lovac",
+    "denominator": null,
+    "quality_flag": "partial_perimeter"
+   },
+   "rupture_serie": "Rupture méthodologique en 2023 (bascule GMBI) puis rupture de production en 2025 : ne pas tracer de tendance continue sans annotation."
+  },
+  "construction": {
+   "autorises_5ans": {
+    "value": 3318.0,
+    "unit": "logements",
+    "year": "2021-2025",
+    "source": "sitadel3",
+    "denominator": null,
+    "quality_flag": "partial_perimeter"
+   },
+   "commences_5ans": {
+    "value": 1356.0,
+    "unit": "logements",
+    "year": "2021-2025",
+    "source": "sitadel3",
+    "denominator": null,
+    "quality_flag": "partial_perimeter"
+   },
+   "serie_annuelle": []
+  },
+  "renovation": {
+   "dpe_observes": {
+    "value": 58312.0,
+    "unit": "diagnostics",
+    "year": 2026,
+    "source": "dpe_ademe",
+    "denominator": null,
+    "quality_flag": "partial_perimeter"
+   },
+   "dpe_fg_part": {
+    "value": 6.916243654822335,
+    "unit": "%",
+    "year": 2026,
+    "source": "dpe_ademe",
+    "denominator": 58312.0,
+    "quality_flag": "partial_perimeter"
+   },
+   "anah_programmes_actifs": [
+    {
+     "libelle": "ORCOD DC DE GARGES LES GONESSES",
+     "type": "OPAH-D",
+     "fin": "2034-03-20"
+    },
+    {
+     "libelle": "LES EDELWEIS",
+     "type": "PLS",
+     "fin": "2029-03-20"
+    },
+    {
+     "libelle": "PLS GARGES OUEST",
+     "type": "PLS",
+     "fin": "2029-03-20"
+    },
+    {
+     "libelle": "PLS LES MAGNOLIAS",
+     "type": "PLS",
+     "fin": "2029-03-20"
+    },
+    {
+     "libelle": "PLS LE PETIT ROSNE",
+     "type": "PLS",
+     "fin": "2029-03-20"
+    },
+    {
+     "libelle": "ORCOD SARCELLES LOCHERES TOUR 75",
+     "type": "OPAH-D",
+     "fin": "2029-06-30"
+    },
+    {
+     "libelle": "PLS COPROPRIETE LES CHARMES A VILLERS LE BEL",
+     "type": "PLS",
+     "fin": "2027-11-29"
+    },
+    {
+     "libelle": "OPAH CD COPROS GAMBETTA ET HENRI SELLIER",
+     "type": "OPAH-D",
+     "fin": "2029-05-30"
+    },
+    {
+     "libelle": "PLS COPROPRIETE MERMOZ",
+     "type": "PLS",
+     "fin": "2027-11-29"
+    }
+   ]
+  }
+ },
+ "200056380": {
+  "code": "200056380",
+  "name": "CA Plaine Vallée",
+  "kind": "epci",
+  "special": false,
+  "members": [
+   "95014",
+   "95028",
+   "95091",
+   "95197",
+   "95199",
+   "95210",
+   "95229",
+   "95288",
+   "95369",
+   "95409",
+   "95426",
+   "95427",
+   "95428",
+   "95489",
+   "95539",
+   "95555",
+   "95574",
+   "95598"
+  ],
+  "members_covered": [
+   "95014",
+   "95028",
+   "95091",
+   "95197",
+   "95199",
+   "95210",
+   "95229",
+   "95288",
+   "95369",
+   "95409",
+   "95426",
+   "95427",
+   "95428",
+   "95489",
+   "95539",
+   "95555",
+   "95574",
+   "95598"
+  ],
+  "perimetre_partiel": false,
+  "parc": {
+   "total": {
+    "value": 82226.64834999999,
+    "unit": "logements",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": null,
+    "quality_flag": "ok"
+   },
+   "residences_principales": {
+    "value": 75466.34297000001,
+    "unit": "logements",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": null,
+    "quality_flag": "ok"
+   },
+   "logements_vacants_rp": {
+    "value": 5570.49655,
+    "unit": "logements",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 82226.64834999999,
+    "quality_flag": "ok"
+   },
+   "maisons": {
+    "value": 31249.07441,
+    "unit": "logements",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 75466.34297000001,
+    "quality_flag": "ok"
+   },
+   "appartements": {
+    "value": 43127.10873,
+    "unit": "logements",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 75466.34297000001,
+    "quality_flag": "ok"
+   },
+   "part_avant_1971": {
+    "value": 36.404520823669756,
+    "unit": "%",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": null,
+    "quality_flag": "ok"
+   }
+  },
+  "occupation": {
+   "proprietaires": {
+    "value": 45892.283970000004,
+    "unit": "résidences principales",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 75466.34297000001,
+    "quality_flag": "ok"
+   },
+   "locataires_prive": {
+    "value": 14232.959169999998,
+    "unit": "résidences principales",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 75466.34297000001,
+    "quality_flag": "ok"
+   },
+   "locataires_social": {
+    "value": 12340.4246,
+    "unit": "résidences principales",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 75466.34297000001,
+    "quality_flag": "ok"
+   }
+  },
+  "social": {
+   "rpls_count": {
+    "value": null,
+    "unit": "logements",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": null,
+    "quality_flag": "missing"
+   },
+   "part_rpls_residences_principales": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls+insee_logement_2023",
+    "denominator": 75466.34297000001,
+    "quality_flag": "missing"
+   }
+  },
+  "vacance": {
+   "taux_vacance_rp": {
+    "value": 6.774563553033353,
+    "unit": "%",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 82226.64834999999,
+    "quality_flag": "ok"
+   },
+   "vacance_privee_longue_2025": {
+    "value": 1726.0,
+    "unit": "logements",
+    "year": 2025,
+    "source": "lovac",
+    "denominator": null,
+    "quality_flag": "ok"
+   },
+   "rupture_serie": "Rupture méthodologique en 2023 (bascule GMBI) puis rupture de production en 2025 : ne pas tracer de tendance continue sans annotation."
+  },
+  "construction": {
+   "autorises_5ans": {
+    "value": 1967.0,
+    "unit": "logements",
+    "year": "2021-2025",
+    "source": "sitadel3",
+    "denominator": null,
+    "quality_flag": "ok"
+   },
+   "commences_5ans": {
+    "value": 1305.0,
+    "unit": "logements",
+    "year": "2021-2025",
+    "source": "sitadel3",
+    "denominator": null,
+    "quality_flag": "ok"
+   },
+   "serie_annuelle": []
+  },
+  "renovation": {
+   "dpe_observes": {
+    "value": 38041.0,
+    "unit": "diagnostics",
+    "year": 2026,
+    "source": "dpe_ademe",
+    "denominator": null,
+    "quality_flag": "ok"
+   },
+   "dpe_fg_part": {
+    "value": 12.252569595962251,
+    "unit": "%",
+    "year": 2026,
+    "source": "dpe_ademe",
+    "denominator": 38041.0,
+    "quality_flag": "ok"
+   },
+   "anah_programmes_actifs": []
+  }
+ },
+ "200058485": {
+  "code": "200058485",
+  "name": "CA Val Parisis",
+  "kind": "epci",
+  "special": false,
+  "members": [
+   "95051",
+   "95060",
+   "95176",
+   "95203",
+   "95219",
+   "95252",
+   "95256",
+   "95257",
+   "95306",
+   "95424",
+   "95488",
+   "95491",
+   "95563",
+   "95582",
+   "95607"
+  ],
+  "members_covered": [
+   "95051",
+   "95060",
+   "95176",
+   "95203",
+   "95219",
+   "95252",
+   "95256",
+   "95257",
+   "95306",
+   "95424",
+   "95488",
+   "95491",
+   "95563",
+   "95582",
+   "95607"
+  ],
+  "perimetre_partiel": false,
+  "parc": {
+   "total": {
+    "value": 124054.20061999999,
+    "unit": "logements",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": null,
+    "quality_flag": "ok"
+   },
+   "residences_principales": {
+    "value": 115612.9449,
+    "unit": "logements",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": null,
+    "quality_flag": "ok"
+   },
+   "logements_vacants_rp": {
+    "value": 7110.208280000001,
+    "unit": "logements",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 124054.20061999999,
+    "quality_flag": "ok"
+   },
+   "maisons": {
+    "value": 49873.98965,
+    "unit": "logements",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 115612.9449,
+    "quality_flag": "ok"
+   },
+   "appartements": {
+    "value": 64754.473079999996,
+    "unit": "logements",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 115612.9449,
+    "quality_flag": "ok"
+   },
+   "part_avant_1971": {
+    "value": 37.67026304587857,
+    "unit": "%",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": null,
+    "quality_flag": "ok"
+   }
+  },
+  "occupation": {
+   "proprietaires": {
+    "value": 71988.46730999999,
+    "unit": "résidences principales",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 115612.9449,
+    "quality_flag": "ok"
+   },
+   "locataires_prive": {
+    "value": 19229.38827,
+    "unit": "résidences principales",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 115612.9449,
+    "quality_flag": "ok"
+   },
+   "locataires_social": {
+    "value": 22177.33788,
+    "unit": "résidences principales",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 115612.9449,
+    "quality_flag": "ok"
+   }
+  },
+  "social": {
+   "rpls_count": {
+    "value": null,
+    "unit": "logements",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": null,
+    "quality_flag": "missing"
+   },
+   "part_rpls_residences_principales": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls+insee_logement_2023",
+    "denominator": 115612.9449,
+    "quality_flag": "missing"
+   }
+  },
+  "vacance": {
+   "taux_vacance_rp": {
+    "value": 5.731533671947013,
+    "unit": "%",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 124054.20061999999,
+    "quality_flag": "ok"
+   },
+   "vacance_privee_longue_2025": {
+    "value": 1684.0,
+    "unit": "logements",
+    "year": 2025,
+    "source": "lovac",
+    "denominator": null,
+    "quality_flag": "ok"
+   },
+   "rupture_serie": "Rupture méthodologique en 2023 (bascule GMBI) puis rupture de production en 2025 : ne pas tracer de tendance continue sans annotation."
+  },
+  "construction": {
+   "autorises_5ans": {
+    "value": 5213.0,
+    "unit": "logements",
+    "year": "2021-2025",
+    "source": "sitadel3",
+    "denominator": null,
+    "quality_flag": "ok"
+   },
+   "commences_5ans": {
+    "value": 3279.0,
+    "unit": "logements",
+    "year": "2021-2025",
+    "source": "sitadel3",
+    "denominator": null,
+    "quality_flag": "ok"
+   },
+   "serie_annuelle": []
+  },
+  "renovation": {
+   "dpe_observes": {
+    "value": 57055.0,
+    "unit": "diagnostics",
+    "year": 2026,
+    "source": "dpe_ademe",
+    "denominator": null,
+    "quality_flag": "ok"
+   },
+   "dpe_fg_part": {
+    "value": 9.373411620366314,
+    "unit": "%",
+    "year": 2026,
+    "source": "dpe_ademe",
+    "denominator": 57055.0,
+    "quality_flag": "ok"
+   },
+   "anah_programmes_actifs": []
+  }
+ },
+ "200073013": {
+  "code": "200073013",
+  "name": "CC Carnelle Pays-de-France",
+  "kind": "epci",
+  "special": false,
+  "members": [
+   "95026",
+   "95042",
+   "95055",
+   "95056",
+   "95144",
+   "95149",
+   "95214",
+   "95316",
+   "95331",
+   "95352",
+   "95353",
+   "95365",
+   "95430",
+   "95493",
+   "95566",
+   "95594",
+   "95652",
+   "95660",
+   "95682"
+  ],
+  "members_covered": [
+   "95026",
+   "95042",
+   "95055",
+   "95056",
+   "95144",
+   "95149",
+   "95214",
+   "95316",
+   "95331",
+   "95352",
+   "95353",
+   "95365",
+   "95430",
+   "95493",
+   "95566",
+   "95594",
+   "95652",
+   "95660",
+   "95682"
+  ],
+  "perimetre_partiel": false,
+  "parc": {
+   "total": {
+    "value": 14180.979,
+    "unit": "logements",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": null,
+    "quality_flag": "ok"
+   },
+   "residences_principales": {
+    "value": 13207.046040000003,
+    "unit": "logements",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": null,
+    "quality_flag": "ok"
+   },
+   "logements_vacants_rp": {
+    "value": 724.8971699999998,
+    "unit": "logements",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 14180.979,
+    "quality_flag": "ok"
+   },
+   "maisons": {
+    "value": 10239.224,
+    "unit": "logements",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 13207.046040000003,
+    "quality_flag": "ok"
+   },
+   "appartements": {
+    "value": 2758.5698500000003,
+    "unit": "logements",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 13207.046040000003,
+    "quality_flag": "ok"
+   },
+   "part_avant_1971": {
+    "value": 39.06482709048832,
+    "unit": "%",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": null,
+    "quality_flag": "ok"
+   }
+  },
+  "occupation": {
+   "proprietaires": {
+    "value": 10259.05997,
+    "unit": "résidences principales",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 13207.046040000003,
+    "quality_flag": "ok"
+   },
+   "locataires_prive": {
+    "value": 1913.8481699999995,
+    "unit": "résidences principales",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 13207.046040000003,
+    "quality_flag": "ok"
+   },
+   "locataires_social": {
+    "value": 893.6424,
+    "unit": "résidences principales",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 13207.046040000003,
+    "quality_flag": "ok"
+   }
+  },
+  "social": {
+   "rpls_count": {
+    "value": null,
+    "unit": "logements",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": null,
+    "quality_flag": "missing"
+   },
+   "part_rpls_residences_principales": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls+insee_logement_2023",
+    "denominator": 13207.046040000003,
+    "quality_flag": "missing"
+   }
+  },
+  "vacance": {
+   "taux_vacance_rp": {
+    "value": 5.111756882229358,
+    "unit": "%",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 14180.979,
+    "quality_flag": "ok"
+   },
+   "vacance_privee_longue_2025": {
+    "value": 376.0,
+    "unit": "logements",
+    "year": 2025,
+    "source": "lovac",
+    "denominator": null,
+    "quality_flag": "ok"
+   },
+   "rupture_serie": "Rupture méthodologique en 2023 (bascule GMBI) puis rupture de production en 2025 : ne pas tracer de tendance continue sans annotation."
+  },
+  "construction": {
+   "autorises_5ans": {
+    "value": 808.0,
+    "unit": "logements",
+    "year": "2021-2025",
+    "source": "sitadel3",
+    "denominator": null,
+    "quality_flag": "ok"
+   },
+   "commences_5ans": {
+    "value": 96.0,
+    "unit": "logements",
+    "year": "2021-2025",
+    "source": "sitadel3",
+    "denominator": null,
+    "quality_flag": "ok"
+   },
+   "serie_annuelle": []
+  },
+  "renovation": {
+   "dpe_observes": {
+    "value": 4615.0,
+    "unit": "diagnostics",
+    "year": 2026,
+    "source": "dpe_ademe",
+    "denominator": null,
+    "quality_flag": "ok"
+   },
+   "dpe_fg_part": {
+    "value": 12.264355362946912,
+    "unit": "%",
+    "year": 2026,
+    "source": "dpe_ademe",
+    "denominator": 4615.0,
+    "quality_flag": "ok"
+   },
+   "anah_programmes_actifs": []
+  }
+ },
+ "249500109": {
+  "code": "249500109",
+  "name": "CA de Cergy-Pontoise",
+  "kind": "epci",
+  "special": false,
+  "members": [
+   "78382",
+   "95074",
+   "95127",
+   "95183",
+   "95218",
+   "95323",
+   "95388",
+   "95450",
+   "95476",
+   "95500",
+   "95510",
+   "95572",
+   "95637"
+  ],
+  "members_covered": [
+   "95074",
+   "95127",
+   "95183",
+   "95218",
+   "95323",
+   "95388",
+   "95450",
+   "95476",
+   "95500",
+   "95510",
+   "95572",
+   "95637"
+  ],
+  "perimetre_partiel": true,
+  "parc": {
+   "total": {
+    "value": 92253.52179,
+    "unit": "logements",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": null,
+    "quality_flag": "partial_perimeter"
+   },
+   "residences_principales": {
+    "value": 84393.83518,
+    "unit": "logements",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": null,
+    "quality_flag": "partial_perimeter"
+   },
+   "logements_vacants_rp": {
+    "value": 5665.865609999999,
+    "unit": "logements",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 92253.52179,
+    "quality_flag": "partial_perimeter"
+   },
+   "maisons": {
+    "value": 29853.056870000004,
+    "unit": "logements",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 84393.83518,
+    "quality_flag": "partial_perimeter"
+   },
+   "appartements": {
+    "value": 53063.39788999999,
+    "unit": "logements",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 84393.83518,
+    "quality_flag": "partial_perimeter"
+   },
+   "part_avant_1971": {
+    "value": 16.882384024866422,
+    "unit": "%",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": null,
+    "quality_flag": "partial_perimeter"
+   }
+  },
+  "occupation": {
+   "proprietaires": {
+    "value": 40071.69845999999,
+    "unit": "résidences principales",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 84393.83518,
+    "quality_flag": "partial_perimeter"
+   },
+   "locataires_prive": {
+    "value": 15524.611780000001,
+    "unit": "résidences principales",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 84393.83518,
+    "quality_flag": "partial_perimeter"
+   },
+   "locataires_social": {
+    "value": 21668.26773,
+    "unit": "résidences principales",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 84393.83518,
+    "quality_flag": "partial_perimeter"
+   }
+  },
+  "social": {
+   "rpls_count": {
+    "value": null,
+    "unit": "logements",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": null,
+    "quality_flag": "missing"
+   },
+   "part_rpls_residences_principales": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls+insee_logement_2023",
+    "denominator": 84393.83518,
+    "quality_flag": "missing"
+   }
+  },
+  "vacance": {
+   "taux_vacance_rp": {
+    "value": 6.1416252735558565,
+    "unit": "%",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 92253.52179,
+    "quality_flag": "partial_perimeter"
+   },
+   "vacance_privee_longue_2025": {
+    "value": 1269.0,
+    "unit": "logements",
+    "year": 2025,
+    "source": "lovac",
+    "denominator": null,
+    "quality_flag": "partial_perimeter"
+   },
+   "rupture_serie": "Rupture méthodologique en 2023 (bascule GMBI) puis rupture de production en 2025 : ne pas tracer de tendance continue sans annotation."
+  },
+  "construction": {
+   "autorises_5ans": {
+    "value": 4005.0,
+    "unit": "logements",
+    "year": "2021-2025",
+    "source": "sitadel3",
+    "denominator": null,
+    "quality_flag": "partial_perimeter"
+   },
+   "commences_5ans": {
+    "value": 3315.0,
+    "unit": "logements",
+    "year": "2021-2025",
+    "source": "sitadel3",
+    "denominator": null,
+    "quality_flag": "partial_perimeter"
+   },
+   "serie_annuelle": []
+  },
+  "renovation": {
+   "dpe_observes": {
+    "value": 52125.0,
+    "unit": "diagnostics",
+    "year": 2026,
+    "source": "dpe_ademe",
+    "denominator": null,
+    "quality_flag": "partial_perimeter"
+   },
+   "dpe_fg_part": {
+    "value": 3.9136690647482015,
+    "unit": "%",
+    "year": 2026,
+    "source": "dpe_ademe",
+    "denominator": 52125.0,
+    "quality_flag": "partial_perimeter"
+   },
+   "anah_programmes_actifs": []
+  }
+ },
+ "249500430": {
+  "code": "249500430",
+  "name": "CC Sausseron Impressionnistes",
+  "kind": "epci",
+  "special": false,
+  "members": [
+   "95023",
+   "95039",
+   "95120",
+   "95211",
+   "95213",
+   "95258",
+   "95271",
+   "95304",
+   "95308",
+   "95328",
+   "95341",
+   "95387",
+   "95446",
+   "95627",
+   "95628"
+  ],
+  "members_covered": [
+   "95023",
+   "95039",
+   "95120",
+   "95211",
+   "95213",
+   "95258",
+   "95271",
+   "95304",
+   "95308",
+   "95328",
+   "95341",
+   "95387",
+   "95446",
+   "95627",
+   "95628"
+  ],
+  "perimetre_partiel": false,
+  "parc": {
+   "total": {
+    "value": 8656.0735,
+    "unit": "logements",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": null,
+    "quality_flag": "ok"
+   },
+   "residences_principales": {
+    "value": 7782.24045,
+    "unit": "logements",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": null,
+    "quality_flag": "ok"
+   },
+   "logements_vacants_rp": {
+    "value": 500.9297999999999,
+    "unit": "logements",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 8656.0735,
+    "quality_flag": "ok"
+   },
+   "maisons": {
+    "value": 6725.764819999999,
+    "unit": "logements",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 7782.24045,
+    "quality_flag": "ok"
+   },
+   "appartements": {
+    "value": 1024.4211699999998,
+    "unit": "logements",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 7782.24045,
+    "quality_flag": "ok"
+   },
+   "part_avant_1971": {
+    "value": 50.75674704783589,
+    "unit": "%",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": null,
+    "quality_flag": "ok"
+   }
+  },
+  "occupation": {
+   "proprietaires": {
+    "value": 6398.048580000001,
+    "unit": "résidences principales",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 7782.24045,
+    "quality_flag": "ok"
+   },
+   "locataires_prive": {
+    "value": 878.3386599999999,
+    "unit": "résidences principales",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 7782.24045,
+    "quality_flag": "ok"
+   },
+   "locataires_social": {
+    "value": 371.3401,
+    "unit": "résidences principales",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 7782.24045,
+    "quality_flag": "ok"
+   }
+  },
+  "social": {
+   "rpls_count": {
+    "value": null,
+    "unit": "logements",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": null,
+    "quality_flag": "missing"
+   },
+   "part_rpls_residences_principales": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls+insee_logement_2023",
+    "denominator": 7782.24045,
+    "quality_flag": "missing"
+   }
+  },
+  "vacance": {
+   "taux_vacance_rp": {
+    "value": 5.787032654008771,
+    "unit": "%",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 8656.0735,
+    "quality_flag": "ok"
+   },
+   "vacance_privee_longue_2025": {
+    "value": 136.0,
+    "unit": "logements",
+    "year": 2025,
+    "source": "lovac",
+    "denominator": null,
+    "quality_flag": "ok"
+   },
+   "rupture_serie": "Rupture méthodologique en 2023 (bascule GMBI) puis rupture de production en 2025 : ne pas tracer de tendance continue sans annotation."
+  },
+  "construction": {
+   "autorises_5ans": {
+    "value": 144.0,
+    "unit": "logements",
+    "year": "2021-2025",
+    "source": "sitadel3",
+    "denominator": null,
+    "quality_flag": "ok"
+   },
+   "commences_5ans": {
+    "value": 75.0,
+    "unit": "logements",
+    "year": "2021-2025",
+    "source": "sitadel3",
+    "denominator": null,
+    "quality_flag": "ok"
+   },
+   "serie_annuelle": []
+  },
+  "renovation": {
+   "dpe_observes": {
+    "value": 2806.0,
+    "unit": "diagnostics",
+    "year": 2026,
+    "source": "dpe_ademe",
+    "denominator": null,
+    "quality_flag": "ok"
+   },
+   "dpe_fg_part": {
+    "value": 18.745545260156806,
+    "unit": "%",
+    "year": 2026,
+    "source": "dpe_ademe",
+    "denominator": 2806.0,
+    "quality_flag": "ok"
+   },
+   "anah_programmes_actifs": []
+  }
+ },
+ "249500455": {
+  "code": "249500455",
+  "name": "CC de la Vallée de l’Oise et des Trois Forêts",
+  "kind": "epci",
+  "special": false,
+  "members": [
+   "95061",
+   "95151",
+   "95313",
+   "95392",
+   "95394",
+   "95445",
+   "95480",
+   "95504",
+   "95678"
+  ],
+  "members_covered": [
+   "95061",
+   "95151",
+   "95313",
+   "95392",
+   "95394",
+   "95445",
+   "95480",
+   "95504",
+   "95678"
+  ],
+  "perimetre_partiel": false,
+  "parc": {
+   "total": {
+    "value": 17987.071630000002,
+    "unit": "logements",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": null,
+    "quality_flag": "ok"
+   },
+   "residences_principales": {
+    "value": 16480.22268,
+    "unit": "logements",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": null,
+    "quality_flag": "ok"
+   },
+   "logements_vacants_rp": {
+    "value": 1114.89234,
+    "unit": "logements",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 17987.071630000002,
+    "quality_flag": "ok"
+   },
+   "maisons": {
+    "value": 10899.946919999998,
+    "unit": "logements",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 16480.22268,
+    "quality_flag": "ok"
+   },
+   "appartements": {
+    "value": 5344.537649999999,
+    "unit": "logements",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 16480.22268,
+    "quality_flag": "ok"
+   },
+   "part_avant_1971": {
+    "value": 40.148417515069724,
+    "unit": "%",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": null,
+    "quality_flag": "ok"
+   }
+  },
+  "occupation": {
+   "proprietaires": {
+    "value": 11589.137359999999,
+    "unit": "résidences principales",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 16480.22268,
+    "quality_flag": "ok"
+   },
+   "locataires_prive": {
+    "value": 2342.26539,
+    "unit": "résidences principales",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 16480.22268,
+    "quality_flag": "ok"
+   },
+   "locataires_social": {
+    "value": 2107.54851,
+    "unit": "résidences principales",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 16480.22268,
+    "quality_flag": "ok"
+   }
+  },
+  "social": {
+   "rpls_count": {
+    "value": null,
+    "unit": "logements",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": null,
+    "quality_flag": "missing"
+   },
+   "part_rpls_residences_principales": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls+insee_logement_2023",
+    "denominator": 16480.22268,
+    "quality_flag": "missing"
+   }
+  },
+  "vacance": {
+   "taux_vacance_rp": {
+    "value": 6.1982982162616755,
+    "unit": "%",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 17987.071630000002,
+    "quality_flag": "ok"
+   },
+   "vacance_privee_longue_2025": {
+    "value": 287.0,
+    "unit": "logements",
+    "year": 2025,
+    "source": "lovac",
+    "denominator": null,
+    "quality_flag": "ok"
+   },
+   "rupture_serie": "Rupture méthodologique en 2023 (bascule GMBI) puis rupture de production en 2025 : ne pas tracer de tendance continue sans annotation."
+  },
+  "construction": {
+   "autorises_5ans": {
+    "value": 744.0,
+    "unit": "logements",
+    "year": "2021-2025",
+    "source": "sitadel3",
+    "denominator": null,
+    "quality_flag": "ok"
+   },
+   "commences_5ans": {
+    "value": 272.0,
+    "unit": "logements",
+    "year": "2021-2025",
+    "source": "sitadel3",
+    "denominator": null,
+    "quality_flag": "ok"
+   },
+   "serie_annuelle": []
+  },
+  "renovation": {
+   "dpe_observes": {
+    "value": 7225.0,
+    "unit": "diagnostics",
+    "year": 2026,
+    "source": "dpe_ademe",
+    "denominator": null,
+    "quality_flag": "ok"
+   },
+   "dpe_fg_part": {
+    "value": 15.418685121107266,
+    "unit": "%",
+    "year": 2026,
+    "source": "dpe_ademe",
+    "denominator": 7225.0,
+    "quality_flag": "ok"
+   },
+   "anah_programmes_actifs": []
+  }
+ },
+ "249500489": {
+  "code": "249500489",
+  "name": "CC du Haut Val d’Oise",
+  "kind": "epci",
+  "special": false,
+  "members": [
+   "95052",
+   "95058",
+   "95116",
+   "95134",
+   "95436",
+   "95452",
+   "95456",
+   "95487",
+   "95529"
+  ],
+  "members_covered": [
+   "95052",
+   "95058",
+   "95116",
+   "95134",
+   "95436",
+   "95452",
+   "95456",
+   "95487",
+   "95529"
+  ],
+  "perimetre_partiel": false,
+  "parc": {
+   "total": {
+    "value": 16614.17079,
+    "unit": "logements",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": null,
+    "quality_flag": "ok"
+   },
+   "residences_principales": {
+    "value": 15524.168450000001,
+    "unit": "logements",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": null,
+    "quality_flag": "ok"
+   },
+   "logements_vacants_rp": {
+    "value": 935.76037,
+    "unit": "logements",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 16614.17079,
+    "quality_flag": "ok"
+   },
+   "maisons": {
+    "value": 8339.669679999999,
+    "unit": "logements",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 15524.168450000001,
+    "quality_flag": "ok"
+   },
+   "appartements": {
+    "value": 6999.266629999999,
+    "unit": "logements",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 15524.168450000001,
+    "quality_flag": "ok"
+   },
+   "part_avant_1971": {
+    "value": 34.41561846577358,
+    "unit": "%",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": null,
+    "quality_flag": "ok"
+   }
+  },
+  "occupation": {
+   "proprietaires": {
+    "value": 8785.937160000001,
+    "unit": "résidences principales",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 15524.168450000001,
+    "quality_flag": "ok"
+   },
+   "locataires_prive": {
+    "value": 2637.27438,
+    "unit": "résidences principales",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 15524.168450000001,
+    "quality_flag": "ok"
+   },
+   "locataires_social": {
+    "value": 3705.8266700000004,
+    "unit": "résidences principales",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 15524.168450000001,
+    "quality_flag": "ok"
+   }
+  },
+  "social": {
+   "rpls_count": {
+    "value": null,
+    "unit": "logements",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": null,
+    "quality_flag": "missing"
+   },
+   "part_rpls_residences_principales": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls+insee_logement_2023",
+    "denominator": 15524.168450000001,
+    "quality_flag": "missing"
+   }
+  },
+  "vacance": {
+   "taux_vacance_rp": {
+    "value": 5.632302579694379,
+    "unit": "%",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 16614.17079,
+    "quality_flag": "ok"
+   },
+   "vacance_privee_longue_2025": {
+    "value": 348.0,
+    "unit": "logements",
+    "year": 2025,
+    "source": "lovac",
+    "denominator": null,
+    "quality_flag": "ok"
+   },
+   "rupture_serie": "Rupture méthodologique en 2023 (bascule GMBI) puis rupture de production en 2025 : ne pas tracer de tendance continue sans annotation."
+  },
+  "construction": {
+   "autorises_5ans": {
+    "value": 1049.0,
+    "unit": "logements",
+    "year": "2021-2025",
+    "source": "sitadel3",
+    "denominator": null,
+    "quality_flag": "ok"
+   },
+   "commences_5ans": {
+    "value": 573.0,
+    "unit": "logements",
+    "year": "2021-2025",
+    "source": "sitadel3",
+    "denominator": null,
+    "quality_flag": "ok"
+   },
+   "serie_annuelle": []
+  },
+  "renovation": {
+   "dpe_observes": {
+    "value": 8404.0,
+    "unit": "diagnostics",
+    "year": 2026,
+    "source": "dpe_ademe",
+    "denominator": null,
+    "quality_flag": "ok"
+   },
+   "dpe_fg_part": {
+    "value": 6.996668253212755,
+    "unit": "%",
+    "year": 2026,
+    "source": "dpe_ademe",
+    "denominator": 8404.0,
+    "quality_flag": "ok"
+   },
+   "anah_programmes_actifs": [
+    {
+     "libelle": "OPAH CCHVO",
+     "type": "OPAH",
+     "fin": "2027-09-30"
+    },
+    {
+     "libelle": "OPAH RU PERSAN BEAUMONT SUR OISE",
+     "type": "OPAH-RU",
+     "fin": "2029-09-30"
+    }
+   ]
+  }
+ },
+ "249500513": {
+  "code": "249500513",
+  "name": "CC du Vexin-Val de Seine",
+  "kind": "epci",
+  "special": false,
+  "members": [
+   "95008",
+   "95011",
+   "95012",
+   "95024",
+   "95046",
+   "95101",
+   "95119",
+   "95139",
+   "95141",
+   "95150",
+   "95157",
+   "95270",
+   "95301",
+   "95309",
+   "95355",
+   "95379",
+   "95429",
+   "95462",
+   "95523",
+   "95541",
+   "95543",
+   "95554",
+   "95651",
+   "95656",
+   "95676",
+   "95690"
+  ],
+  "members_covered": [
+   "95008",
+   "95011",
+   "95012",
+   "95024",
+   "95046",
+   "95101",
+   "95119",
+   "95139",
+   "95141",
+   "95150",
+   "95157",
+   "95270",
+   "95301",
+   "95309",
+   "95355",
+   "95379",
+   "95429",
+   "95462",
+   "95523",
+   "95541",
+   "95543",
+   "95554",
+   "95651",
+   "95656",
+   "95676",
+   "95690"
+  ],
+  "perimetre_partiel": false,
+  "parc": {
+   "total": {
+    "value": 7987.30765,
+    "unit": "logements",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": null,
+    "quality_flag": "ok"
+   },
+   "residences_principales": {
+    "value": 6797.0922500000015,
+    "unit": "logements",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": null,
+    "quality_flag": "ok"
+   },
+   "logements_vacants_rp": {
+    "value": 604.9555000000001,
+    "unit": "logements",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 7987.30765,
+    "quality_flag": "ok"
+   },
+   "maisons": {
+    "value": 5393.586690000001,
+    "unit": "logements",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 6797.0922500000015,
+    "quality_flag": "ok"
+   },
+   "appartements": {
+    "value": 1363.0675999999999,
+    "unit": "logements",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 6797.0922500000015,
+    "quality_flag": "ok"
+   },
+   "part_avant_1971": {
+    "value": 57.872549465350545,
+    "unit": "%",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": null,
+    "quality_flag": "ok"
+   }
+  },
+  "occupation": {
+   "proprietaires": {
+    "value": 4810.1949,
+    "unit": "résidences principales",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 6797.0922500000015,
+    "quality_flag": "ok"
+   },
+   "locataires_prive": {
+    "value": 1066.61642,
+    "unit": "résidences principales",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 6797.0922500000015,
+    "quality_flag": "ok"
+   },
+   "locataires_social": {
+    "value": 823.6165499999998,
+    "unit": "résidences principales",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 6797.0922500000015,
+    "quality_flag": "ok"
+   }
+  },
+  "social": {
+   "rpls_count": {
+    "value": null,
+    "unit": "logements",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": null,
+    "quality_flag": "missing"
+   },
+   "part_rpls_residences_principales": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls+insee_logement_2023",
+    "denominator": 6797.0922500000015,
+    "quality_flag": "missing"
+   }
+  },
+  "vacance": {
+   "taux_vacance_rp": {
+    "value": 7.573960169169146,
+    "unit": "%",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 7987.30765,
+    "quality_flag": "ok"
+   },
+   "vacance_privee_longue_2025": {
+    "value": 168.0,
+    "unit": "logements",
+    "year": 2025,
+    "source": "lovac",
+    "denominator": null,
+    "quality_flag": "ok"
+   },
+   "rupture_serie": "Rupture méthodologique en 2023 (bascule GMBI) puis rupture de production en 2025 : ne pas tracer de tendance continue sans annotation."
+  },
+  "construction": {
+   "autorises_5ans": {
+    "value": 153.0,
+    "unit": "logements",
+    "year": "2021-2025",
+    "source": "sitadel3",
+    "denominator": null,
+    "quality_flag": "ok"
+   },
+   "commences_5ans": {
+    "value": 161.0,
+    "unit": "logements",
+    "year": "2021-2025",
+    "source": "sitadel3",
+    "denominator": null,
+    "quality_flag": "ok"
+   },
+   "serie_annuelle": []
+  },
+  "renovation": {
+   "dpe_observes": {
+    "value": 3190.0,
+    "unit": "diagnostics",
+    "year": 2026,
+    "source": "dpe_ademe",
+    "denominator": null,
+    "quality_flag": "ok"
+   },
+   "dpe_fg_part": {
+    "value": 16.551724137931036,
+    "unit": "%",
+    "year": 2026,
+    "source": "dpe_ademe",
+    "denominator": 3190.0,
+    "quality_flag": "ok"
+   },
+   "anah_programmes_actifs": []
+  }
+ },
+ "special-95018": {
+  "code": "special-95018",
+  "name": "Argenteuil",
+  "kind": "epci",
+  "special": true,
+  "members": [
+   "95018"
+  ],
+  "members_covered": [
+   "95018"
+  ],
+  "perimetre_partiel": false,
+  "parc": {
+   "total": {
+    "value": 46444.183809999995,
+    "unit": "logements",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": null,
+    "quality_flag": "ok"
+   },
+   "residences_principales": {
+    "value": 43213.48265,
+    "unit": "logements",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": null,
+    "quality_flag": "ok"
+   },
+   "logements_vacants_rp": {
+    "value": 2830.6875999999997,
+    "unit": "logements",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 46444.183809999995,
+    "quality_flag": "ok"
+   },
+   "maisons": {
+    "value": 12701.73376,
+    "unit": "logements",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 43213.48265,
+    "quality_flag": "ok"
+   },
+   "appartements": {
+    "value": 29798.23547,
+    "unit": "logements",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 43213.48265,
+    "quality_flag": "ok"
+   },
+   "part_avant_1971": {
+    "value": 44.410345922443256,
+    "unit": "%",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": null,
+    "quality_flag": "ok"
+   }
+  },
+  "occupation": {
+   "proprietaires": {
+    "value": 18833.83511,
+    "unit": "résidences principales",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 43213.48265,
+    "quality_flag": "ok"
+   },
+   "locataires_prive": {
+    "value": 9117.179610000001,
+    "unit": "résidences principales",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 43213.48265,
+    "quality_flag": "ok"
+   },
+   "locataires_social": {
+    "value": 12542.85779,
+    "unit": "résidences principales",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 43213.48265,
+    "quality_flag": "ok"
+   }
+  },
+  "social": {
+   "rpls_count": {
+    "value": null,
+    "unit": "logements",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": null,
+    "quality_flag": "missing"
+   },
+   "part_rpls_residences_principales": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls+insee_logement_2023",
+    "denominator": 43213.48265,
+    "quality_flag": "missing"
+   }
+  },
+  "vacance": {
+   "taux_vacance_rp": {
+    "value": 6.094816116438069,
+    "unit": "%",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 46444.183809999995,
+    "quality_flag": "ok"
+   },
+   "vacance_privee_longue_2025": {
+    "value": 1131.0,
+    "unit": "logements",
+    "year": 2025,
+    "source": "lovac",
+    "denominator": null,
+    "quality_flag": "ok"
+   },
+   "rupture_serie": "Rupture méthodologique en 2023 (bascule GMBI) puis rupture de production en 2025 : ne pas tracer de tendance continue sans annotation."
+  },
+  "construction": {
+   "autorises_5ans": {
+    "value": 1097.0,
+    "unit": "logements",
+    "year": "2021-2025",
+    "source": "sitadel3",
+    "denominator": null,
+    "quality_flag": "ok"
+   },
+   "commences_5ans": {
+    "value": 659.0,
+    "unit": "logements",
+    "year": "2021-2025",
+    "source": "sitadel3",
+    "denominator": null,
+    "quality_flag": "ok"
+   },
+   "serie_annuelle": []
+  },
+  "renovation": {
+   "dpe_observes": {
+    "value": 22160.0,
+    "unit": "diagnostics",
+    "year": 2026,
+    "source": "dpe_ademe",
+    "denominator": null,
+    "quality_flag": "ok"
+   },
+   "dpe_fg_part": {
+    "value": 12.513537906137184,
+    "unit": "%",
+    "year": 2026,
+    "source": "dpe_ademe",
+    "denominator": 22160.0,
+    "quality_flag": "ok"
+   },
+   "anah_programmes_actifs": [
+    {
+     "libelle": "OPAH RU QUARTIER VAL NOTRE DAME A ARGENTEUIL",
+     "type": "OPAH-RU",
+     "fin": "2027-12-27"
+    },
+    {
+     "libelle": "PLS SQUARE JEAN DE LA FONTAINE ARGENTEUIL",
+     "type": "PLS",
+     "fin": "2028-02-14"
+    }
+   ]
+  }
+ },
+ "special-95063": {
+  "code": "special-95063",
+  "name": "Bezons",
+  "kind": "epci",
+  "special": true,
+  "members": [
+   "95063"
+  ],
+  "members_covered": [
+   "95063"
+  ],
+  "perimetre_partiel": false,
+  "parc": {
+   "total": {
+    "value": 14900.162869999998,
+    "unit": "logements",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": null,
+    "quality_flag": "ok"
+   },
+   "residences_principales": {
+    "value": 13564.983909999999,
+    "unit": "logements",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": null,
+    "quality_flag": "ok"
+   },
+   "logements_vacants_rp": {
+    "value": 1221.8700200000003,
+    "unit": "logements",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 14900.162869999998,
+    "quality_flag": "ok"
+   },
+   "maisons": {
+    "value": 3664.18075,
+    "unit": "logements",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 13564.983909999999,
+    "quality_flag": "ok"
+   },
+   "appartements": {
+    "value": 9721.850910000001,
+    "unit": "logements",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 13564.983909999999,
+    "quality_flag": "ok"
+   },
+   "part_avant_1971": {
+    "value": 38.97204121342744,
+    "unit": "%",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": null,
+    "quality_flag": "ok"
+   }
+  },
+  "occupation": {
+   "proprietaires": {
+    "value": 6105.019840000001,
+    "unit": "résidences principales",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 13564.983909999999,
+    "quality_flag": "ok"
+   },
+   "locataires_prive": {
+    "value": 2836.61977,
+    "unit": "résidences principales",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 13564.983909999999,
+    "quality_flag": "ok"
+   },
+   "locataires_social": {
+    "value": 4883.4453300000005,
+    "unit": "résidences principales",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 13564.983909999999,
+    "quality_flag": "ok"
+   }
+  },
+  "social": {
+   "rpls_count": {
+    "value": null,
+    "unit": "logements",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": null,
+    "quality_flag": "missing"
+   },
+   "part_rpls_residences_principales": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls+insee_logement_2023",
+    "denominator": 13564.983909999999,
+    "quality_flag": "missing"
+   }
+  },
+  "vacance": {
+   "taux_vacance_rp": {
+    "value": 8.200380295574584,
+    "unit": "%",
+    "year": 2023,
+    "source": "insee_logement_2023",
+    "denominator": 14900.162869999998,
+    "quality_flag": "ok"
+   },
+   "vacance_privee_longue_2025": {
+    "value": 454.0,
+    "unit": "logements",
+    "year": 2025,
+    "source": "lovac",
+    "denominator": null,
+    "quality_flag": "ok"
+   },
+   "rupture_serie": "Rupture méthodologique en 2023 (bascule GMBI) puis rupture de production en 2025 : ne pas tracer de tendance continue sans annotation."
+  },
+  "construction": {
+   "autorises_5ans": {
+    "value": 2310.0,
+    "unit": "logements",
+    "year": "2021-2025",
+    "source": "sitadel3",
+    "denominator": null,
+    "quality_flag": "ok"
+   },
+   "commences_5ans": {
+    "value": 1586.0,
+    "unit": "logements",
+    "year": "2021-2025",
+    "source": "sitadel3",
+    "denominator": null,
+    "quality_flag": "ok"
+   },
+   "serie_annuelle": []
+  },
+  "renovation": {
+   "dpe_observes": {
+    "value": 5742.0,
+    "unit": "diagnostics",
+    "year": 2026,
+    "source": "dpe_ademe",
+    "denominator": null,
+    "quality_flag": "ok"
+   },
+   "dpe_fg_part": {
+    "value": 14.071752002786486,
+    "unit": "%",
+    "year": 2026,
+    "source": "dpe_ademe",
+    "denominator": 5742.0,
+    "quality_flag": "ok"
+   },
+   "anah_programmes_actifs": []
+  }
+ }
+}

@@ -1,0 +1,45 @@
+"DESIGNATION";"Données LOVAC agrégées à la commune - version open data secrétisée";
+"DATE";"Juin 2026";
+"DEFINITION";"Logements privés vacants selon la durée de vacance et parc privé";
+"SOURCES";"DGFiP / fichier 1767 bis Com + Fichiers Fonciers du Cerema (FF)";
+"TRAITEMENTS";"Equipe DataFoncier du Cerema pour la DGALN";
+"USAGES";"Zéro Logements Vacants / ZLV";
+;;
+"VARIABLES";"DESIGNATION";"SOURCES"
+"CODGEO_26";"Code commune INSEE";"COG 1er janvier 2026"
+"LIBGEO_26";"Nom de la commune";"COG 1er janvier 2026"
+"pp_vacant_26";"Nombre de logements vacants du parc privé au 01/01/2025";"LOVAC_EXH_2026 (1767 bis Com 2026)"
+"pp_vacant_plus_2ans_26";"Nombre de logements vacants du parc privé depuis plus de deux ans au 01/01/2025";"LOVAC_FIL_2026 (1767 bis Com 2026)"
+"ff_pp_total_25";"Nombre de logements du parc privé au 01/01/2024";"LOVAC_EXTFF_2025 (Fichiers fonciers 2025)"
+"pp_vacant_25";"Nombre de logements vacants du parc privé au 01/01/2024";"LOVAC_EXH_2025 (1767 bis Com 2025)"
+"pp_vacant_plus_2ans_25";"Nombre de logements vacants du parc privé depuis plus de deux ans au 01/01/2024";"LOVAC_FIL_2025 (1767 bis Com 2025)"
+"ff_pp_total_24";"Nombre de logements du parc privé au 01/01/2023";"LOVAC_EXTFF_2024 (Fichiers fonciers 2024)"
+"pp_vacant_24";"Nombre de logements vacants du parc privé au 01/01/2023";"LOVAC_EXH_2024 (1767 bis Com 2024)"
+"pp_vacant_plus_2ans_24";"Nombre de logements vacants du parc privé depuis plus de deux ans au 01/01/2023";"LOVAC_FIL_2024 (1767 bis Com 2024 + FF23)"
+"ff_pp_total_23";"Nombre de logements du parc privé au 01/01/2023";"LOVAC_EXTFF_2023 (Fichiers fonciers 2023)"
+"pp_vacant_23";"Nombre de logements vacants du parc privé au 01/01/2023";"LOVAC_EXH_2023 (1767 bis Com 2023)"
+"pp_vacant_plus_2ans_23";"Nombre de logements vacants du parc privé depuis plus de deux ans au 01/01/2022";"LOVAC_FIL_2023 (1767 bis Com 2023 + FF23)"
+"ff_pp_total_22";"Nombre de logements du parc privé au 01/01/2021";"LOVAC_EXTFF_2022 (Fichiers fonciers 2022)"
+"pp_vacant_22";"Nombre de logements vacants du parc privé au 01/01/2021";"LOVAC_EXH_2022 (1767 bis Com 2022)"
+"pp_vacant_plus_2ans_22";"Nombre de logements vacants du parc privé depuis plus de deux ans au 01/01/2021";"LOVAC_FIL_2022 (1767 bis Com 2022 + FF22)"
+"ff_pp_total_21";"Nombre de logements du parc privé au 01/01/2020";"LOVAC_EXTFF_2021 (Fichiers fonciers 2021)"
+"pp_vacant_21";"Nombre de logements vacants du parc privé au 01/01/2020";"LOVAC_EXH_2021 (1767 bis Com 2021)"
+"pp_vacant_plus_2ans_21";"Nombre de logements vacants du parc privé depuis plus de deux ans au 01/01/2020";"LOVAC_FIL_2021 (1767 bis Com 2021 + FF21)"
+"ff_pp_total_20";"Nombre de logements du parc privé au 01/01/2019";"LOVAC_EXTFF_2020 (Fichiers fonciers 2020)"
+"pp_vacant_20";"Nombre de logements vacants du parc privé au 01/01/2019";"LOVAC_EXH_2020 (1767 bis Com 2020)"
+"pp_vacant_plus_2ans_20";"Nombre de logements vacants du parc privé depuis plus de deux ans au 01/01/2019";"LOVAC_FIL_2020 (1767 bis Com 2020 + FF20)"
+"EPCI";"Code EPCI";"COG 1er janvier 2026"
+"LIB_EPCI";"Nom de l'EPCI";"COG 1er janvier 2026"
+"DEP";"Code du département";"COG 1er janvier 2026"
+"LIB_DEP";"Nom du département";"COG 1er janvier 2026"
+"REG";"Code de la région";"COG 1er janvier 2026"
+"LIB_REG";"Nom de la région";"COG 1er janvier 2026"
+;;
+"NOTE DE VERSION";"Depuis 2023, disparition de la Taxe d'Habitation sur les résidences principales et source à GMBI. Depuis 2025, données sources avant chaîne de traitement fiscale.";
+;;
+"LIENS UTILES";;
+"Outils ZLV";"Outil Zéro Logement Vacant à destination des collectivités";"https://zlv.beta.gouv.fr"
+"Cerema / Datafoncier";"Portail d'accès à la donnée Lovac";"https://datafoncier.cerema.fr/lovac"
+"Cerema / DocDatafoncier";"Documentation relative à la données Lovac";"https://doc-datafoncier.cerema.fr/doc/fiche_descriptive/lovac"
+"INSEE";"Guide du secret statistique de l'INSEE";"https://www.insee.fr/fr/information/1300624"
+"BOFiP";"Secret fiscal et Open Data";"https://bofip.impots.gouv.fr/bofip/7248-PGP.html/identifiant%3DBOI-DJC-CADA-20-20150729"

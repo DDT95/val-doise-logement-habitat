@@ -1,0 +1,3681 @@
+"ANNEE";"COMM";"TYPE_LGT";"LOG_AUT";"LOG_COM";"SDP_AUT";"SDP_COM"
+"2025";"95002";"Tous Logements";0;;0;
+"2025";"95002";"Individuel pur";0;;0;
+"2025";"95002";"Individuel groupe";0;;0;
+"2025";"95002";"Collectif";0;;0;
+"2025";"95002";"Residence";0;;0;
+"2025";"95008";"Tous Logements";1;;99;
+"2025";"95008";"Individuel pur";1;;99;
+"2025";"95008";"Individuel groupe";0;;0;
+"2025";"95008";"Collectif";0;;0;
+"2025";"95008";"Residence";0;;0;
+"2025";"95011";"Tous Logements";0;;0;
+"2025";"95011";"Individuel pur";0;;0;
+"2025";"95011";"Individuel groupe";0;;0;
+"2025";"95011";"Collectif";0;;0;
+"2025";"95011";"Residence";0;;0;
+"2025";"95012";"Tous Logements";0;;0;
+"2025";"95012";"Individuel pur";0;;0;
+"2025";"95012";"Individuel groupe";0;;0;
+"2025";"95012";"Collectif";0;;0;
+"2025";"95012";"Residence";0;;0;
+"2025";"95014";"Tous Logements";1;;29;
+"2025";"95014";"Individuel pur";1;;29;
+"2025";"95014";"Individuel groupe";0;;0;
+"2025";"95014";"Collectif";0;;0;
+"2025";"95014";"Residence";0;;0;
+"2025";"95018";"Tous Logements";271;;21750;
+"2025";"95018";"Individuel pur";28;;4014;
+"2025";"95018";"Individuel groupe";49;;5046;
+"2025";"95018";"Collectif";194;;12690;
+"2025";"95018";"Residence";0;;0;
+"2025";"95019";"Tous Logements";145;;9349;
+"2025";"95019";"Individuel pur";5;;577;
+"2025";"95019";"Individuel groupe";0;;0;
+"2025";"95019";"Collectif";140;;8772;
+"2025";"95019";"Residence";0;;0;
+"2025";"95023";"Tous Logements";2;;245;
+"2025";"95023";"Individuel pur";0;;0;
+"2025";"95023";"Individuel groupe";2;;245;
+"2025";"95023";"Collectif";0;;0;
+"2025";"95023";"Residence";0;;0;
+"2025";"95024";"Tous Logements";1;;72;
+"2025";"95024";"Individuel pur";1;;72;
+"2025";"95024";"Individuel groupe";0;;0;
+"2025";"95024";"Collectif";0;;0;
+"2025";"95024";"Residence";0;;0;
+"2025";"95026";"Tous Logements";2;;223;
+"2025";"95026";"Individuel pur";2;;223;
+"2025";"95026";"Individuel groupe";0;;0;
+"2025";"95026";"Collectif";0;;0;
+"2025";"95026";"Residence";0;;0;
+"2025";"95028";"Tous Logements";1;;73;
+"2025";"95028";"Individuel pur";1;;73;
+"2025";"95028";"Individuel groupe";0;;0;
+"2025";"95028";"Collectif";0;;0;
+"2025";"95028";"Residence";0;;0;
+"2025";"95039";"Tous Logements";6;;372;
+"2025";"95039";"Individuel pur";6;;372;
+"2025";"95039";"Individuel groupe";0;;0;
+"2025";"95039";"Collectif";0;;0;
+"2025";"95039";"Residence";0;;0;
+"2025";"95040";"Tous Logements";1;;51;
+"2025";"95040";"Individuel pur";1;;51;
+"2025";"95040";"Individuel groupe";0;;0;
+"2025";"95040";"Collectif";0;;0;
+"2025";"95040";"Residence";0;;0;
+"2025";"95042";"Tous Logements";116;;7789;
+"2025";"95042";"Individuel pur";1;;428;
+"2025";"95042";"Individuel groupe";0;;0;
+"2025";"95042";"Collectif";115;;7361;
+"2025";"95042";"Residence";0;;0;
+"2025";"95046";"Tous Logements";0;;0;
+"2025";"95046";"Individuel pur";0;;0;
+"2025";"95046";"Individuel groupe";0;;0;
+"2025";"95046";"Collectif";0;;0;
+"2025";"95046";"Residence";0;;0;
+"2025";"95051";"Tous Logements";5;;685;
+"2025";"95051";"Individuel pur";3;;383;
+"2025";"95051";"Individuel groupe";2;;302;
+"2025";"95051";"Collectif";0;;0;
+"2025";"95051";"Residence";0;;0;
+"2025";"95052";"Tous Logements";78;;5088;
+"2025";"95052";"Individuel pur";5;;365;
+"2025";"95052";"Individuel groupe";0;;0;
+"2025";"95052";"Collectif";73;;4723;
+"2025";"95052";"Residence";0;;0;
+"2025";"95054";"Tous Logements";1;;77;
+"2025";"95054";"Individuel pur";1;;77;
+"2025";"95054";"Individuel groupe";0;;0;
+"2025";"95054";"Collectif";0;;0;
+"2025";"95054";"Residence";0;;0;
+"2025";"95055";"Tous Logements";0;;0;
+"2025";"95055";"Individuel pur";0;;0;
+"2025";"95055";"Individuel groupe";0;;0;
+"2025";"95055";"Collectif";0;;0;
+"2025";"95055";"Residence";0;;0;
+"2025";"95056";"Tous Logements";2;;160;
+"2025";"95056";"Individuel pur";2;;160;
+"2025";"95056";"Individuel groupe";0;;0;
+"2025";"95056";"Collectif";0;;0;
+"2025";"95056";"Residence";0;;0;
+"2025";"95058";"Tous Logements";14;;1006;
+"2025";"95058";"Individuel pur";3;;288;
+"2025";"95058";"Individuel groupe";1;;94;
+"2025";"95058";"Collectif";10;;624;
+"2025";"95058";"Residence";0;;0;
+"2025";"95059";"Tous Logements";0;;0;
+"2025";"95059";"Individuel pur";0;;0;
+"2025";"95059";"Individuel groupe";0;;0;
+"2025";"95059";"Collectif";0;;0;
+"2025";"95059";"Residence";0;;0;
+"2025";"95060";"Tous Logements";23;;1855;
+"2025";"95060";"Individuel pur";18;;1664;
+"2025";"95060";"Individuel groupe";5;;191;
+"2025";"95060";"Collectif";0;;0;
+"2025";"95060";"Residence";0;;0;
+"2025";"95061";"Tous Logements";0;;0;
+"2025";"95061";"Individuel pur";0;;0;
+"2025";"95061";"Individuel groupe";0;;0;
+"2025";"95061";"Collectif";0;;0;
+"2025";"95061";"Residence";0;;0;
+"2025";"95063";"Tous Logements";306;;20000;
+"2025";"95063";"Individuel pur";16;;1564;
+"2025";"95063";"Individuel groupe";0;;0;
+"2025";"95063";"Collectif";290;;18436;
+"2025";"95063";"Residence";0;;0;
+"2025";"95074";"Tous Logements";1;;254;
+"2025";"95074";"Individuel pur";1;;254;
+"2025";"95074";"Individuel groupe";0;;0;
+"2025";"95074";"Collectif";0;;0;
+"2025";"95074";"Residence";0;;0;
+"2025";"95078";"Tous Logements";0;;0;
+"2025";"95078";"Individuel pur";0;;0;
+"2025";"95078";"Individuel groupe";0;;0;
+"2025";"95078";"Collectif";0;;0;
+"2025";"95078";"Residence";0;;0;
+"2025";"95088";"Tous Logements";0;;0;
+"2025";"95088";"Individuel pur";0;;0;
+"2025";"95088";"Individuel groupe";0;;0;
+"2025";"95088";"Collectif";0;;0;
+"2025";"95088";"Residence";0;;0;
+"2025";"95091";"Tous Logements";0;;0;
+"2025";"95091";"Individuel pur";0;;0;
+"2025";"95091";"Individuel groupe";0;;0;
+"2025";"95091";"Collectif";0;;0;
+"2025";"95091";"Residence";0;;0;
+"2025";"95094";"Tous Logements";1;;129;
+"2025";"95094";"Individuel pur";1;;129;
+"2025";"95094";"Individuel groupe";0;;0;
+"2025";"95094";"Collectif";0;;0;
+"2025";"95094";"Residence";0;;0;
+"2025";"95101";"Tous Logements";2;;102;
+"2025";"95101";"Individuel pur";0;;0;
+"2025";"95101";"Individuel groupe";2;;102;
+"2025";"95101";"Collectif";0;;0;
+"2025";"95101";"Residence";0;;0;
+"2025";"95102";"Tous Logements";0;;0;
+"2025";"95102";"Individuel pur";0;;0;
+"2025";"95102";"Individuel groupe";0;;0;
+"2025";"95102";"Collectif";0;;0;
+"2025";"95102";"Residence";0;;0;
+"2025";"95110";"Tous Logements";0;;0;
+"2025";"95110";"Individuel pur";0;;0;
+"2025";"95110";"Individuel groupe";0;;0;
+"2025";"95110";"Collectif";0;;0;
+"2025";"95110";"Residence";0;;0;
+"2025";"95116";"Tous Logements";0;;0;
+"2025";"95116";"Individuel pur";0;;0;
+"2025";"95116";"Individuel groupe";0;;0;
+"2025";"95116";"Collectif";0;;0;
+"2025";"95116";"Residence";0;;0;
+"2025";"95119";"Tous Logements";0;;0;
+"2025";"95119";"Individuel pur";0;;0;
+"2025";"95119";"Individuel groupe";0;;0;
+"2025";"95119";"Collectif";0;;0;
+"2025";"95119";"Residence";0;;0;
+"2025";"95120";"Tous Logements";1;;84;
+"2025";"95120";"Individuel pur";1;;84;
+"2025";"95120";"Individuel groupe";0;;0;
+"2025";"95120";"Collectif";0;;0;
+"2025";"95120";"Residence";0;;0;
+"2025";"95127";"Tous Logements";214;;13814;
+"2025";"95127";"Individuel pur";2;;33;
+"2025";"95127";"Individuel groupe";0;;0;
+"2025";"95127";"Collectif";212;;13781;
+"2025";"95127";"Residence";0;;0;
+"2025";"95134";"Tous Logements";4;;302;
+"2025";"95134";"Individuel pur";4;;302;
+"2025";"95134";"Individuel groupe";0;;0;
+"2025";"95134";"Collectif";0;;0;
+"2025";"95134";"Residence";0;;0;
+"2025";"95139";"Tous Logements";0;;0;
+"2025";"95139";"Individuel pur";0;;0;
+"2025";"95139";"Individuel groupe";0;;0;
+"2025";"95139";"Collectif";0;;0;
+"2025";"95139";"Residence";0;;0;
+"2025";"95141";"Tous Logements";0;;0;
+"2025";"95141";"Individuel pur";0;;0;
+"2025";"95141";"Individuel groupe";0;;0;
+"2025";"95141";"Collectif";0;;0;
+"2025";"95141";"Residence";0;;0;
+"2025";"95142";"Tous Logements";4;;199;
+"2025";"95142";"Individuel pur";2;;79;
+"2025";"95142";"Individuel groupe";2;;120;
+"2025";"95142";"Collectif";0;;0;
+"2025";"95142";"Residence";0;;0;
+"2025";"95144";"Tous Logements";0;;0;
+"2025";"95144";"Individuel pur";0;;0;
+"2025";"95144";"Individuel groupe";0;;0;
+"2025";"95144";"Collectif";0;;0;
+"2025";"95144";"Residence";0;;0;
+"2025";"95149";"Tous Logements";1;;91;
+"2025";"95149";"Individuel pur";1;;91;
+"2025";"95149";"Individuel groupe";0;;0;
+"2025";"95149";"Collectif";0;;0;
+"2025";"95149";"Residence";0;;0;
+"2025";"95150";"Tous Logements";0;;0;
+"2025";"95150";"Individuel pur";0;;0;
+"2025";"95150";"Individuel groupe";0;;0;
+"2025";"95150";"Collectif";0;;0;
+"2025";"95150";"Residence";0;;0;
+"2025";"95151";"Tous Logements";0;;0;
+"2025";"95151";"Individuel pur";0;;0;
+"2025";"95151";"Individuel groupe";0;;0;
+"2025";"95151";"Collectif";0;;0;
+"2025";"95151";"Residence";0;;0;
+"2025";"95154";"Tous Logements";0;;0;
+"2025";"95154";"Individuel pur";0;;0;
+"2025";"95154";"Individuel groupe";0;;0;
+"2025";"95154";"Collectif";0;;0;
+"2025";"95154";"Residence";0;;0;
+"2025";"95157";"Tous Logements";0;;0;
+"2025";"95157";"Individuel pur";0;;0;
+"2025";"95157";"Individuel groupe";0;;0;
+"2025";"95157";"Collectif";0;;0;
+"2025";"95157";"Residence";0;;0;
+"2025";"95166";"Tous Logements";1;;29;
+"2025";"95166";"Individuel pur";1;;29;
+"2025";"95166";"Individuel groupe";0;;0;
+"2025";"95166";"Collectif";0;;0;
+"2025";"95166";"Residence";0;;0;
+"2025";"95169";"Tous Logements";2;;167;
+"2025";"95169";"Individuel pur";2;;167;
+"2025";"95169";"Individuel groupe";0;;0;
+"2025";"95169";"Collectif";0;;0;
+"2025";"95169";"Residence";0;;0;
+"2025";"95170";"Tous Logements";0;;0;
+"2025";"95170";"Individuel pur";0;;0;
+"2025";"95170";"Individuel groupe";0;;0;
+"2025";"95170";"Collectif";0;;0;
+"2025";"95170";"Residence";0;;0;
+"2025";"95176";"Tous Logements";227;;14681;
+"2025";"95176";"Individuel pur";10;;1025;
+"2025";"95176";"Individuel groupe";8;;383;
+"2025";"95176";"Collectif";209;;13273;
+"2025";"95176";"Residence";0;;0;
+"2025";"95177";"Tous Logements";3;;276;
+"2025";"95177";"Individuel pur";3;;276;
+"2025";"95177";"Individuel groupe";0;;0;
+"2025";"95177";"Collectif";0;;0;
+"2025";"95177";"Residence";0;;0;
+"2025";"95181";"Tous Logements";0;;0;
+"2025";"95181";"Individuel pur";0;;0;
+"2025";"95181";"Individuel groupe";0;;0;
+"2025";"95181";"Collectif";0;;0;
+"2025";"95181";"Residence";0;;0;
+"2025";"95183";"Tous Logements";43;;3423;
+"2025";"95183";"Individuel pur";1;;97;
+"2025";"95183";"Individuel groupe";12;;1326;
+"2025";"95183";"Collectif";30;;2000;
+"2025";"95183";"Residence";0;;0;
+"2025";"95197";"Tous Logements";146;;9810;
+"2025";"95197";"Individuel pur";10;;1392;
+"2025";"95197";"Individuel groupe";0;;0;
+"2025";"95197";"Collectif";136;;8418;
+"2025";"95197";"Residence";0;;0;
+"2025";"95199";"Tous Logements";60;;4635;
+"2025";"95199";"Individuel pur";11;;1829;
+"2025";"95199";"Individuel groupe";2;;266;
+"2025";"95199";"Collectif";47;;2540;
+"2025";"95199";"Residence";0;;0;
+"2025";"95203";"Tous Logements";61;;4449;
+"2025";"95203";"Individuel pur";12;;1661;
+"2025";"95203";"Individuel groupe";0;;0;
+"2025";"95203";"Collectif";49;;2788;
+"2025";"95203";"Residence";0;;0;
+"2025";"95205";"Tous Logements";3;;286;
+"2025";"95205";"Individuel pur";3;;286;
+"2025";"95205";"Individuel groupe";0;;0;
+"2025";"95205";"Collectif";0;;0;
+"2025";"95205";"Residence";0;;0;
+"2025";"95210";"Tous Logements";3;;470;
+"2025";"95210";"Individuel pur";3;;470;
+"2025";"95210";"Individuel groupe";0;;0;
+"2025";"95210";"Collectif";0;;0;
+"2025";"95210";"Residence";0;;0;
+"2025";"95211";"Tous Logements";2;;190;
+"2025";"95211";"Individuel pur";2;;190;
+"2025";"95211";"Individuel groupe";0;;0;
+"2025";"95211";"Collectif";0;;0;
+"2025";"95211";"Residence";0;;0;
+"2025";"95212";"Tous Logements";0;;0;
+"2025";"95212";"Individuel pur";0;;0;
+"2025";"95212";"Individuel groupe";0;;0;
+"2025";"95212";"Collectif";0;;0;
+"2025";"95212";"Residence";0;;0;
+"2025";"95213";"Tous Logements";0;;0;
+"2025";"95213";"Individuel pur";0;;0;
+"2025";"95213";"Individuel groupe";0;;0;
+"2025";"95213";"Collectif";0;;0;
+"2025";"95213";"Residence";0;;0;
+"2025";"95214";"Tous Logements";0;;0;
+"2025";"95214";"Individuel pur";0;;0;
+"2025";"95214";"Individuel groupe";0;;0;
+"2025";"95214";"Collectif";0;;0;
+"2025";"95214";"Residence";0;;0;
+"2025";"95218";"Tous Logements";27;;3344;
+"2025";"95218";"Individuel pur";19;;2816;
+"2025";"95218";"Individuel groupe";4;;298;
+"2025";"95218";"Collectif";4;;230;
+"2025";"95218";"Residence";0;;0;
+"2025";"95219";"Tous Logements";7;;900;
+"2025";"95219";"Individuel pur";7;;900;
+"2025";"95219";"Individuel groupe";0;;0;
+"2025";"95219";"Collectif";0;;0;
+"2025";"95219";"Residence";0;;0;
+"2025";"95229";"Tous Logements";1;;100;
+"2025";"95229";"Individuel pur";1;;100;
+"2025";"95229";"Individuel groupe";0;;0;
+"2025";"95229";"Collectif";0;;0;
+"2025";"95229";"Residence";0;;0;
+"2025";"95241";"Tous Logements";1;;106;
+"2025";"95241";"Individuel pur";1;;106;
+"2025";"95241";"Individuel groupe";0;;0;
+"2025";"95241";"Collectif";0;;0;
+"2025";"95241";"Residence";0;;0;
+"2025";"95250";"Tous Logements";54;;3406;
+"2025";"95250";"Individuel pur";1;;210;
+"2025";"95250";"Individuel groupe";0;;0;
+"2025";"95250";"Collectif";53;;3196;
+"2025";"95250";"Residence";0;;0;
+"2025";"95252";"Tous Logements";8;;999;
+"2025";"95252";"Individuel pur";5;;609;
+"2025";"95252";"Individuel groupe";3;;390;
+"2025";"95252";"Collectif";0;;0;
+"2025";"95252";"Residence";0;;0;
+"2025";"95253";"Tous Logements";0;;0;
+"2025";"95253";"Individuel pur";0;;0;
+"2025";"95253";"Individuel groupe";0;;0;
+"2025";"95253";"Collectif";0;;0;
+"2025";"95253";"Residence";0;;0;
+"2025";"95254";"Tous Logements";0;;0;
+"2025";"95254";"Individuel pur";0;;0;
+"2025";"95254";"Individuel groupe";0;;0;
+"2025";"95254";"Collectif";0;;0;
+"2025";"95254";"Residence";0;;0;
+"2025";"95256";"Tous Logements";2;;148;
+"2025";"95256";"Individuel pur";2;;148;
+"2025";"95256";"Individuel groupe";0;;0;
+"2025";"95256";"Collectif";0;;0;
+"2025";"95256";"Residence";0;;0;
+"2025";"95257";"Tous Logements";3;;542;
+"2025";"95257";"Individuel pur";3;;542;
+"2025";"95257";"Individuel groupe";0;;0;
+"2025";"95257";"Collectif";0;;0;
+"2025";"95257";"Residence";0;;0;
+"2025";"95258";"Tous Logements";1;;118;
+"2025";"95258";"Individuel pur";1;;118;
+"2025";"95258";"Individuel groupe";0;;0;
+"2025";"95258";"Collectif";0;;0;
+"2025";"95258";"Residence";0;;0;
+"2025";"95268";"Tous Logements";3;;322;
+"2025";"95268";"Individuel pur";3;;322;
+"2025";"95268";"Individuel groupe";0;;0;
+"2025";"95268";"Collectif";0;;0;
+"2025";"95268";"Residence";0;;0;
+"2025";"95270";"Tous Logements";1;;109;
+"2025";"95270";"Individuel pur";1;;109;
+"2025";"95270";"Individuel groupe";0;;0;
+"2025";"95270";"Collectif";0;;0;
+"2025";"95270";"Residence";0;;0;
+"2025";"95271";"Tous Logements";0;;0;
+"2025";"95271";"Individuel pur";0;;0;
+"2025";"95271";"Individuel groupe";0;;0;
+"2025";"95271";"Collectif";0;;0;
+"2025";"95271";"Residence";0;;0;
+"2025";"95277";"Tous Logements";227;;14213;
+"2025";"95277";"Individuel pur";2;;273;
+"2025";"95277";"Individuel groupe";0;;0;
+"2025";"95277";"Collectif";225;;13940;
+"2025";"95277";"Residence";0;;0;
+"2025";"95280";"Tous Logements";221;;14700;
+"2025";"95280";"Individuel pur";13;;2092;
+"2025";"95280";"Individuel groupe";2;;100;
+"2025";"95280";"Collectif";206;;12508;
+"2025";"95280";"Residence";0;;0;
+"2025";"95282";"Tous Logements";0;;0;
+"2025";"95282";"Individuel pur";0;;0;
+"2025";"95282";"Individuel groupe";0;;0;
+"2025";"95282";"Collectif";0;;0;
+"2025";"95282";"Residence";0;;0;
+"2025";"95287";"Tous Logements";1;;41;
+"2025";"95287";"Individuel pur";1;;41;
+"2025";"95287";"Individuel groupe";0;;0;
+"2025";"95287";"Collectif";0;;0;
+"2025";"95287";"Residence";0;;0;
+"2025";"95288";"Tous Logements";4;;272;
+"2025";"95288";"Individuel pur";4;;272;
+"2025";"95288";"Individuel groupe";0;;0;
+"2025";"95288";"Collectif";0;;0;
+"2025";"95288";"Residence";0;;0;
+"2025";"95295";"Tous Logements";0;;0;
+"2025";"95295";"Individuel pur";0;;0;
+"2025";"95295";"Individuel groupe";0;;0;
+"2025";"95295";"Collectif";0;;0;
+"2025";"95295";"Residence";0;;0;
+"2025";"95298";"Tous Logements";1;;150;
+"2025";"95298";"Individuel pur";1;;150;
+"2025";"95298";"Individuel groupe";0;;0;
+"2025";"95298";"Collectif";0;;0;
+"2025";"95298";"Residence";0;;0;
+"2025";"95301";"Tous Logements";0;;0;
+"2025";"95301";"Individuel pur";0;;0;
+"2025";"95301";"Individuel groupe";0;;0;
+"2025";"95301";"Collectif";0;;0;
+"2025";"95301";"Residence";0;;0;
+"2025";"95303";"Tous Logements";1;;84;
+"2025";"95303";"Individuel pur";1;;84;
+"2025";"95303";"Individuel groupe";0;;0;
+"2025";"95303";"Collectif";0;;0;
+"2025";"95303";"Residence";0;;0;
+"2025";"95304";"Tous Logements";1;;74;
+"2025";"95304";"Individuel pur";1;;74;
+"2025";"95304";"Individuel groupe";0;;0;
+"2025";"95304";"Collectif";0;;0;
+"2025";"95304";"Residence";0;;0;
+"2025";"95306";"Tous Logements";20;;2171;
+"2025";"95306";"Individuel pur";14;;1617;
+"2025";"95306";"Individuel groupe";6;;554;
+"2025";"95306";"Collectif";0;;0;
+"2025";"95306";"Residence";0;;0;
+"2025";"95308";"Tous Logements";0;;0;
+"2025";"95308";"Individuel pur";0;;0;
+"2025";"95308";"Individuel groupe";0;;0;
+"2025";"95308";"Collectif";0;;0;
+"2025";"95308";"Residence";0;;0;
+"2025";"95309";"Tous Logements";0;;0;
+"2025";"95309";"Individuel pur";0;;0;
+"2025";"95309";"Individuel groupe";0;;0;
+"2025";"95309";"Collectif";0;;0;
+"2025";"95309";"Residence";0;;0;
+"2025";"95313";"Tous Logements";11;;1404;
+"2025";"95313";"Individuel pur";11;;1404;
+"2025";"95313";"Individuel groupe";0;;0;
+"2025";"95313";"Collectif";0;;0;
+"2025";"95313";"Residence";0;;0;
+"2025";"95316";"Tous Logements";0;;0;
+"2025";"95316";"Individuel pur";0;;0;
+"2025";"95316";"Individuel groupe";0;;0;
+"2025";"95316";"Collectif";0;;0;
+"2025";"95316";"Residence";0;;0;
+"2025";"95323";"Tous Logements";384;;25235;
+"2025";"95323";"Individuel pur";8;;1083;
+"2025";"95323";"Individuel groupe";21;;1925;
+"2025";"95323";"Collectif";349;;21937;
+"2025";"95323";"Residence";6;;290;
+"2025";"95328";"Tous Logements";0;;0;
+"2025";"95328";"Individuel pur";0;;0;
+"2025";"95328";"Individuel groupe";0;;0;
+"2025";"95328";"Collectif";0;;0;
+"2025";"95328";"Residence";0;;0;
+"2025";"95331";"Tous Logements";0;;0;
+"2025";"95331";"Individuel pur";0;;0;
+"2025";"95331";"Individuel groupe";0;;0;
+"2025";"95331";"Collectif";0;;0;
+"2025";"95331";"Residence";0;;0;
+"2025";"95341";"Tous Logements";1;;19;
+"2025";"95341";"Individuel pur";1;;19;
+"2025";"95341";"Individuel groupe";0;;0;
+"2025";"95341";"Collectif";0;;0;
+"2025";"95341";"Residence";0;;0;
+"2025";"95348";"Tous Logements";6;;751;
+"2025";"95348";"Individuel pur";6;;751;
+"2025";"95348";"Individuel groupe";0;;0;
+"2025";"95348";"Collectif";0;;0;
+"2025";"95348";"Residence";0;;0;
+"2025";"95351";"Tous Logements";138;;9231;
+"2025";"95351";"Individuel pur";3;;181;
+"2025";"95351";"Individuel groupe";11;;1063;
+"2025";"95351";"Collectif";29;;1868;
+"2025";"95351";"Residence";95;;6119;
+"2025";"95352";"Tous Logements";11;;1520;
+"2025";"95352";"Individuel pur";6;;1174;
+"2025";"95352";"Individuel groupe";0;;0;
+"2025";"95352";"Collectif";5;;346;
+"2025";"95352";"Residence";0;;0;
+"2025";"95353";"Tous Logements";5;;619;
+"2025";"95353";"Individuel pur";3;;438;
+"2025";"95353";"Individuel groupe";2;;181;
+"2025";"95353";"Collectif";0;;0;
+"2025";"95353";"Residence";0;;0;
+"2025";"95355";"Tous Logements";5;;493;
+"2025";"95355";"Individuel pur";1;;39;
+"2025";"95355";"Individuel groupe";0;;0;
+"2025";"95355";"Collectif";4;;454;
+"2025";"95355";"Residence";0;;0;
+"2025";"95365";"Tous Logements";0;;0;
+"2025";"95365";"Individuel pur";0;;0;
+"2025";"95365";"Individuel groupe";0;;0;
+"2025";"95365";"Collectif";0;;0;
+"2025";"95365";"Residence";0;;0;
+"2025";"95369";"Tous Logements";0;;0;
+"2025";"95369";"Individuel pur";0;;0;
+"2025";"95369";"Individuel groupe";0;;0;
+"2025";"95369";"Collectif";0;;0;
+"2025";"95369";"Residence";0;;0;
+"2025";"95370";"Tous Logements";8;;514;
+"2025";"95370";"Individuel pur";3;;233;
+"2025";"95370";"Individuel groupe";0;;0;
+"2025";"95370";"Collectif";5;;281;
+"2025";"95370";"Residence";0;;0;
+"2025";"95371";"Tous Logements";246;;15163;
+"2025";"95371";"Individuel pur";6;;614;
+"2025";"95371";"Individuel groupe";18;;1591;
+"2025";"95371";"Collectif";222;;12958;
+"2025";"95371";"Residence";0;;0;
+"2025";"95379";"Tous Logements";0;;0;
+"2025";"95379";"Individuel pur";0;;0;
+"2025";"95379";"Individuel groupe";0;;0;
+"2025";"95379";"Collectif";0;;0;
+"2025";"95379";"Residence";0;;0;
+"2025";"95387";"Tous Logements";0;;0;
+"2025";"95387";"Individuel pur";0;;0;
+"2025";"95387";"Individuel groupe";0;;0;
+"2025";"95387";"Collectif";0;;0;
+"2025";"95387";"Residence";0;;0;
+"2025";"95388";"Tous Logements";1;;224;
+"2025";"95388";"Individuel pur";1;;224;
+"2025";"95388";"Individuel groupe";0;;0;
+"2025";"95388";"Collectif";0;;0;
+"2025";"95388";"Residence";0;;0;
+"2025";"95392";"Tous Logements";6;;570;
+"2025";"95392";"Individuel pur";4;;386;
+"2025";"95392";"Individuel groupe";2;;184;
+"2025";"95392";"Collectif";0;;0;
+"2025";"95392";"Residence";0;;0;
+"2025";"95394";"Tous Logements";282;;17932;
+"2025";"95394";"Individuel pur";1;;228;
+"2025";"95394";"Individuel groupe";13;;1152;
+"2025";"95394";"Collectif";268;;16552;
+"2025";"95394";"Residence";0;;0;
+"2025";"95395";"Tous Logements";0;;0;
+"2025";"95395";"Individuel pur";0;;0;
+"2025";"95395";"Individuel groupe";0;;0;
+"2025";"95395";"Collectif";0;;0;
+"2025";"95395";"Residence";0;;0;
+"2025";"95409";"Tous Logements";0;;0;
+"2025";"95409";"Individuel pur";0;;0;
+"2025";"95409";"Individuel groupe";0;;0;
+"2025";"95409";"Collectif";0;;0;
+"2025";"95409";"Residence";0;;0;
+"2025";"95422";"Tous Logements";0;;0;
+"2025";"95422";"Individuel pur";0;;0;
+"2025";"95422";"Individuel groupe";0;;0;
+"2025";"95422";"Collectif";0;;0;
+"2025";"95422";"Residence";0;;0;
+"2025";"95424";"Tous Logements";4;;253;
+"2025";"95424";"Individuel pur";4;;253;
+"2025";"95424";"Individuel groupe";0;;0;
+"2025";"95424";"Collectif";0;;0;
+"2025";"95424";"Residence";0;;0;
+"2025";"95426";"Tous Logements";0;;0;
+"2025";"95426";"Individuel pur";0;;0;
+"2025";"95426";"Individuel groupe";0;;0;
+"2025";"95426";"Collectif";0;;0;
+"2025";"95426";"Residence";0;;0;
+"2025";"95427";"Tous Logements";129;;8210;
+"2025";"95427";"Individuel pur";3;;325;
+"2025";"95427";"Individuel groupe";2;;241;
+"2025";"95427";"Collectif";124;;7644;
+"2025";"95427";"Residence";0;;0;
+"2025";"95428";"Tous Logements";16;;1433;
+"2025";"95428";"Individuel pur";5;;782;
+"2025";"95428";"Individuel groupe";2;;418;
+"2025";"95428";"Collectif";9;;233;
+"2025";"95428";"Residence";0;;0;
+"2025";"95429";"Tous Logements";0;;0;
+"2025";"95429";"Individuel pur";0;;0;
+"2025";"95429";"Individuel groupe";0;;0;
+"2025";"95429";"Collectif";0;;0;
+"2025";"95429";"Residence";0;;0;
+"2025";"95430";"Tous Logements";9;;594;
+"2025";"95430";"Individuel pur";2;;228;
+"2025";"95430";"Individuel groupe";5;;253;
+"2025";"95430";"Collectif";2;;113;
+"2025";"95430";"Residence";0;;0;
+"2025";"95436";"Tous Logements";6;;322;
+"2025";"95436";"Individuel pur";0;;0;
+"2025";"95436";"Individuel groupe";6;;322;
+"2025";"95436";"Collectif";0;;0;
+"2025";"95436";"Residence";0;;0;
+"2025";"95438";"Tous Logements";0;;0;
+"2025";"95438";"Individuel pur";0;;0;
+"2025";"95438";"Individuel groupe";0;;0;
+"2025";"95438";"Collectif";0;;0;
+"2025";"95438";"Residence";0;;0;
+"2025";"95445";"Tous Logements";0;;0;
+"2025";"95445";"Individuel pur";0;;0;
+"2025";"95445";"Individuel groupe";0;;0;
+"2025";"95445";"Collectif";0;;0;
+"2025";"95445";"Residence";0;;0;
+"2025";"95446";"Tous Logements";6;;905;
+"2025";"95446";"Individuel pur";6;;905;
+"2025";"95446";"Individuel groupe";0;;0;
+"2025";"95446";"Collectif";0;;0;
+"2025";"95446";"Residence";0;;0;
+"2025";"95447";"Tous Logements";0;;0;
+"2025";"95447";"Individuel pur";0;;0;
+"2025";"95447";"Individuel groupe";0;;0;
+"2025";"95447";"Collectif";0;;0;
+"2025";"95447";"Residence";0;;0;
+"2025";"95450";"Tous Logements";1;;144;
+"2025";"95450";"Individuel pur";1;;144;
+"2025";"95450";"Individuel groupe";0;;0;
+"2025";"95450";"Collectif";0;;0;
+"2025";"95450";"Residence";0;;0;
+"2025";"95452";"Tous Logements";0;;0;
+"2025";"95452";"Individuel pur";0;;0;
+"2025";"95452";"Individuel groupe";0;;0;
+"2025";"95452";"Collectif";0;;0;
+"2025";"95452";"Residence";0;;0;
+"2025";"95456";"Tous Logements";0;;0;
+"2025";"95456";"Individuel pur";0;;0;
+"2025";"95456";"Individuel groupe";0;;0;
+"2025";"95456";"Collectif";0;;0;
+"2025";"95456";"Residence";0;;0;
+"2025";"95459";"Tous Logements";0;;0;
+"2025";"95459";"Individuel pur";0;;0;
+"2025";"95459";"Individuel groupe";0;;0;
+"2025";"95459";"Collectif";0;;0;
+"2025";"95459";"Residence";0;;0;
+"2025";"95462";"Tous Logements";0;;0;
+"2025";"95462";"Individuel pur";0;;0;
+"2025";"95462";"Individuel groupe";0;;0;
+"2025";"95462";"Collectif";0;;0;
+"2025";"95462";"Residence";0;;0;
+"2025";"95476";"Tous Logements";293;;8064;
+"2025";"95476";"Individuel pur";8;;925;
+"2025";"95476";"Individuel groupe";0;;0;
+"2025";"95476";"Collectif";4;;205;
+"2025";"95476";"Residence";281;;6934;
+"2025";"95480";"Tous Logements";43;;3631;
+"2025";"95480";"Individuel pur";1;;84;
+"2025";"95480";"Individuel groupe";0;;0;
+"2025";"95480";"Collectif";0;;0;
+"2025";"95480";"Residence";42;;3547;
+"2025";"95483";"Tous Logements";0;;0;
+"2025";"95483";"Individuel pur";0;;0;
+"2025";"95483";"Individuel groupe";0;;0;
+"2025";"95483";"Collectif";0;;0;
+"2025";"95483";"Residence";0;;0;
+"2025";"95487";"Tous Logements";73;;4125;
+"2025";"95487";"Individuel pur";1;;99;
+"2025";"95487";"Individuel groupe";2;;174;
+"2025";"95487";"Collectif";70;;3852;
+"2025";"95487";"Residence";0;;0;
+"2025";"95488";"Tous Logements";13;;2134;
+"2025";"95488";"Individuel pur";13;;2134;
+"2025";"95488";"Individuel groupe";0;;0;
+"2025";"95488";"Collectif";0;;0;
+"2025";"95488";"Residence";0;;0;
+"2025";"95489";"Tous Logements";0;;0;
+"2025";"95489";"Individuel pur";0;;0;
+"2025";"95489";"Individuel groupe";0;;0;
+"2025";"95489";"Collectif";0;;0;
+"2025";"95489";"Residence";0;;0;
+"2025";"95491";"Tous Logements";72;;5040;
+"2025";"95491";"Individuel pur";5;;765;
+"2025";"95491";"Individuel groupe";0;;0;
+"2025";"95491";"Collectif";67;;4275;
+"2025";"95491";"Residence";0;;0;
+"2025";"95492";"Tous Logements";0;;0;
+"2025";"95492";"Individuel pur";0;;0;
+"2025";"95492";"Individuel groupe";0;;0;
+"2025";"95492";"Collectif";0;;0;
+"2025";"95492";"Residence";0;;0;
+"2025";"95493";"Tous Logements";0;;0;
+"2025";"95493";"Individuel pur";0;;0;
+"2025";"95493";"Individuel groupe";0;;0;
+"2025";"95493";"Collectif";0;;0;
+"2025";"95493";"Residence";0;;0;
+"2025";"95500";"Tous Logements";256;;16226;
+"2025";"95500";"Individuel pur";2;;160;
+"2025";"95500";"Individuel groupe";0;;0;
+"2025";"95500";"Collectif";254;;16066;
+"2025";"95500";"Residence";0;;0;
+"2025";"95504";"Tous Logements";5;;444;
+"2025";"95504";"Individuel pur";3;;261;
+"2025";"95504";"Individuel groupe";2;;183;
+"2025";"95504";"Collectif";0;;0;
+"2025";"95504";"Residence";0;;0;
+"2025";"95509";"Tous Logements";1;;100;
+"2025";"95509";"Individuel pur";1;;100;
+"2025";"95509";"Individuel groupe";0;;0;
+"2025";"95509";"Collectif";0;;0;
+"2025";"95509";"Residence";0;;0;
+"2025";"95510";"Tous Logements";0;;0;
+"2025";"95510";"Individuel pur";0;;0;
+"2025";"95510";"Individuel groupe";0;;0;
+"2025";"95510";"Collectif";0;;0;
+"2025";"95510";"Residence";0;;0;
+"2025";"95523";"Tous Logements";0;;0;
+"2025";"95523";"Individuel pur";0;;0;
+"2025";"95523";"Individuel groupe";0;;0;
+"2025";"95523";"Collectif";0;;0;
+"2025";"95523";"Residence";0;;0;
+"2025";"95527";"Tous Logements";0;;0;
+"2025";"95527";"Individuel pur";0;;0;
+"2025";"95527";"Individuel groupe";0;;0;
+"2025";"95527";"Collectif";0;;0;
+"2025";"95527";"Residence";0;;0;
+"2025";"95529";"Tous Logements";1;;124;
+"2025";"95529";"Individuel pur";1;;124;
+"2025";"95529";"Individuel groupe";0;;0;
+"2025";"95529";"Collectif";0;;0;
+"2025";"95529";"Residence";0;;0;
+"2025";"95535";"Tous Logements";2;;188;
+"2025";"95535";"Individuel pur";2;;188;
+"2025";"95535";"Individuel groupe";0;;0;
+"2025";"95535";"Collectif";0;;0;
+"2025";"95535";"Residence";0;;0;
+"2025";"95539";"Tous Logements";2;;206;
+"2025";"95539";"Individuel pur";2;;206;
+"2025";"95539";"Individuel groupe";0;;0;
+"2025";"95539";"Collectif";0;;0;
+"2025";"95539";"Residence";0;;0;
+"2025";"95541";"Tous Logements";0;;0;
+"2025";"95541";"Individuel pur";0;;0;
+"2025";"95541";"Individuel groupe";0;;0;
+"2025";"95541";"Collectif";0;;0;
+"2025";"95541";"Residence";0;;0;
+"2025";"95543";"Tous Logements";0;;0;
+"2025";"95543";"Individuel pur";0;;0;
+"2025";"95543";"Individuel groupe";0;;0;
+"2025";"95543";"Collectif";0;;0;
+"2025";"95543";"Residence";0;;0;
+"2025";"95554";"Tous Logements";0;;0;
+"2025";"95554";"Individuel pur";0;;0;
+"2025";"95554";"Individuel groupe";0;;0;
+"2025";"95554";"Collectif";0;;0;
+"2025";"95554";"Residence";0;;0;
+"2025";"95555";"Tous Logements";1;;280;
+"2025";"95555";"Individuel pur";1;;280;
+"2025";"95555";"Individuel groupe";0;;0;
+"2025";"95555";"Collectif";0;;0;
+"2025";"95555";"Residence";0;;0;
+"2025";"95563";"Tous Logements";18;;1918;
+"2025";"95563";"Individuel pur";11;;1456;
+"2025";"95563";"Individuel groupe";0;;0;
+"2025";"95563";"Collectif";3;;175;
+"2025";"95563";"Residence";4;;287;
+"2025";"95566";"Tous Logements";9;;849;
+"2025";"95566";"Individuel pur";6;;634;
+"2025";"95566";"Individuel groupe";0;;0;
+"2025";"95566";"Collectif";3;;215;
+"2025";"95566";"Residence";0;;0;
+"2025";"95572";"Tous Logements";6;;677;
+"2025";"95572";"Individuel pur";2;;257;
+"2025";"95572";"Individuel groupe";4;;420;
+"2025";"95572";"Collectif";0;;0;
+"2025";"95572";"Residence";0;;0;
+"2025";"95574";"Tous Logements";2;;266;
+"2025";"95574";"Individuel pur";2;;266;
+"2025";"95574";"Individuel groupe";0;;0;
+"2025";"95574";"Collectif";0;;0;
+"2025";"95574";"Residence";0;;0;
+"2025";"95580";"Tous Logements";1;;252;
+"2025";"95580";"Individuel pur";1;;252;
+"2025";"95580";"Individuel groupe";0;;0;
+"2025";"95580";"Collectif";0;;0;
+"2025";"95580";"Residence";0;;0;
+"2025";"95582";"Tous Logements";10;;1417;
+"2025";"95582";"Individuel pur";6;;1207;
+"2025";"95582";"Individuel groupe";0;;0;
+"2025";"95582";"Collectif";4;;210;
+"2025";"95582";"Residence";0;;0;
+"2025";"95584";"Tous Logements";0;;0;
+"2025";"95584";"Individuel pur";0;;0;
+"2025";"95584";"Individuel groupe";0;;0;
+"2025";"95584";"Collectif";0;;0;
+"2025";"95584";"Residence";0;;0;
+"2025";"95585";"Tous Logements";51;;4158;
+"2025";"95585";"Individuel pur";6;;884;
+"2025";"95585";"Individuel groupe";2;;100;
+"2025";"95585";"Collectif";43;;3174;
+"2025";"95585";"Residence";0;;0;
+"2025";"95592";"Tous Logements";2;;174;
+"2025";"95592";"Individuel pur";2;;174;
+"2025";"95592";"Individuel groupe";0;;0;
+"2025";"95592";"Collectif";0;;0;
+"2025";"95592";"Residence";0;;0;
+"2025";"95594";"Tous Logements";1;;188;
+"2025";"95594";"Individuel pur";1;;188;
+"2025";"95594";"Individuel groupe";0;;0;
+"2025";"95594";"Collectif";0;;0;
+"2025";"95594";"Residence";0;;0;
+"2025";"95598";"Tous Logements";24;;2483;
+"2025";"95598";"Individuel pur";10;;1123;
+"2025";"95598";"Individuel groupe";14;;1360;
+"2025";"95598";"Collectif";0;;0;
+"2025";"95598";"Residence";0;;0;
+"2025";"95604";"Tous Logements";0;;0;
+"2025";"95604";"Individuel pur";0;;0;
+"2025";"95604";"Individuel groupe";0;;0;
+"2025";"95604";"Collectif";0;;0;
+"2025";"95604";"Residence";0;;0;
+"2025";"95607";"Tous Logements";26;;1639;
+"2025";"95607";"Individuel pur";6;;850;
+"2025";"95607";"Individuel groupe";2;;209;
+"2025";"95607";"Collectif";18;;580;
+"2025";"95607";"Residence";0;;0;
+"2025";"95610";"Tous Logements";0;;0;
+"2025";"95610";"Individuel pur";0;;0;
+"2025";"95610";"Individuel groupe";0;;0;
+"2025";"95610";"Collectif";0;;0;
+"2025";"95610";"Residence";0;;0;
+"2025";"95611";"Tous Logements";0;;0;
+"2025";"95611";"Individuel pur";0;;0;
+"2025";"95611";"Individuel groupe";0;;0;
+"2025";"95611";"Collectif";0;;0;
+"2025";"95611";"Residence";0;;0;
+"2025";"95612";"Tous Logements";8;;1343;
+"2025";"95612";"Individuel pur";6;;960;
+"2025";"95612";"Individuel groupe";2;;383;
+"2025";"95612";"Collectif";0;;0;
+"2025";"95612";"Residence";0;;0;
+"2025";"95625";"Tous Logements";1;;234;
+"2025";"95625";"Individuel pur";1;;234;
+"2025";"95625";"Individuel groupe";0;;0;
+"2025";"95625";"Collectif";0;;0;
+"2025";"95625";"Residence";0;;0;
+"2025";"95627";"Tous Logements";1;;76;
+"2025";"95627";"Individuel pur";1;;76;
+"2025";"95627";"Individuel groupe";0;;0;
+"2025";"95627";"Collectif";0;;0;
+"2025";"95627";"Residence";0;;0;
+"2025";"95628";"Tous Logements";1;;197;
+"2025";"95628";"Individuel pur";1;;197;
+"2025";"95628";"Individuel groupe";0;;0;
+"2025";"95628";"Collectif";0;;0;
+"2025";"95628";"Residence";0;;0;
+"2025";"95633";"Tous Logements";1;;63;
+"2025";"95633";"Individuel pur";1;;63;
+"2025";"95633";"Individuel groupe";0;;0;
+"2025";"95633";"Collectif";0;;0;
+"2025";"95633";"Residence";0;;0;
+"2025";"95637";"Tous Logements";41;;3193;
+"2025";"95637";"Individuel pur";7;;871;
+"2025";"95637";"Individuel groupe";0;;0;
+"2025";"95637";"Collectif";34;;2322;
+"2025";"95637";"Residence";0;;0;
+"2025";"95641";"Tous Logements";7;;919;
+"2025";"95641";"Individuel pur";4;;760;
+"2025";"95641";"Individuel groupe";3;;159;
+"2025";"95641";"Collectif";0;;0;
+"2025";"95641";"Residence";0;;0;
+"2025";"95651";"Tous Logements";1;;51;
+"2025";"95651";"Individuel pur";1;;51;
+"2025";"95651";"Individuel groupe";0;;0;
+"2025";"95651";"Collectif";0;;0;
+"2025";"95651";"Residence";0;;0;
+"2025";"95652";"Tous Logements";2;;150;
+"2025";"95652";"Individuel pur";2;;150;
+"2025";"95652";"Individuel groupe";0;;0;
+"2025";"95652";"Collectif";0;;0;
+"2025";"95652";"Residence";0;;0;
+"2025";"95656";"Tous Logements";0;;0;
+"2025";"95656";"Individuel pur";0;;0;
+"2025";"95656";"Individuel groupe";0;;0;
+"2025";"95656";"Collectif";0;;0;
+"2025";"95656";"Residence";0;;0;
+"2025";"95658";"Tous Logements";0;;0;
+"2025";"95658";"Individuel pur";0;;0;
+"2025";"95658";"Individuel groupe";0;;0;
+"2025";"95658";"Collectif";0;;0;
+"2025";"95658";"Residence";0;;0;
+"2025";"95660";"Tous Logements";1;;130;
+"2025";"95660";"Individuel pur";1;;130;
+"2025";"95660";"Individuel groupe";0;;0;
+"2025";"95660";"Collectif";0;;0;
+"2025";"95660";"Residence";0;;0;
+"2025";"95675";"Tous Logements";0;;0;
+"2025";"95675";"Individuel pur";0;;0;
+"2025";"95675";"Individuel groupe";0;;0;
+"2025";"95675";"Collectif";0;;0;
+"2025";"95675";"Residence";0;;0;
+"2025";"95676";"Tous Logements";2;;351;
+"2025";"95676";"Individuel pur";2;;351;
+"2025";"95676";"Individuel groupe";0;;0;
+"2025";"95676";"Collectif";0;;0;
+"2025";"95676";"Residence";0;;0;
+"2025";"95678";"Tous Logements";3;;247;
+"2025";"95678";"Individuel pur";3;;247;
+"2025";"95678";"Individuel groupe";0;;0;
+"2025";"95678";"Collectif";0;;0;
+"2025";"95678";"Residence";0;;0;
+"2025";"95680";"Tous Logements";6;;502;
+"2025";"95680";"Individuel pur";1;;227;
+"2025";"95680";"Individuel groupe";0;;0;
+"2025";"95680";"Collectif";3;;185;
+"2025";"95680";"Residence";2;;90;
+"2025";"95682";"Tous Logements";3;;487;
+"2025";"95682";"Individuel pur";3;;487;
+"2025";"95682";"Individuel groupe";0;;0;
+"2025";"95682";"Collectif";0;;0;
+"2025";"95682";"Residence";0;;0;
+"2025";"95690";"Tous Logements";2;;443;
+"2025";"95690";"Individuel pur";2;;443;
+"2025";"95690";"Individuel groupe";0;;0;
+"2025";"95690";"Collectif";0;;0;
+"2025";"95690";"Residence";0;;0;
+"2024";"95002";"Tous Logements";0;1;0;135
+"2024";"95002";"Individuel pur";0;1;0;135
+"2024";"95002";"Individuel groupe";0;0;0;0
+"2024";"95002";"Collectif";0;0;0;0
+"2024";"95002";"Residence";0;0;0;0
+"2024";"95008";"Tous Logements";4;0;238;0
+"2024";"95008";"Individuel pur";2;0;142;0
+"2024";"95008";"Individuel groupe";2;0;96;0
+"2024";"95008";"Collectif";0;0;0;0
+"2024";"95008";"Residence";0;0;0;0
+"2024";"95011";"Tous Logements";1;0;163;0
+"2024";"95011";"Individuel pur";1;0;163;0
+"2024";"95011";"Individuel groupe";0;0;0;0
+"2024";"95011";"Collectif";0;0;0;0
+"2024";"95011";"Residence";0;0;0;0
+"2024";"95012";"Tous Logements";0;0;0;0
+"2024";"95012";"Individuel pur";0;0;0;0
+"2024";"95012";"Individuel groupe";0;0;0;0
+"2024";"95012";"Collectif";0;0;0;0
+"2024";"95012";"Residence";0;0;0;0
+"2024";"95014";"Tous Logements";2;0;472;0
+"2024";"95014";"Individuel pur";2;0;472;0
+"2024";"95014";"Individuel groupe";0;0;0;0
+"2024";"95014";"Collectif";0;0;0;0
+"2024";"95014";"Residence";0;0;0;0
+"2024";"95018";"Tous Logements";331;159;26099;11944
+"2024";"95018";"Individuel pur";36;22;6266;3070
+"2024";"95018";"Individuel groupe";18;4;1871;385
+"2024";"95018";"Collectif";277;133;17962;8489
+"2024";"95018";"Residence";0;0;0;0
+"2024";"95019";"Tous Logements";43;4;2925;476
+"2024";"95019";"Individuel pur";5;4;503;476
+"2024";"95019";"Individuel groupe";0;0;0;0
+"2024";"95019";"Collectif";38;0;2422;0
+"2024";"95019";"Residence";0;0;0;0
+"2024";"95023";"Tous Logements";0;0;0;0
+"2024";"95023";"Individuel pur";0;0;0;0
+"2024";"95023";"Individuel groupe";0;0;0;0
+"2024";"95023";"Collectif";0;0;0;0
+"2024";"95023";"Residence";0;0;0;0
+"2024";"95024";"Tous Logements";1;0;142;0
+"2024";"95024";"Individuel pur";1;0;142;0
+"2024";"95024";"Individuel groupe";0;0;0;0
+"2024";"95024";"Collectif";0;0;0;0
+"2024";"95024";"Residence";0;0;0;0
+"2024";"95026";"Tous Logements";1;0;143;0
+"2024";"95026";"Individuel pur";1;0;143;0
+"2024";"95026";"Individuel groupe";0;0;0;0
+"2024";"95026";"Collectif";0;0;0;0
+"2024";"95026";"Residence";0;0;0;0
+"2024";"95028";"Tous Logements";4;0;495;0
+"2024";"95028";"Individuel pur";2;0;419;0
+"2024";"95028";"Individuel groupe";0;0;0;0
+"2024";"95028";"Collectif";2;0;76;0
+"2024";"95028";"Residence";0;0;0;0
+"2024";"95039";"Tous Logements";16;5;1081;343
+"2024";"95039";"Individuel pur";7;5;460;343
+"2024";"95039";"Individuel groupe";7;0;508;0
+"2024";"95039";"Collectif";2;0;113;0
+"2024";"95039";"Residence";0;0;0;0
+"2024";"95040";"Tous Logements";1;0;242;0
+"2024";"95040";"Individuel pur";1;0;242;0
+"2024";"95040";"Individuel groupe";0;0;0;0
+"2024";"95040";"Collectif";0;0;0;0
+"2024";"95040";"Residence";0;0;0;0
+"2024";"95042";"Tous Logements";44;3;2609;454
+"2024";"95042";"Individuel pur";1;3;156;454
+"2024";"95042";"Individuel groupe";0;0;0;0
+"2024";"95042";"Collectif";43;0;2453;0
+"2024";"95042";"Residence";0;0;0;0
+"2024";"95046";"Tous Logements";0;0;0;0
+"2024";"95046";"Individuel pur";0;0;0;0
+"2024";"95046";"Individuel groupe";0;0;0;0
+"2024";"95046";"Collectif";0;0;0;0
+"2024";"95046";"Residence";0;0;0;0
+"2024";"95051";"Tous Logements";7;50;410;3150
+"2024";"95051";"Individuel pur";4;2;347;234
+"2024";"95051";"Individuel groupe";0;0;0;0
+"2024";"95051";"Collectif";3;48;63;2916
+"2024";"95051";"Residence";0;0;0;0
+"2024";"95052";"Tous Logements";116;139;7587;8554
+"2024";"95052";"Individuel pur";7;6;559;522
+"2024";"95052";"Individuel groupe";0;2;0;137
+"2024";"95052";"Collectif";109;131;7028;7895
+"2024";"95052";"Residence";0;0;0;0
+"2024";"95054";"Tous Logements";2;1;102;78
+"2024";"95054";"Individuel pur";2;1;102;78
+"2024";"95054";"Individuel groupe";0;0;0;0
+"2024";"95054";"Collectif";0;0;0;0
+"2024";"95054";"Residence";0;0;0;0
+"2024";"95055";"Tous Logements";1;0;185;0
+"2024";"95055";"Individuel pur";1;0;185;0
+"2024";"95055";"Individuel groupe";0;0;0;0
+"2024";"95055";"Collectif";0;0;0;0
+"2024";"95055";"Residence";0;0;0;0
+"2024";"95056";"Tous Logements";0;1;0;90
+"2024";"95056";"Individuel pur";0;1;0;90
+"2024";"95056";"Individuel groupe";0;0;0;0
+"2024";"95056";"Collectif";0;0;0;0
+"2024";"95056";"Residence";0;0;0;0
+"2024";"95058";"Tous Logements";3;39;358;2788
+"2024";"95058";"Individuel pur";3;9;358;1021
+"2024";"95058";"Individuel groupe";0;0;0;0
+"2024";"95058";"Collectif";0;0;0;0
+"2024";"95058";"Residence";0;30;0;1767
+"2024";"95059";"Tous Logements";0;0;0;0
+"2024";"95059";"Individuel pur";0;0;0;0
+"2024";"95059";"Individuel groupe";0;0;0;0
+"2024";"95059";"Collectif";0;0;0;0
+"2024";"95059";"Residence";0;0;0;0
+"2024";"95060";"Tous Logements";244;18;17086;2058
+"2024";"95060";"Individuel pur";19;15;2659;1917
+"2024";"95060";"Individuel groupe";0;0;0;0
+"2024";"95060";"Collectif";225;3;14427;141
+"2024";"95060";"Residence";0;0;0;0
+"2024";"95061";"Tous Logements";0;0;0;0
+"2024";"95061";"Individuel pur";0;0;0;0
+"2024";"95061";"Individuel groupe";0;0;0;0
+"2024";"95061";"Collectif";0;0;0;0
+"2024";"95061";"Residence";0;0;0;0
+"2024";"95063";"Tous Logements";24;479;1633;31066
+"2024";"95063";"Individuel pur";8;9;783;955
+"2024";"95063";"Individuel groupe";5;2;280;142
+"2024";"95063";"Collectif";11;468;570;29969
+"2024";"95063";"Residence";0;0;0;0
+"2024";"95074";"Tous Logements";0;0;0;0
+"2024";"95074";"Individuel pur";0;0;0;0
+"2024";"95074";"Individuel groupe";0;0;0;0
+"2024";"95074";"Collectif";0;0;0;0
+"2024";"95074";"Residence";0;0;0;0
+"2024";"95078";"Tous Logements";0;0;0;0
+"2024";"95078";"Individuel pur";0;0;0;0
+"2024";"95078";"Individuel groupe";0;0;0;0
+"2024";"95078";"Collectif";0;0;0;0
+"2024";"95078";"Residence";0;0;0;0
+"2024";"95088";"Tous Logements";0;0;0;0
+"2024";"95088";"Individuel pur";0;0;0;0
+"2024";"95088";"Individuel groupe";0;0;0;0
+"2024";"95088";"Collectif";0;0;0;0
+"2024";"95088";"Residence";0;0;0;0
+"2024";"95091";"Tous Logements";13;105;232;7702
+"2024";"95091";"Individuel pur";0;1;0;1200
+"2024";"95091";"Individuel groupe";0;0;0;0
+"2024";"95091";"Collectif";0;0;0;0
+"2024";"95091";"Residence";13;104;232;6502
+"2024";"95094";"Tous Logements";1;1;140;140
+"2024";"95094";"Individuel pur";1;1;140;140
+"2024";"95094";"Individuel groupe";0;0;0;0
+"2024";"95094";"Collectif";0;0;0;0
+"2024";"95094";"Residence";0;0;0;0
+"2024";"95101";"Tous Logements";0;0;0;0
+"2024";"95101";"Individuel pur";0;0;0;0
+"2024";"95101";"Individuel groupe";0;0;0;0
+"2024";"95101";"Collectif";0;0;0;0
+"2024";"95101";"Residence";0;0;0;0
+"2024";"95102";"Tous Logements";1;0;82;0
+"2024";"95102";"Individuel pur";1;0;82;0
+"2024";"95102";"Individuel groupe";0;0;0;0
+"2024";"95102";"Collectif";0;0;0;0
+"2024";"95102";"Residence";0;0;0;0
+"2024";"95110";"Tous Logements";2;0;258;0
+"2024";"95110";"Individuel pur";2;0;258;0
+"2024";"95110";"Individuel groupe";0;0;0;0
+"2024";"95110";"Collectif";0;0;0;0
+"2024";"95110";"Residence";0;0;0;0
+"2024";"95116";"Tous Logements";3;2;164;118
+"2024";"95116";"Individuel pur";1;0;48;0
+"2024";"95116";"Individuel groupe";2;2;116;118
+"2024";"95116";"Collectif";0;0;0;0
+"2024";"95116";"Residence";0;0;0;0
+"2024";"95119";"Tous Logements";0;0;0;0
+"2024";"95119";"Individuel pur";0;0;0;0
+"2024";"95119";"Individuel groupe";0;0;0;0
+"2024";"95119";"Collectif";0;0;0;0
+"2024";"95119";"Residence";0;0;0;0
+"2024";"95120";"Tous Logements";2;0;221;0
+"2024";"95120";"Individuel pur";2;0;221;0
+"2024";"95120";"Individuel groupe";0;0;0;0
+"2024";"95120";"Collectif";0;0;0;0
+"2024";"95120";"Residence";0;0;0;0
+"2024";"95127";"Tous Logements";366;176;24935;12607
+"2024";"95127";"Individuel pur";6;2;872;324
+"2024";"95127";"Individuel groupe";6;0;862;0
+"2024";"95127";"Collectif";354;174;23201;12283
+"2024";"95127";"Residence";0;0;0;0
+"2024";"95134";"Tous Logements";89;21;5739;1528
+"2024";"95134";"Individuel pur";3;3;246;237
+"2024";"95134";"Individuel groupe";14;0;1187;0
+"2024";"95134";"Collectif";72;18;4306;1291
+"2024";"95134";"Residence";0;0;0;0
+"2024";"95139";"Tous Logements";0;0;0;0
+"2024";"95139";"Individuel pur";0;0;0;0
+"2024";"95139";"Individuel groupe";0;0;0;0
+"2024";"95139";"Collectif";0;0;0;0
+"2024";"95139";"Residence";0;0;0;0
+"2024";"95141";"Tous Logements";0;0;0;0
+"2024";"95141";"Individuel pur";0;0;0;0
+"2024";"95141";"Individuel groupe";0;0;0;0
+"2024";"95141";"Collectif";0;0;0;0
+"2024";"95141";"Residence";0;0;0;0
+"2024";"95142";"Tous Logements";3;0;300;0
+"2024";"95142";"Individuel pur";3;0;300;0
+"2024";"95142";"Individuel groupe";0;0;0;0
+"2024";"95142";"Collectif";0;0;0;0
+"2024";"95142";"Residence";0;0;0;0
+"2024";"95144";"Tous Logements";0;0;0;0
+"2024";"95144";"Individuel pur";0;0;0;0
+"2024";"95144";"Individuel groupe";0;0;0;0
+"2024";"95144";"Collectif";0;0;0;0
+"2024";"95144";"Residence";0;0;0;0
+"2024";"95149";"Tous Logements";1;3;264;147
+"2024";"95149";"Individuel pur";1;0;264;0
+"2024";"95149";"Individuel groupe";0;3;0;147
+"2024";"95149";"Collectif";0;0;0;0
+"2024";"95149";"Residence";0;0;0;0
+"2024";"95150";"Tous Logements";1;1;76;104
+"2024";"95150";"Individuel pur";1;1;76;104
+"2024";"95150";"Individuel groupe";0;0;0;0
+"2024";"95150";"Collectif";0;0;0;0
+"2024";"95150";"Residence";0;0;0;0
+"2024";"95151";"Tous Logements";0;0;0;0
+"2024";"95151";"Individuel pur";0;0;0;0
+"2024";"95151";"Individuel groupe";0;0;0;0
+"2024";"95151";"Collectif";0;0;0;0
+"2024";"95151";"Residence";0;0;0;0
+"2024";"95154";"Tous Logements";0;0;0;0
+"2024";"95154";"Individuel pur";0;0;0;0
+"2024";"95154";"Individuel groupe";0;0;0;0
+"2024";"95154";"Collectif";0;0;0;0
+"2024";"95154";"Residence";0;0;0;0
+"2024";"95157";"Tous Logements";1;0;59;0
+"2024";"95157";"Individuel pur";1;0;59;0
+"2024";"95157";"Individuel groupe";0;0;0;0
+"2024";"95157";"Collectif";0;0;0;0
+"2024";"95157";"Residence";0;0;0;0
+"2024";"95166";"Tous Logements";0;0;0;0
+"2024";"95166";"Individuel pur";0;0;0;0
+"2024";"95166";"Individuel groupe";0;0;0;0
+"2024";"95166";"Collectif";0;0;0;0
+"2024";"95166";"Residence";0;0;0;0
+"2024";"95169";"Tous Logements";0;0;0;0
+"2024";"95169";"Individuel pur";0;0;0;0
+"2024";"95169";"Individuel groupe";0;0;0;0
+"2024";"95169";"Collectif";0;0;0;0
+"2024";"95169";"Residence";0;0;0;0
+"2024";"95170";"Tous Logements";0;0;0;0
+"2024";"95170";"Individuel pur";0;0;0;0
+"2024";"95170";"Individuel groupe";0;0;0;0
+"2024";"95170";"Collectif";0;0;0;0
+"2024";"95170";"Residence";0;0;0;0
+"2024";"95176";"Tous Logements";309;163;18704;10854
+"2024";"95176";"Individuel pur";17;10;2241;1406
+"2024";"95176";"Individuel groupe";5;3;708;422
+"2024";"95176";"Collectif";137;0;6729;0
+"2024";"95176";"Residence";150;150;9026;9026
+"2024";"95177";"Tous Logements";0;0;0;0
+"2024";"95177";"Individuel pur";0;0;0;0
+"2024";"95177";"Individuel groupe";0;0;0;0
+"2024";"95177";"Collectif";0;0;0;0
+"2024";"95177";"Residence";0;0;0;0
+"2024";"95181";"Tous Logements";0;0;0;0
+"2024";"95181";"Individuel pur";0;0;0;0
+"2024";"95181";"Individuel groupe";0;0;0;0
+"2024";"95181";"Collectif";0;0;0;0
+"2024";"95181";"Residence";0;0;0;0
+"2024";"95183";"Tous Logements";12;34;1107;2292
+"2024";"95183";"Individuel pur";0;2;0;175
+"2024";"95183";"Individuel groupe";12;2;1107;200
+"2024";"95183";"Collectif";0;30;0;1917
+"2024";"95183";"Residence";0;0;0;0
+"2024";"95197";"Tous Logements";28;114;2151;6996
+"2024";"95197";"Individuel pur";4;4;551;529
+"2024";"95197";"Individuel groupe";5;0;490;0
+"2024";"95197";"Collectif";19;110;1110;6467
+"2024";"95197";"Residence";0;0;0;0
+"2024";"95199";"Tous Logements";5;86;858;5276
+"2024";"95199";"Individuel pur";5;4;858;442
+"2024";"95199";"Individuel groupe";0;0;0;0
+"2024";"95199";"Collectif";0;82;0;4834
+"2024";"95199";"Residence";0;0;0;0
+"2024";"95203";"Tous Logements";8;3;1027;283
+"2024";"95203";"Individuel pur";4;1;573;106
+"2024";"95203";"Individuel groupe";4;2;454;177
+"2024";"95203";"Collectif";0;0;0;0
+"2024";"95203";"Residence";0;0;0;0
+"2024";"95205";"Tous Logements";4;2;520;194
+"2024";"95205";"Individuel pur";4;2;520;194
+"2024";"95205";"Individuel groupe";0;0;0;0
+"2024";"95205";"Collectif";0;0;0;0
+"2024";"95205";"Residence";0;0;0;0
+"2024";"95210";"Tous Logements";8;0;986;0
+"2024";"95210";"Individuel pur";2;0;213;0
+"2024";"95210";"Individuel groupe";2;0;50;0
+"2024";"95210";"Collectif";4;0;723;0
+"2024";"95210";"Residence";0;0;0;0
+"2024";"95211";"Tous Logements";0;0;0;0
+"2024";"95211";"Individuel pur";0;0;0;0
+"2024";"95211";"Individuel groupe";0;0;0;0
+"2024";"95211";"Collectif";0;0;0;0
+"2024";"95211";"Residence";0;0;0;0
+"2024";"95212";"Tous Logements";0;0;0;0
+"2024";"95212";"Individuel pur";0;0;0;0
+"2024";"95212";"Individuel groupe";0;0;0;0
+"2024";"95212";"Collectif";0;0;0;0
+"2024";"95212";"Residence";0;0;0;0
+"2024";"95213";"Tous Logements";1;1;173;173
+"2024";"95213";"Individuel pur";1;1;173;173
+"2024";"95213";"Individuel groupe";0;0;0;0
+"2024";"95213";"Collectif";0;0;0;0
+"2024";"95213";"Residence";0;0;0;0
+"2024";"95214";"Tous Logements";0;0;0;0
+"2024";"95214";"Individuel pur";0;0;0;0
+"2024";"95214";"Individuel groupe";0;0;0;0
+"2024";"95214";"Collectif";0;0;0;0
+"2024";"95214";"Residence";0;0;0;0
+"2024";"95218";"Tous Logements";127;154;7944;9643
+"2024";"95218";"Individuel pur";7;12;1052;1388
+"2024";"95218";"Individuel groupe";5;8;438;640
+"2024";"95218";"Collectif";115;134;6454;7615
+"2024";"95218";"Residence";0;0;0;0
+"2024";"95219";"Tous Logements";343;5;22341;278
+"2024";"95219";"Individuel pur";8;2;1390;203
+"2024";"95219";"Individuel groupe";2;0;112;0
+"2024";"95219";"Collectif";333;3;20839;75
+"2024";"95219";"Residence";0;0;0;0
+"2024";"95229";"Tous Logements";3;2;184;145
+"2024";"95229";"Individuel pur";1;0;39;0
+"2024";"95229";"Individuel groupe";2;2;145;145
+"2024";"95229";"Collectif";0;0;0;0
+"2024";"95229";"Residence";0;0;0;0
+"2024";"95241";"Tous Logements";2;0;208;0
+"2024";"95241";"Individuel pur";1;0;29;0
+"2024";"95241";"Individuel groupe";1;0;179;0
+"2024";"95241";"Collectif";0;0;0;0
+"2024";"95241";"Residence";0;0;0;0
+"2024";"95250";"Tous Logements";9;1;1032;120
+"2024";"95250";"Individuel pur";7;1;927;120
+"2024";"95250";"Individuel groupe";2;0;105;0
+"2024";"95250";"Collectif";0;0;0;0
+"2024";"95250";"Residence";0;0;0;0
+"2024";"95252";"Tous Logements";2;1;143;174
+"2024";"95252";"Individuel pur";2;1;143;174
+"2024";"95252";"Individuel groupe";0;0;0;0
+"2024";"95252";"Collectif";0;0;0;0
+"2024";"95252";"Residence";0;0;0;0
+"2024";"95253";"Tous Logements";0;0;0;0
+"2024";"95253";"Individuel pur";0;0;0;0
+"2024";"95253";"Individuel groupe";0;0;0;0
+"2024";"95253";"Collectif";0;0;0;0
+"2024";"95253";"Residence";0;0;0;0
+"2024";"95254";"Tous Logements";0;0;0;0
+"2024";"95254";"Individuel pur";0;0;0;0
+"2024";"95254";"Individuel groupe";0;0;0;0
+"2024";"95254";"Collectif";0;0;0;0
+"2024";"95254";"Residence";0;0;0;0
+"2024";"95256";"Tous Logements";1;1;92;92
+"2024";"95256";"Individuel pur";1;1;92;92
+"2024";"95256";"Individuel groupe";0;0;0;0
+"2024";"95256";"Collectif";0;0;0;0
+"2024";"95256";"Residence";0;0;0;0
+"2024";"95257";"Tous Logements";3;17;652;1392
+"2024";"95257";"Individuel pur";3;3;652;683
+"2024";"95257";"Individuel groupe";0;0;0;0
+"2024";"95257";"Collectif";0;14;0;709
+"2024";"95257";"Residence";0;0;0;0
+"2024";"95258";"Tous Logements";0;0;0;0
+"2024";"95258";"Individuel pur";0;0;0;0
+"2024";"95258";"Individuel groupe";0;0;0;0
+"2024";"95258";"Collectif";0;0;0;0
+"2024";"95258";"Residence";0;0;0;0
+"2024";"95268";"Tous Logements";8;3;676;286
+"2024";"95268";"Individuel pur";5;3;428;286
+"2024";"95268";"Individuel groupe";0;0;0;0
+"2024";"95268";"Collectif";3;0;248;0
+"2024";"95268";"Residence";0;0;0;0
+"2024";"95270";"Tous Logements";0;0;0;0
+"2024";"95270";"Individuel pur";0;0;0;0
+"2024";"95270";"Individuel groupe";0;0;0;0
+"2024";"95270";"Collectif";0;0;0;0
+"2024";"95270";"Residence";0;0;0;0
+"2024";"95271";"Tous Logements";32;0;1594;0
+"2024";"95271";"Individuel pur";0;0;0;0
+"2024";"95271";"Individuel groupe";19;0;1095;0
+"2024";"95271";"Collectif";13;0;499;0
+"2024";"95271";"Residence";0;0;0;0
+"2024";"95277";"Tous Logements";72;0;5061;0
+"2024";"95277";"Individuel pur";3;0;498;0
+"2024";"95277";"Individuel groupe";0;0;0;0
+"2024";"95277";"Collectif";69;0;4563;0
+"2024";"95277";"Residence";0;0;0;0
+"2024";"95280";"Tous Logements";13;12;1471;1701
+"2024";"95280";"Individuel pur";9;12;1182;1701
+"2024";"95280";"Individuel groupe";2;0;173;0
+"2024";"95280";"Collectif";2;0;116;0
+"2024";"95280";"Residence";0;0;0;0
+"2024";"95282";"Tous Logements";0;0;0;0
+"2024";"95282";"Individuel pur";0;0;0;0
+"2024";"95282";"Individuel groupe";0;0;0;0
+"2024";"95282";"Collectif";0;0;0;0
+"2024";"95282";"Residence";0;0;0;0
+"2024";"95287";"Tous Logements";1;0;10;0
+"2024";"95287";"Individuel pur";1;0;10;0
+"2024";"95287";"Individuel groupe";0;0;0;0
+"2024";"95287";"Collectif";0;0;0;0
+"2024";"95287";"Residence";0;0;0;0
+"2024";"95288";"Tous Logements";6;40;798;3558
+"2024";"95288";"Individuel pur";6;2;798;362
+"2024";"95288";"Individuel groupe";0;38;0;3196
+"2024";"95288";"Collectif";0;0;0;0
+"2024";"95288";"Residence";0;0;0;0
+"2024";"95295";"Tous Logements";1;0;162;0
+"2024";"95295";"Individuel pur";1;0;162;0
+"2024";"95295";"Individuel groupe";0;0;0;0
+"2024";"95295";"Collectif";0;0;0;0
+"2024";"95295";"Residence";0;0;0;0
+"2024";"95298";"Tous Logements";1;0;65;0
+"2024";"95298";"Individuel pur";1;0;65;0
+"2024";"95298";"Individuel groupe";0;0;0;0
+"2024";"95298";"Collectif";0;0;0;0
+"2024";"95298";"Residence";0;0;0;0
+"2024";"95301";"Tous Logements";0;0;0;0
+"2024";"95301";"Individuel pur";0;0;0;0
+"2024";"95301";"Individuel groupe";0;0;0;0
+"2024";"95301";"Collectif";0;0;0;0
+"2024";"95301";"Residence";0;0;0;0
+"2024";"95303";"Tous Logements";0;0;0;0
+"2024";"95303";"Individuel pur";0;0;0;0
+"2024";"95303";"Individuel groupe";0;0;0;0
+"2024";"95303";"Collectif";0;0;0;0
+"2024";"95303";"Residence";0;0;0;0
+"2024";"95304";"Tous Logements";0;0;0;0
+"2024";"95304";"Individuel pur";0;0;0;0
+"2024";"95304";"Individuel groupe";0;0;0;0
+"2024";"95304";"Collectif";0;0;0;0
+"2024";"95304";"Residence";0;0;0;0
+"2024";"95306";"Tous Logements";16;8;2211;911
+"2024";"95306";"Individuel pur";10;6;1677;751
+"2024";"95306";"Individuel groupe";6;2;534;160
+"2024";"95306";"Collectif";0;0;0;0
+"2024";"95306";"Residence";0;0;0;0
+"2024";"95308";"Tous Logements";0;0;0;0
+"2024";"95308";"Individuel pur";0;0;0;0
+"2024";"95308";"Individuel groupe";0;0;0;0
+"2024";"95308";"Collectif";0;0;0;0
+"2024";"95308";"Residence";0;0;0;0
+"2024";"95309";"Tous Logements";0;0;0;0
+"2024";"95309";"Individuel pur";0;0;0;0
+"2024";"95309";"Individuel groupe";0;0;0;0
+"2024";"95309";"Collectif";0;0;0;0
+"2024";"95309";"Residence";0;0;0;0
+"2024";"95313";"Tous Logements";8;80;1371;5489
+"2024";"95313";"Individuel pur";8;4;1371;526
+"2024";"95313";"Individuel groupe";0;2;0;227
+"2024";"95313";"Collectif";0;74;0;4736
+"2024";"95313";"Residence";0;0;0;0
+"2024";"95316";"Tous Logements";0;0;0;0
+"2024";"95316";"Individuel pur";0;0;0;0
+"2024";"95316";"Individuel groupe";0;0;0;0
+"2024";"95316";"Collectif";0;0;0;0
+"2024";"95316";"Residence";0;0;0;0
+"2024";"95323";"Tous Logements";92;1;6229;18
+"2024";"95323";"Individuel pur";2;1;219;18
+"2024";"95323";"Individuel groupe";0;0;0;0
+"2024";"95323";"Collectif";90;0;6010;0
+"2024";"95323";"Residence";0;0;0;0
+"2024";"95328";"Tous Logements";1;1;106;114
+"2024";"95328";"Individuel pur";1;1;106;114
+"2024";"95328";"Individuel groupe";0;0;0;0
+"2024";"95328";"Collectif";0;0;0;0
+"2024";"95328";"Residence";0;0;0;0
+"2024";"95331";"Tous Logements";1;1;208;208
+"2024";"95331";"Individuel pur";1;1;208;208
+"2024";"95331";"Individuel groupe";0;0;0;0
+"2024";"95331";"Collectif";0;0;0;0
+"2024";"95331";"Residence";0;0;0;0
+"2024";"95341";"Tous Logements";0;0;0;0
+"2024";"95341";"Individuel pur";0;0;0;0
+"2024";"95341";"Individuel groupe";0;0;0;0
+"2024";"95341";"Collectif";0;0;0;0
+"2024";"95341";"Residence";0;0;0;0
+"2024";"95348";"Tous Logements";22;8;1977;929
+"2024";"95348";"Individuel pur";14;8;1515;929
+"2024";"95348";"Individuel groupe";8;0;462;0
+"2024";"95348";"Collectif";0;0;0;0
+"2024";"95348";"Residence";0;0;0;0
+"2024";"95351";"Tous Logements";8;30;770;590
+"2024";"95351";"Individuel pur";3;1;459;180
+"2024";"95351";"Individuel groupe";2;2;49;49
+"2024";"95351";"Collectif";3;27;262;361
+"2024";"95351";"Residence";0;0;0;0
+"2024";"95352";"Tous Logements";37;13;3322;1479
+"2024";"95352";"Individuel pur";7;1;1355;309
+"2024";"95352";"Individuel groupe";4;4;370;332
+"2024";"95352";"Collectif";26;8;1597;838
+"2024";"95352";"Residence";0;0;0;0
+"2024";"95353";"Tous Logements";3;1;263;99
+"2024";"95353";"Individuel pur";3;1;263;99
+"2024";"95353";"Individuel groupe";0;0;0;0
+"2024";"95353";"Collectif";0;0;0;0
+"2024";"95353";"Residence";0;0;0;0
+"2024";"95355";"Tous Logements";1;3;135;360
+"2024";"95355";"Individuel pur";1;3;135;360
+"2024";"95355";"Individuel groupe";0;0;0;0
+"2024";"95355";"Collectif";0;0;0;0
+"2024";"95355";"Residence";0;0;0;0
+"2024";"95365";"Tous Logements";6;0;402;0
+"2024";"95365";"Individuel pur";0;0;0;0
+"2024";"95365";"Individuel groupe";0;0;0;0
+"2024";"95365";"Collectif";6;0;402;0
+"2024";"95365";"Residence";0;0;0;0
+"2024";"95369";"Tous Logements";0;0;0;0
+"2024";"95369";"Individuel pur";0;0;0;0
+"2024";"95369";"Individuel groupe";0;0;0;0
+"2024";"95369";"Collectif";0;0;0;0
+"2024";"95369";"Residence";0;0;0;0
+"2024";"95370";"Tous Logements";3;2;386;299
+"2024";"95370";"Individuel pur";3;2;386;299
+"2024";"95370";"Individuel groupe";0;0;0;0
+"2024";"95370";"Collectif";0;0;0;0
+"2024";"95370";"Residence";0;0;0;0
+"2024";"95371";"Tous Logements";3;0;181;0
+"2024";"95371";"Individuel pur";1;0;121;0
+"2024";"95371";"Individuel groupe";0;0;0;0
+"2024";"95371";"Collectif";2;0;60;0
+"2024";"95371";"Residence";0;0;0;0
+"2024";"95379";"Tous Logements";0;0;0;0
+"2024";"95379";"Individuel pur";0;0;0;0
+"2024";"95379";"Individuel groupe";0;0;0;0
+"2024";"95379";"Collectif";0;0;0;0
+"2024";"95379";"Residence";0;0;0;0
+"2024";"95387";"Tous Logements";0;0;0;0
+"2024";"95387";"Individuel pur";0;0;0;0
+"2024";"95387";"Individuel groupe";0;0;0;0
+"2024";"95387";"Collectif";0;0;0;0
+"2024";"95387";"Residence";0;0;0;0
+"2024";"95388";"Tous Logements";1;1;102;83
+"2024";"95388";"Individuel pur";1;1;102;83
+"2024";"95388";"Individuel groupe";0;0;0;0
+"2024";"95388";"Collectif";0;0;0;0
+"2024";"95388";"Residence";0;0;0;0
+"2024";"95392";"Tous Logements";47;5;3176;657
+"2024";"95392";"Individuel pur";5;5;738;657
+"2024";"95392";"Individuel groupe";2;0;252;0
+"2024";"95392";"Collectif";40;0;2186;0
+"2024";"95392";"Residence";0;0;0;0
+"2024";"95394";"Tous Logements";66;66;4428;4400
+"2024";"95394";"Individuel pur";3;3;312;284
+"2024";"95394";"Individuel groupe";2;2;173;173
+"2024";"95394";"Collectif";61;61;3943;3943
+"2024";"95394";"Residence";0;0;0;0
+"2024";"95395";"Tous Logements";0;0;0;0
+"2024";"95395";"Individuel pur";0;0;0;0
+"2024";"95395";"Individuel groupe";0;0;0;0
+"2024";"95395";"Collectif";0;0;0;0
+"2024";"95395";"Residence";0;0;0;0
+"2024";"95409";"Tous Logements";0;1;0;138
+"2024";"95409";"Individuel pur";0;1;0;138
+"2024";"95409";"Individuel groupe";0;0;0;0
+"2024";"95409";"Collectif";0;0;0;0
+"2024";"95409";"Residence";0;0;0;0
+"2024";"95422";"Tous Logements";0;1;0;18
+"2024";"95422";"Individuel pur";0;1;0;18
+"2024";"95422";"Individuel groupe";0;0;0;0
+"2024";"95422";"Collectif";0;0;0;0
+"2024";"95422";"Residence";0;0;0;0
+"2024";"95424";"Tous Logements";12;7;1627;964
+"2024";"95424";"Individuel pur";12;5;1627;668
+"2024";"95424";"Individuel groupe";0;2;0;296
+"2024";"95424";"Collectif";0;0;0;0
+"2024";"95424";"Residence";0;0;0;0
+"2024";"95426";"Tous Logements";8;1;1260;144
+"2024";"95426";"Individuel pur";6;1;1176;144
+"2024";"95426";"Individuel groupe";0;0;0;0
+"2024";"95426";"Collectif";2;0;84;0
+"2024";"95426";"Residence";0;0;0;0
+"2024";"95427";"Tous Logements";2;1;291;142
+"2024";"95427";"Individuel pur";2;1;291;142
+"2024";"95427";"Individuel groupe";0;0;0;0
+"2024";"95427";"Collectif";0;0;0;0
+"2024";"95427";"Residence";0;0;0;0
+"2024";"95428";"Tous Logements";0;1;0;131
+"2024";"95428";"Individuel pur";0;1;0;131
+"2024";"95428";"Individuel groupe";0;0;0;0
+"2024";"95428";"Collectif";0;0;0;0
+"2024";"95428";"Residence";0;0;0;0
+"2024";"95429";"Tous Logements";0;0;0;0
+"2024";"95429";"Individuel pur";0;0;0;0
+"2024";"95429";"Individuel groupe";0;0;0;0
+"2024";"95429";"Collectif";0;0;0;0
+"2024";"95429";"Residence";0;0;0;0
+"2024";"95430";"Tous Logements";5;1;356;177
+"2024";"95430";"Individuel pur";2;1;257;177
+"2024";"95430";"Individuel groupe";0;0;0;0
+"2024";"95430";"Collectif";3;0;99;0
+"2024";"95430";"Residence";0;0;0;0
+"2024";"95436";"Tous Logements";0;0;0;0
+"2024";"95436";"Individuel pur";0;0;0;0
+"2024";"95436";"Individuel groupe";0;0;0;0
+"2024";"95436";"Collectif";0;0;0;0
+"2024";"95436";"Residence";0;0;0;0
+"2024";"95438";"Tous Logements";0;0;0;0
+"2024";"95438";"Individuel pur";0;0;0;0
+"2024";"95438";"Individuel groupe";0;0;0;0
+"2024";"95438";"Collectif";0;0;0;0
+"2024";"95438";"Residence";0;0;0;0
+"2024";"95445";"Tous Logements";0;0;0;0
+"2024";"95445";"Individuel pur";0;0;0;0
+"2024";"95445";"Individuel groupe";0;0;0;0
+"2024";"95445";"Collectif";0;0;0;0
+"2024";"95445";"Residence";0;0;0;0
+"2024";"95446";"Tous Logements";0;0;0;0
+"2024";"95446";"Individuel pur";0;0;0;0
+"2024";"95446";"Individuel groupe";0;0;0;0
+"2024";"95446";"Collectif";0;0;0;0
+"2024";"95446";"Residence";0;0;0;0
+"2024";"95447";"Tous Logements";0;1;0;74
+"2024";"95447";"Individuel pur";0;1;0;74
+"2024";"95447";"Individuel groupe";0;0;0;0
+"2024";"95447";"Collectif";0;0;0;0
+"2024";"95447";"Residence";0;0;0;0
+"2024";"95450";"Tous Logements";2;1;179;144
+"2024";"95450";"Individuel pur";2;1;179;144
+"2024";"95450";"Individuel groupe";0;0;0;0
+"2024";"95450";"Collectif";0;0;0;0
+"2024";"95450";"Residence";0;0;0;0
+"2024";"95452";"Tous Logements";1;1;129;129
+"2024";"95452";"Individuel pur";1;1;129;129
+"2024";"95452";"Individuel groupe";0;0;0;0
+"2024";"95452";"Collectif";0;0;0;0
+"2024";"95452";"Residence";0;0;0;0
+"2024";"95456";"Tous Logements";0;1;0;148
+"2024";"95456";"Individuel pur";0;1;0;148
+"2024";"95456";"Individuel groupe";0;0;0;0
+"2024";"95456";"Collectif";0;0;0;0
+"2024";"95456";"Residence";0;0;0;0
+"2024";"95459";"Tous Logements";0;0;0;0
+"2024";"95459";"Individuel pur";0;0;0;0
+"2024";"95459";"Individuel groupe";0;0;0;0
+"2024";"95459";"Collectif";0;0;0;0
+"2024";"95459";"Residence";0;0;0;0
+"2024";"95462";"Tous Logements";1;1;148;148
+"2024";"95462";"Individuel pur";1;1;148;148
+"2024";"95462";"Individuel groupe";0;0;0;0
+"2024";"95462";"Collectif";0;0;0;0
+"2024";"95462";"Residence";0;0;0;0
+"2024";"95476";"Tous Logements";55;29;4376;1929
+"2024";"95476";"Individuel pur";8;3;853;394
+"2024";"95476";"Individuel groupe";18;2;1736;155
+"2024";"95476";"Collectif";29;24;1787;1380
+"2024";"95476";"Residence";0;0;0;0
+"2024";"95480";"Tous Logements";18;1;1155;194
+"2024";"95480";"Individuel pur";2;1;283;194
+"2024";"95480";"Individuel groupe";0;0;0;0
+"2024";"95480";"Collectif";16;0;872;0
+"2024";"95480";"Residence";0;0;0;0
+"2024";"95483";"Tous Logements";1;0;177;0
+"2024";"95483";"Individuel pur";1;0;177;0
+"2024";"95483";"Individuel groupe";0;0;0;0
+"2024";"95483";"Collectif";0;0;0;0
+"2024";"95483";"Residence";0;0;0;0
+"2024";"95487";"Tous Logements";7;1;224;121
+"2024";"95487";"Individuel pur";1;1;57;121
+"2024";"95487";"Individuel groupe";0;0;0;0
+"2024";"95487";"Collectif";0;0;0;0
+"2024";"95487";"Residence";6;0;167;0
+"2024";"95488";"Tous Logements";11;4;1276;516
+"2024";"95488";"Individuel pur";7;4;862;516
+"2024";"95488";"Individuel groupe";1;0;138;0
+"2024";"95488";"Collectif";3;0;276;0
+"2024";"95488";"Residence";0;0;0;0
+"2024";"95489";"Tous Logements";0;0;0;0
+"2024";"95489";"Individuel pur";0;0;0;0
+"2024";"95489";"Individuel groupe";0;0;0;0
+"2024";"95489";"Collectif";0;0;0;0
+"2024";"95489";"Residence";0;0;0;0
+"2024";"95491";"Tous Logements";7;7;669;881
+"2024";"95491";"Individuel pur";7;5;669;641
+"2024";"95491";"Individuel groupe";0;2;0;240
+"2024";"95491";"Collectif";0;0;0;0
+"2024";"95491";"Residence";0;0;0;0
+"2024";"95492";"Tous Logements";2;0;277;0
+"2024";"95492";"Individuel pur";0;0;0;0
+"2024";"95492";"Individuel groupe";2;0;277;0
+"2024";"95492";"Collectif";0;0;0;0
+"2024";"95492";"Residence";0;0;0;0
+"2024";"95493";"Tous Logements";0;0;0;0
+"2024";"95493";"Individuel pur";0;0;0;0
+"2024";"95493";"Individuel groupe";0;0;0;0
+"2024";"95493";"Collectif";0;0;0;0
+"2024";"95493";"Residence";0;0;0;0
+"2024";"95500";"Tous Logements";261;263;18047;18689
+"2024";"95500";"Individuel pur";13;5;1408;651
+"2024";"95500";"Individuel groupe";4;2;478;188
+"2024";"95500";"Collectif";244;256;16161;17850
+"2024";"95500";"Residence";0;0;0;0
+"2024";"95504";"Tous Logements";2;5;74;194
+"2024";"95504";"Individuel pur";2;1;74;134
+"2024";"95504";"Individuel groupe";0;0;0;0
+"2024";"95504";"Collectif";0;4;0;60
+"2024";"95504";"Residence";0;0;0;0
+"2024";"95509";"Tous Logements";42;1;2539;127
+"2024";"95509";"Individuel pur";1;1;127;127
+"2024";"95509";"Individuel groupe";2;0;172;0
+"2024";"95509";"Collectif";39;0;2240;0
+"2024";"95509";"Residence";0;0;0;0
+"2024";"95510";"Tous Logements";50;0;4493;0
+"2024";"95510";"Individuel pur";0;0;0;0
+"2024";"95510";"Individuel groupe";38;0;3712;0
+"2024";"95510";"Collectif";12;0;781;0
+"2024";"95510";"Residence";0;0;0;0
+"2024";"95523";"Tous Logements";0;0;0;0
+"2024";"95523";"Individuel pur";0;0;0;0
+"2024";"95523";"Individuel groupe";0;0;0;0
+"2024";"95523";"Collectif";0;0;0;0
+"2024";"95523";"Residence";0;0;0;0
+"2024";"95527";"Tous Logements";0;0;0;0
+"2024";"95527";"Individuel pur";0;0;0;0
+"2024";"95527";"Individuel groupe";0;0;0;0
+"2024";"95527";"Collectif";0;0;0;0
+"2024";"95527";"Residence";0;0;0;0
+"2024";"95529";"Tous Logements";4;3;359;287
+"2024";"95529";"Individuel pur";4;3;359;287
+"2024";"95529";"Individuel groupe";0;0;0;0
+"2024";"95529";"Collectif";0;0;0;0
+"2024";"95529";"Residence";0;0;0;0
+"2024";"95535";"Tous Logements";1;0;233;0
+"2024";"95535";"Individuel pur";1;0;233;0
+"2024";"95535";"Individuel groupe";0;0;0;0
+"2024";"95535";"Collectif";0;0;0;0
+"2024";"95535";"Residence";0;0;0;0
+"2024";"95539";"Tous Logements";16;1;1136;85
+"2024";"95539";"Individuel pur";2;0;285;0
+"2024";"95539";"Individuel groupe";5;1;409;85
+"2024";"95539";"Collectif";9;0;442;0
+"2024";"95539";"Residence";0;0;0;0
+"2024";"95541";"Tous Logements";0;0;0;0
+"2024";"95541";"Individuel pur";0;0;0;0
+"2024";"95541";"Individuel groupe";0;0;0;0
+"2024";"95541";"Collectif";0;0;0;0
+"2024";"95541";"Residence";0;0;0;0
+"2024";"95543";"Tous Logements";1;28;64;2142
+"2024";"95543";"Individuel pur";1;1;64;82
+"2024";"95543";"Individuel groupe";0;12;0;1124
+"2024";"95543";"Collectif";0;15;0;936
+"2024";"95543";"Residence";0;0;0;0
+"2024";"95554";"Tous Logements";0;0;0;0
+"2024";"95554";"Individuel pur";0;0;0;0
+"2024";"95554";"Individuel groupe";0;0;0;0
+"2024";"95554";"Collectif";0;0;0;0
+"2024";"95554";"Residence";0;0;0;0
+"2024";"95555";"Tous Logements";8;0;1212;0
+"2024";"95555";"Individuel pur";6;0;974;0
+"2024";"95555";"Individuel groupe";0;0;0;0
+"2024";"95555";"Collectif";2;0;238;0
+"2024";"95555";"Residence";0;0;0;0
+"2024";"95563";"Tous Logements";47;4;3982;425
+"2024";"95563";"Individuel pur";7;4;906;425
+"2024";"95563";"Individuel groupe";3;0;305;0
+"2024";"95563";"Collectif";0;0;0;0
+"2024";"95563";"Residence";37;0;2771;0
+"2024";"95566";"Tous Logements";51;6;3293;509
+"2024";"95566";"Individuel pur";3;4;190;339
+"2024";"95566";"Individuel groupe";5;0;471;0
+"2024";"95566";"Collectif";43;2;2632;170
+"2024";"95566";"Residence";0;0;0;0
+"2024";"95572";"Tous Logements";4;4;290;361
+"2024";"95572";"Individuel pur";4;3;290;291
+"2024";"95572";"Individuel groupe";0;1;0;70
+"2024";"95572";"Collectif";0;0;0;0
+"2024";"95572";"Residence";0;0;0;0
+"2024";"95574";"Tous Logements";3;7;353;1155
+"2024";"95574";"Individuel pur";3;3;353;806
+"2024";"95574";"Individuel groupe";0;4;0;349
+"2024";"95574";"Collectif";0;0;0;0
+"2024";"95574";"Residence";0;0;0;0
+"2024";"95580";"Tous Logements";0;0;0;0
+"2024";"95580";"Individuel pur";0;0;0;0
+"2024";"95580";"Individuel groupe";0;0;0;0
+"2024";"95580";"Collectif";0;0;0;0
+"2024";"95580";"Residence";0;0;0;0
+"2024";"95582";"Tous Logements";43;0;4907;0
+"2024";"95582";"Individuel pur";10;0;1959;0
+"2024";"95582";"Individuel groupe";12;0;1399;0
+"2024";"95582";"Collectif";21;0;1549;0
+"2024";"95582";"Residence";0;0;0;0
+"2024";"95584";"Tous Logements";0;1;0;149
+"2024";"95584";"Individuel pur";0;1;0;149
+"2024";"95584";"Individuel groupe";0;0;0;0
+"2024";"95584";"Collectif";0;0;0;0
+"2024";"95584";"Residence";0;0;0;0
+"2024";"95585";"Tous Logements";55;166;3330;11280
+"2024";"95585";"Individuel pur";13;11;1640;1510
+"2024";"95585";"Individuel groupe";1;0;74;0
+"2024";"95585";"Collectif";14;3;673;186
+"2024";"95585";"Residence";27;152;943;9584
+"2024";"95592";"Tous Logements";0;0;0;0
+"2024";"95592";"Individuel pur";0;0;0;0
+"2024";"95592";"Individuel groupe";0;0;0;0
+"2024";"95592";"Collectif";0;0;0;0
+"2024";"95592";"Residence";0;0;0;0
+"2024";"95594";"Tous Logements";1;0;57;0
+"2024";"95594";"Individuel pur";1;0;57;0
+"2024";"95594";"Individuel groupe";0;0;0;0
+"2024";"95594";"Collectif";0;0;0;0
+"2024";"95594";"Residence";0;0;0;0
+"2024";"95598";"Tous Logements";92;5;5551;848
+"2024";"95598";"Individuel pur";3;5;567;848
+"2024";"95598";"Individuel groupe";0;0;0;0
+"2024";"95598";"Collectif";89;0;4984;0
+"2024";"95598";"Residence";0;0;0;0
+"2024";"95604";"Tous Logements";2;2;237;267
+"2024";"95604";"Individuel pur";2;2;237;267
+"2024";"95604";"Individuel groupe";0;0;0;0
+"2024";"95604";"Collectif";0;0;0;0
+"2024";"95604";"Residence";0;0;0;0
+"2024";"95607";"Tous Logements";68;23;6049;2138
+"2024";"95607";"Individuel pur";8;3;1161;179
+"2024";"95607";"Individuel groupe";2;0;138;0
+"2024";"95607";"Collectif";58;20;4750;1959
+"2024";"95607";"Residence";0;0;0;0
+"2024";"95610";"Tous Logements";0;0;0;0
+"2024";"95610";"Individuel pur";0;0;0;0
+"2024";"95610";"Individuel groupe";0;0;0;0
+"2024";"95610";"Collectif";0;0;0;0
+"2024";"95610";"Residence";0;0;0;0
+"2024";"95611";"Tous Logements";0;0;0;0
+"2024";"95611";"Individuel pur";0;0;0;0
+"2024";"95611";"Individuel groupe";0;0;0;0
+"2024";"95611";"Collectif";0;0;0;0
+"2024";"95611";"Residence";0;0;0;0
+"2024";"95612";"Tous Logements";5;2;523;212
+"2024";"95612";"Individuel pur";5;2;523;212
+"2024";"95612";"Individuel groupe";0;0;0;0
+"2024";"95612";"Collectif";0;0;0;0
+"2024";"95612";"Residence";0;0;0;0
+"2024";"95625";"Tous Logements";1;0;125;0
+"2024";"95625";"Individuel pur";1;0;125;0
+"2024";"95625";"Individuel groupe";0;0;0;0
+"2024";"95625";"Collectif";0;0;0;0
+"2024";"95625";"Residence";0;0;0;0
+"2024";"95627";"Tous Logements";0;0;0;0
+"2024";"95627";"Individuel pur";0;0;0;0
+"2024";"95627";"Individuel groupe";0;0;0;0
+"2024";"95627";"Collectif";0;0;0;0
+"2024";"95627";"Residence";0;0;0;0
+"2024";"95628";"Tous Logements";6;4;809;500
+"2024";"95628";"Individuel pur";2;0;309;0
+"2024";"95628";"Individuel groupe";0;0;0;0
+"2024";"95628";"Collectif";4;4;500;500
+"2024";"95628";"Residence";0;0;0;0
+"2024";"95633";"Tous Logements";0;0;0;0
+"2024";"95633";"Individuel pur";0;0;0;0
+"2024";"95633";"Individuel groupe";0;0;0;0
+"2024";"95633";"Collectif";0;0;0;0
+"2024";"95633";"Residence";0;0;0;0
+"2024";"95637";"Tous Logements";9;47;1009;3929
+"2024";"95637";"Individuel pur";2;1;286;139
+"2024";"95637";"Individuel groupe";7;1;723;124
+"2024";"95637";"Collectif";0;45;0;3666
+"2024";"95637";"Residence";0;0;0;0
+"2024";"95641";"Tous Logements";1;0;110;0
+"2024";"95641";"Individuel pur";1;0;110;0
+"2024";"95641";"Individuel groupe";0;0;0;0
+"2024";"95641";"Collectif";0;0;0;0
+"2024";"95641";"Residence";0;0;0;0
+"2024";"95651";"Tous Logements";0;2;0;374
+"2024";"95651";"Individuel pur";0;2;0;374
+"2024";"95651";"Individuel groupe";0;0;0;0
+"2024";"95651";"Collectif";0;0;0;0
+"2024";"95651";"Residence";0;0;0;0
+"2024";"95652";"Tous Logements";65;0;4268;0
+"2024";"95652";"Individuel pur";1;0;36;0
+"2024";"95652";"Individuel groupe";0;0;0;0
+"2024";"95652";"Collectif";64;0;4232;0
+"2024";"95652";"Residence";0;0;0;0
+"2024";"95656";"Tous Logements";1;0;40;0
+"2024";"95656";"Individuel pur";1;0;40;0
+"2024";"95656";"Individuel groupe";0;0;0;0
+"2024";"95656";"Collectif";0;0;0;0
+"2024";"95656";"Residence";0;0;0;0
+"2024";"95658";"Tous Logements";0;0;0;0
+"2024";"95658";"Individuel pur";0;0;0;0
+"2024";"95658";"Individuel groupe";0;0;0;0
+"2024";"95658";"Collectif";0;0;0;0
+"2024";"95658";"Residence";0;0;0;0
+"2024";"95660";"Tous Logements";0;0;0;0
+"2024";"95660";"Individuel pur";0;0;0;0
+"2024";"95660";"Individuel groupe";0;0;0;0
+"2024";"95660";"Collectif";0;0;0;0
+"2024";"95660";"Residence";0;0;0;0
+"2024";"95675";"Tous Logements";0;0;0;0
+"2024";"95675";"Individuel pur";0;0;0;0
+"2024";"95675";"Individuel groupe";0;0;0;0
+"2024";"95675";"Collectif";0;0;0;0
+"2024";"95675";"Residence";0;0;0;0
+"2024";"95676";"Tous Logements";0;0;0;0
+"2024";"95676";"Individuel pur";0;0;0;0
+"2024";"95676";"Individuel groupe";0;0;0;0
+"2024";"95676";"Collectif";0;0;0;0
+"2024";"95676";"Residence";0;0;0;0
+"2024";"95678";"Tous Logements";3;2;295;220
+"2024";"95678";"Individuel pur";3;2;295;220
+"2024";"95678";"Individuel groupe";0;0;0;0
+"2024";"95678";"Collectif";0;0;0;0
+"2024";"95678";"Residence";0;0;0;0
+"2024";"95680";"Tous Logements";73;100;5788;5004
+"2024";"95680";"Individuel pur";7;3;1233;534
+"2024";"95680";"Individuel groupe";4;0;453;0
+"2024";"95680";"Collectif";62;0;4102;0
+"2024";"95680";"Residence";0;97;0;4470
+"2024";"95682";"Tous Logements";7;2;797;290
+"2024";"95682";"Individuel pur";3;2;391;290
+"2024";"95682";"Individuel groupe";4;0;406;0
+"2024";"95682";"Collectif";0;0;0;0
+"2024";"95682";"Residence";0;0;0;0
+"2024";"95690";"Tous Logements";0;0;0;0
+"2024";"95690";"Individuel pur";0;0;0;0
+"2024";"95690";"Individuel groupe";0;0;0;0
+"2024";"95690";"Collectif";0;0;0;0
+"2024";"95690";"Residence";0;0;0;0
+"2023";"95002";"Tous Logements";1;2;135;176
+"2023";"95002";"Individuel pur";1;2;135;176
+"2023";"95002";"Individuel groupe";0;0;0;0
+"2023";"95002";"Collectif";0;0;0;0
+"2023";"95002";"Residence";0;0;0;0
+"2023";"95008";"Tous Logements";0;67;0;4698
+"2023";"95008";"Individuel pur";0;0;0;0
+"2023";"95008";"Individuel groupe";0;0;0;0
+"2023";"95008";"Collectif";0;67;0;4698
+"2023";"95008";"Residence";0;0;0;0
+"2023";"95011";"Tous Logements";0;1;0;108
+"2023";"95011";"Individuel pur";0;1;0;108
+"2023";"95011";"Individuel groupe";0;0;0;0
+"2023";"95011";"Collectif";0;0;0;0
+"2023";"95011";"Residence";0;0;0;0
+"2023";"95012";"Tous Logements";2;0;138;0
+"2023";"95012";"Individuel pur";1;0;113;0
+"2023";"95012";"Individuel groupe";1;0;25;0
+"2023";"95012";"Collectif";0;0;0;0
+"2023";"95012";"Residence";0;0;0;0
+"2023";"95014";"Tous Logements";83;93;7359;7308
+"2023";"95014";"Individuel pur";1;1;134;156
+"2023";"95014";"Individuel groupe";42;33;4419;3263
+"2023";"95014";"Collectif";40;59;2806;3889
+"2023";"95014";"Residence";0;0;0;0
+"2023";"95018";"Tous Logements";77;198;7478;15251
+"2023";"95018";"Individuel pur";35;30;4826;3968
+"2023";"95018";"Individuel groupe";5;6;235;725
+"2023";"95018";"Collectif";37;162;2417;10558
+"2023";"95018";"Residence";0;0;0;0
+"2023";"95019";"Tous Logements";10;3;1298;478
+"2023";"95019";"Individuel pur";8;3;1194;478
+"2023";"95019";"Individuel groupe";0;0;0;0
+"2023";"95019";"Collectif";2;0;104;0
+"2023";"95019";"Residence";0;0;0;0
+"2023";"95023";"Tous Logements";0;0;0;0
+"2023";"95023";"Individuel pur";0;0;0;0
+"2023";"95023";"Individuel groupe";0;0;0;0
+"2023";"95023";"Collectif";0;0;0;0
+"2023";"95023";"Residence";0;0;0;0
+"2023";"95024";"Tous Logements";0;0;0;0
+"2023";"95024";"Individuel pur";0;0;0;0
+"2023";"95024";"Individuel groupe";0;0;0;0
+"2023";"95024";"Collectif";0;0;0;0
+"2023";"95024";"Residence";0;0;0;0
+"2023";"95026";"Tous Logements";28;1;1424;149
+"2023";"95026";"Individuel pur";1;1;149;149
+"2023";"95026";"Individuel groupe";0;0;0;0
+"2023";"95026";"Collectif";27;0;1275;0
+"2023";"95026";"Residence";0;0;0;0
+"2023";"95028";"Tous Logements";0;1;0;203
+"2023";"95028";"Individuel pur";0;1;0;203
+"2023";"95028";"Individuel groupe";0;0;0;0
+"2023";"95028";"Collectif";0;0;0;0
+"2023";"95028";"Residence";0;0;0;0
+"2023";"95039";"Tous Logements";12;25;1148;1433
+"2023";"95039";"Individuel pur";7;4;744;313
+"2023";"95039";"Individuel groupe";5;0;404;0
+"2023";"95039";"Collectif";0;21;0;1120
+"2023";"95039";"Residence";0;0;0;0
+"2023";"95040";"Tous Logements";0;1;0;169
+"2023";"95040";"Individuel pur";0;1;0;169
+"2023";"95040";"Individuel groupe";0;0;0;0
+"2023";"95040";"Collectif";0;0;0;0
+"2023";"95040";"Residence";0;0;0;0
+"2023";"95042";"Tous Logements";1;3;179;506
+"2023";"95042";"Individuel pur";1;3;179;506
+"2023";"95042";"Individuel groupe";0;0;0;0
+"2023";"95042";"Collectif";0;0;0;0
+"2023";"95042";"Residence";0;0;0;0
+"2023";"95046";"Tous Logements";0;0;0;0
+"2023";"95046";"Individuel pur";0;0;0;0
+"2023";"95046";"Individuel groupe";0;0;0;0
+"2023";"95046";"Collectif";0;0;0;0
+"2023";"95046";"Residence";0;0;0;0
+"2023";"95051";"Tous Logements";13;10;978;1582
+"2023";"95051";"Individuel pur";6;8;560;1387
+"2023";"95051";"Individuel groupe";5;2;339;195
+"2023";"95051";"Collectif";2;0;79;0
+"2023";"95051";"Residence";0;0;0;0
+"2023";"95052";"Tous Logements";184;27;11624;2170
+"2023";"95052";"Individuel pur";8;10;1079;1153
+"2023";"95052";"Individuel groupe";3;7;293;689
+"2023";"95052";"Collectif";173;10;10252;328
+"2023";"95052";"Residence";0;0;0;0
+"2023";"95054";"Tous Logements";0;0;0;0
+"2023";"95054";"Individuel pur";0;0;0;0
+"2023";"95054";"Individuel groupe";0;0;0;0
+"2023";"95054";"Collectif";0;0;0;0
+"2023";"95054";"Residence";0;0;0;0
+"2023";"95055";"Tous Logements";1;0;147;0
+"2023";"95055";"Individuel pur";1;0;147;0
+"2023";"95055";"Individuel groupe";0;0;0;0
+"2023";"95055";"Collectif";0;0;0;0
+"2023";"95055";"Residence";0;0;0;0
+"2023";"95056";"Tous Logements";30;5;2281;659
+"2023";"95056";"Individuel pur";6;5;787;659
+"2023";"95056";"Individuel groupe";5;0;670;0
+"2023";"95056";"Collectif";19;0;824;0
+"2023";"95056";"Residence";0;0;0;0
+"2023";"95058";"Tous Logements";15;19;1607;2247
+"2023";"95058";"Individuel pur";14;19;1547;2247
+"2023";"95058";"Individuel groupe";1;0;60;0
+"2023";"95058";"Collectif";0;0;0;0
+"2023";"95058";"Residence";0;0;0;0
+"2023";"95059";"Tous Logements";0;0;0;0
+"2023";"95059";"Individuel pur";0;0;0;0
+"2023";"95059";"Individuel groupe";0;0;0;0
+"2023";"95059";"Collectif";0;0;0;0
+"2023";"95059";"Residence";0;0;0;0
+"2023";"95060";"Tous Logements";69;68;6489;5418
+"2023";"95060";"Individuel pur";34;11;4297;1338
+"2023";"95060";"Individuel groupe";3;2;280;154
+"2023";"95060";"Collectif";32;55;1912;3926
+"2023";"95060";"Residence";0;0;0;0
+"2023";"95061";"Tous Logements";1;1;134;134
+"2023";"95061";"Individuel pur";1;1;134;134
+"2023";"95061";"Individuel groupe";0;0;0;0
+"2023";"95061";"Collectif";0;0;0;0
+"2023";"95061";"Residence";0;0;0;0
+"2023";"95063";"Tous Logements";1319;440;70268;21686
+"2023";"95063";"Individuel pur";10;8;1232;893
+"2023";"95063";"Individuel groupe";6;0;485;0
+"2023";"95063";"Collectif";993;432;59997;20793
+"2023";"95063";"Residence";310;0;8554;0
+"2023";"95074";"Tous Logements";0;0;0;0
+"2023";"95074";"Individuel pur";0;0;0;0
+"2023";"95074";"Individuel groupe";0;0;0;0
+"2023";"95074";"Collectif";0;0;0;0
+"2023";"95074";"Residence";0;0;0;0
+"2023";"95078";"Tous Logements";0;2;0;266
+"2023";"95078";"Individuel pur";0;2;0;266
+"2023";"95078";"Individuel groupe";0;0;0;0
+"2023";"95078";"Collectif";0;0;0;0
+"2023";"95078";"Residence";0;0;0;0
+"2023";"95088";"Tous Logements";0;0;0;0
+"2023";"95088";"Individuel pur";0;0;0;0
+"2023";"95088";"Individuel groupe";0;0;0;0
+"2023";"95088";"Collectif";0;0;0;0
+"2023";"95088";"Residence";0;0;0;0
+"2023";"95091";"Tous Logements";104;29;6502;2139
+"2023";"95091";"Individuel pur";0;2;0;348
+"2023";"95091";"Individuel groupe";0;0;0;0
+"2023";"95091";"Collectif";0;27;0;1791
+"2023";"95091";"Residence";104;0;6502;0
+"2023";"95094";"Tous Logements";6;0;727;0
+"2023";"95094";"Individuel pur";0;0;0;0
+"2023";"95094";"Individuel groupe";0;0;0;0
+"2023";"95094";"Collectif";6;0;727;0
+"2023";"95094";"Residence";0;0;0;0
+"2023";"95101";"Tous Logements";0;0;0;0
+"2023";"95101";"Individuel pur";0;0;0;0
+"2023";"95101";"Individuel groupe";0;0;0;0
+"2023";"95101";"Collectif";0;0;0;0
+"2023";"95101";"Residence";0;0;0;0
+"2023";"95102";"Tous Logements";1;1;184;184
+"2023";"95102";"Individuel pur";1;1;184;184
+"2023";"95102";"Individuel groupe";0;0;0;0
+"2023";"95102";"Collectif";0;0;0;0
+"2023";"95102";"Residence";0;0;0;0
+"2023";"95110";"Tous Logements";0;0;0;0
+"2023";"95110";"Individuel pur";0;0;0;0
+"2023";"95110";"Individuel groupe";0;0;0;0
+"2023";"95110";"Collectif";0;0;0;0
+"2023";"95110";"Residence";0;0;0;0
+"2023";"95116";"Tous Logements";124;67;8900;5000
+"2023";"95116";"Individuel pur";0;0;0;0
+"2023";"95116";"Individuel groupe";5;17;454;1805
+"2023";"95116";"Collectif";119;50;8446;3195
+"2023";"95116";"Residence";0;0;0;0
+"2023";"95119";"Tous Logements";1;0;120;0
+"2023";"95119";"Individuel pur";1;0;120;0
+"2023";"95119";"Individuel groupe";0;0;0;0
+"2023";"95119";"Collectif";0;0;0;0
+"2023";"95119";"Residence";0;0;0;0
+"2023";"95120";"Tous Logements";1;6;33;942
+"2023";"95120";"Individuel pur";1;6;33;942
+"2023";"95120";"Individuel groupe";0;0;0;0
+"2023";"95120";"Collectif";0;0;0;0
+"2023";"95120";"Residence";0;0;0;0
+"2023";"95127";"Tous Logements";299;103;17211;6687
+"2023";"95127";"Individuel pur";1;2;399;482
+"2023";"95127";"Individuel groupe";0;2;0;89
+"2023";"95127";"Collectif";137;99;9891;6116
+"2023";"95127";"Residence";161;0;6921;0
+"2023";"95134";"Tous Logements";22;3;1639;446
+"2023";"95134";"Individuel pur";4;3;348;446
+"2023";"95134";"Individuel groupe";0;0;0;0
+"2023";"95134";"Collectif";18;0;1291;0
+"2023";"95134";"Residence";0;0;0;0
+"2023";"95139";"Tous Logements";0;0;0;0
+"2023";"95139";"Individuel pur";0;0;0;0
+"2023";"95139";"Individuel groupe";0;0;0;0
+"2023";"95139";"Collectif";0;0;0;0
+"2023";"95139";"Residence";0;0;0;0
+"2023";"95141";"Tous Logements";0;0;0;0
+"2023";"95141";"Individuel pur";0;0;0;0
+"2023";"95141";"Individuel groupe";0;0;0;0
+"2023";"95141";"Collectif";0;0;0;0
+"2023";"95141";"Residence";0;0;0;0
+"2023";"95142";"Tous Logements";3;2;301;273
+"2023";"95142";"Individuel pur";3;2;301;273
+"2023";"95142";"Individuel groupe";0;0;0;0
+"2023";"95142";"Collectif";0;0;0;0
+"2023";"95142";"Residence";0;0;0;0
+"2023";"95144";"Tous Logements";0;0;0;0
+"2023";"95144";"Individuel pur";0;0;0;0
+"2023";"95144";"Individuel groupe";0;0;0;0
+"2023";"95144";"Collectif";0;0;0;0
+"2023";"95144";"Residence";0;0;0;0
+"2023";"95149";"Tous Logements";2;1;218;147
+"2023";"95149";"Individuel pur";2;1;218;147
+"2023";"95149";"Individuel groupe";0;0;0;0
+"2023";"95149";"Collectif";0;0;0;0
+"2023";"95149";"Residence";0;0;0;0
+"2023";"95150";"Tous Logements";0;0;0;0
+"2023";"95150";"Individuel pur";0;0;0;0
+"2023";"95150";"Individuel groupe";0;0;0;0
+"2023";"95150";"Collectif";0;0;0;0
+"2023";"95150";"Residence";0;0;0;0
+"2023";"95151";"Tous Logements";0;0;0;0
+"2023";"95151";"Individuel pur";0;0;0;0
+"2023";"95151";"Individuel groupe";0;0;0;0
+"2023";"95151";"Collectif";0;0;0;0
+"2023";"95151";"Residence";0;0;0;0
+"2023";"95154";"Tous Logements";0;0;0;0
+"2023";"95154";"Individuel pur";0;0;0;0
+"2023";"95154";"Individuel groupe";0;0;0;0
+"2023";"95154";"Collectif";0;0;0;0
+"2023";"95154";"Residence";0;0;0;0
+"2023";"95157";"Tous Logements";0;0;0;0
+"2023";"95157";"Individuel pur";0;0;0;0
+"2023";"95157";"Individuel groupe";0;0;0;0
+"2023";"95157";"Collectif";0;0;0;0
+"2023";"95157";"Residence";0;0;0;0
+"2023";"95166";"Tous Logements";2;0;378;0
+"2023";"95166";"Individuel pur";2;0;378;0
+"2023";"95166";"Individuel groupe";0;0;0;0
+"2023";"95166";"Collectif";0;0;0;0
+"2023";"95166";"Residence";0;0;0;0
+"2023";"95169";"Tous Logements";2;0;200;0
+"2023";"95169";"Individuel pur";0;0;0;0
+"2023";"95169";"Individuel groupe";0;0;0;0
+"2023";"95169";"Collectif";2;0;200;0
+"2023";"95169";"Residence";0;0;0;0
+"2023";"95170";"Tous Logements";1;1;42;42
+"2023";"95170";"Individuel pur";1;1;42;42
+"2023";"95170";"Individuel groupe";0;0;0;0
+"2023";"95170";"Collectif";0;0;0;0
+"2023";"95170";"Residence";0;0;0;0
+"2023";"95176";"Tous Logements";269;87;22204;6855
+"2023";"95176";"Individuel pur";20;14;2724;1468
+"2023";"95176";"Individuel groupe";2;2;146;146
+"2023";"95176";"Collectif";247;71;19334;5241
+"2023";"95176";"Residence";0;0;0;0
+"2023";"95177";"Tous Logements";9;3;1100;377
+"2023";"95177";"Individuel pur";1;3;119;377
+"2023";"95177";"Individuel groupe";5;0;846;0
+"2023";"95177";"Collectif";3;0;135;0
+"2023";"95177";"Residence";0;0;0;0
+"2023";"95181";"Tous Logements";1;1;49;127
+"2023";"95181";"Individuel pur";1;1;49;127
+"2023";"95181";"Individuel groupe";0;0;0;0
+"2023";"95181";"Collectif";0;0;0;0
+"2023";"95181";"Residence";0;0;0;0
+"2023";"95183";"Tous Logements";74;6;5061;1018
+"2023";"95183";"Individuel pur";4;6;371;1018
+"2023";"95183";"Individuel groupe";2;0;200;0
+"2023";"95183";"Collectif";68;0;4490;0
+"2023";"95183";"Residence";0;0;0;0
+"2023";"95197";"Tous Logements";17;233;1250;14027
+"2023";"95197";"Individuel pur";4;9;532;1198
+"2023";"95197";"Individuel groupe";3;5;287;714
+"2023";"95197";"Collectif";10;191;431;11534
+"2023";"95197";"Residence";0;28;0;581
+"2023";"95199";"Tous Logements";88;11;5492;1161
+"2023";"95199";"Individuel pur";4;4;562;729
+"2023";"95199";"Individuel groupe";2;0;96;0
+"2023";"95199";"Collectif";82;7;4834;432
+"2023";"95199";"Residence";0;0;0;0
+"2023";"95203";"Tous Logements";5;14;623;1333
+"2023";"95203";"Individuel pur";2;4;215;478
+"2023";"95203";"Individuel groupe";3;4;408;497
+"2023";"95203";"Collectif";0;6;0;358
+"2023";"95203";"Residence";0;0;0;0
+"2023";"95205";"Tous Logements";4;0;444;0
+"2023";"95205";"Individuel pur";4;0;444;0
+"2023";"95205";"Individuel groupe";0;0;0;0
+"2023";"95205";"Collectif";0;0;0;0
+"2023";"95205";"Residence";0;0;0;0
+"2023";"95210";"Tous Logements";2;0;250;0
+"2023";"95210";"Individuel pur";2;0;250;0
+"2023";"95210";"Individuel groupe";0;0;0;0
+"2023";"95210";"Collectif";0;0;0;0
+"2023";"95210";"Residence";0;0;0;0
+"2023";"95211";"Tous Logements";2;0;383;0
+"2023";"95211";"Individuel pur";2;0;383;0
+"2023";"95211";"Individuel groupe";0;0;0;0
+"2023";"95211";"Collectif";0;0;0;0
+"2023";"95211";"Residence";0;0;0;0
+"2023";"95212";"Tous Logements";0;0;0;0
+"2023";"95212";"Individuel pur";0;0;0;0
+"2023";"95212";"Individuel groupe";0;0;0;0
+"2023";"95212";"Collectif";0;0;0;0
+"2023";"95212";"Residence";0;0;0;0
+"2023";"95213";"Tous Logements";1;1;232;232
+"2023";"95213";"Individuel pur";1;1;232;232
+"2023";"95213";"Individuel groupe";0;0;0;0
+"2023";"95213";"Collectif";0;0;0;0
+"2023";"95213";"Residence";0;0;0;0
+"2023";"95214";"Tous Logements";0;0;0;0
+"2023";"95214";"Individuel pur";0;0;0;0
+"2023";"95214";"Individuel groupe";0;0;0;0
+"2023";"95214";"Collectif";0;0;0;0
+"2023";"95214";"Residence";0;0;0;0
+"2023";"95218";"Tous Logements";231;197;15152;12605
+"2023";"95218";"Individuel pur";17;12;2198;1472
+"2023";"95218";"Individuel groupe";6;0;512;0
+"2023";"95218";"Collectif";208;185;12442;11133
+"2023";"95218";"Residence";0;0;0;0
+"2023";"95219";"Tous Logements";13;15;1094;1117
+"2023";"95219";"Individuel pur";8;6;779;647
+"2023";"95219";"Individuel groupe";0;4;0;155
+"2023";"95219";"Collectif";5;5;315;315
+"2023";"95219";"Residence";0;0;0;0
+"2023";"95229";"Tous Logements";1;1;380;380
+"2023";"95229";"Individuel pur";1;1;380;380
+"2023";"95229";"Individuel groupe";0;0;0;0
+"2023";"95229";"Collectif";0;0;0;0
+"2023";"95229";"Residence";0;0;0;0
+"2023";"95241";"Tous Logements";4;2;585;118
+"2023";"95241";"Individuel pur";2;0;346;0
+"2023";"95241";"Individuel groupe";0;2;0;118
+"2023";"95241";"Collectif";2;0;239;0
+"2023";"95241";"Residence";0;0;0;0
+"2023";"95250";"Tous Logements";16;9;1740;531
+"2023";"95250";"Individuel pur";5;1;653;120
+"2023";"95250";"Individuel groupe";11;0;1087;0
+"2023";"95250";"Collectif";0;8;0;411
+"2023";"95250";"Residence";0;0;0;0
+"2023";"95252";"Tous Logements";16;11;1015;645
+"2023";"95252";"Individuel pur";8;5;838;584
+"2023";"95252";"Individuel groupe";6;6;61;61
+"2023";"95252";"Collectif";2;0;116;0
+"2023";"95252";"Residence";0;0;0;0
+"2023";"95253";"Tous Logements";0;0;0;0
+"2023";"95253";"Individuel pur";0;0;0;0
+"2023";"95253";"Individuel groupe";0;0;0;0
+"2023";"95253";"Collectif";0;0;0;0
+"2023";"95253";"Residence";0;0;0;0
+"2023";"95254";"Tous Logements";0;0;0;0
+"2023";"95254";"Individuel pur";0;0;0;0
+"2023";"95254";"Individuel groupe";0;0;0;0
+"2023";"95254";"Collectif";0;0;0;0
+"2023";"95254";"Residence";0;0;0;0
+"2023";"95256";"Tous Logements";4;7;432;526
+"2023";"95256";"Individuel pur";4;0;432;0
+"2023";"95256";"Individuel groupe";0;0;0;0
+"2023";"95256";"Collectif";0;7;0;526
+"2023";"95256";"Residence";0;0;0;0
+"2023";"95257";"Tous Logements";34;119;2590;5255
+"2023";"95257";"Individuel pur";7;5;1167;759
+"2023";"95257";"Individuel groupe";0;0;0;0
+"2023";"95257";"Collectif";27;0;1423;0
+"2023";"95257";"Residence";0;114;0;4496
+"2023";"95258";"Tous Logements";0;0;0;0
+"2023";"95258";"Individuel pur";0;0;0;0
+"2023";"95258";"Individuel groupe";0;0;0;0
+"2023";"95258";"Collectif";0;0;0;0
+"2023";"95258";"Residence";0;0;0;0
+"2023";"95268";"Tous Logements";4;6;279;401
+"2023";"95268";"Individuel pur";2;4;145;340
+"2023";"95268";"Individuel groupe";2;2;134;61
+"2023";"95268";"Collectif";0;0;0;0
+"2023";"95268";"Residence";0;0;0;0
+"2023";"95270";"Tous Logements";0;1;0;234
+"2023";"95270";"Individuel pur";0;1;0;234
+"2023";"95270";"Individuel groupe";0;0;0;0
+"2023";"95270";"Collectif";0;0;0;0
+"2023";"95270";"Residence";0;0;0;0
+"2023";"95271";"Tous Logements";1;0;114;0
+"2023";"95271";"Individuel pur";1;0;114;0
+"2023";"95271";"Individuel groupe";0;0;0;0
+"2023";"95271";"Collectif";0;0;0;0
+"2023";"95271";"Residence";0;0;0;0
+"2023";"95277";"Tous Logements";165;35;10599;2533
+"2023";"95277";"Individuel pur";2;5;278;633
+"2023";"95277";"Individuel groupe";33;0;3182;0
+"2023";"95277";"Collectif";130;30;7139;1900
+"2023";"95277";"Residence";0;0;0;0
+"2023";"95280";"Tous Logements";15;18;2364;2633
+"2023";"95280";"Individuel pur";14;17;2234;2503
+"2023";"95280";"Individuel groupe";1;1;130;130
+"2023";"95280";"Collectif";0;0;0;0
+"2023";"95280";"Residence";0;0;0;0
+"2023";"95282";"Tous Logements";0;1;0;116
+"2023";"95282";"Individuel pur";0;1;0;116
+"2023";"95282";"Individuel groupe";0;0;0;0
+"2023";"95282";"Collectif";0;0;0;0
+"2023";"95282";"Residence";0;0;0;0
+"2023";"95287";"Tous Logements";1;1;92;137
+"2023";"95287";"Individuel pur";1;1;92;137
+"2023";"95287";"Individuel groupe";0;0;0;0
+"2023";"95287";"Collectif";0;0;0;0
+"2023";"95287";"Residence";0;0;0;0
+"2023";"95288";"Tous Logements";5;4;1031;713
+"2023";"95288";"Individuel pur";5;4;1031;713
+"2023";"95288";"Individuel groupe";0;0;0;0
+"2023";"95288";"Collectif";0;0;0;0
+"2023";"95288";"Residence";0;0;0;0
+"2023";"95295";"Tous Logements";0;0;0;0
+"2023";"95295";"Individuel pur";0;0;0;0
+"2023";"95295";"Individuel groupe";0;0;0;0
+"2023";"95295";"Collectif";0;0;0;0
+"2023";"95295";"Residence";0;0;0;0
+"2023";"95298";"Tous Logements";2;2;263;236
+"2023";"95298";"Individuel pur";2;2;263;236
+"2023";"95298";"Individuel groupe";0;0;0;0
+"2023";"95298";"Collectif";0;0;0;0
+"2023";"95298";"Residence";0;0;0;0
+"2023";"95301";"Tous Logements";0;0;0;0
+"2023";"95301";"Individuel pur";0;0;0;0
+"2023";"95301";"Individuel groupe";0;0;0;0
+"2023";"95301";"Collectif";0;0;0;0
+"2023";"95301";"Residence";0;0;0;0
+"2023";"95303";"Tous Logements";0;0;0;0
+"2023";"95303";"Individuel pur";0;0;0;0
+"2023";"95303";"Individuel groupe";0;0;0;0
+"2023";"95303";"Collectif";0;0;0;0
+"2023";"95303";"Residence";0;0;0;0
+"2023";"95304";"Tous Logements";0;0;0;0
+"2023";"95304";"Individuel pur";0;0;0;0
+"2023";"95304";"Individuel groupe";0;0;0;0
+"2023";"95304";"Collectif";0;0;0;0
+"2023";"95304";"Residence";0;0;0;0
+"2023";"95306";"Tous Logements";68;45;5346;3212
+"2023";"95306";"Individuel pur";15;10;1895;1161
+"2023";"95306";"Individuel groupe";6;0;413;0
+"2023";"95306";"Collectif";47;35;3038;2051
+"2023";"95306";"Residence";0;0;0;0
+"2023";"95308";"Tous Logements";2;0;139;0
+"2023";"95308";"Individuel pur";0;0;0;0
+"2023";"95308";"Individuel groupe";2;0;139;0
+"2023";"95308";"Collectif";0;0;0;0
+"2023";"95308";"Residence";0;0;0;0
+"2023";"95309";"Tous Logements";0;0;0;0
+"2023";"95309";"Individuel pur";0;0;0;0
+"2023";"95309";"Individuel groupe";0;0;0;0
+"2023";"95309";"Collectif";0;0;0;0
+"2023";"95309";"Residence";0;0;0;0
+"2023";"95313";"Tous Logements";85;51;6423;3999
+"2023";"95313";"Individuel pur";9;3;1460;753
+"2023";"95313";"Individuel groupe";2;0;227;0
+"2023";"95313";"Collectif";74;48;4736;3246
+"2023";"95313";"Residence";0;0;0;0
+"2023";"95316";"Tous Logements";1;0;96;0
+"2023";"95316";"Individuel pur";1;0;96;0
+"2023";"95316";"Individuel groupe";0;0;0;0
+"2023";"95316";"Collectif";0;0;0;0
+"2023";"95316";"Residence";0;0;0;0
+"2023";"95323";"Tous Logements";2;3;233;378
+"2023";"95323";"Individuel pur";2;3;233;378
+"2023";"95323";"Individuel groupe";0;0;0;0
+"2023";"95323";"Collectif";0;0;0;0
+"2023";"95323";"Residence";0;0;0;0
+"2023";"95328";"Tous Logements";2;1;257;143
+"2023";"95328";"Individuel pur";2;1;257;143
+"2023";"95328";"Individuel groupe";0;0;0;0
+"2023";"95328";"Collectif";0;0;0;0
+"2023";"95328";"Residence";0;0;0;0
+"2023";"95331";"Tous Logements";0;0;0;0
+"2023";"95331";"Individuel pur";0;0;0;0
+"2023";"95331";"Individuel groupe";0;0;0;0
+"2023";"95331";"Collectif";0;0;0;0
+"2023";"95331";"Residence";0;0;0;0
+"2023";"95341";"Tous Logements";0;0;0;0
+"2023";"95341";"Individuel pur";0;0;0;0
+"2023";"95341";"Individuel groupe";0;0;0;0
+"2023";"95341";"Collectif";0;0;0;0
+"2023";"95341";"Residence";0;0;0;0
+"2023";"95348";"Tous Logements";4;1;546;169
+"2023";"95348";"Individuel pur";4;1;546;169
+"2023";"95348";"Individuel groupe";0;0;0;0
+"2023";"95348";"Collectif";0;0;0;0
+"2023";"95348";"Residence";0;0;0;0
+"2023";"95351";"Tous Logements";351;263;21890;17705
+"2023";"95351";"Individuel pur";1;0;98;0
+"2023";"95351";"Individuel groupe";46;46;4271;4271
+"2023";"95351";"Collectif";304;217;17521;13434
+"2023";"95351";"Residence";0;0;0;0
+"2023";"95352";"Tous Logements";120;9;7421;1611
+"2023";"95352";"Individuel pur";7;9;1394;1611
+"2023";"95352";"Individuel groupe";8;0;557;0
+"2023";"95352";"Collectif";0;0;0;0
+"2023";"95352";"Residence";105;0;5470;0
+"2023";"95353";"Tous Logements";0;2;0;230
+"2023";"95353";"Individuel pur";0;2;0;230
+"2023";"95353";"Individuel groupe";0;0;0;0
+"2023";"95353";"Collectif";0;0;0;0
+"2023";"95353";"Residence";0;0;0;0
+"2023";"95355";"Tous Logements";24;3;2181;336
+"2023";"95355";"Individuel pur";2;3;196;336
+"2023";"95355";"Individuel groupe";22;0;1985;0
+"2023";"95355";"Collectif";0;0;0;0
+"2023";"95355";"Residence";0;0;0;0
+"2023";"95365";"Tous Logements";1;0;150;0
+"2023";"95365";"Individuel pur";1;0;150;0
+"2023";"95365";"Individuel groupe";0;0;0;0
+"2023";"95365";"Collectif";0;0;0;0
+"2023";"95365";"Residence";0;0;0;0
+"2023";"95369";"Tous Logements";41;4;1961;154
+"2023";"95369";"Individuel pur";0;0;0;0
+"2023";"95369";"Individuel groupe";0;0;0;0
+"2023";"95369";"Collectif";41;4;1961;154
+"2023";"95369";"Residence";0;0;0;0
+"2023";"95370";"Tous Logements";4;6;752;995
+"2023";"95370";"Individuel pur";2;4;234;477
+"2023";"95370";"Individuel groupe";2;2;518;518
+"2023";"95370";"Collectif";0;0;0;0
+"2023";"95370";"Residence";0;0;0;0
+"2023";"95371";"Tous Logements";7;5;630;827
+"2023";"95371";"Individuel pur";4;3;540;596
+"2023";"95371";"Individuel groupe";0;2;0;231
+"2023";"95371";"Collectif";3;0;90;0
+"2023";"95371";"Residence";0;0;0;0
+"2023";"95379";"Tous Logements";0;0;0;0
+"2023";"95379";"Individuel pur";0;0;0;0
+"2023";"95379";"Individuel groupe";0;0;0;0
+"2023";"95379";"Collectif";0;0;0;0
+"2023";"95379";"Residence";0;0;0;0
+"2023";"95387";"Tous Logements";0;0;0;0
+"2023";"95387";"Individuel pur";0;0;0;0
+"2023";"95387";"Individuel groupe";0;0;0;0
+"2023";"95387";"Collectif";0;0;0;0
+"2023";"95387";"Residence";0;0;0;0
+"2023";"95388";"Tous Logements";64;2;4767;233
+"2023";"95388";"Individuel pur";2;2;334;233
+"2023";"95388";"Individuel groupe";22;0;2023;0
+"2023";"95388";"Collectif";40;0;2410;0
+"2023";"95388";"Residence";0;0;0;0
+"2023";"95392";"Tous Logements";5;2;890;247
+"2023";"95392";"Individuel pur";4;2;635;247
+"2023";"95392";"Individuel groupe";1;0;255;0
+"2023";"95392";"Collectif";0;0;0;0
+"2023";"95392";"Residence";0;0;0;0
+"2023";"95394";"Tous Logements";8;9;1066;1033
+"2023";"95394";"Individuel pur";3;9;417;1033
+"2023";"95394";"Individuel groupe";5;0;649;0
+"2023";"95394";"Collectif";0;0;0;0
+"2023";"95394";"Residence";0;0;0;0
+"2023";"95395";"Tous Logements";0;1;0;115
+"2023";"95395";"Individuel pur";0;1;0;115
+"2023";"95395";"Individuel groupe";0;0;0;0
+"2023";"95395";"Collectif";0;0;0;0
+"2023";"95395";"Residence";0;0;0;0
+"2023";"95409";"Tous Logements";1;0;138;0
+"2023";"95409";"Individuel pur";1;0;138;0
+"2023";"95409";"Individuel groupe";0;0;0;0
+"2023";"95409";"Collectif";0;0;0;0
+"2023";"95409";"Residence";0;0;0;0
+"2023";"95422";"Tous Logements";1;0;126;0
+"2023";"95422";"Individuel pur";1;0;126;0
+"2023";"95422";"Individuel groupe";0;0;0;0
+"2023";"95422";"Collectif";0;0;0;0
+"2023";"95422";"Residence";0;0;0;0
+"2023";"95424";"Tous Logements";157;111;11686;7083
+"2023";"95424";"Individuel pur";7;5;827;574
+"2023";"95424";"Individuel groupe";0;2;0;171
+"2023";"95424";"Collectif";150;104;10859;6338
+"2023";"95424";"Residence";0;0;0;0
+"2023";"95426";"Tous Logements";1;0;204;0
+"2023";"95426";"Individuel pur";1;0;204;0
+"2023";"95426";"Individuel groupe";0;0;0;0
+"2023";"95426";"Collectif";0;0;0;0
+"2023";"95426";"Residence";0;0;0;0
+"2023";"95427";"Tous Logements";2;20;173;1723
+"2023";"95427";"Individuel pur";2;1;173;117
+"2023";"95427";"Individuel groupe";0;19;0;1606
+"2023";"95427";"Collectif";0;0;0;0
+"2023";"95427";"Residence";0;0;0;0
+"2023";"95428";"Tous Logements";56;46;4914;3462
+"2023";"95428";"Individuel pur";7;3;1744;667
+"2023";"95428";"Individuel groupe";0;0;0;0
+"2023";"95428";"Collectif";49;43;3170;2795
+"2023";"95428";"Residence";0;0;0;0
+"2023";"95429";"Tous Logements";0;1;0;138
+"2023";"95429";"Individuel pur";0;1;0;138
+"2023";"95429";"Individuel groupe";0;0;0;0
+"2023";"95429";"Collectif";0;0;0;0
+"2023";"95429";"Residence";0;0;0;0
+"2023";"95430";"Tous Logements";0;1;0;98
+"2023";"95430";"Individuel pur";0;1;0;98
+"2023";"95430";"Individuel groupe";0;0;0;0
+"2023";"95430";"Collectif";0;0;0;0
+"2023";"95430";"Residence";0;0;0;0
+"2023";"95436";"Tous Logements";0;0;0;0
+"2023";"95436";"Individuel pur";0;0;0;0
+"2023";"95436";"Individuel groupe";0;0;0;0
+"2023";"95436";"Collectif";0;0;0;0
+"2023";"95436";"Residence";0;0;0;0
+"2023";"95438";"Tous Logements";0;0;0;0
+"2023";"95438";"Individuel pur";0;0;0;0
+"2023";"95438";"Individuel groupe";0;0;0;0
+"2023";"95438";"Collectif";0;0;0;0
+"2023";"95438";"Residence";0;0;0;0
+"2023";"95445";"Tous Logements";0;0;0;0
+"2023";"95445";"Individuel pur";0;0;0;0
+"2023";"95445";"Individuel groupe";0;0;0;0
+"2023";"95445";"Collectif";0;0;0;0
+"2023";"95445";"Residence";0;0;0;0
+"2023";"95446";"Tous Logements";2;2;190;187
+"2023";"95446";"Individuel pur";2;2;190;187
+"2023";"95446";"Individuel groupe";0;0;0;0
+"2023";"95446";"Collectif";0;0;0;0
+"2023";"95446";"Residence";0;0;0;0
+"2023";"95447";"Tous Logements";1;0;74;0
+"2023";"95447";"Individuel pur";1;0;74;0
+"2023";"95447";"Individuel groupe";0;0;0;0
+"2023";"95447";"Collectif";0;0;0;0
+"2023";"95447";"Residence";0;0;0;0
+"2023";"95450";"Tous Logements";2;4;235;267
+"2023";"95450";"Individuel pur";2;1;235;91
+"2023";"95450";"Individuel groupe";0;3;0;176
+"2023";"95450";"Collectif";0;0;0;0
+"2023";"95450";"Residence";0;0;0;0
+"2023";"95452";"Tous Logements";0;0;0;0
+"2023";"95452";"Individuel pur";0;0;0;0
+"2023";"95452";"Individuel groupe";0;0;0;0
+"2023";"95452";"Collectif";0;0;0;0
+"2023";"95452";"Residence";0;0;0;0
+"2023";"95456";"Tous Logements";4;0;466;0
+"2023";"95456";"Individuel pur";2;0;291;0
+"2023";"95456";"Individuel groupe";2;0;175;0
+"2023";"95456";"Collectif";0;0;0;0
+"2023";"95456";"Residence";0;0;0;0
+"2023";"95459";"Tous Logements";0;0;0;0
+"2023";"95459";"Individuel pur";0;0;0;0
+"2023";"95459";"Individuel groupe";0;0;0;0
+"2023";"95459";"Collectif";0;0;0;0
+"2023";"95459";"Residence";0;0;0;0
+"2023";"95462";"Tous Logements";0;0;0;0
+"2023";"95462";"Individuel pur";0;0;0;0
+"2023";"95462";"Individuel groupe";0;0;0;0
+"2023";"95462";"Collectif";0;0;0;0
+"2023";"95462";"Residence";0;0;0;0
+"2023";"95476";"Tous Logements";80;240;5497;15623
+"2023";"95476";"Individuel pur";11;14;1251;2073
+"2023";"95476";"Individuel groupe";11;6;1125;568
+"2023";"95476";"Collectif";58;220;3121;12982
+"2023";"95476";"Residence";0;0;0;0
+"2023";"95480";"Tous Logements";1;1;194;119
+"2023";"95480";"Individuel pur";1;1;194;119
+"2023";"95480";"Individuel groupe";0;0;0;0
+"2023";"95480";"Collectif";0;0;0;0
+"2023";"95480";"Residence";0;0;0;0
+"2023";"95483";"Tous Logements";0;0;0;0
+"2023";"95483";"Individuel pur";0;0;0;0
+"2023";"95483";"Individuel groupe";0;0;0;0
+"2023";"95483";"Collectif";0;0;0;0
+"2023";"95483";"Residence";0;0;0;0
+"2023";"95487";"Tous Logements";9;20;920;1723
+"2023";"95487";"Individuel pur";5;3;515;339
+"2023";"95487";"Individuel groupe";4;4;405;405
+"2023";"95487";"Collectif";0;13;0;979
+"2023";"95487";"Residence";0;0;0;0
+"2023";"95488";"Tous Logements";11;7;1446;942
+"2023";"95488";"Individuel pur";11;3;1446;478
+"2023";"95488";"Individuel groupe";0;4;0;464
+"2023";"95488";"Collectif";0;0;0;0
+"2023";"95488";"Residence";0;0;0;0
+"2023";"95489";"Tous Logements";5;1;634;129
+"2023";"95489";"Individuel pur";1;1;122;129
+"2023";"95489";"Individuel groupe";4;0;512;0
+"2023";"95489";"Collectif";0;0;0;0
+"2023";"95489";"Residence";0;0;0;0
+"2023";"95491";"Tous Logements";165;162;10537;10214
+"2023";"95491";"Individuel pur";7;9;923;1051
+"2023";"95491";"Individuel groupe";3;0;330;0
+"2023";"95491";"Collectif";2;0;121;0
+"2023";"95491";"Residence";153;153;9163;9163
+"2023";"95492";"Tous Logements";0;0;0;0
+"2023";"95492";"Individuel pur";0;0;0;0
+"2023";"95492";"Individuel groupe";0;0;0;0
+"2023";"95492";"Collectif";0;0;0;0
+"2023";"95492";"Residence";0;0;0;0
+"2023";"95493";"Tous Logements";0;0;0;0
+"2023";"95493";"Individuel pur";0;0;0;0
+"2023";"95493";"Individuel groupe";0;0;0;0
+"2023";"95493";"Collectif";0;0;0;0
+"2023";"95493";"Residence";0;0;0;0
+"2023";"95500";"Tous Logements";158;108;10189;6432
+"2023";"95500";"Individuel pur";4;1;572;159
+"2023";"95500";"Individuel groupe";2;0;183;0
+"2023";"95500";"Collectif";152;70;9434;4354
+"2023";"95500";"Residence";0;37;0;1919
+"2023";"95504";"Tous Logements";32;1;1920;74
+"2023";"95504";"Individuel pur";2;1;314;74
+"2023";"95504";"Individuel groupe";8;0;807;0
+"2023";"95504";"Collectif";22;0;799;0
+"2023";"95504";"Residence";0;0;0;0
+"2023";"95509";"Tous Logements";2;1;204;168
+"2023";"95509";"Individuel pur";2;1;204;168
+"2023";"95509";"Individuel groupe";0;0;0;0
+"2023";"95509";"Collectif";0;0;0;0
+"2023";"95509";"Residence";0;0;0;0
+"2023";"95510";"Tous Logements";0;0;0;0
+"2023";"95510";"Individuel pur";0;0;0;0
+"2023";"95510";"Individuel groupe";0;0;0;0
+"2023";"95510";"Collectif";0;0;0;0
+"2023";"95510";"Residence";0;0;0;0
+"2023";"95523";"Tous Logements";0;0;0;0
+"2023";"95523";"Individuel pur";0;0;0;0
+"2023";"95523";"Individuel groupe";0;0;0;0
+"2023";"95523";"Collectif";0;0;0;0
+"2023";"95523";"Residence";0;0;0;0
+"2023";"95527";"Tous Logements";0;0;0;0
+"2023";"95527";"Individuel pur";0;0;0;0
+"2023";"95527";"Individuel groupe";0;0;0;0
+"2023";"95527";"Collectif";0;0;0;0
+"2023";"95527";"Residence";0;0;0;0
+"2023";"95529";"Tous Logements";9;1;1222;188
+"2023";"95529";"Individuel pur";5;1;683;188
+"2023";"95529";"Individuel groupe";4;0;539;0
+"2023";"95529";"Collectif";0;0;0;0
+"2023";"95529";"Residence";0;0;0;0
+"2023";"95535";"Tous Logements";1;2;151;298
+"2023";"95535";"Individuel pur";1;2;151;298
+"2023";"95535";"Individuel groupe";0;0;0;0
+"2023";"95535";"Collectif";0;0;0;0
+"2023";"95535";"Residence";0;0;0;0
+"2023";"95539";"Tous Logements";28;5;2796;425
+"2023";"95539";"Individuel pur";13;1;1956;231
+"2023";"95539";"Individuel groupe";0;0;0;0
+"2023";"95539";"Collectif";15;4;840;194
+"2023";"95539";"Residence";0;0;0;0
+"2023";"95541";"Tous Logements";1;2;103;212
+"2023";"95541";"Individuel pur";1;2;103;212
+"2023";"95541";"Individuel groupe";0;0;0;0
+"2023";"95541";"Collectif";0;0;0;0
+"2023";"95541";"Residence";0;0;0;0
+"2023";"95543";"Tous Logements";1;0;82;0
+"2023";"95543";"Individuel pur";1;0;82;0
+"2023";"95543";"Individuel groupe";0;0;0;0
+"2023";"95543";"Collectif";0;0;0;0
+"2023";"95543";"Residence";0;0;0;0
+"2023";"95554";"Tous Logements";1;0;115;0
+"2023";"95554";"Individuel pur";1;0;115;0
+"2023";"95554";"Individuel groupe";0;0;0;0
+"2023";"95554";"Collectif";0;0;0;0
+"2023";"95554";"Residence";0;0;0;0
+"2023";"95555";"Tous Logements";4;4;555;579
+"2023";"95555";"Individuel pur";4;4;555;579
+"2023";"95555";"Individuel groupe";0;0;0;0
+"2023";"95555";"Collectif";0;0;0;0
+"2023";"95555";"Residence";0;0;0;0
+"2023";"95563";"Tous Logements";10;211;708;15329
+"2023";"95563";"Individuel pur";6;5;641;709
+"2023";"95563";"Individuel groupe";0;24;0;2233
+"2023";"95563";"Collectif";4;182;67;12387
+"2023";"95563";"Residence";0;0;0;0
+"2023";"95566";"Tous Logements";15;3;1413;317
+"2023";"95566";"Individuel pur";1;3;149;317
+"2023";"95566";"Individuel groupe";3;0;253;0
+"2023";"95566";"Collectif";11;0;1011;0
+"2023";"95566";"Residence";0;0;0;0
+"2023";"95572";"Tous Logements";15;6;1379;853
+"2023";"95572";"Individuel pur";4;4;680;530
+"2023";"95572";"Individuel groupe";5;2;453;323
+"2023";"95572";"Collectif";6;0;246;0
+"2023";"95572";"Residence";0;0;0;0
+"2023";"95574";"Tous Logements";45;88;4311;2314
+"2023";"95574";"Individuel pur";3;1;740;126
+"2023";"95574";"Individuel groupe";12;0;1270;0
+"2023";"95574";"Collectif";30;87;2301;2188
+"2023";"95574";"Residence";0;0;0;0
+"2023";"95580";"Tous Logements";2;4;312;997
+"2023";"95580";"Individuel pur";2;4;312;997
+"2023";"95580";"Individuel groupe";0;0;0;0
+"2023";"95580";"Collectif";0;0;0;0
+"2023";"95580";"Residence";0;0;0;0
+"2023";"95582";"Tous Logements";330;7;11512;943
+"2023";"95582";"Individuel pur";7;7;1106;943
+"2023";"95582";"Individuel groupe";5;0;700;0
+"2023";"95582";"Collectif";31;0;1881;0
+"2023";"95582";"Residence";287;0;7825;0
+"2023";"95584";"Tous Logements";1;0;149;0
+"2023";"95584";"Individuel pur";1;0;149;0
+"2023";"95584";"Individuel groupe";0;0;0;0
+"2023";"95584";"Collectif";0;0;0;0
+"2023";"95584";"Residence";0;0;0;0
+"2023";"95585";"Tous Logements";43;46;3770;2941
+"2023";"95585";"Individuel pur";8;5;1289;640
+"2023";"95585";"Individuel groupe";0;0;0;0
+"2023";"95585";"Collectif";35;41;2481;2301
+"2023";"95585";"Residence";0;0;0;0
+"2023";"95592";"Tous Logements";3;2;385;265
+"2023";"95592";"Individuel pur";3;2;385;265
+"2023";"95592";"Individuel groupe";0;0;0;0
+"2023";"95592";"Collectif";0;0;0;0
+"2023";"95592";"Residence";0;0;0;0
+"2023";"95594";"Tous Logements";1;0;21;0
+"2023";"95594";"Individuel pur";1;0;21;0
+"2023";"95594";"Individuel groupe";0;0;0;0
+"2023";"95594";"Collectif";0;0;0;0
+"2023";"95594";"Residence";0;0;0;0
+"2023";"95598";"Tous Logements";15;62;1150;4948
+"2023";"95598";"Individuel pur";5;8;533;1063
+"2023";"95598";"Individuel groupe";0;0;0;0
+"2023";"95598";"Collectif";10;54;617;3885
+"2023";"95598";"Residence";0;0;0;0
+"2023";"95604";"Tous Logements";120;2;7841;229
+"2023";"95604";"Individuel pur";5;2;663;229
+"2023";"95604";"Individuel groupe";0;0;0;0
+"2023";"95604";"Collectif";115;0;7178;0
+"2023";"95604";"Residence";0;0;0;0
+"2023";"95607";"Tous Logements";150;178;10010;11219
+"2023";"95607";"Individuel pur";7;9;1264;1085
+"2023";"95607";"Individuel groupe";0;0;0;0
+"2023";"95607";"Collectif";143;169;8746;10134
+"2023";"95607";"Residence";0;0;0;0
+"2023";"95610";"Tous Logements";0;1;0;15
+"2023";"95610";"Individuel pur";0;1;0;15
+"2023";"95610";"Individuel groupe";0;0;0;0
+"2023";"95610";"Collectif";0;0;0;0
+"2023";"95610";"Residence";0;0;0;0
+"2023";"95611";"Tous Logements";0;0;0;0
+"2023";"95611";"Individuel pur";0;0;0;0
+"2023";"95611";"Individuel groupe";0;0;0;0
+"2023";"95611";"Collectif";0;0;0;0
+"2023";"95611";"Residence";0;0;0;0
+"2023";"95612";"Tous Logements";6;1;798;120
+"2023";"95612";"Individuel pur";5;1;600;120
+"2023";"95612";"Individuel groupe";1;0;198;0
+"2023";"95612";"Collectif";0;0;0;0
+"2023";"95612";"Residence";0;0;0;0
+"2023";"95625";"Tous Logements";7;6;173;58
+"2023";"95625";"Individuel pur";1;0;115;0
+"2023";"95625";"Individuel groupe";0;0;0;0
+"2023";"95625";"Collectif";6;6;58;58
+"2023";"95625";"Residence";0;0;0;0
+"2023";"95627";"Tous Logements";1;0;108;0
+"2023";"95627";"Individuel pur";1;0;108;0
+"2023";"95627";"Individuel groupe";0;0;0;0
+"2023";"95627";"Collectif";0;0;0;0
+"2023";"95627";"Residence";0;0;0;0
+"2023";"95628";"Tous Logements";2;0;150;0
+"2023";"95628";"Individuel pur";2;0;150;0
+"2023";"95628";"Individuel groupe";0;0;0;0
+"2023";"95628";"Collectif";0;0;0;0
+"2023";"95628";"Residence";0;0;0;0
+"2023";"95633";"Tous Logements";0;0;0;0
+"2023";"95633";"Individuel pur";0;0;0;0
+"2023";"95633";"Individuel groupe";0;0;0;0
+"2023";"95633";"Collectif";0;0;0;0
+"2023";"95633";"Residence";0;0;0;0
+"2023";"95637";"Tous Logements";50;1;4098;148
+"2023";"95637";"Individuel pur";0;1;0;148
+"2023";"95637";"Individuel groupe";3;0;309;0
+"2023";"95637";"Collectif";47;0;3789;0
+"2023";"95637";"Residence";0;0;0;0
+"2023";"95641";"Tous Logements";6;1;972;156
+"2023";"95641";"Individuel pur";6;1;972;156
+"2023";"95641";"Individuel groupe";0;0;0;0
+"2023";"95641";"Collectif";0;0;0;0
+"2023";"95641";"Residence";0;0;0;0
+"2023";"95651";"Tous Logements";1;1;181;110
+"2023";"95651";"Individuel pur";1;1;181;110
+"2023";"95651";"Individuel groupe";0;0;0;0
+"2023";"95651";"Collectif";0;0;0;0
+"2023";"95651";"Residence";0;0;0;0
+"2023";"95652";"Tous Logements";23;2;2456;213
+"2023";"95652";"Individuel pur";8;2;773;213
+"2023";"95652";"Individuel groupe";13;0;1492;0
+"2023";"95652";"Collectif";2;0;191;0
+"2023";"95652";"Residence";0;0;0;0
+"2023";"95656";"Tous Logements";0;1;0;132
+"2023";"95656";"Individuel pur";0;1;0;132
+"2023";"95656";"Individuel groupe";0;0;0;0
+"2023";"95656";"Collectif";0;0;0;0
+"2023";"95656";"Residence";0;0;0;0
+"2023";"95658";"Tous Logements";0;1;0;73
+"2023";"95658";"Individuel pur";0;1;0;73
+"2023";"95658";"Individuel groupe";0;0;0;0
+"2023";"95658";"Collectif";0;0;0;0
+"2023";"95658";"Residence";0;0;0;0
+"2023";"95660";"Tous Logements";2;0;79;0
+"2023";"95660";"Individuel pur";0;0;0;0
+"2023";"95660";"Individuel groupe";0;0;0;0
+"2023";"95660";"Collectif";2;0;79;0
+"2023";"95660";"Residence";0;0;0;0
+"2023";"95675";"Tous Logements";0;0;0;0
+"2023";"95675";"Individuel pur";0;0;0;0
+"2023";"95675";"Individuel groupe";0;0;0;0
+"2023";"95675";"Collectif";0;0;0;0
+"2023";"95675";"Residence";0;0;0;0
+"2023";"95676";"Tous Logements";2;1;274;184
+"2023";"95676";"Individuel pur";2;1;274;184
+"2023";"95676";"Individuel groupe";0;0;0;0
+"2023";"95676";"Collectif";0;0;0;0
+"2023";"95676";"Residence";0;0;0;0
+"2023";"95678";"Tous Logements";3;2;344;180
+"2023";"95678";"Individuel pur";3;2;344;180
+"2023";"95678";"Individuel groupe";0;0;0;0
+"2023";"95678";"Collectif";0;0;0;0
+"2023";"95678";"Residence";0;0;0;0
+"2023";"95680";"Tous Logements";150;39;7686;2332
+"2023";"95680";"Individuel pur";6;4;811;440
+"2023";"95680";"Individuel groupe";0;0;0;0
+"2023";"95680";"Collectif";47;35;2405;1892
+"2023";"95680";"Residence";97;0;4470;0
+"2023";"95682";"Tous Logements";4;0;506;0
+"2023";"95682";"Individuel pur";4;0;506;0
+"2023";"95682";"Individuel groupe";0;0;0;0
+"2023";"95682";"Collectif";0;0;0;0
+"2023";"95682";"Residence";0;0;0;0
+"2023";"95690";"Tous Logements";0;0;0;0
+"2023";"95690";"Individuel pur";0;0;0;0
+"2023";"95690";"Individuel groupe";0;0;0;0
+"2023";"95690";"Collectif";0;0;0;0
+"2023";"95690";"Residence";0;0;0;0
+"2022";"95002";"Tous Logements";5;15;515;1118
+"2022";"95002";"Individuel pur";5;3;515;350
+"2022";"95002";"Individuel groupe";0;0;0;0
+"2022";"95002";"Collectif";0;12;0;768
+"2022";"95002";"Residence";0;0;0;0
+"2022";"95008";"Tous Logements";68;0;4826;0
+"2022";"95008";"Individuel pur";1;0;128;0
+"2022";"95008";"Individuel groupe";0;0;0;0
+"2022";"95008";"Collectif";67;0;4698;0
+"2022";"95008";"Residence";0;0;0;0
+"2022";"95011";"Tous Logements";0;1;0;55
+"2022";"95011";"Individuel pur";0;1;0;55
+"2022";"95011";"Individuel groupe";0;0;0;0
+"2022";"95011";"Collectif";0;0;0;0
+"2022";"95011";"Residence";0;0;0;0
+"2022";"95012";"Tous Logements";0;0;0;0
+"2022";"95012";"Individuel pur";0;0;0;0
+"2022";"95012";"Individuel groupe";0;0;0;0
+"2022";"95012";"Collectif";0;0;0;0
+"2022";"95012";"Residence";0;0;0;0
+"2022";"95014";"Tous Logements";94;1;7445;137
+"2022";"95014";"Individuel pur";2;1;293;137
+"2022";"95014";"Individuel groupe";33;0;3263;0
+"2022";"95014";"Collectif";59;0;3889;0
+"2022";"95014";"Residence";0;0;0;0
+"2022";"95018";"Tous Logements";418;302;25937;17645
+"2022";"95018";"Individuel pur";47;36;5283;4651
+"2022";"95018";"Individuel groupe";9;10;554;812
+"2022";"95018";"Collectif";362;256;20100;12182
+"2022";"95018";"Residence";0;0;0;0
+"2022";"95019";"Tous Logements";100;4;6721;442
+"2022";"95019";"Individuel pur";10;4;1091;442
+"2022";"95019";"Individuel groupe";0;0;0;0
+"2022";"95019";"Collectif";90;0;5630;0
+"2022";"95019";"Residence";0;0;0;0
+"2022";"95023";"Tous Logements";2;1;550;148
+"2022";"95023";"Individuel pur";2;1;550;148
+"2022";"95023";"Individuel groupe";0;0;0;0
+"2022";"95023";"Collectif";0;0;0;0
+"2022";"95023";"Residence";0;0;0;0
+"2022";"95024";"Tous Logements";0;1;0;122
+"2022";"95024";"Individuel pur";0;1;0;122
+"2022";"95024";"Individuel groupe";0;0;0;0
+"2022";"95024";"Collectif";0;0;0;0
+"2022";"95024";"Residence";0;0;0;0
+"2022";"95026";"Tous Logements";3;2;314;235
+"2022";"95026";"Individuel pur";0;2;0;235
+"2022";"95026";"Individuel groupe";3;0;314;0
+"2022";"95026";"Collectif";0;0;0;0
+"2022";"95026";"Residence";0;0;0;0
+"2022";"95028";"Tous Logements";2;3;341;329
+"2022";"95028";"Individuel pur";2;3;341;329
+"2022";"95028";"Individuel groupe";0;0;0;0
+"2022";"95028";"Collectif";0;0;0;0
+"2022";"95028";"Residence";0;0;0;0
+"2022";"95039";"Tous Logements";8;10;586;1137
+"2022";"95039";"Individuel pur";4;10;309;1137
+"2022";"95039";"Individuel groupe";4;0;277;0
+"2022";"95039";"Collectif";0;0;0;0
+"2022";"95039";"Residence";0;0;0;0
+"2022";"95040";"Tous Logements";0;2;0;370
+"2022";"95040";"Individuel pur";0;2;0;370
+"2022";"95040";"Individuel groupe";0;0;0;0
+"2022";"95040";"Collectif";0;0;0;0
+"2022";"95040";"Residence";0;0;0;0
+"2022";"95042";"Tous Logements";37;1;4313;99
+"2022";"95042";"Individuel pur";4;1;625;99
+"2022";"95042";"Individuel groupe";33;0;3688;0
+"2022";"95042";"Collectif";0;0;0;0
+"2022";"95042";"Residence";0;0;0;0
+"2022";"95046";"Tous Logements";0;0;0;0
+"2022";"95046";"Individuel pur";0;0;0;0
+"2022";"95046";"Individuel groupe";0;0;0;0
+"2022";"95046";"Collectif";0;0;0;0
+"2022";"95046";"Residence";0;0;0;0
+"2022";"95051";"Tous Logements";106;16;7763;2118
+"2022";"95051";"Individuel pur";7;13;1388;2008
+"2022";"95051";"Individuel groupe";0;3;0;110
+"2022";"95051";"Collectif";99;0;6375;0
+"2022";"95051";"Residence";0;0;0;0
+"2022";"95052";"Tous Logements";96;78;6348;4593
+"2022";"95052";"Individuel pur";9;4;938;434
+"2022";"95052";"Individuel groupe";9;0;826;0
+"2022";"95052";"Collectif";78;74;4584;4159
+"2022";"95052";"Residence";0;0;0;0
+"2022";"95054";"Tous Logements";1;2;129;259
+"2022";"95054";"Individuel pur";1;2;129;259
+"2022";"95054";"Individuel groupe";0;0;0;0
+"2022";"95054";"Collectif";0;0;0;0
+"2022";"95054";"Residence";0;0;0;0
+"2022";"95055";"Tous Logements";1;1;80;80
+"2022";"95055";"Individuel pur";1;1;80;80
+"2022";"95055";"Individuel groupe";0;0;0;0
+"2022";"95055";"Collectif";0;0;0;0
+"2022";"95055";"Residence";0;0;0;0
+"2022";"95056";"Tous Logements";29;22;2524;1655
+"2022";"95056";"Individuel pur";17;10;2192;1323
+"2022";"95056";"Individuel groupe";0;0;0;0
+"2022";"95056";"Collectif";12;12;332;332
+"2022";"95056";"Residence";0;0;0;0
+"2022";"95058";"Tous Logements";55;21;4864;2531
+"2022";"95058";"Individuel pur";25;21;3097;2531
+"2022";"95058";"Individuel groupe";0;0;0;0
+"2022";"95058";"Collectif";0;0;0;0
+"2022";"95058";"Residence";30;0;1767;0
+"2022";"95059";"Tous Logements";0;0;0;0
+"2022";"95059";"Individuel pur";0;0;0;0
+"2022";"95059";"Individuel groupe";0;0;0;0
+"2022";"95059";"Collectif";0;0;0;0
+"2022";"95059";"Residence";0;0;0;0
+"2022";"95060";"Tous Logements";370;286;29194;22664
+"2022";"95060";"Individuel pur";45;23;5852;3153
+"2022";"95060";"Individuel groupe";0;0;0;0
+"2022";"95060";"Collectif";325;263;23342;19511
+"2022";"95060";"Residence";0;0;0;0
+"2022";"95061";"Tous Logements";1;0;230;0
+"2022";"95061";"Individuel pur";1;0;230;0
+"2022";"95061";"Individuel groupe";0;0;0;0
+"2022";"95061";"Collectif";0;0;0;0
+"2022";"95061";"Residence";0;0;0;0
+"2022";"95063";"Tous Logements";661;667;39133;34821
+"2022";"95063";"Individuel pur";18;10;2501;1497
+"2022";"95063";"Individuel groupe";2;2;306;306
+"2022";"95063";"Collectif";641;414;36326;26872
+"2022";"95063";"Residence";0;241;0;6146
+"2022";"95074";"Tous Logements";3;3;368;381
+"2022";"95074";"Individuel pur";3;3;368;381
+"2022";"95074";"Individuel groupe";0;0;0;0
+"2022";"95074";"Collectif";0;0;0;0
+"2022";"95074";"Residence";0;0;0;0
+"2022";"95078";"Tous Logements";10;8;1348;976
+"2022";"95078";"Individuel pur";10;8;1348;976
+"2022";"95078";"Individuel groupe";0;0;0;0
+"2022";"95078";"Collectif";0;0;0;0
+"2022";"95078";"Residence";0;0;0;0
+"2022";"95088";"Tous Logements";0;0;0;0
+"2022";"95088";"Individuel pur";0;0;0;0
+"2022";"95088";"Individuel groupe";0;0;0;0
+"2022";"95088";"Collectif";0;0;0;0
+"2022";"95088";"Residence";0;0;0;0
+"2022";"95091";"Tous Logements";32;21;3744;1407
+"2022";"95091";"Individuel pur";5;2;1953;405
+"2022";"95091";"Individuel groupe";0;0;0;0
+"2022";"95091";"Collectif";27;19;1791;1002
+"2022";"95091";"Residence";0;0;0;0
+"2022";"95094";"Tous Logements";1;1;120;120
+"2022";"95094";"Individuel pur";1;1;120;120
+"2022";"95094";"Individuel groupe";0;0;0;0
+"2022";"95094";"Collectif";0;0;0;0
+"2022";"95094";"Residence";0;0;0;0
+"2022";"95101";"Tous Logements";0;7;0;98
+"2022";"95101";"Individuel pur";0;0;0;0
+"2022";"95101";"Individuel groupe";0;0;0;0
+"2022";"95101";"Collectif";0;7;0;98
+"2022";"95101";"Residence";0;0;0;0
+"2022";"95102";"Tous Logements";0;0;0;0
+"2022";"95102";"Individuel pur";0;0;0;0
+"2022";"95102";"Individuel groupe";0;0;0;0
+"2022";"95102";"Collectif";0;0;0;0
+"2022";"95102";"Residence";0;0;0;0
+"2022";"95110";"Tous Logements";0;1;0;109
+"2022";"95110";"Individuel pur";0;1;0;109
+"2022";"95110";"Individuel groupe";0;0;0;0
+"2022";"95110";"Collectif";0;0;0;0
+"2022";"95110";"Residence";0;0;0;0
+"2022";"95116";"Tous Logements";41;1;2999;105
+"2022";"95116";"Individuel pur";0;1;0;105
+"2022";"95116";"Individuel groupe";17;0;1805;0
+"2022";"95116";"Collectif";24;0;1194;0
+"2022";"95116";"Residence";0;0;0;0
+"2022";"95119";"Tous Logements";2;1;218;139
+"2022";"95119";"Individuel pur";2;1;218;139
+"2022";"95119";"Individuel groupe";0;0;0;0
+"2022";"95119";"Collectif";0;0;0;0
+"2022";"95119";"Residence";0;0;0;0
+"2022";"95120";"Tous Logements";11;7;1548;937
+"2022";"95120";"Individuel pur";11;7;1548;937
+"2022";"95120";"Individuel groupe";0;0;0;0
+"2022";"95120";"Collectif";0;0;0;0
+"2022";"95120";"Residence";0;0;0;0
+"2022";"95127";"Tous Logements";132;814;9277;34812
+"2022";"95127";"Individuel pur";2;1;248;165
+"2022";"95127";"Individuel groupe";31;1;2913;73
+"2022";"95127";"Collectif";99;187;6116;12262
+"2022";"95127";"Residence";0;625;0;22312
+"2022";"95134";"Tous Logements";5;5;649;829
+"2022";"95134";"Individuel pur";5;5;649;829
+"2022";"95134";"Individuel groupe";0;0;0;0
+"2022";"95134";"Collectif";0;0;0;0
+"2022";"95134";"Residence";0;0;0;0
+"2022";"95139";"Tous Logements";1;0;93;0
+"2022";"95139";"Individuel pur";1;0;93;0
+"2022";"95139";"Individuel groupe";0;0;0;0
+"2022";"95139";"Collectif";0;0;0;0
+"2022";"95139";"Residence";0;0;0;0
+"2022";"95141";"Tous Logements";0;0;0;0
+"2022";"95141";"Individuel pur";0;0;0;0
+"2022";"95141";"Individuel groupe";0;0;0;0
+"2022";"95141";"Collectif";0;0;0;0
+"2022";"95141";"Residence";0;0;0;0
+"2022";"95142";"Tous Logements";0;0;0;0
+"2022";"95142";"Individuel pur";0;0;0;0
+"2022";"95142";"Individuel groupe";0;0;0;0
+"2022";"95142";"Collectif";0;0;0;0
+"2022";"95142";"Residence";0;0;0;0
+"2022";"95144";"Tous Logements";0;0;0;0
+"2022";"95144";"Individuel pur";0;0;0;0
+"2022";"95144";"Individuel groupe";0;0;0;0
+"2022";"95144";"Collectif";0;0;0;0
+"2022";"95144";"Residence";0;0;0;0
+"2022";"95149";"Tous Logements";1;0;269;0
+"2022";"95149";"Individuel pur";1;0;269;0
+"2022";"95149";"Individuel groupe";0;0;0;0
+"2022";"95149";"Collectif";0;0;0;0
+"2022";"95149";"Residence";0;0;0;0
+"2022";"95150";"Tous Logements";2;1;174;70
+"2022";"95150";"Individuel pur";2;1;174;70
+"2022";"95150";"Individuel groupe";0;0;0;0
+"2022";"95150";"Collectif";0;0;0;0
+"2022";"95150";"Residence";0;0;0;0
+"2022";"95151";"Tous Logements";0;0;0;0
+"2022";"95151";"Individuel pur";0;0;0;0
+"2022";"95151";"Individuel groupe";0;0;0;0
+"2022";"95151";"Collectif";0;0;0;0
+"2022";"95151";"Residence";0;0;0;0
+"2022";"95154";"Tous Logements";7;0;420;0
+"2022";"95154";"Individuel pur";0;0;0;0
+"2022";"95154";"Individuel groupe";3;0;222;0
+"2022";"95154";"Collectif";4;0;198;0
+"2022";"95154";"Residence";0;0;0;0
+"2022";"95157";"Tous Logements";0;0;0;0
+"2022";"95157";"Individuel pur";0;0;0;0
+"2022";"95157";"Individuel groupe";0;0;0;0
+"2022";"95157";"Collectif";0;0;0;0
+"2022";"95157";"Residence";0;0;0;0
+"2022";"95166";"Tous Logements";0;0;0;0
+"2022";"95166";"Individuel pur";0;0;0;0
+"2022";"95166";"Individuel groupe";0;0;0;0
+"2022";"95166";"Collectif";0;0;0;0
+"2022";"95166";"Residence";0;0;0;0
+"2022";"95169";"Tous Logements";0;0;0;0
+"2022";"95169";"Individuel pur";0;0;0;0
+"2022";"95169";"Individuel groupe";0;0;0;0
+"2022";"95169";"Collectif";0;0;0;0
+"2022";"95169";"Residence";0;0;0;0
+"2022";"95170";"Tous Logements";0;0;0;0
+"2022";"95170";"Individuel pur";0;0;0;0
+"2022";"95170";"Individuel groupe";0;0;0;0
+"2022";"95170";"Collectif";0;0;0;0
+"2022";"95170";"Residence";0;0;0;0
+"2022";"95176";"Tous Logements";883;899;65176;71685
+"2022";"95176";"Individuel pur";18;20;2773;3398
+"2022";"95176";"Individuel groupe";8;19;868;2791
+"2022";"95176";"Collectif";857;860;61535;65496
+"2022";"95176";"Residence";0;0;0;0
+"2022";"95177";"Tous Logements";7;3;960;375
+"2022";"95177";"Individuel pur";7;3;960;375
+"2022";"95177";"Individuel groupe";0;0;0;0
+"2022";"95177";"Collectif";0;0;0;0
+"2022";"95177";"Residence";0;0;0;0
+"2022";"95181";"Tous Logements";1;0;127;0
+"2022";"95181";"Individuel pur";1;0;127;0
+"2022";"95181";"Individuel groupe";0;0;0;0
+"2022";"95181";"Collectif";0;0;0;0
+"2022";"95181";"Residence";0;0;0;0
+"2022";"95183";"Tous Logements";3;22;548;1741
+"2022";"95183";"Individuel pur";3;2;548;257
+"2022";"95183";"Individuel groupe";0;0;0;0
+"2022";"95183";"Collectif";0;20;0;1484
+"2022";"95183";"Residence";0;0;0;0
+"2022";"95197";"Tous Logements";276;76;16306;5009
+"2022";"95197";"Individuel pur";13;7;1520;919
+"2022";"95197";"Individuel groupe";0;0;0;0
+"2022";"95197";"Collectif";235;69;14205;4090
+"2022";"95197";"Residence";28;0;581;0
+"2022";"95199";"Tous Logements";150;94;9469;5999
+"2022";"95199";"Individuel pur";6;5;937;679
+"2022";"95199";"Individuel groupe";0;0;0;0
+"2022";"95199";"Collectif";144;89;8532;5320
+"2022";"95199";"Residence";0;0;0;0
+"2022";"95203";"Tous Logements";15;11;1328;1310
+"2022";"95203";"Individuel pur";8;8;881;1189
+"2022";"95203";"Individuel groupe";1;0;89;0
+"2022";"95203";"Collectif";6;3;358;121
+"2022";"95203";"Residence";0;0;0;0
+"2022";"95205";"Tous Logements";25;2;1996;252
+"2022";"95205";"Individuel pur";3;2;304;252
+"2022";"95205";"Individuel groupe";0;0;0;0
+"2022";"95205";"Collectif";22;0;1692;0
+"2022";"95205";"Residence";0;0;0;0
+"2022";"95210";"Tous Logements";73;5;5190;551
+"2022";"95210";"Individuel pur";1;0;153;0
+"2022";"95210";"Individuel groupe";0;0;0;0
+"2022";"95210";"Collectif";72;5;5037;551
+"2022";"95210";"Residence";0;0;0;0
+"2022";"95211";"Tous Logements";7;7;1162;874
+"2022";"95211";"Individuel pur";2;2;648;360
+"2022";"95211";"Individuel groupe";5;5;514;514
+"2022";"95211";"Collectif";0;0;0;0
+"2022";"95211";"Residence";0;0;0;0
+"2022";"95212";"Tous Logements";0;0;0;0
+"2022";"95212";"Individuel pur";0;0;0;0
+"2022";"95212";"Individuel groupe";0;0;0;0
+"2022";"95212";"Collectif";0;0;0;0
+"2022";"95212";"Residence";0;0;0;0
+"2022";"95213";"Tous Logements";2;0;403;0
+"2022";"95213";"Individuel pur";2;0;403;0
+"2022";"95213";"Individuel groupe";0;0;0;0
+"2022";"95213";"Collectif";0;0;0;0
+"2022";"95213";"Residence";0;0;0;0
+"2022";"95214";"Tous Logements";0;0;0;0
+"2022";"95214";"Individuel pur";0;0;0;0
+"2022";"95214";"Individuel groupe";0;0;0;0
+"2022";"95214";"Collectif";0;0;0;0
+"2022";"95214";"Residence";0;0;0;0
+"2022";"95218";"Tous Logements";224;230;16303;16891
+"2022";"95218";"Individuel pur";11;12;1345;1569
+"2022";"95218";"Individuel groupe";58;60;5401;5642
+"2022";"95218";"Collectif";0;3;0;123
+"2022";"95218";"Residence";155;155;9557;9557
+"2022";"95219";"Tous Logements";2;176;470;10513
+"2022";"95219";"Individuel pur";2;8;470;1455
+"2022";"95219";"Individuel groupe";0;0;0;0
+"2022";"95219";"Collectif";0;4;0;167
+"2022";"95219";"Residence";0;164;0;8891
+"2022";"95229";"Tous Logements";6;3;1363;443
+"2022";"95229";"Individuel pur";6;3;1363;443
+"2022";"95229";"Individuel groupe";0;0;0;0
+"2022";"95229";"Collectif";0;0;0;0
+"2022";"95229";"Residence";0;0;0;0
+"2022";"95241";"Tous Logements";4;1;319;120
+"2022";"95241";"Individuel pur";0;1;0;120
+"2022";"95241";"Individuel groupe";0;0;0;0
+"2022";"95241";"Collectif";4;0;319;0
+"2022";"95241";"Residence";0;0;0;0
+"2022";"95250";"Tous Logements";50;5;3104;302
+"2022";"95250";"Individuel pur";0;0;0;0
+"2022";"95250";"Individuel groupe";3;0;263;0
+"2022";"95250";"Collectif";47;5;2841;302
+"2022";"95250";"Residence";0;0;0;0
+"2022";"95252";"Tous Logements";9;9;1069;1258
+"2022";"95252";"Individuel pur";7;7;749;938
+"2022";"95252";"Individuel groupe";2;2;320;320
+"2022";"95252";"Collectif";0;0;0;0
+"2022";"95252";"Residence";0;0;0;0
+"2022";"95253";"Tous Logements";0;0;0;0
+"2022";"95253";"Individuel pur";0;0;0;0
+"2022";"95253";"Individuel groupe";0;0;0;0
+"2022";"95253";"Collectif";0;0;0;0
+"2022";"95253";"Residence";0;0;0;0
+"2022";"95254";"Tous Logements";2;0;267;0
+"2022";"95254";"Individuel pur";2;0;267;0
+"2022";"95254";"Individuel groupe";0;0;0;0
+"2022";"95254";"Collectif";0;0;0;0
+"2022";"95254";"Residence";0;0;0;0
+"2022";"95256";"Tous Logements";44;2;2890;318
+"2022";"95256";"Individuel pur";3;2;458;318
+"2022";"95256";"Individuel groupe";0;0;0;0
+"2022";"95256";"Collectif";41;0;2432;0
+"2022";"95256";"Residence";0;0;0;0
+"2022";"95257";"Tous Logements";177;52;8312;3691
+"2022";"95257";"Individuel pur";4;7;509;1093
+"2022";"95257";"Individuel groupe";0;0;0;0
+"2022";"95257";"Collectif";59;45;3307;2598
+"2022";"95257";"Residence";114;0;4496;0
+"2022";"95258";"Tous Logements";0;0;0;0
+"2022";"95258";"Individuel pur";0;0;0;0
+"2022";"95258";"Individuel groupe";0;0;0;0
+"2022";"95258";"Collectif";0;0;0;0
+"2022";"95258";"Residence";0;0;0;0
+"2022";"95268";"Tous Logements";4;2;448;287
+"2022";"95268";"Individuel pur";4;2;448;287
+"2022";"95268";"Individuel groupe";0;0;0;0
+"2022";"95268";"Collectif";0;0;0;0
+"2022";"95268";"Residence";0;0;0;0
+"2022";"95270";"Tous Logements";1;1;234;111
+"2022";"95270";"Individuel pur";1;1;234;111
+"2022";"95270";"Individuel groupe";0;0;0;0
+"2022";"95270";"Collectif";0;0;0;0
+"2022";"95270";"Residence";0;0;0;0
+"2022";"95271";"Tous Logements";0;0;0;0
+"2022";"95271";"Individuel pur";0;0;0;0
+"2022";"95271";"Individuel groupe";0;0;0;0
+"2022";"95271";"Collectif";0;0;0;0
+"2022";"95271";"Residence";0;0;0;0
+"2022";"95277";"Tous Logements";9;6;1305;790
+"2022";"95277";"Individuel pur";9;4;1305;570
+"2022";"95277";"Individuel groupe";0;0;0;0
+"2022";"95277";"Collectif";0;2;0;220
+"2022";"95277";"Residence";0;0;0;0
+"2022";"95280";"Tous Logements";18;25;2551;2882
+"2022";"95280";"Individuel pur";18;11;2551;1568
+"2022";"95280";"Individuel groupe";0;14;0;1314
+"2022";"95280";"Collectif";0;0;0;0
+"2022";"95280";"Residence";0;0;0;0
+"2022";"95282";"Tous Logements";2;1;338;222
+"2022";"95282";"Individuel pur";2;1;338;222
+"2022";"95282";"Individuel groupe";0;0;0;0
+"2022";"95282";"Collectif";0;0;0;0
+"2022";"95282";"Residence";0;0;0;0
+"2022";"95287";"Tous Logements";1;0;137;0
+"2022";"95287";"Individuel pur";1;0;137;0
+"2022";"95287";"Individuel groupe";0;0;0;0
+"2022";"95287";"Collectif";0;0;0;0
+"2022";"95287";"Residence";0;0;0;0
+"2022";"95288";"Tous Logements";11;6;1887;810
+"2022";"95288";"Individuel pur";11;6;1887;810
+"2022";"95288";"Individuel groupe";0;0;0;0
+"2022";"95288";"Collectif";0;0;0;0
+"2022";"95288";"Residence";0;0;0;0
+"2022";"95295";"Tous Logements";0;0;0;0
+"2022";"95295";"Individuel pur";0;0;0;0
+"2022";"95295";"Individuel groupe";0;0;0;0
+"2022";"95295";"Collectif";0;0;0;0
+"2022";"95295";"Residence";0;0;0;0
+"2022";"95298";"Tous Logements";2;2;214;324
+"2022";"95298";"Individuel pur";2;2;214;324
+"2022";"95298";"Individuel groupe";0;0;0;0
+"2022";"95298";"Collectif";0;0;0;0
+"2022";"95298";"Residence";0;0;0;0
+"2022";"95301";"Tous Logements";0;0;0;0
+"2022";"95301";"Individuel pur";0;0;0;0
+"2022";"95301";"Individuel groupe";0;0;0;0
+"2022";"95301";"Collectif";0;0;0;0
+"2022";"95301";"Residence";0;0;0;0
+"2022";"95303";"Tous Logements";0;0;0;0
+"2022";"95303";"Individuel pur";0;0;0;0
+"2022";"95303";"Individuel groupe";0;0;0;0
+"2022";"95303";"Collectif";0;0;0;0
+"2022";"95303";"Residence";0;0;0;0
+"2022";"95304";"Tous Logements";0;0;0;0
+"2022";"95304";"Individuel pur";0;0;0;0
+"2022";"95304";"Individuel groupe";0;0;0;0
+"2022";"95304";"Collectif";0;0;0;0
+"2022";"95304";"Residence";0;0;0;0
+"2022";"95306";"Tous Logements";119;185;9085;11480
+"2022";"95306";"Individuel pur";21;16;3246;2441
+"2022";"95306";"Individuel groupe";0;0;0;0
+"2022";"95306";"Collectif";98;8;5839;583
+"2022";"95306";"Residence";0;161;0;8456
+"2022";"95308";"Tous Logements";1;0;120;0
+"2022";"95308";"Individuel pur";1;0;120;0
+"2022";"95308";"Individuel groupe";0;0;0;0
+"2022";"95308";"Collectif";0;0;0;0
+"2022";"95308";"Residence";0;0;0;0
+"2022";"95309";"Tous Logements";1;1;94;94
+"2022";"95309";"Individuel pur";1;1;94;94
+"2022";"95309";"Individuel groupe";0;0;0;0
+"2022";"95309";"Collectif";0;0;0;0
+"2022";"95309";"Residence";0;0;0;0
+"2022";"95313";"Tous Logements";55;10;4882;1788
+"2022";"95313";"Individuel pur";7;8;1636;1580
+"2022";"95313";"Individuel groupe";0;2;0;208
+"2022";"95313";"Collectif";48;0;3246;0
+"2022";"95313";"Residence";0;0;0;0
+"2022";"95316";"Tous Logements";0;1;0;188
+"2022";"95316";"Individuel pur";0;1;0;188
+"2022";"95316";"Individuel groupe";0;0;0;0
+"2022";"95316";"Collectif";0;0;0;0
+"2022";"95316";"Residence";0;0;0;0
+"2022";"95323";"Tous Logements";24;172;3375;13143
+"2022";"95323";"Individuel pur";24;21;3375;2953
+"2022";"95323";"Individuel groupe";0;17;0;1762
+"2022";"95323";"Collectif";0;134;0;8428
+"2022";"95323";"Residence";0;0;0;0
+"2022";"95328";"Tous Logements";0;0;0;0
+"2022";"95328";"Individuel pur";0;0;0;0
+"2022";"95328";"Individuel groupe";0;0;0;0
+"2022";"95328";"Collectif";0;0;0;0
+"2022";"95328";"Residence";0;0;0;0
+"2022";"95331";"Tous Logements";1;0;160;0
+"2022";"95331";"Individuel pur";1;0;160;0
+"2022";"95331";"Individuel groupe";0;0;0;0
+"2022";"95331";"Collectif";0;0;0;0
+"2022";"95331";"Residence";0;0;0;0
+"2022";"95341";"Tous Logements";1;1;145;145
+"2022";"95341";"Individuel pur";1;1;145;145
+"2022";"95341";"Individuel groupe";0;0;0;0
+"2022";"95341";"Collectif";0;0;0;0
+"2022";"95341";"Residence";0;0;0;0
+"2022";"95348";"Tous Logements";0;1;0;134
+"2022";"95348";"Individuel pur";0;1;0;134
+"2022";"95348";"Individuel groupe";0;0;0;0
+"2022";"95348";"Collectif";0;0;0;0
+"2022";"95348";"Residence";0;0;0;0
+"2022";"95351";"Tous Logements";139;168;9638;10576
+"2022";"95351";"Individuel pur";1;0;105;0
+"2022";"95351";"Individuel groupe";14;0;1315;0
+"2022";"95351";"Collectif";124;168;8218;10576
+"2022";"95351";"Residence";0;0;0;0
+"2022";"95352";"Tous Logements";16;0;2374;0
+"2022";"95352";"Individuel pur";8;0;1536;0
+"2022";"95352";"Individuel groupe";0;0;0;0
+"2022";"95352";"Collectif";8;0;838;0
+"2022";"95352";"Residence";0;0;0;0
+"2022";"95353";"Tous Logements";1;0;123;0
+"2022";"95353";"Individuel pur";1;0;123;0
+"2022";"95353";"Individuel groupe";0;0;0;0
+"2022";"95353";"Collectif";0;0;0;0
+"2022";"95353";"Residence";0;0;0;0
+"2022";"95355";"Tous Logements";6;22;749;1375
+"2022";"95355";"Individuel pur";6;5;749;578
+"2022";"95355";"Individuel groupe";0;8;0;455
+"2022";"95355";"Collectif";0;9;0;342
+"2022";"95355";"Residence";0;0;0;0
+"2022";"95365";"Tous Logements";0;0;0;0
+"2022";"95365";"Individuel pur";0;0;0;0
+"2022";"95365";"Individuel groupe";0;0;0;0
+"2022";"95365";"Collectif";0;0;0;0
+"2022";"95365";"Residence";0;0;0;0
+"2022";"95369";"Tous Logements";4;0;154;0
+"2022";"95369";"Individuel pur";0;0;0;0
+"2022";"95369";"Individuel groupe";0;0;0;0
+"2022";"95369";"Collectif";4;0;154;0
+"2022";"95369";"Residence";0;0;0;0
+"2022";"95370";"Tous Logements";14;22;1677;2643
+"2022";"95370";"Individuel pur";14;15;1677;1969
+"2022";"95370";"Individuel groupe";0;7;0;674
+"2022";"95370";"Collectif";0;0;0;0
+"2022";"95370";"Residence";0;0;0;0
+"2022";"95371";"Tous Logements";45;2;3105;275
+"2022";"95371";"Individuel pur";4;2;715;275
+"2022";"95371";"Individuel groupe";1;0;86;0
+"2022";"95371";"Collectif";40;0;2304;0
+"2022";"95371";"Residence";0;0;0;0
+"2022";"95379";"Tous Logements";0;1;0;160
+"2022";"95379";"Individuel pur";0;1;0;160
+"2022";"95379";"Individuel groupe";0;0;0;0
+"2022";"95379";"Collectif";0;0;0;0
+"2022";"95379";"Residence";0;0;0;0
+"2022";"95387";"Tous Logements";1;0;35;0
+"2022";"95387";"Individuel pur";1;0;35;0
+"2022";"95387";"Individuel groupe";0;0;0;0
+"2022";"95387";"Collectif";0;0;0;0
+"2022";"95387";"Residence";0;0;0;0
+"2022";"95388";"Tous Logements";2;0;233;0
+"2022";"95388";"Individuel pur";2;0;233;0
+"2022";"95388";"Individuel groupe";0;0;0;0
+"2022";"95388";"Collectif";0;0;0;0
+"2022";"95388";"Residence";0;0;0;0
+"2022";"95392";"Tous Logements";8;4;1133;616
+"2022";"95392";"Individuel pur";6;4;936;616
+"2022";"95392";"Individuel groupe";2;0;197;0
+"2022";"95392";"Collectif";0;0;0;0
+"2022";"95392";"Residence";0;0;0;0
+"2022";"95394";"Tous Logements";34;23;3676;2333
+"2022";"95394";"Individuel pur";29;20;3107;1981
+"2022";"95394";"Individuel groupe";0;0;0;0
+"2022";"95394";"Collectif";5;3;569;352
+"2022";"95394";"Residence";0;0;0;0
+"2022";"95395";"Tous Logements";5;0;595;0
+"2022";"95395";"Individuel pur";5;0;595;0
+"2022";"95395";"Individuel groupe";0;0;0;0
+"2022";"95395";"Collectif";0;0;0;0
+"2022";"95395";"Residence";0;0;0;0
+"2022";"95409";"Tous Logements";127;86;9124;6917
+"2022";"95409";"Individuel pur";0;0;0;0
+"2022";"95409";"Individuel groupe";0;0;0;0
+"2022";"95409";"Collectif";127;86;9124;6917
+"2022";"95409";"Residence";0;0;0;0
+"2022";"95422";"Tous Logements";2;0;55;0
+"2022";"95422";"Individuel pur";2;0;55;0
+"2022";"95422";"Individuel groupe";0;0;0;0
+"2022";"95422";"Collectif";0;0;0;0
+"2022";"95422";"Residence";0;0;0;0
+"2022";"95424";"Tous Logements";239;15;17357;1841
+"2022";"95424";"Individuel pur";16;12;1911;1384
+"2022";"95424";"Individuel groupe";14;3;1713;457
+"2022";"95424";"Collectif";209;0;13733;0
+"2022";"95424";"Residence";0;0;0;0
+"2022";"95426";"Tous Logements";1;5;207;664
+"2022";"95426";"Individuel pur";1;5;207;664
+"2022";"95426";"Individuel groupe";0;0;0;0
+"2022";"95426";"Collectif";0;0;0;0
+"2022";"95426";"Residence";0;0;0;0
+"2022";"95427";"Tous Logements";15;4;1950;666
+"2022";"95427";"Individuel pur";15;4;1950;666
+"2022";"95427";"Individuel groupe";0;0;0;0
+"2022";"95427";"Collectif";0;0;0;0
+"2022";"95427";"Residence";0;0;0;0
+"2022";"95428";"Tous Logements";11;4;2289;808
+"2022";"95428";"Individuel pur";11;4;2289;808
+"2022";"95428";"Individuel groupe";0;0;0;0
+"2022";"95428";"Collectif";0;0;0;0
+"2022";"95428";"Residence";0;0;0;0
+"2022";"95429";"Tous Logements";2;1;200;153
+"2022";"95429";"Individuel pur";2;1;200;153
+"2022";"95429";"Individuel groupe";0;0;0;0
+"2022";"95429";"Collectif";0;0;0;0
+"2022";"95429";"Residence";0;0;0;0
+"2022";"95430";"Tous Logements";3;1;343;115
+"2022";"95430";"Individuel pur";3;1;343;115
+"2022";"95430";"Individuel groupe";0;0;0;0
+"2022";"95430";"Collectif";0;0;0;0
+"2022";"95430";"Residence";0;0;0;0
+"2022";"95436";"Tous Logements";0;2;0;289
+"2022";"95436";"Individuel pur";0;2;0;289
+"2022";"95436";"Individuel groupe";0;0;0;0
+"2022";"95436";"Collectif";0;0;0;0
+"2022";"95436";"Residence";0;0;0;0
+"2022";"95438";"Tous Logements";0;0;0;0
+"2022";"95438";"Individuel pur";0;0;0;0
+"2022";"95438";"Individuel groupe";0;0;0;0
+"2022";"95438";"Collectif";0;0;0;0
+"2022";"95438";"Residence";0;0;0;0
+"2022";"95445";"Tous Logements";1;1;142;142
+"2022";"95445";"Individuel pur";1;1;142;142
+"2022";"95445";"Individuel groupe";0;0;0;0
+"2022";"95445";"Collectif";0;0;0;0
+"2022";"95445";"Residence";0;0;0;0
+"2022";"95446";"Tous Logements";2;2;140;327
+"2022";"95446";"Individuel pur";2;2;140;327
+"2022";"95446";"Individuel groupe";0;0;0;0
+"2022";"95446";"Collectif";0;0;0;0
+"2022";"95446";"Residence";0;0;0;0
+"2022";"95447";"Tous Logements";1;1;132;132
+"2022";"95447";"Individuel pur";1;1;132;132
+"2022";"95447";"Individuel groupe";0;0;0;0
+"2022";"95447";"Collectif";0;0;0;0
+"2022";"95447";"Residence";0;0;0;0
+"2022";"95450";"Tous Logements";5;2;407;231
+"2022";"95450";"Individuel pur";2;2;231;231
+"2022";"95450";"Individuel groupe";3;0;176;0
+"2022";"95450";"Collectif";0;0;0;0
+"2022";"95450";"Residence";0;0;0;0
+"2022";"95452";"Tous Logements";73;42;5089;3752
+"2022";"95452";"Individuel pur";1;1;101;101
+"2022";"95452";"Individuel groupe";57;41;4474;3651
+"2022";"95452";"Collectif";15;0;514;0
+"2022";"95452";"Residence";0;0;0;0
+"2022";"95456";"Tous Logements";1;1;120;120
+"2022";"95456";"Individuel pur";1;1;120;120
+"2022";"95456";"Individuel groupe";0;0;0;0
+"2022";"95456";"Collectif";0;0;0;0
+"2022";"95456";"Residence";0;0;0;0
+"2022";"95459";"Tous Logements";0;2;0;334
+"2022";"95459";"Individuel pur";0;2;0;334
+"2022";"95459";"Individuel groupe";0;0;0;0
+"2022";"95459";"Collectif";0;0;0;0
+"2022";"95459";"Residence";0;0;0;0
+"2022";"95462";"Tous Logements";2;2;274;239
+"2022";"95462";"Individuel pur";2;2;274;239
+"2022";"95462";"Individuel groupe";0;0;0;0
+"2022";"95462";"Collectif";0;0;0;0
+"2022";"95462";"Residence";0;0;0;0
+"2022";"95476";"Tous Logements";209;297;14756;18986
+"2022";"95476";"Individuel pur";20;19;2571;2236
+"2022";"95476";"Individuel groupe";4;4;508;448
+"2022";"95476";"Collectif";185;253;11677;14842
+"2022";"95476";"Residence";0;21;0;1460
+"2022";"95480";"Tous Logements";5;1;709;194
+"2022";"95480";"Individuel pur";5;1;709;194
+"2022";"95480";"Individuel groupe";0;0;0;0
+"2022";"95480";"Collectif";0;0;0;0
+"2022";"95480";"Residence";0;0;0;0
+"2022";"95483";"Tous Logements";0;0;0;0
+"2022";"95483";"Individuel pur";0;0;0;0
+"2022";"95483";"Individuel groupe";0;0;0;0
+"2022";"95483";"Collectif";0;0;0;0
+"2022";"95483";"Residence";0;0;0;0
+"2022";"95487";"Tous Logements";9;78;1020;5139
+"2022";"95487";"Individuel pur";5;13;623;1320
+"2022";"95487";"Individuel groupe";4;0;397;0
+"2022";"95487";"Collectif";0;65;0;3819
+"2022";"95487";"Residence";0;0;0;0
+"2022";"95488";"Tous Logements";15;5;1700;697
+"2022";"95488";"Individuel pur";9;5;1103;697
+"2022";"95488";"Individuel groupe";4;0;464;0
+"2022";"95488";"Collectif";2;0;133;0
+"2022";"95488";"Residence";0;0;0;0
+"2022";"95489";"Tous Logements";1;0;131;0
+"2022";"95489";"Individuel pur";1;0;131;0
+"2022";"95489";"Individuel groupe";0;0;0;0
+"2022";"95489";"Collectif";0;0;0;0
+"2022";"95489";"Residence";0;0;0;0
+"2022";"95491";"Tous Logements";9;40;951;2558
+"2022";"95491";"Individuel pur";7;3;802;343
+"2022";"95491";"Individuel groupe";0;1;0;128
+"2022";"95491";"Collectif";2;36;149;2087
+"2022";"95491";"Residence";0;0;0;0
+"2022";"95492";"Tous Logements";0;0;0;0
+"2022";"95492";"Individuel pur";0;0;0;0
+"2022";"95492";"Individuel groupe";0;0;0;0
+"2022";"95492";"Collectif";0;0;0;0
+"2022";"95492";"Residence";0;0;0;0
+"2022";"95493";"Tous Logements";1;0;107;0
+"2022";"95493";"Individuel pur";1;0;107;0
+"2022";"95493";"Individuel groupe";0;0;0;0
+"2022";"95493";"Collectif";0;0;0;0
+"2022";"95493";"Residence";0;0;0;0
+"2022";"95500";"Tous Logements";169;334;11482;17244
+"2022";"95500";"Individuel pur";8;5;971;685
+"2022";"95500";"Individuel groupe";6;13;403;1013
+"2022";"95500";"Collectif";155;178;10108;11099
+"2022";"95500";"Residence";0;138;0;4447
+"2022";"95504";"Tous Logements";8;4;930;609
+"2022";"95504";"Individuel pur";8;4;930;609
+"2022";"95504";"Individuel groupe";0;0;0;0
+"2022";"95504";"Collectif";0;0;0;0
+"2022";"95504";"Residence";0;0;0;0
+"2022";"95509";"Tous Logements";238;0;18814;0
+"2022";"95509";"Individuel pur";1;0;168;0
+"2022";"95509";"Individuel groupe";110;0;10595;0
+"2022";"95509";"Collectif";127;0;8051;0
+"2022";"95509";"Residence";0;0;0;0
+"2022";"95510";"Tous Logements";0;0;0;0
+"2022";"95510";"Individuel pur";0;0;0;0
+"2022";"95510";"Individuel groupe";0;0;0;0
+"2022";"95510";"Collectif";0;0;0;0
+"2022";"95510";"Residence";0;0;0;0
+"2022";"95523";"Tous Logements";0;0;0;0
+"2022";"95523";"Individuel pur";0;0;0;0
+"2022";"95523";"Individuel groupe";0;0;0;0
+"2022";"95523";"Collectif";0;0;0;0
+"2022";"95523";"Residence";0;0;0;0
+"2022";"95527";"Tous Logements";2;0;260;0
+"2022";"95527";"Individuel pur";0;0;0;0
+"2022";"95527";"Individuel groupe";2;0;260;0
+"2022";"95527";"Collectif";0;0;0;0
+"2022";"95527";"Residence";0;0;0;0
+"2022";"95529";"Tous Logements";3;1;463;160
+"2022";"95529";"Individuel pur";3;1;463;160
+"2022";"95529";"Individuel groupe";0;0;0;0
+"2022";"95529";"Collectif";0;0;0;0
+"2022";"95529";"Residence";0;0;0;0
+"2022";"95535";"Tous Logements";6;0;876;0
+"2022";"95535";"Individuel pur";2;0;370;0
+"2022";"95535";"Individuel groupe";4;0;506;0
+"2022";"95535";"Collectif";0;0;0;0
+"2022";"95535";"Residence";0;0;0;0
+"2022";"95539";"Tous Logements";8;4;789;589
+"2022";"95539";"Individuel pur";4;4;595;589
+"2022";"95539";"Individuel groupe";0;0;0;0
+"2022";"95539";"Collectif";4;0;194;0
+"2022";"95539";"Residence";0;0;0;0
+"2022";"95541";"Tous Logements";2;2;297;313
+"2022";"95541";"Individuel pur";2;2;297;313
+"2022";"95541";"Individuel groupe";0;0;0;0
+"2022";"95541";"Collectif";0;0;0;0
+"2022";"95541";"Residence";0;0;0;0
+"2022";"95543";"Tous Logements";0;0;0;0
+"2022";"95543";"Individuel pur";0;0;0;0
+"2022";"95543";"Individuel groupe";0;0;0;0
+"2022";"95543";"Collectif";0;0;0;0
+"2022";"95543";"Residence";0;0;0;0
+"2022";"95554";"Tous Logements";1;2;161;309
+"2022";"95554";"Individuel pur";1;2;161;309
+"2022";"95554";"Individuel groupe";0;0;0;0
+"2022";"95554";"Collectif";0;0;0;0
+"2022";"95554";"Residence";0;0;0;0
+"2022";"95555";"Tous Logements";42;3;3735;376
+"2022";"95555";"Individuel pur";7;3;1092;376
+"2022";"95555";"Individuel groupe";4;0;241;0
+"2022";"95555";"Collectif";31;0;2402;0
+"2022";"95555";"Residence";0;0;0;0
+"2022";"95563";"Tous Logements";38;16;4204;2553
+"2022";"95563";"Individuel pur";14;16;1971;2553
+"2022";"95563";"Individuel groupe";24;0;2233;0
+"2022";"95563";"Collectif";0;0;0;0
+"2022";"95563";"Residence";0;0;0;0
+"2022";"95566";"Tous Logements";94;1;6147;63
+"2022";"95566";"Individuel pur";2;1;204;63
+"2022";"95566";"Individuel groupe";0;0;0;0
+"2022";"95566";"Collectif";0;0;0;0
+"2022";"95566";"Residence";92;0;5943;0
+"2022";"95572";"Tous Logements";11;60;1161;3349
+"2022";"95572";"Individuel pur";11;4;1161;403
+"2022";"95572";"Individuel groupe";0;0;0;0
+"2022";"95572";"Collectif";0;56;0;2946
+"2022";"95572";"Residence";0;0;0;0
+"2022";"95574";"Tous Logements";9;12;1207;1716
+"2022";"95574";"Individuel pur";2;5;507;1016
+"2022";"95574";"Individuel groupe";0;0;0;0
+"2022";"95574";"Collectif";7;7;700;700
+"2022";"95574";"Residence";0;0;0;0
+"2022";"95580";"Tous Logements";52;98;5503;9525
+"2022";"95580";"Individuel pur";11;13;2281;2201
+"2022";"95580";"Individuel groupe";8;52;859;4961
+"2022";"95580";"Collectif";33;33;2363;2363
+"2022";"95580";"Residence";0;0;0;0
+"2022";"95582";"Tous Logements";174;184;12960;11512
+"2022";"95582";"Individuel pur";23;6;3441;1007
+"2022";"95582";"Individuel groupe";4;3;504;253
+"2022";"95582";"Collectif";62;90;3824;5061
+"2022";"95582";"Residence";85;85;5191;5191
+"2022";"95584";"Tous Logements";1;1;134;134
+"2022";"95584";"Individuel pur";1;1;134;134
+"2022";"95584";"Individuel groupe";0;0;0;0
+"2022";"95584";"Collectif";0;0;0;0
+"2022";"95584";"Residence";0;0;0;0
+"2022";"95585";"Tous Logements";185;65;12651;4624
+"2022";"95585";"Individuel pur";10;9;1195;993
+"2022";"95585";"Individuel groupe";7;3;815;388
+"2022";"95585";"Collectif";16;53;1057;3243
+"2022";"95585";"Residence";152;0;9584;0
+"2022";"95592";"Tous Logements";2;0;39;0
+"2022";"95592";"Individuel pur";0;0;0;0
+"2022";"95592";"Individuel groupe";0;0;0;0
+"2022";"95592";"Collectif";2;0;39;0
+"2022";"95592";"Residence";0;0;0;0
+"2022";"95594";"Tous Logements";0;0;0;0
+"2022";"95594";"Individuel pur";0;0;0;0
+"2022";"95594";"Individuel groupe";0;0;0;0
+"2022";"95594";"Collectif";0;0;0;0
+"2022";"95594";"Residence";0;0;0;0
+"2022";"95598";"Tous Logements";19;12;4292;2344
+"2022";"95598";"Individuel pur";19;10;4292;2026
+"2022";"95598";"Individuel groupe";0;2;0;318
+"2022";"95598";"Collectif";0;0;0;0
+"2022";"95598";"Residence";0;0;0;0
+"2022";"95604";"Tous Logements";47;53;3883;4518
+"2022";"95604";"Individuel pur";17;23;1912;2547
+"2022";"95604";"Individuel groupe";0;0;0;0
+"2022";"95604";"Collectif";30;30;1971;1971
+"2022";"95604";"Residence";0;0;0;0
+"2022";"95607";"Tous Logements";79;20;5626;3173
+"2022";"95607";"Individuel pur";19;20;2263;3173
+"2022";"95607";"Individuel groupe";0;0;0;0
+"2022";"95607";"Collectif";60;0;3363;0
+"2022";"95607";"Residence";0;0;0;0
+"2022";"95610";"Tous Logements";0;0;0;0
+"2022";"95610";"Individuel pur";0;0;0;0
+"2022";"95610";"Individuel groupe";0;0;0;0
+"2022";"95610";"Collectif";0;0;0;0
+"2022";"95610";"Residence";0;0;0;0
+"2022";"95611";"Tous Logements";0;0;0;0
+"2022";"95611";"Individuel pur";0;0;0;0
+"2022";"95611";"Individuel groupe";0;0;0;0
+"2022";"95611";"Collectif";0;0;0;0
+"2022";"95611";"Residence";0;0;0;0
+"2022";"95612";"Tous Logements";4;5;460;736
+"2022";"95612";"Individuel pur";4;5;460;736
+"2022";"95612";"Individuel groupe";0;0;0;0
+"2022";"95612";"Collectif";0;0;0;0
+"2022";"95612";"Residence";0;0;0;0
+"2022";"95625";"Tous Logements";1;2;88;194
+"2022";"95625";"Individuel pur";1;2;88;194
+"2022";"95625";"Individuel groupe";0;0;0;0
+"2022";"95625";"Collectif";0;0;0;0
+"2022";"95625";"Residence";0;0;0;0
+"2022";"95627";"Tous Logements";2;1;272;108
+"2022";"95627";"Individuel pur";2;1;272;108
+"2022";"95627";"Individuel groupe";0;0;0;0
+"2022";"95627";"Collectif";0;0;0;0
+"2022";"95627";"Residence";0;0;0;0
+"2022";"95628";"Tous Logements";1;0;74;0
+"2022";"95628";"Individuel pur";1;0;74;0
+"2022";"95628";"Individuel groupe";0;0;0;0
+"2022";"95628";"Collectif";0;0;0;0
+"2022";"95628";"Residence";0;0;0;0
+"2022";"95633";"Tous Logements";0;0;0;0
+"2022";"95633";"Individuel pur";0;0;0;0
+"2022";"95633";"Individuel groupe";0;0;0;0
+"2022";"95633";"Collectif";0;0;0;0
+"2022";"95633";"Residence";0;0;0;0
+"2022";"95637";"Tous Logements";2;1;189;149
+"2022";"95637";"Individuel pur";2;1;189;149
+"2022";"95637";"Individuel groupe";0;0;0;0
+"2022";"95637";"Collectif";0;0;0;0
+"2022";"95637";"Residence";0;0;0;0
+"2022";"95641";"Tous Logements";5;1;550;99
+"2022";"95641";"Individuel pur";5;1;550;99
+"2022";"95641";"Individuel groupe";0;0;0;0
+"2022";"95641";"Collectif";0;0;0;0
+"2022";"95641";"Residence";0;0;0;0
+"2022";"95651";"Tous Logements";1;2;110;299
+"2022";"95651";"Individuel pur";1;2;110;299
+"2022";"95651";"Individuel groupe";0;0;0;0
+"2022";"95651";"Collectif";0;0;0;0
+"2022";"95651";"Residence";0;0;0;0
+"2022";"95652";"Tous Logements";5;5;634;635
+"2022";"95652";"Individuel pur";5;5;634;635
+"2022";"95652";"Individuel groupe";0;0;0;0
+"2022";"95652";"Collectif";0;0;0;0
+"2022";"95652";"Residence";0;0;0;0
+"2022";"95656";"Tous Logements";2;1;236;104
+"2022";"95656";"Individuel pur";2;1;236;104
+"2022";"95656";"Individuel groupe";0;0;0;0
+"2022";"95656";"Collectif";0;0;0;0
+"2022";"95656";"Residence";0;0;0;0
+"2022";"95658";"Tous Logements";2;1;236;163
+"2022";"95658";"Individuel pur";2;1;236;163
+"2022";"95658";"Individuel groupe";0;0;0;0
+"2022";"95658";"Collectif";0;0;0;0
+"2022";"95658";"Residence";0;0;0;0
+"2022";"95660";"Tous Logements";1;4;158;298
+"2022";"95660";"Individuel pur";1;1;158;158
+"2022";"95660";"Individuel groupe";0;0;0;0
+"2022";"95660";"Collectif";0;3;0;140
+"2022";"95660";"Residence";0;0;0;0
+"2022";"95675";"Tous Logements";5;0;505;0
+"2022";"95675";"Individuel pur";2;0;256;0
+"2022";"95675";"Individuel groupe";3;0;249;0
+"2022";"95675";"Collectif";0;0;0;0
+"2022";"95675";"Residence";0;0;0;0
+"2022";"95676";"Tous Logements";1;1;142;142
+"2022";"95676";"Individuel pur";1;1;142;142
+"2022";"95676";"Individuel groupe";0;0;0;0
+"2022";"95676";"Collectif";0;0;0;0
+"2022";"95676";"Residence";0;0;0;0
+"2022";"95678";"Tous Logements";3;3;439;495
+"2022";"95678";"Individuel pur";3;3;439;495
+"2022";"95678";"Individuel groupe";0;0;0;0
+"2022";"95678";"Collectif";0;0;0;0
+"2022";"95678";"Residence";0;0;0;0
+"2022";"95680";"Tous Logements";5;158;320;9252
+"2022";"95680";"Individuel pur";1;3;140;504
+"2022";"95680";"Individuel groupe";0;0;0;0
+"2022";"95680";"Collectif";4;155;180;8748
+"2022";"95680";"Residence";0;0;0;0
+"2022";"95682";"Tous Logements";1;0;94;0
+"2022";"95682";"Individuel pur";1;0;94;0
+"2022";"95682";"Individuel groupe";0;0;0;0
+"2022";"95682";"Collectif";0;0;0;0
+"2022";"95682";"Residence";0;0;0;0
+"2022";"95690";"Tous Logements";1;1;104;279
+"2022";"95690";"Individuel pur";1;1;104;279
+"2022";"95690";"Individuel groupe";0;0;0;0
+"2022";"95690";"Collectif";0;0;0;0
+"2022";"95690";"Residence";0;0;0;0

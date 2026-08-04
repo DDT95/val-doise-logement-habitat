@@ -1,0 +1,5 @@
+data/raw/TD_LOGEMENT_CARACT_PRINC_2023.zip
+data/raw/insee_td/
+.venv/
+__pycache__/
+.DS_Store

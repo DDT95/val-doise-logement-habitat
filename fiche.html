@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="Fiche territoriale logement — DDT 95" />
+    <title>Fiche logement · Val-d'Oise · DDT 95</title>
+    <link rel="stylesheet" href="css/fiche.css?v=1" />
+  </head>
+  <body>
+    <header class="profile-header">
+      <a href="index.html" class="profile-brand"
+        ><img src="assets/prefet-val-doise.svg" alt="Préfet du Val-d'Oise" /><span>Retour à la carte</span></a
+      >
+      <div>
+        <small>ATLAS TERRITORIAL · LOGEMENT</small><strong id="headerTitle">Fiche territoriale</strong>
+      </div>
+      <button id="openExport" type="button">Exporter <span>↗</span></button>
+    </header>
+    <div class="profile-workspace">
+      <main id="profileRoot" class="profile-page">
+        <div class="loading">Préparation de la fiche…</div>
+      </main>
+    </div>
+    <dialog id="exportDialog" class="export-dialog">
+      <button class="dialog-x" id="closeExport" aria-label="Fermer">×</button>
+      <small>EXPORT À LA DEMANDE</small>
+      <h2>Que souhaitez-vous faire ?</h2>
+      <p>Aucune action n’est lancée automatiquement. Choisissez le format qui vous convient.</p>
+      <div class="export-choices">
+        <button id="makePdf">
+          <b>PDF mis en page</b><span>Créer un document A4 avec couverture, pagination et sauts intelligents.</span>
+        </button>
+        <button id="printProfile">
+          <b>Imprimer / enregistrer</b><span>Ouvrir les options du navigateur pour choisir une imprimante ou enregistrer en PDF.</span>
+        </button>
+      </div>
+    </dialog>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.2/html2pdf.bundle.min.js"></script>
+    <script src="js/fiche.js?v=1"></script>
+  </body>
+</html>
