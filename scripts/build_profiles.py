@@ -298,7 +298,9 @@ def build_commune_profiles():
         rp_period_known = sum(v for v in rp_by_period.values() if v is not None)
 
         r = rpls.get(code) if rpls else None
-        social_count = r["count"] if r else None
+        # RPLS est un répertoire exhaustif : une commune absente du fichier a 0 logement
+        # social recensé (pas une donnée manquante), tant que le fichier source a bien été chargé.
+        social_count = r["count"] if r else (0 if rpls is not None else None)
         social_fg = None
         social_dpe_total = None
         if r:

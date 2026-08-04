@@ -89,28 +89,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 10,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 2.3166251608519723,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 431.66241,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 10,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": null,
@@ -330,28 +330,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 31,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 10.19423335895813,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 304.09349,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 6.451612903225806,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 31,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": null,
@@ -571,20 +571,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 165.38946999999996,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -812,20 +812,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 80.51923,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -1053,28 +1053,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 163,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 16.730275069842484,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 974.2816499999999,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 163,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": 1.0,
@@ -1294,28 +1294,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 14584,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 33.748726336455086,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 43213.48265,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 6.2478257844569685,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 14373,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": 1.0,
@@ -1546,28 +1546,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 470,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 9.314523560673146,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 5045.883420000001,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 20.212765957446805,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 470,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": 1.0,
@@ -1787,20 +1787,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 257.98921,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -2028,20 +2028,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 109.18321,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -2269,28 +2269,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 65,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 5.145499812755262,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 1263.23977,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 1.5384615384615385,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 65,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": null,
@@ -2510,28 +2510,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 50,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 8.156606851549755,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 613.0,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 50,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": null,
@@ -2751,28 +2751,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 274,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 9.639355916953457,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 2842.5135700000005,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 3.0434782608695654,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 230,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": 1.0,
@@ -2992,20 +2992,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 339.74201999999997,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -3233,20 +3233,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 719.08023,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -3474,20 +3474,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 54.111900000000006,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -3715,28 +3715,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 648,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 17.232653033046123,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 3760.3031800000012,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 2.3985239852398523,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 542,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": 1.0,
@@ -3956,28 +3956,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 918,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 21.787831666424577,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 4213.36099,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 3.707865168539326,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 890,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": null,
@@ -4208,20 +4208,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 84.23929,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -4449,20 +4449,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 170.78332,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -4690,20 +4690,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 814.0,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -4931,28 +4931,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 222,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 24.694104560622915,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 899.0,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 222,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": null,
@@ -5178,20 +5178,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 143.0,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -5419,28 +5419,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 938,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 28.959555418338994,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 3239.0,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 673,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": 1.0,
@@ -5660,20 +5660,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 166.0,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -5901,28 +5901,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 5702,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 42.03469785022399,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 13564.983909999999,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 4.957657021877206,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 5668,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": 1.0,
@@ -6142,20 +6142,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 325.89523,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -6383,28 +6383,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 48,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 6.426267324848537,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 746.93438,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 48,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": null,
@@ -6624,28 +6624,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 53,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 12.146989574903495,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 436.3221,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 53,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": null,
@@ -6865,28 +6865,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 661,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 28.207550198461455,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 2343.3442299999997,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 12.524084778420038,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 519,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": 1.0,
@@ -7106,20 +7106,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 114.64348999999999,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -7347,28 +7347,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 6,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 1.8312269797600895,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 327.64916999999997,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 20.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 5,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": null,
@@ -7588,20 +7588,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 165.78303000000002,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -7829,20 +7829,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 100.78612000000001,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -8070,28 +8070,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 468,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 27.283210003507875,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 1715.34068,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 18.660287081339714,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 418,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": null,
@@ -8317,20 +8317,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 128.01128,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -8558,28 +8558,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 139,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 16.460937124466366,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 844.4233700000001,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 139,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": 1.0,
@@ -8799,28 +8799,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 11567,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 41.02800194403421,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 28192.94007,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 0.5554472812317287,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 10262,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": 1.0,
@@ -9040,28 +9040,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 403,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 21.237974609511248,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 1897.54441,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 2.1333333333333333,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 375,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": 1.0,
@@ -9287,20 +9287,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 113.06561999999998,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -9528,20 +9528,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 14.0,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -9769,28 +9769,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 77,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 9.962333194477385,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 772.91131,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 1.2987012987012987,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 77,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": null,
@@ -10010,20 +10010,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 22.3125,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -10251,28 +10251,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 15,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 1.1397839639797267,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 1316.0388699999999,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 15,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": null,
@@ -10492,28 +10492,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 6,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 2.21872780809957,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 270.42524,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 6,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": null,
@@ -10733,20 +10733,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 116.0,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -10974,20 +10974,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 104.53333,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -11215,28 +11215,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 3,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 4.826531249215689,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 62.156439999999996,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 100.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 3,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": null,
@@ -11456,20 +11456,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 171.59014,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -11697,28 +11697,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 6,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 2.5061530233645306,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 239.41075999999998,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 83.33333333333334,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 6,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": null,
@@ -11938,20 +11938,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 226.0,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -12179,28 +12179,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 1803,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 16.707053721973246,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 10791.84894,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 0.060422960725075525,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 1655,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": 1.0,
@@ -12420,20 +12420,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 498.71315,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -12661,20 +12661,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 133.64106,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -12902,28 +12902,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 665,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 25.464389670810313,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 2611.4900399999997,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 5.238095238095238,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 630,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": 1.0,
@@ -13143,28 +13143,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 1905,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 19.189537044843714,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 9927.284829999999,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 3.327596098680436,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 1743,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": 1.0,
@@ -13384,28 +13384,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 1269,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 20.006479797684516,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 6342.944949999999,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 2.842377260981912,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 1161,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": 1.0,
@@ -13625,28 +13625,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 2313,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 21.859477957296523,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 10581.2225,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 2.0066889632107023,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 2093,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": 1.0,
@@ -13866,28 +13866,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 597,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 20.60752502588885,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 2897.0,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 3.9383561643835616,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 584,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": 1.0,
@@ -14107,28 +14107,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 828,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 15.53832574585127,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 5328.759440000001,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 8.609271523178808,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 604,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": 1.0,
@@ -14348,28 +14348,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 14,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 1.6073478760045925,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 871.0,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 14,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": null,
@@ -14589,20 +14589,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 52.0,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -14830,20 +14830,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 269.25526,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -15071,20 +15071,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 25.551739999999995,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -15312,28 +15312,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 1969,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 27.169351271783672,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 7247.1366,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 0.3191489361702127,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 1880,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": 1.0,
@@ -15553,28 +15553,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 4136,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 32.84750645592286,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 12591.51895,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 9.767025089605735,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 3348,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": 1.0,
@@ -15794,28 +15794,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 742,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 18.566111021330425,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 3996.52894,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 742,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": 1.0,
@@ -16035,28 +16035,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 118,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 15.167977704820949,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 777.95473,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 0.847457627118644,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 118,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": null,
@@ -16276,28 +16276,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 812,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 21.49827368068073,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 3777.04746,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 770,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": 1.0,
@@ -16517,28 +16517,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 3174,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 19.871268525818834,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 15972.81017,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 0.9584664536741214,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 1878,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": 1.0,
@@ -16758,20 +16758,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 211.84257000000002,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -16999,20 +16999,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 209.92808,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -17240,28 +17240,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 215,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 17.301770536853578,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 1242.64739,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 80,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": 1.0,
@@ -17481,28 +17481,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 275,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 14.492735674345807,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 1897.5023499999995,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 264,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": 1.0,
@@ -17722,20 +17722,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 152.85975,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -17963,28 +17963,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 6193,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 44.43948602569183,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 13935.804740000001,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 1.338400528750826,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 6052,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": 1.0,
@@ -18230,20 +18230,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 225.50606,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -18471,20 +18471,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 203.83726000000001,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -18712,28 +18712,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 4436,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 43.91791328173385,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 10100.662049999999,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 0.5409392672731743,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 4067,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": 1.0,
@@ -18953,28 +18953,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 3128,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 30.321356946639348,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 10316.161000000002,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 1.8577834721332478,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 3122,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": 1.0,
@@ -19194,20 +19194,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 293.20339999999993,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -19435,28 +19435,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 415,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 12.69749033950458,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 3268.3623999999995,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 403,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": 1.0,
@@ -19676,20 +19676,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 63.452960000000004,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -19917,20 +19917,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 204.51372999999998,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -20158,20 +20158,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 133.48896000000002,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -20399,20 +20399,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 92.0,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -20640,20 +20640,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 120.62652000000001,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -20881,28 +20881,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 2332,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 19.681308205686136,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 11848.80586,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 2200,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": 1.0,
@@ -21122,20 +21122,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 221.86651999999998,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -21363,20 +21363,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 90.0,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -21604,28 +21604,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 1275,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 21.378575241000178,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 5963.914739999999,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 6.564019448946515,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 1234,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": 1.0,
@@ -21845,20 +21845,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 101.31748999999998,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -22086,28 +22086,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 1742,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 28.09101947636008,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 6201.27013,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 7.558859975216853,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 1614,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": 1.0,
@@ -22327,28 +22327,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 1,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.3903826120461534,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 256.15895,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 100.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 1,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": null,
@@ -22568,20 +22568,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 71.89428000000001,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -22809,20 +22809,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 154.75455,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -23050,20 +23050,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 215.02916,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -23291,28 +23291,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 1137,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 25.10134347313399,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 4529.638029999999,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 0.6160164271047228,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 974,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": 1.0,
@@ -23532,28 +23532,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 294,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 14.273451947887548,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 2059.76803,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 2.7210884353741496,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 294,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": null,
@@ -23773,28 +23773,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 50,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 7.2796834735388245,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 686.84305,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 25,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": null,
@@ -24014,28 +24014,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 795,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 33.45767974702863,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 2376.13608,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 2.911392405063291,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 790,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": null,
@@ -24255,28 +24255,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 13,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 4.789541292367085,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 271.42474,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 13,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": null,
@@ -24496,28 +24496,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 144,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 12.105995150254275,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 1189.49329,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 122,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": 1.0,
@@ -24737,28 +24737,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 147,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 10.935493369512809,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 1344.2466199999997,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 3.4013605442176873,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 147,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": null,
@@ -24978,28 +24978,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 262,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 12.508760309760827,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 2094.5321000000004,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 261,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": 1.0,
@@ -25219,20 +25219,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 81.97043,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -25460,20 +25460,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 26.57143,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -25701,28 +25701,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 533,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 23.83746430775771,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 2235.97608,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 533,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": 1.0,
@@ -25942,28 +25942,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 352,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 16.326297530872914,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 2156.03078,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 1.4245014245014245,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 351,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": 1.0,
@@ -26183,28 +26183,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 745,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 20.29972752043597,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 3670.0,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 33.03437967115097,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 669,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": 1.0,
@@ -26424,20 +26424,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 324.49828,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -26665,28 +26665,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 6,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 1.1566029168985816,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 518.76058,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 6,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": null,
@@ -26906,20 +26906,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 161.82811999999998,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -27147,28 +27147,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 2478,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 32.09264672064553,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 7721.394939999999,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 3.004115226337449,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 2430,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": 1.0,
@@ -27388,28 +27388,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 94,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 8.358462145756482,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 1124.60879,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 94,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": 1.0,
@@ -27629,28 +27629,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 1301,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 23.705994790548427,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 5488.0633,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 0.09940357852882703,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 1006,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": 1.0,
@@ -27870,28 +27870,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 1652,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 18.225879174515025,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 9064.03463,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 2.6024723487312946,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 1537,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": 1.0,
@@ -28111,20 +28111,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 160.11455,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -28352,28 +28352,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 247,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 15.783466482741781,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 1564.92872,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 0.40650406504065045,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 246,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": null,
@@ -28593,28 +28593,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 1,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.1589825119236884,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 629.0,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 1,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": null,
@@ -28840,20 +28840,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 40.96551,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -29081,20 +29081,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 275.13565000000006,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -29322,28 +29322,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 44,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 5.670103092783505,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 776.0,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 44,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": 1.0,
@@ -29563,20 +29563,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 89.85595,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -29804,27 +29804,27 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 180,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 19.35144742053699,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 930.1629800000001,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
+    "denominator": 0,
     "quality_flag": "missing"
    },
    "sru_soumise": {
@@ -30045,20 +30045,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 332.34622,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -30292,20 +30292,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 228.0,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -30539,20 +30539,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 270.8247999999999,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -30780,20 +30780,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 134.0,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -31021,28 +31021,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 1504,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 23.66997915014778,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 6354.040240000001,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 1467,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": 1.0,
@@ -31262,28 +31262,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 213,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 9.684186097376076,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 2199.4620699999996,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 1.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 200,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": 1.0,
@@ -31503,28 +31503,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 37,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 18.5,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 200.0,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 40.54054054054054,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 37,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": null,
@@ -31744,28 +31744,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 2065,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 39.29450280504806,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 5255.188010000001,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 4.3734643734643734,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 2035,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": null,
@@ -31996,28 +31996,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 968,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 26.285355799390725,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 3682.6589200000003,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 1.4492753623188406,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 966,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": 1.0,
@@ -32237,27 +32237,27 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 8,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 2.9197080291970803,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 274.0,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
+    "denominator": 0,
     "quality_flag": "missing"
    },
    "sru_soumise": {
@@ -32478,28 +32478,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 454,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 12.934467038419584,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 3510.0016,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 450,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": 1.0,
@@ -32719,20 +32719,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 38.90723,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -32960,20 +32960,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 64.87806,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -33201,28 +33201,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 4897,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 35.83673540334494,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 13664.74916,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 1.42200831327937,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 4571,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": 1.0,
@@ -33442,28 +33442,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 25,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 1.5733165512901195,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 1589.0,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 25,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": null,
@@ -33683,28 +33683,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 58,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 4.11202514891894,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 1410.4972100000002,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 57,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": 1.0,
@@ -33924,28 +33924,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 12,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 6.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 200.0,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 12,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": null,
@@ -34165,20 +34165,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 182.0,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -34406,28 +34406,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 225,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 17.526079799886755,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 1283.80107,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 4.62962962962963,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 108,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": 1.0,
@@ -34647,20 +34647,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 354.38814,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -34894,20 +34894,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 447.98568,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -35135,28 +35135,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 1109,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 19.41905969046677,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 5710.88414,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 1109,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": 1.0,
@@ -35376,28 +35376,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 57,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 15.537106316984008,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 366.86368,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 22.807017543859647,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 57,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": null,
@@ -35617,28 +35617,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 4,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 4.102795121489405,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 97.49451,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 4,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": null,
@@ -35858,28 +35858,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 5,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 1.356719855150076,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 368.53592,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 5,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": null,
@@ -36099,28 +36099,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 2495,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 27.44683966285397,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 9090.299760000002,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 1.6717993840739112,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 2273,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": 1.0,
@@ -36340,28 +36340,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 1157,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 17.18840038081652,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 6731.283739999997,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 2.2018348623853212,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 1090,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": 1.0,
@@ -36581,28 +36581,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 196,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 19.99907596106172,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 980.0452799999999,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 1.7142857142857144,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 175,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": null,
@@ -36822,28 +36822,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 3060,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 29.505100136867608,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 10371.088339999998,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 0.06731740154830024,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 2971,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": 1.0,
@@ -37063,28 +37063,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 583,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 20.617085713472147,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 2827.7517399999997,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 0.5154639175257731,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 582,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": 1.0,
@@ -37304,28 +37304,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 98,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 11.806329785414777,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 830.0632099999999,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 64,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": null,
@@ -37545,28 +37545,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 2946,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 26.201450503228074,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 11243.652329999999,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 1.8798378179137487,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 2713,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": 1.0,
@@ -37786,20 +37786,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 261.0,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -38027,28 +38027,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 11471,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 56.93374050733794,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 20147.982370000005,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 2.831505483549352,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 10030,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": 1.0,
@@ -38274,20 +38274,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 525.7062,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -38515,20 +38515,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 445.42310999999995,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -38756,28 +38756,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 1600,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 21.66864756476972,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 7383.940299999999,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 1.954177897574124,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 1484,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": 1.0,
@@ -38997,28 +38997,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 456,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 27.191413237924866,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 1677.0,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 241,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": 1.0,
@@ -39238,28 +39238,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 2119,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 19.623470097340924,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 10798.29403,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 1964,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": 1.0,
@@ -39479,20 +39479,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 115.0,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -39720,20 +39720,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 17.0,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -39961,28 +39961,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 117,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 6.86217008797654,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 1705.0,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 106,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": 1.0,
@@ -40202,20 +40202,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 514.76044,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -40443,20 +40443,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 246.0,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -40684,28 +40684,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 7,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 1.3001870820618278,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 538.38406,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 14.285714285714285,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 7,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": null,
@@ -40925,20 +40925,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 43.16983,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -41166,28 +41166,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 1565,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 25.82897684453021,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 6059.086310000001,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 2.3856858846918487,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 1509,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": 1.0,
@@ -41407,28 +41407,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 398,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 33.843537414965986,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 1176.0,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 286,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": null,
@@ -41648,28 +41648,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 8,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 1.9333710550137593,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 413.78503,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 8,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": null,
@@ -41889,28 +41889,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 99,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 4.378729261984379,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 2260.92992,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 99,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": null,
@@ -42130,20 +42130,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 176.92152,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -42371,28 +42371,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 26,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 5.837502694793311,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 445.39594,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 3.8461538461538463,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 26,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": null,
@@ -42612,28 +42612,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 18,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 6.121585294700598,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 294.04148000000004,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 18,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": null,
@@ -42853,28 +42853,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 127,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 23.2008872019266,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 547.39286,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 127,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": null,
@@ -43094,20 +43094,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 209.81248,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -43335,20 +43335,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 344.67944000000006,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -43576,28 +43576,28 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 5278,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 52.63940856203616,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 10026.708400000001,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
-    "value": null,
+    "value": 0.09573042312847023,
     "unit": "%",
     "year": 2025,
     "source": "rpls",
-    "denominator": null,
-    "quality_flag": "missing"
+    "denominator": 5223,
+    "quality_flag": "ok"
    },
    "sru_soumise": {
     "value": 1.0,
@@ -43833,20 +43833,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 74.54545,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
@@ -44074,20 +44074,20 @@
   },
   "social": {
    "rpls_count": {
-    "value": null,
+    "value": 0,
     "unit": "logements",
     "year": 2025,
     "source": "rpls",
     "denominator": null,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "part_rpls_residences_principales": {
-    "value": null,
+    "value": 0.0,
     "unit": "%",
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 151.85798,
-    "quality_flag": "missing"
+    "quality_flag": "ok"
    },
    "dpe_fg_part_observee": {
     "value": null,
