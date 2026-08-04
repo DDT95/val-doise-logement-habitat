@@ -154,8 +154,11 @@
     btn.addEventListener("click", () => {
       document.querySelectorAll(".layer-card").forEach((b) => b.classList.toggle("active", b === btn));
       state.activeLayer = btn.dataset.layer;
+      state.selected = null;
+      searchInput.value = "";
+      document.getElementById("detailPanel").classList.remove("open");
       applyChoropleth();
-      if (state.selected) renderDetail(state.selected);
+      renderEmptyState();
     });
   });
 
@@ -243,8 +246,14 @@
 
   function openTerritoryData() {
     if (!state.selected) {
+      const label = state.scale === "epci" ? "un EPCI" : "une commune";
+      document.getElementById("mapStatus").textContent = `Choisissez d’abord ${label}`;
+      const box = document.getElementById("territorySearchField");
+      box.classList.remove("search-box-alert");
+      void box.offsetWidth;
+      box.classList.add("search-box-alert");
+      searchInput.placeholder = `Choisissez d’abord ${label} ↑`;
       searchInput.focus();
-      document.getElementById("mapStatus").textContent = `Choisissez d’abord ${state.scale === "epci" ? "un EPCI" : "une commune"}`;
       return;
     }
     const url = state.scale === "epci" ? `fiche.html?type=epci&id=${encodeURIComponent(state.selected)}` : `fiche.html?type=commune&id=${encodeURIComponent(state.selected)}`;

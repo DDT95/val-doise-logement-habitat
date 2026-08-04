@@ -23,7 +23,7 @@ a{color:var(--blue)}
 
 .workspace{height:calc(100% - 111px);display:grid;grid-template-columns:390px 1fr;gap:16px;padding:16px;position:relative;overflow:hidden}
 
-.sidebar{position:relative;z-index:600;background:#fff;border:1px solid var(--line);border-radius:23px;box-shadow:var(--shadow);display:flex;flex-direction:column;min-height:0;overflow:hidden}
+.sidebar{position:relative;z-index:600;background:#fff;border:1px solid var(--line);border-radius:23px;box-shadow:var(--shadow);display:flex;flex-direction:column;min-height:0;overflow-y:auto;overflow-x:hidden;scrollbar-color:#c4d0d8 transparent;scrollbar-width:thin}
 .sidebar-intro{display:flex;gap:14px;padding:22px 20px 14px;background:#fff}
 .section-number{font-size:12px;font-weight:700;color:#fff;background:var(--cyan);width:34px;height:34px;border-radius:50%;display:grid;place-items:center;flex:none}
 .sidebar-intro h2{margin:8px 0 0;color:var(--navy);font-size:23px;line-height:1.03}
@@ -32,7 +32,9 @@ a{color:var(--blue)}
 
 .search-box{padding:0 20px 8px}
 .search-box>span{display:block;font-size:10px;font-weight:700;color:var(--muted);margin-bottom:6px}
-.search-box>div{display:flex;height:44px;border:1px solid #bccbd2;border-radius:15px;overflow:hidden}
+.search-box>div{display:flex;height:44px;border:1px solid #bccbd2;border-radius:15px;overflow:hidden;transition:border-color .15s,box-shadow .15s}
+.search-box-alert>div{border-color:var(--orange);box-shadow:0 0 0 3px rgba(224,122,47,.18);animation:search-shake .4s}
+@keyframes search-shake{0%,100%{transform:translateX(0)}20%{transform:translateX(-6px)}40%{transform:translateX(5px)}60%{transform:translateX(-3px)}80%{transform:translateX(2px)}}
 .search-box input{border:0;padding:0 13px;width:100%;outline:0}
 .search-box button{width:42px;border:0;background:var(--navy);color:#fff;font-weight:700}
 .search-results{position:absolute;left:20px;right:20px;top:218px;width:auto;background:#fff;box-shadow:var(--shadow);border:1px solid var(--line);border-radius:12px;z-index:1002;overflow:hidden;max-height:230px;overflow-y:auto}
