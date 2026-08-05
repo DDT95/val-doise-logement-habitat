@@ -50,16 +50,17 @@
     maxZoom: 19,
   }).addTo(map);
 
-  let communesLayer, deptLayer;
+  let communesLayer, epciLayer, deptLayer;
   const territoryTooltip = L.tooltip({ sticky: true, className: "commune-tip", direction: "top", offset: [0, -8] });
 
   Promise.all([
     d3.json("data/processed/departement95.geojson"),
     d3.json("data/processed/communes95.geojson"),
+    d3.json("data/processed/epcis95.geojson"),
     d3.json("data/processed/communes95.json"),
     d3.json("data/processed/commune_profiles.json"),
     d3.json("data/processed/epci_profiles.json"),
-  ]).then(([dept95, communes95Geo, communes95, communeProfiles, epciProfiles]) => {
+  ]).then(([dept95, communes95Geo, epcis95Geo, communes95, communeProfiles, epciProfiles]) => {
     deptLayer = L.geoJSON(dept95, { style: { color: "#000091", weight: 2, fill: false, opacity: 0.55 } }).addTo(map);
 
     state.communes = communes95.map((c) => ({ ...c, profile: communeProfiles[c.code] }));
@@ -79,6 +80,14 @@
         layer.on("mouseout", () => map.closeTooltip(territoryTooltip));
       },
     }).addTo(map);
+
+    epciLayer = L.geoJSON(epcis95Geo, {
+      style: (feature) => ({ color: state.epciColors.get(feature.properties.code) || "#000091", weight: 2.2, fillColor: state.epciColors.get(feature.properties.code) || "#dce8f1", fillOpacity: 0.2 }),
+      onEachFeature: (feature, layer) => {
+        layer.bindTooltip(feature.properties.name, { permanent: true, className: "epci-label", direction: "center" });
+        layer.on("click", () => selectEpci(feature.properties.code));
+      },
+    });
 
     document.getElementById("mapStatus").textContent = `${state.communes.length} communes chargées`;
     if (deptLayer) map.fitBounds(deptLayer.getBounds(), { padding: [24, 24], animate: false });
@@ -125,16 +134,26 @@
   function applyChoropleth() {
     if (!communesLayer) return;
     const layerDef = state.activeLayer ? LAYERS[state.activeLayer] : null;
+    const displayLayer = state.scale === "epci" ? epciLayer : communesLayer;
+
+    if (state.scale === "epci") {
+      if (map.hasLayer(communesLayer)) map.removeLayer(communesLayer);
+      if (epciLayer && !map.hasLayer(epciLayer)) epciLayer.addTo(map);
+    } else {
+      if (epciLayer && map.hasLayer(epciLayer)) map.removeLayer(epciLayer);
+      if (!map.hasLayer(communesLayer)) communesLayer.addTo(map);
+    }
 
     if (!layerDef) {
-      communesLayer.eachLayer((layer) => {
+      displayLayer.eachLayer((layer) => {
         const code = layer.feature.properties.code;
-        const isSelected = code === state.selected || (state.scale === "epci" && epciForCommune(code)?.code === state.selected);
+        const isSelected = code === state.selected;
+        const epciColor = state.scale === "epci" ? state.epciColors.get(code) : null;
         layer.setStyle({
-          fillColor: "#dce8f1",
-          fillOpacity: isSelected ? 0.5 : 0.32,
-          weight: isSelected ? 2.4 : 0.6,
-          color: isSelected ? "#070047" : "#8a9bb0",
+          fillColor: epciColor || "#dce8f1",
+          fillOpacity: isSelected ? 0.48 : state.scale === "epci" ? 0.2 : 0.32,
+          weight: isSelected ? 3.4 : state.scale === "epci" ? 2.2 : 0.6,
+          color: isSelected ? "#070047" : epciColor || "#8a9bb0",
         });
         if (isSelected) layer.bringToFront();
       });
@@ -152,10 +171,10 @@
     const colorScale = d3.scaleLinear().range(layerDef.ramp);
     colorScale.domain(extent[0] === extent[1] ? [0, extent[1] || 1] : extent);
 
-    communesLayer.eachLayer((layer) => {
+    displayLayer.eachLayer((layer) => {
       const code = layer.feature.properties.code;
-      const isSelected = code === state.selected || (state.scale === "epci" && epciForCommune(code)?.code === state.selected);
-      const v = valueForTerritoryCode(code);
+      const isSelected = code === state.selected;
+      const v = state.scale === "epci" ? LAYERS[state.activeLayer].get(state.epcisByCode.get(code)) : valueForTerritoryCode(code);
       const fill = v == null ? "#e4e9ec" : colorScale(v);
       layer.setStyle({
         fillColor: fill,
@@ -303,7 +322,7 @@
     state.selected = code;
     searchInput.value = epci.name;
     const visibleLayers = [];
-    communesLayer.eachLayer((layer) => { if (epci.members.includes(layer.feature.properties.code)) visibleLayers.push(layer); });
+    epciLayer.eachLayer((layer) => { if (layer.feature.properties.code === code) visibleLayers.push(layer); });
     if (visibleLayers.length) map.fitBounds(L.featureGroup(visibleLayers).getBounds(), { padding: [45, 45], animate: false, maxZoom: 11 });
     document.getElementById("mapStatus").textContent = `${epci.name} · profil affiché`;
     applyChoropleth();

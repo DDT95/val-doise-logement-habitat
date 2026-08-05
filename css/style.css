@@ -99,6 +99,7 @@ input[type="range"]{width:100%;accent-color:var(--blue)}
 .leaflet-control-attribution{font-size:9px}
 .flow-overlay{position:absolute;pointer-events:none;overflow:visible}
 .commune-tip{font-family:Marianne,Arial,sans-serif;font-size:11px}
+.epci-label{max-width:130px;white-space:normal;text-align:center;background:rgba(255,255,255,.88);color:#070047;border:1px solid rgba(0,0,145,.18);border-radius:7px;padding:3px 6px;font:700 9px/1.15 Marianne,Arial,sans-serif;box-shadow:0 2px 8px rgba(15,23,42,.12)}.epci-label:before{display:none}
 .leaflet-interactive:focus{outline:none}
 
 .map-legend{position:absolute;right:18px;top:18px;z-index:500;background:#fffffff2;border:1px solid #fff;border-radius:14px;box-shadow:0 8px 30px #0f172a20;padding:11px 13px;max-width:230px}
