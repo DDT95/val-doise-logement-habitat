@@ -3,7 +3,6 @@
   "code": "200035970",
   "name": "CC Vexin Centre",
   "kind": "epci",
-  "special": false,
   "members": [
    "95002",
    "95040",
@@ -225,13 +224,13 @@
     "quality_flag": "ok"
    },
    "anah_programmes_actifs": []
-  }
+  },
+  "special": false
  },
  "200055655": {
   "code": "200055655",
   "name": "CA Roissy Pays de France",
   "kind": "epci",
-  "special": false,
   "members": [
    "77118",
    "77123",
@@ -500,13 +499,13 @@
      "fin": "2027-11-29"
     }
    ]
-  }
+  },
+  "special": false
  },
  "200056380": {
   "code": "200056380",
   "name": "CA Plaine Vallée",
   "kind": "epci",
-  "special": false,
   "members": [
    "95014",
    "95028",
@@ -698,13 +697,13 @@
     "quality_flag": "ok"
    },
    "anah_programmes_actifs": []
-  }
+  },
+  "special": false
  },
  "200058485": {
   "code": "200058485",
   "name": "CA Val Parisis",
   "kind": "epci",
-  "special": false,
   "members": [
    "95051",
    "95060",
@@ -890,13 +889,13 @@
     "quality_flag": "ok"
    },
    "anah_programmes_actifs": []
-  }
+  },
+  "special": false
  },
  "200073013": {
   "code": "200073013",
   "name": "CC Carnelle Pays-de-France",
   "kind": "epci",
-  "special": false,
   "members": [
    "95026",
    "95042",
@@ -1090,13 +1089,13 @@
     "quality_flag": "ok"
    },
    "anah_programmes_actifs": []
-  }
+  },
+  "special": false
  },
  "249500109": {
   "code": "249500109",
   "name": "CA de Cergy-Pontoise",
   "kind": "epci",
-  "special": false,
   "members": [
    "78382",
    "95074",
@@ -1277,13 +1276,13 @@
     "quality_flag": "partial_perimeter"
    },
    "anah_programmes_actifs": []
-  }
+  },
+  "special": false
  },
  "249500430": {
   "code": "249500430",
   "name": "CC Sausseron Impressionnistes",
   "kind": "epci",
-  "special": false,
   "members": [
    "95023",
    "95039",
@@ -1469,13 +1468,13 @@
     "quality_flag": "ok"
    },
    "anah_programmes_actifs": []
-  }
+  },
+  "special": false
  },
  "249500455": {
   "code": "249500455",
   "name": "CC de la Vallée de l’Oise et des Trois Forêts",
   "kind": "epci",
-  "special": false,
   "members": [
    "95061",
    "95151",
@@ -1649,13 +1648,13 @@
     "quality_flag": "ok"
    },
    "anah_programmes_actifs": []
-  }
+  },
+  "special": false
  },
  "249500489": {
   "code": "249500489",
   "name": "CC du Haut Val d’Oise",
   "kind": "epci",
-  "special": false,
   "members": [
    "95052",
    "95058",
@@ -1840,13 +1839,13 @@
      "fin": "2029-09-30"
     }
    ]
-  }
+  },
+  "special": false
  },
  "249500513": {
   "code": "249500513",
   "name": "CC du Vexin-Val de Seine",
   "kind": "epci",
-  "special": false,
   "members": [
    "95008",
    "95011",
@@ -2054,13 +2053,13 @@
     "quality_flag": "ok"
    },
    "anah_programmes_actifs": []
-  }
+  },
+  "special": false
  },
  "special-95018": {
   "code": "special-95018",
   "name": "Argenteuil",
   "kind": "epci",
-  "special": true,
   "members": [
    "95018"
   ],
@@ -2229,13 +2228,13 @@
      "fin": "2028-02-14"
     }
    ]
-  }
+  },
+  "special": true
  },
  "special-95063": {
   "code": "special-95063",
   "name": "Bezons",
   "kind": "epci",
-  "special": true,
   "members": [
    "95063"
   ],
@@ -2393,6 +2392,7 @@
     "quality_flag": "ok"
    },
    "anah_programmes_actifs": []
-  }
+  },
+  "special": true
  }
 }

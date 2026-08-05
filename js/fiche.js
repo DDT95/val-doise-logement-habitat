@@ -8,8 +8,9 @@
   const dialog = document.getElementById("exportDialog");
   const headerTitle = document.getElementById("headerTitle");
   const params = new URLSearchParams(location.search);
-  const scale = params.get("type") === "epci" ? "epci" : "commune";
-  const selectedId = params.get("id");
+  const typeParam = params.get("type");
+  const scale = typeParam === "departement" ? "departement" : typeParam === "epci" ? "epci" : "commune";
+  const selectedId = scale === "departement" ? "95" : params.get("id");
   let currentProfile;
 
   function val(node) {
@@ -67,10 +68,13 @@
 
   function renderProfile(profile, name) {
     currentProfile = profile;
+    const isDepartement = scale === "departement";
     const isEpci = scale === "epci" && !profile.special;
-    const territoryTitle = isEpci ? "L’EPCI" : "La commune";
+    const territoryTitle = isDepartement ? "Le Val-d’Oise" : isEpci ? "L’EPCI" : "La commune";
+    const territoryWord = isDepartement ? "le Val-d’Oise" : isEpci ? "l’EPCI" : "la commune";
+    const coverKicker = isDepartement ? "SYNTHÈSE DÉPARTEMENTALE" : isEpci ? "FICHE INTERCOMMUNALE" : "FICHE COMMUNALE";
     document.title = `${name} · Fiche logement · DDT 95`;
-    headerTitle.textContent = isEpci ? "Fiche EPCI · Logement" : "Fiche communale · Logement";
+    headerTitle.textContent = isDepartement ? "Synthèse départementale · Logement" : isEpci ? "Fiche EPCI · Logement" : "Fiche communale · Logement";
 
     const total = val(profile.parc.total);
     const rp = val(profile.parc.residences_principales);
@@ -103,9 +107,9 @@
 
     root.innerHTML = `<div id="report">
       <section class="report-cover">
-        <div class="cover-kicker">FICHE ${isEpci ? "INTERCOMMUNALE" : "COMMUNALE"} · LOGEMENT · HABITAT</div>
+        <div class="cover-kicker">${coverKicker} · LOGEMENT · HABITAT</div>
         <h1>${name}</h1>
-        <p>Composition du parc, poids du logement social, vacance, construction et besoin de rénovation dans ${isEpci ? "l’EPCI" : "la commune"}.</p>
+        <p>Composition du parc, poids du logement social, vacance, construction et besoin de rénovation dans ${territoryWord}.</p>
         <div class="cover-meta"><span>Insee 2023 · RPLS 2025 · LOVAC 2025 · Sitadel3 · ADEME DPE</span><span>DDT du Val-d’Oise</span></div>
       </section>
       <div class="report-body">
@@ -155,10 +159,13 @@
     fetch("data/processed/commune_profiles.json").then((r) => r.json()),
     fetch("data/processed/epci_profiles.json").then((r) => r.json()),
     fetch("data/processed/communes95.json").then((r) => r.json()),
+    fetch("data/processed/departement_profile.json").then((r) => r.json()),
   ])
-    .then(([communeProfiles, epciProfiles, communes]) => {
+    .then(([communeProfiles, epciProfiles, communes, departementProfile]) => {
       const communeNames = Object.fromEntries(communes.map((c) => [c.code, c.name]));
-      if (scale === "epci") {
+      if (scale === "departement") {
+        renderProfile(departementProfile, departementProfile.name);
+      } else if (scale === "epci") {
         const profile = epciProfiles[selectedId];
         if (!profile) throw new Error("EPCI introuvable");
         renderProfile(profile, profile.name);

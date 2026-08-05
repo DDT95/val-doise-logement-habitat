@@ -24,6 +24,13 @@
     dpe_fg: { label: "Part F/G parmi les DPE observés", unit: "%", ramp: ["#fdeef2", "#e85d8e", "#7a1338"], get: (p) => p.renovation.dpe_fg_part.value },
   };
 
+  document.querySelectorAll(".layer-card[data-layer]").forEach((btn) => {
+    const def = LAYERS[btn.dataset.layer];
+    if (!def) return;
+    btn.style.setProperty("--layer-color", def.ramp[1]);
+    btn.style.setProperty("--layer-gradient", `linear-gradient(135deg, ${def.ramp[0]}, ${def.ramp[1]})`);
+  });
+
   function pct(num, den) {
     if (num == null || !den) return null;
     return (num / den) * 100;
@@ -246,14 +253,7 @@
 
   function openTerritoryData() {
     if (!state.selected) {
-      const label = state.scale === "epci" ? "un EPCI" : "une commune";
-      document.getElementById("mapStatus").textContent = `Choisissez d’abord ${label}`;
-      const box = document.getElementById("territorySearchField");
-      box.classList.remove("search-box-alert");
-      void box.offsetWidth;
-      box.classList.add("search-box-alert");
-      searchInput.placeholder = `Choisissez d’abord ${label} ↑`;
-      searchInput.focus();
+      window.location.href = "fiche.html?type=departement";
       return;
     }
     const url = state.scale === "epci" ? `fiche.html?type=epci&id=${encodeURIComponent(state.selected)}` : `fiche.html?type=commune&id=${encodeURIComponent(state.selected)}`;

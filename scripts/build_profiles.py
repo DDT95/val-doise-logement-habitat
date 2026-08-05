@@ -367,6 +367,94 @@ def build_commune_profiles():
     return profiles
 
 
+def build_aggregate_profile(code, name, kind, member_profiles, members=None, members_95=None, partial=False):
+    def sum_field(path):
+        total = 0.0
+        n = 0
+        for p in member_profiles:
+            node = p
+            for key in path:
+                node = node.get(key, {})
+            v = node.get("value") if isinstance(node, dict) else None
+            if v is not None:
+                total += v
+                n += 1
+        return total if n else None
+
+    total_parc = sum_field(["parc", "total"])
+    rp = sum_field(["parc", "residences_principales"])
+    vac = sum_field(["parc", "logements_vacants_rp"])
+    social_count = sum_field(["social", "rpls_count"])
+    aut_5y = sum_field(["construction", "autorises_5ans"])
+    com_5y = sum_field(["construction", "commences_5ans"])
+    dpe_obs = sum_field(["renovation", "dpe_observes"])
+    maison = sum_field(["parc", "maisons"])
+    appartement = sum_field(["parc", "appartements"])
+    proprietaire = sum_field(["occupation", "proprietaires"])
+    loc_prive = sum_field(["occupation", "locataires_prive"])
+    loc_social = sum_field(["occupation", "locataires_social"])
+    vac_priv_longue = sum_field(["vacance", "vacance_privee_longue_2025"])
+    avant_1971_vals = [p["parc"]["part_avant_1971"]["value"] for p in member_profiles if p["parc"]["part_avant_1971"]["value"] is not None]
+    part_avant_1971 = sum(avant_1971_vals) / len(avant_1971_vals) if avant_1971_vals else None
+
+    dpe_fg_count = None
+    if dpe_obs:
+        fg_vals = [(p["renovation"]["dpe_fg_part"]["value"] or 0) / 100 * p["renovation"]["dpe_observes"]["value"] for p in member_profiles if p["renovation"]["dpe_observes"]["value"]]
+        dpe_fg_count = sum(fg_vals) if fg_vals else None
+
+    anah_programmes = []
+    seen_programmes = set()
+    for p in member_profiles:
+        for prog in p["renovation"]["anah_programmes_actifs"]:
+            key = (prog["libelle"], prog["fin"])
+            if key not in seen_programmes:
+                seen_programmes.add(key)
+                anah_programmes.append(prog)
+
+    flag = QUALITY_PARTIAL_PERIMETER if partial else QUALITY_OK
+
+    return {
+        "code": code,
+        "name": name,
+        "kind": kind,
+        "members": members,
+        "members_covered": members_95,
+        "perimetre_partiel": partial,
+        "parc": {
+            "total": {"value": total_parc, "unit": "logements", "year": 2023, "source": "insee_logement_2023", "denominator": None, "quality_flag": flag if total_parc is not None else QUALITY_MISSING},
+            "residences_principales": {"value": rp, "unit": "logements", "year": 2023, "source": "insee_logement_2023", "denominator": None, "quality_flag": flag if rp is not None else QUALITY_MISSING},
+            "logements_vacants_rp": {"value": vac, "unit": "logements", "year": 2023, "source": "insee_logement_2023", "denominator": total_parc, "quality_flag": flag if vac is not None else QUALITY_MISSING},
+            "maisons": {"value": maison, "unit": "logements", "year": 2023, "source": "insee_logement_2023", "denominator": rp, "quality_flag": flag if maison is not None else QUALITY_MISSING},
+            "appartements": {"value": appartement, "unit": "logements", "year": 2023, "source": "insee_logement_2023", "denominator": rp, "quality_flag": flag if appartement is not None else QUALITY_MISSING},
+            "part_avant_1971": {"value": part_avant_1971, "unit": "%", "year": 2023, "source": "insee_logement_2023", "denominator": None, "quality_flag": flag if part_avant_1971 is not None else QUALITY_MISSING},
+        },
+        "occupation": {
+            "proprietaires": {"value": proprietaire, "unit": "résidences principales", "year": 2023, "source": "insee_logement_2023", "denominator": rp, "quality_flag": flag if proprietaire is not None else QUALITY_MISSING},
+            "locataires_prive": {"value": loc_prive, "unit": "résidences principales", "year": 2023, "source": "insee_logement_2023", "denominator": rp, "quality_flag": flag if loc_prive is not None else QUALITY_MISSING},
+            "locataires_social": {"value": loc_social, "unit": "résidences principales", "year": 2023, "source": "insee_logement_2023", "denominator": rp, "quality_flag": flag if loc_social is not None else QUALITY_MISSING},
+        },
+        "social": {
+            "rpls_count": {"value": social_count, "unit": "logements", "year": 2025, "source": "rpls", "denominator": None, "quality_flag": flag if social_count is not None else QUALITY_MISSING},
+            "part_rpls_residences_principales": {"value": (social_count / rp * 100) if (social_count is not None and rp) else None, "unit": "%", "year": 2025, "source": "rpls+insee_logement_2023", "denominator": rp, "quality_flag": flag if (social_count is not None and rp) else QUALITY_MISSING},
+        },
+        "vacance": {
+            "taux_vacance_rp": {"value": (vac / total_parc * 100) if (vac is not None and total_parc) else None, "unit": "%", "year": 2023, "source": "insee_logement_2023", "denominator": total_parc, "quality_flag": flag if (vac is not None and total_parc) else QUALITY_MISSING},
+            "vacance_privee_longue_2025": {"value": vac_priv_longue, "unit": "logements", "year": 2025, "source": "lovac", "denominator": None, "quality_flag": flag if vac_priv_longue is not None else QUALITY_MISSING},
+            "rupture_serie": "Rupture méthodologique en 2023 (bascule GMBI) puis rupture de production en 2025 : ne pas tracer de tendance continue sans annotation.",
+        },
+        "construction": {
+            "autorises_5ans": {"value": aut_5y, "unit": "logements", "year": "2021-2025", "source": "sitadel3", "denominator": None, "quality_flag": flag if aut_5y is not None else QUALITY_MISSING},
+            "commences_5ans": {"value": com_5y, "unit": "logements", "year": "2021-2025", "source": "sitadel3", "denominator": None, "quality_flag": flag if com_5y is not None else QUALITY_MISSING},
+            "serie_annuelle": [],
+        },
+        "renovation": {
+            "dpe_observes": {"value": dpe_obs, "unit": "diagnostics", "year": 2026, "source": "dpe_ademe", "denominator": None, "quality_flag": flag if dpe_obs else QUALITY_MISSING},
+            "dpe_fg_part": {"value": (dpe_fg_count / dpe_obs * 100) if (dpe_fg_count is not None and dpe_obs) else None, "unit": "%", "year": 2026, "source": "dpe_ademe", "denominator": dpe_obs, "quality_flag": flag if (dpe_fg_count is not None and dpe_obs) else QUALITY_MISSING},
+            "anah_programmes_actifs": anah_programmes,
+        },
+    }
+
+
 def aggregate_epci(commune_profiles):
     epci_profiles = {}
     for code, e in epcis.items():
@@ -374,103 +462,27 @@ def aggregate_epci(commune_profiles):
         members_95 = [m for m in members if m.startswith("95")]
         member_profiles = [commune_profiles[m] for m in members_95 if m in commune_profiles]
         partial = len(members_95) < len(members)
-
-        def sum_field(path):
-            total = 0.0
-            n = 0
-            for p in member_profiles:
-                node = p
-                for key in path:
-                    node = node.get(key, {})
-                v = node.get("value") if isinstance(node, dict) else None
-                if v is not None:
-                    total += v
-                    n += 1
-            return total if n else None
-
-        total_parc = sum_field(["parc", "total"])
-        rp = sum_field(["parc", "residences_principales"])
-        vac = sum_field(["parc", "logements_vacants_rp"])
-        social_count = sum_field(["social", "rpls_count"])
-        aut_5y = sum_field(["construction", "autorises_5ans"])
-        com_5y = sum_field(["construction", "commences_5ans"])
-        dpe_obs = sum_field(["renovation", "dpe_observes"])
-        maison = sum_field(["parc", "maisons"])
-        appartement = sum_field(["parc", "appartements"])
-        proprietaire = sum_field(["occupation", "proprietaires"])
-        loc_prive = sum_field(["occupation", "locataires_prive"])
-        loc_social = sum_field(["occupation", "locataires_social"])
-        vac_priv_longue = sum_field(["vacance", "vacance_privee_longue_2025"])
-        rp_avant_1971 = None
-        rp_period_total = None
-        avant_1971_vals = [p["parc"]["part_avant_1971"]["value"] for p in member_profiles if p["parc"]["part_avant_1971"]["value"] is not None]
-        part_avant_1971 = sum(avant_1971_vals) / len(avant_1971_vals) if avant_1971_vals else None
-
-        dpe_fg_count = None
-        if dpe_obs:
-            fg_vals = [(p["renovation"]["dpe_fg_part"]["value"] or 0) / 100 * p["renovation"]["dpe_observes"]["value"] for p in member_profiles if p["renovation"]["dpe_observes"]["value"]]
-            dpe_fg_count = sum(fg_vals) if fg_vals else None
-
-        anah_programmes = []
-        seen_programmes = set()
-        for p in member_profiles:
-            for prog in p["renovation"]["anah_programmes_actifs"]:
-                key = (prog["libelle"], prog["fin"])
-                if key not in seen_programmes:
-                    seen_programmes.add(key)
-                    anah_programmes.append(prog)
-
-        flag = QUALITY_PARTIAL_PERIMETER if partial else QUALITY_OK
-
-        epci_profiles[code] = {
-            "code": code,
-            "name": e["name"],
-            "kind": "epci",
-            "special": e["special"],
-            "members": members,
-            "members_covered": members_95,
-            "perimetre_partiel": partial,
-            "parc": {
-                "total": {"value": total_parc, "unit": "logements", "year": 2023, "source": "insee_logement_2023", "denominator": None, "quality_flag": flag if total_parc is not None else QUALITY_MISSING},
-                "residences_principales": {"value": rp, "unit": "logements", "year": 2023, "source": "insee_logement_2023", "denominator": None, "quality_flag": flag if rp is not None else QUALITY_MISSING},
-                "logements_vacants_rp": {"value": vac, "unit": "logements", "year": 2023, "source": "insee_logement_2023", "denominator": total_parc, "quality_flag": flag if vac is not None else QUALITY_MISSING},
-                "maisons": {"value": maison, "unit": "logements", "year": 2023, "source": "insee_logement_2023", "denominator": rp, "quality_flag": flag if maison is not None else QUALITY_MISSING},
-                "appartements": {"value": appartement, "unit": "logements", "year": 2023, "source": "insee_logement_2023", "denominator": rp, "quality_flag": flag if appartement is not None else QUALITY_MISSING},
-                "part_avant_1971": {"value": part_avant_1971, "unit": "%", "year": 2023, "source": "insee_logement_2023", "denominator": None, "quality_flag": flag if part_avant_1971 is not None else QUALITY_MISSING},
-            },
-            "occupation": {
-                "proprietaires": {"value": proprietaire, "unit": "résidences principales", "year": 2023, "source": "insee_logement_2023", "denominator": rp, "quality_flag": flag if proprietaire is not None else QUALITY_MISSING},
-                "locataires_prive": {"value": loc_prive, "unit": "résidences principales", "year": 2023, "source": "insee_logement_2023", "denominator": rp, "quality_flag": flag if loc_prive is not None else QUALITY_MISSING},
-                "locataires_social": {"value": loc_social, "unit": "résidences principales", "year": 2023, "source": "insee_logement_2023", "denominator": rp, "quality_flag": flag if loc_social is not None else QUALITY_MISSING},
-            },
-            "social": {
-                "rpls_count": {"value": social_count, "unit": "logements", "year": 2025, "source": "rpls", "denominator": None, "quality_flag": flag if social_count is not None else QUALITY_MISSING},
-                "part_rpls_residences_principales": {"value": (social_count / rp * 100) if (social_count is not None and rp) else None, "unit": "%", "year": 2025, "source": "rpls+insee_logement_2023", "denominator": rp, "quality_flag": flag if (social_count is not None and rp) else QUALITY_MISSING},
-            },
-            "vacance": {
-                "taux_vacance_rp": {"value": (vac / total_parc * 100) if (vac is not None and total_parc) else None, "unit": "%", "year": 2023, "source": "insee_logement_2023", "denominator": total_parc, "quality_flag": flag if (vac is not None and total_parc) else QUALITY_MISSING},
-                "vacance_privee_longue_2025": {"value": vac_priv_longue, "unit": "logements", "year": 2025, "source": "lovac", "denominator": None, "quality_flag": flag if vac_priv_longue is not None else QUALITY_MISSING},
-                "rupture_serie": "Rupture méthodologique en 2023 (bascule GMBI) puis rupture de production en 2025 : ne pas tracer de tendance continue sans annotation.",
-            },
-            "construction": {
-                "autorises_5ans": {"value": aut_5y, "unit": "logements", "year": "2021-2025", "source": "sitadel3", "denominator": None, "quality_flag": flag if aut_5y is not None else QUALITY_MISSING},
-                "commences_5ans": {"value": com_5y, "unit": "logements", "year": "2021-2025", "source": "sitadel3", "denominator": None, "quality_flag": flag if com_5y is not None else QUALITY_MISSING},
-                "serie_annuelle": [],
-            },
-            "renovation": {
-                "dpe_observes": {"value": dpe_obs, "unit": "diagnostics", "year": 2026, "source": "dpe_ademe", "denominator": None, "quality_flag": flag if dpe_obs else QUALITY_MISSING},
-                "dpe_fg_part": {"value": (dpe_fg_count / dpe_obs * 100) if (dpe_fg_count is not None and dpe_obs) else None, "unit": "%", "year": 2026, "source": "dpe_ademe", "denominator": dpe_obs, "quality_flag": flag if (dpe_fg_count is not None and dpe_obs) else QUALITY_MISSING},
-                "anah_programmes_actifs": anah_programmes,
-            },
-        }
+        profile = build_aggregate_profile(code, e["name"], "epci", member_profiles, members=members, members_95=members_95, partial=partial)
+        profile["special"] = e["special"]
+        epci_profiles[code] = profile
     return epci_profiles
+
+
+def build_departement_profile(commune_profiles):
+    all_codes = sorted(CODES)
+    member_profiles = [commune_profiles[c] for c in all_codes]
+    profile = build_aggregate_profile("95", "Val-d’Oise", "departement", member_profiles, members=all_codes, members_95=all_codes, partial=False)
+    profile["special"] = False
+    return profile
 
 
 if __name__ == "__main__":
     commune_profiles = build_commune_profiles()
     epci_profiles = aggregate_epci(commune_profiles)
+    departement_profile = build_departement_profile(commune_profiles)
     json.dump(commune_profiles, open(PROCESSED / "commune_profiles.json", "w"), ensure_ascii=False, indent=1)
     json.dump(epci_profiles, open(PROCESSED / "epci_profiles.json", "w"), ensure_ascii=False, indent=1)
-    print(f"{len(commune_profiles)} communes, {len(epci_profiles)} EPCI écrits.")
+    json.dump(departement_profile, open(PROCESSED / "departement_profile.json", "w"), ensure_ascii=False, indent=1)
+    print(f"{len(commune_profiles)} communes, {len(epci_profiles)} EPCI, 1 synthèse départementale écrits.")
     missing_rpls = sum(1 for p in commune_profiles.values() if p["social"]["rpls_count"]["value"] is None)
     print(f"RPLS manquant pour {missing_rpls} communes (fichier data/raw/rpls_95.csv à régénérer si != 0).")
