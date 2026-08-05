@@ -9,7 +9,7 @@
     epciColors: new Map(),
     scale: "commune",
     selected: null,
-    activeLayer: "part_rpls",
+    activeLayer: null,
   };
 
   const LAYERS = {
@@ -113,6 +113,7 @@
 
   // ---------- Choropleth ----------
   function valueForTerritoryCode(code) {
+    if (!state.activeLayer) return null;
     if (state.scale === "commune") {
       const c = state.communesByCode.get(code);
       return c && c.profile ? LAYERS[state.activeLayer].get(c.profile) : null;
@@ -123,7 +124,24 @@
 
   function applyChoropleth() {
     if (!communesLayer) return;
-    const layerDef = LAYERS[state.activeLayer];
+    const layerDef = state.activeLayer ? LAYERS[state.activeLayer] : null;
+
+    if (!layerDef) {
+      communesLayer.eachLayer((layer) => {
+        const code = layer.feature.properties.code;
+        const isSelected = code === state.selected || (state.scale === "epci" && epciForCommune(code)?.code === state.selected);
+        layer.setStyle({
+          fillColor: "#dce8f1",
+          fillOpacity: isSelected ? 0.5 : 0.32,
+          weight: isSelected ? 2.4 : 0.6,
+          color: isSelected ? "#070047" : "#8a9bb0",
+        });
+        if (isSelected) layer.bringToFront();
+      });
+      document.getElementById("mapLegend").hidden = true;
+      return;
+    }
+
     let values;
     if (state.scale === "commune") {
       values = state.communes.map((c) => (c.profile ? layerDef.get(c.profile) : null)).filter((v) => v != null);
@@ -159,8 +177,9 @@
 
   document.querySelectorAll(".layer-card").forEach((btn) => {
     btn.addEventListener("click", () => {
-      document.querySelectorAll(".layer-card").forEach((b) => b.classList.toggle("active", b === btn));
-      state.activeLayer = btn.dataset.layer;
+      const turningOff = btn.classList.contains("active");
+      document.querySelectorAll(".layer-card").forEach((b) => b.classList.toggle("active", !turningOff && b === btn));
+      state.activeLayer = turningOff ? null : btn.dataset.layer;
       state.selected = null;
       searchInput.value = "";
       document.getElementById("detailPanel").classList.remove("open");
