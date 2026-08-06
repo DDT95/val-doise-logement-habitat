@@ -17,6 +17,7 @@
     part_maisons: { label: "Part de maisons individuelles", unit: "%", ramp: ["#fdf3e7", "#c76524", "#5c2a0a"], get: (p) => pct(p.parc.maisons.value, p.parc.residences_principales.value) },
     part_avant_1971: { label: "Part de logements anciens (avant 1971)", unit: "%", ramp: ["#f5f0e6", "#b88a16", "#5c4200"], get: (p) => p.parc.part_avant_1971 ? p.parc.part_avant_1971.value : null },
     part_locataires: { label: "Part de locataires", unit: "%", ramp: ["#eef2f9", "#3978b8", "#0b2f57"], get: (p) => pct((p.occupation.locataires_prive.value || 0) + (p.occupation.locataires_social.value || 0), p.parc.residences_principales.value) },
+    part_proprietaires: { label: "Part de propriétaires", unit: "%", ramp: ["#eef7ee", "#477a3c", "#173a13"], get: (p) => pct(p.occupation.proprietaires.value, p.parc.residences_principales.value) },
     rpls_count: { label: "Nombre de logements RPLS", unit: "logements", ramp: ["#f3eef9", "#6f4c9b", "#2e1a4d"], get: (p) => p.social.rpls_count.value },
     part_rpls: { label: "Part RPLS des résidences principales", unit: "%", ramp: ["#f3eef9", "#6f4c9b", "#2e1a4d"], get: (p) => p.social.part_rpls_residences_principales.value },
     vacance_rp: { label: "Taux de vacance RP", unit: "%", ramp: ["#fdf0e9", "#e07a2f", "#7a3200"], get: (p) => p.vacance.taux_vacance_rp.value },
