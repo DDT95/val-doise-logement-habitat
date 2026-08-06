@@ -307,11 +307,8 @@
   comprendreDialog.querySelectorAll("[data-close]").forEach((btn) => btn.addEventListener("click", () => comprendreDialog.close()));
   comprendreDialog.addEventListener("click", (e) => { if (e.target === comprendreDialog) comprendreDialog.close(); });
 
-  function openTerritoryData() {
-    const url = !state.selected ? "fiche.html?type=departement" : state.scale === "epci" ? `fiche.html?type=epci&id=${encodeURIComponent(state.selected)}` : `fiche.html?type=commune&id=${encodeURIComponent(state.selected)}`;
-    ["openData", "openDataTop"].forEach((id) => document.getElementById(id)?.setAttribute("href", url));
-  }
-  ["openData", "openDataTop"].forEach((id) => ["pointerdown", "click"].forEach((eventName) => document.getElementById(id)?.addEventListener(eventName, openTerritoryData)));
+  // « Données & évolutions » ouvre toujours la synthèse Val-d'Oise, jamais le
+  // territoire sélectionné — ce lien existe déjà dans le panneau de détail.
 
   // ---------- Selection ----------
   function selectFromMap(code) {
