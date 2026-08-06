@@ -1,0 +1,590 @@
+{
+ "200035970": {
+  "prix_m2_median": {
+   "value": 2977.994227994228,
+   "unit": "€/m²",
+   "year": "2023-2025",
+   "source": "dvf",
+   "denominator": 212,
+   "quality_flag": "ok"
+  },
+  "prix_m2_maison_median": {
+   "value": 2979.7979797979797,
+   "unit": "€/m²",
+   "year": "2023-2025",
+   "source": "dvf",
+   "denominator": 193,
+   "quality_flag": "ok"
+  },
+  "prix_m2_appartement_median": {
+   "value": 2972.972972972973,
+   "unit": "€/m²",
+   "year": "2023-2025",
+   "source": "dvf",
+   "denominator": 19,
+   "quality_flag": "ok"
+  },
+  "ventes_par_an": {
+   "2021": 138,
+   "2022": 112,
+   "2023": 74,
+   "2024": 67,
+   "2025": 71
+  },
+  "loyer_m2_appartement": {
+   "value": 15.527329385486127,
+   "unit": "€/m²/mois",
+   "year": 2025,
+   "source": "carte_des_loyers",
+   "denominator": 1408,
+   "quality_flag": "ok"
+  },
+  "loyer_m2_maison": {
+   "value": 13.531166724186088,
+   "unit": "€/m²/mois",
+   "year": 2025,
+   "source": "carte_des_loyers",
+   "denominator": 600,
+   "quality_flag": "ok"
+  }
+ },
+ "200055655": {
+  "prix_m2_median": {
+   "value": 3150.537634408602,
+   "unit": "€/m²",
+   "year": "2023-2025",
+   "source": "dvf",
+   "denominator": 1653,
+   "quality_flag": "ok"
+  },
+  "prix_m2_maison_median": {
+   "value": 3175.438596491228,
+   "unit": "€/m²",
+   "year": "2023-2025",
+   "source": "dvf",
+   "denominator": 1475,
+   "quality_flag": "ok"
+  },
+  "prix_m2_appartement_median": {
+   "value": 2927.5210084033615,
+   "unit": "€/m²",
+   "year": "2023-2025",
+   "source": "dvf",
+   "denominator": 178,
+   "quality_flag": "ok"
+  },
+  "ventes_par_an": {
+   "2021": 1041,
+   "2022": 853,
+   "2023": 572,
+   "2024": 484,
+   "2025": 597
+  },
+  "loyer_m2_appartement": {
+   "value": 18.062787465962312,
+   "unit": "€/m²/mois",
+   "year": 2025,
+   "source": "carte_des_loyers",
+   "denominator": 10650,
+   "quality_flag": "ok"
+  },
+  "loyer_m2_maison": {
+   "value": 15.76132783455169,
+   "unit": "€/m²/mois",
+   "year": 2025,
+   "source": "carte_des_loyers",
+   "denominator": 1253,
+   "quality_flag": "ok"
+  }
+ },
+ "200056380": {
+  "prix_m2_median": {
+   "value": 4000.0,
+   "unit": "€/m²",
+   "year": "2023-2025",
+   "source": "dvf",
+   "denominator": 1490,
+   "quality_flag": "ok"
+  },
+  "prix_m2_maison_median": {
+   "value": 4004.1704192546586,
+   "unit": "€/m²",
+   "year": "2023-2025",
+   "source": "dvf",
+   "denominator": 1216,
+   "quality_flag": "ok"
+  },
+  "prix_m2_appartement_median": {
+   "value": 3997.0,
+   "unit": "€/m²",
+   "year": "2023-2025",
+   "source": "dvf",
+   "denominator": 274,
+   "quality_flag": "ok"
+  },
+  "ventes_par_an": {
+   "2021": 1060,
+   "2022": 729,
+   "2023": 507,
+   "2024": 464,
+   "2025": 519
+  },
+  "loyer_m2_appartement": {
+   "value": 19.48381523410779,
+   "unit": "€/m²/mois",
+   "year": 2025,
+   "source": "carte_des_loyers",
+   "denominator": 17557,
+   "quality_flag": "ok"
+  },
+  "loyer_m2_maison": {
+   "value": 17.312740181029525,
+   "unit": "€/m²/mois",
+   "year": 2025,
+   "source": "carte_des_loyers",
+   "denominator": 1010,
+   "quality_flag": "ok"
+  }
+ },
+ "200058485": {
+  "prix_m2_median": {
+   "value": 4022.483738445738,
+   "unit": "€/m²",
+   "year": "2023-2025",
+   "source": "dvf",
+   "denominator": 2540,
+   "quality_flag": "ok"
+  },
+  "prix_m2_maison_median": {
+   "value": 4092.3489278752436,
+   "unit": "€/m²",
+   "year": "2023-2025",
+   "source": "dvf",
+   "denominator": 2200,
+   "quality_flag": "ok"
+  },
+  "prix_m2_appartement_median": {
+   "value": 3492.4242424242425,
+   "unit": "€/m²",
+   "year": "2023-2025",
+   "source": "dvf",
+   "denominator": 340,
+   "quality_flag": "ok"
+  },
+  "ventes_par_an": {
+   "2021": 1425,
+   "2022": 1192,
+   "2023": 901,
+   "2024": 717,
+   "2025": 922
+  },
+  "loyer_m2_appartement": {
+   "value": 18.85024133043178,
+   "unit": "€/m²/mois",
+   "year": 2025,
+   "source": "carte_des_loyers",
+   "denominator": 26097,
+   "quality_flag": "ok"
+  },
+  "loyer_m2_maison": {
+   "value": 17.02795545418458,
+   "unit": "€/m²/mois",
+   "year": 2025,
+   "source": "carte_des_loyers",
+   "denominator": 1549,
+   "quality_flag": "ok"
+  }
+ },
+ "200073013": {
+  "prix_m2_median": {
+   "value": 3267.5431547619046,
+   "unit": "€/m²",
+   "year": "2023-2025",
+   "source": "dvf",
+   "denominator": 498,
+   "quality_flag": "ok"
+  },
+  "prix_m2_maison_median": {
+   "value": 3276.039401188923,
+   "unit": "€/m²",
+   "year": "2023-2025",
+   "source": "dvf",
+   "denominator": 452,
+   "quality_flag": "ok"
+  },
+  "prix_m2_appartement_median": {
+   "value": 2963.2996632996633,
+   "unit": "€/m²",
+   "year": "2023-2025",
+   "source": "dvf",
+   "denominator": 46,
+   "quality_flag": "ok"
+  },
+  "ventes_par_an": {
+   "2021": 230,
+   "2022": 199,
+   "2023": 166,
+   "2024": 144,
+   "2025": 188
+  },
+  "loyer_m2_appartement": {
+   "value": 17.178907251272506,
+   "unit": "€/m²/mois",
+   "year": 2025,
+   "source": "carte_des_loyers",
+   "denominator": 2108,
+   "quality_flag": "ok"
+  },
+  "loyer_m2_maison": {
+   "value": 16.596921239893035,
+   "unit": "€/m²/mois",
+   "year": 2025,
+   "source": "carte_des_loyers",
+   "denominator": 365,
+   "quality_flag": "ok"
+  }
+ },
+ "249500109": {
+  "prix_m2_median": {
+   "value": 3310.945165945166,
+   "unit": "€/m²",
+   "year": "2023-2025",
+   "source": "dvf",
+   "denominator": 1672,
+   "quality_flag": "ok"
+  },
+  "prix_m2_maison_median": {
+   "value": 3270.5687645687644,
+   "unit": "€/m²",
+   "year": "2023-2025",
+   "source": "dvf",
+   "denominator": 1268,
+   "quality_flag": "ok"
+  },
+  "prix_m2_appartement_median": {
+   "value": 3622.844827586207,
+   "unit": "€/m²",
+   "year": "2023-2025",
+   "source": "dvf",
+   "denominator": 404,
+   "quality_flag": "ok"
+  },
+  "ventes_par_an": {
+   "2021": 907,
+   "2022": 748,
+   "2023": 612,
+   "2024": 515,
+   "2025": 545
+  },
+  "loyer_m2_appartement": {
+   "value": 18.206499868716413,
+   "unit": "€/m²/mois",
+   "year": 2025,
+   "source": "carte_des_loyers",
+   "denominator": 25920,
+   "quality_flag": "ok"
+  },
+  "loyer_m2_maison": {
+   "value": 16.007926705521108,
+   "unit": "€/m²/mois",
+   "year": 2025,
+   "source": "carte_des_loyers",
+   "denominator": 1175,
+   "quality_flag": "ok"
+  }
+ },
+ "249500430": {
+  "prix_m2_median": {
+   "value": 3482.8872814948763,
+   "unit": "€/m²",
+   "year": "2023-2025",
+   "source": "dvf",
+   "denominator": 216,
+   "quality_flag": "ok"
+  },
+  "prix_m2_maison_median": {
+   "value": 3484.848484848485,
+   "unit": "€/m²",
+   "year": "2023-2025",
+   "source": "dvf",
+   "denominator": 197,
+   "quality_flag": "ok"
+  },
+  "prix_m2_appartement_median": {
+   "value": 3363.6363636363635,
+   "unit": "€/m²",
+   "year": "2023-2025",
+   "source": "dvf",
+   "denominator": 19,
+   "quality_flag": "ok"
+  },
+  "ventes_par_an": {
+   "2021": 142,
+   "2022": 101,
+   "2023": 70,
+   "2024": 63,
+   "2025": 83
+  },
+  "loyer_m2_appartement": {
+   "value": 16.965217970211597,
+   "unit": "€/m²/mois",
+   "year": 2025,
+   "source": "carte_des_loyers",
+   "denominator": 865,
+   "quality_flag": "ok"
+  },
+  "loyer_m2_maison": {
+   "value": 14.408392670045151,
+   "unit": "€/m²/mois",
+   "year": 2025,
+   "source": "carte_des_loyers",
+   "denominator": 311,
+   "quality_flag": "ok"
+  }
+ },
+ "249500455": {
+  "prix_m2_median": {
+   "value": 3710.5263157894738,
+   "unit": "€/m²",
+   "year": "2023-2025",
+   "source": "dvf",
+   "denominator": 512,
+   "quality_flag": "ok"
+  },
+  "prix_m2_maison_median": {
+   "value": 3710.5263157894738,
+   "unit": "€/m²",
+   "year": "2023-2025",
+   "source": "dvf",
+   "denominator": 448,
+   "quality_flag": "ok"
+  },
+  "prix_m2_appartement_median": {
+   "value": 3779.8245614035086,
+   "unit": "€/m²",
+   "year": "2023-2025",
+   "source": "dvf",
+   "denominator": 64,
+   "quality_flag": "ok"
+  },
+  "ventes_par_an": {
+   "2021": 286,
+   "2022": 246,
+   "2023": 164,
+   "2024": 165,
+   "2025": 183
+  },
+  "loyer_m2_appartement": {
+   "value": 18.906793647971835,
+   "unit": "€/m²/mois",
+   "year": 2025,
+   "source": "carte_des_loyers",
+   "denominator": 3086,
+   "quality_flag": "ok"
+  },
+  "loyer_m2_maison": {
+   "value": 16.5669247379969,
+   "unit": "€/m²/mois",
+   "year": 2025,
+   "source": "carte_des_loyers",
+   "denominator": 484,
+   "quality_flag": "ok"
+  }
+ },
+ "249500489": {
+  "prix_m2_median": {
+   "value": 3036.144578313253,
+   "unit": "€/m²",
+   "year": "2023-2025",
+   "source": "dvf",
+   "denominator": 417,
+   "quality_flag": "ok"
+  },
+  "prix_m2_maison_median": {
+   "value": 3088.235294117647,
+   "unit": "€/m²",
+   "year": "2023-2025",
+   "source": "dvf",
+   "denominator": 343,
+   "quality_flag": "ok"
+  },
+  "prix_m2_appartement_median": {
+   "value": 2834.2587412587413,
+   "unit": "€/m²",
+   "year": "2023-2025",
+   "source": "dvf",
+   "denominator": 74,
+   "quality_flag": "ok"
+  },
+  "ventes_par_an": {
+   "2021": 258,
+   "2022": 209,
+   "2023": 135,
+   "2024": 126,
+   "2025": 156
+  },
+  "loyer_m2_appartement": {
+   "value": 16.45019763767675,
+   "unit": "€/m²/mois",
+   "year": 2025,
+   "source": "carte_des_loyers",
+   "denominator": 3689,
+   "quality_flag": "ok"
+  },
+  "loyer_m2_maison": {
+   "value": 15.18937967090075,
+   "unit": "€/m²/mois",
+   "year": 2025,
+   "source": "carte_des_loyers",
+   "denominator": 297,
+   "quality_flag": "ok"
+  }
+ },
+ "249500513": {
+  "prix_m2_median": {
+   "value": 2567.5,
+   "unit": "€/m²",
+   "year": "2023-2025",
+   "source": "dvf",
+   "denominator": 174,
+   "quality_flag": "ok"
+  },
+  "prix_m2_maison_median": {
+   "value": 2550.2293577981654,
+   "unit": "€/m²",
+   "year": "2023-2025",
+   "source": "dvf",
+   "denominator": 152,
+   "quality_flag": "ok"
+  },
+  "prix_m2_appartement_median": {
+   "value": 2681.9444444444443,
+   "unit": "€/m²",
+   "year": "2023-2025",
+   "source": "dvf",
+   "denominator": 22,
+   "quality_flag": "ok"
+  },
+  "ventes_par_an": {
+   "2021": 113,
+   "2022": 74,
+   "2023": 58,
+   "2024": 51,
+   "2025": 65
+  },
+  "loyer_m2_appartement": {
+   "value": 14.734804092905359,
+   "unit": "€/m²/mois",
+   "year": 2025,
+   "source": "carte_des_loyers",
+   "denominator": 1116,
+   "quality_flag": "ok"
+  },
+  "loyer_m2_maison": {
+   "value": 12.137510266700785,
+   "unit": "€/m²/mois",
+   "year": 2025,
+   "source": "carte_des_loyers",
+   "denominator": 453,
+   "quality_flag": "ok"
+  }
+ },
+ "special-95018": {
+  "prix_m2_median": {
+   "value": 3750.0,
+   "unit": "€/m²",
+   "year": "2023-2025",
+   "source": "dvf",
+   "denominator": 813,
+   "quality_flag": "ok"
+  },
+  "prix_m2_maison_median": {
+   "value": 3920.2380952380954,
+   "unit": "€/m²",
+   "year": "2023-2025",
+   "source": "dvf",
+   "denominator": 593,
+   "quality_flag": "ok"
+  },
+  "prix_m2_appartement_median": {
+   "value": 3140.1785714285716,
+   "unit": "€/m²",
+   "year": "2023-2025",
+   "source": "dvf",
+   "denominator": 220,
+   "quality_flag": "ok"
+  },
+  "ventes_par_an": {
+   "2021": 510,
+   "2022": 415,
+   "2023": 272,
+   "2024": 268,
+   "2025": 273
+  },
+  "loyer_m2_appartement": {
+   "value": 19.3640718420937,
+   "unit": "€/m²/mois",
+   "year": 2025,
+   "source": "carte_des_loyers",
+   "denominator": 7596,
+   "quality_flag": "ok"
+  },
+  "loyer_m2_maison": {
+   "value": 18.2347011924952,
+   "unit": "€/m²/mois",
+   "year": 2025,
+   "source": "carte_des_loyers",
+   "denominator": 588,
+   "quality_flag": "ok"
+  }
+ },
+ "special-95063": {
+  "prix_m2_median": {
+   "value": 4505.882352941177,
+   "unit": "€/m²",
+   "year": "2023-2025",
+   "source": "dvf",
+   "denominator": 225,
+   "quality_flag": "ok"
+  },
+  "prix_m2_maison_median": {
+   "value": 4523.809523809524,
+   "unit": "€/m²",
+   "year": "2023-2025",
+   "source": "dvf",
+   "denominator": 177,
+   "quality_flag": "ok"
+  },
+  "prix_m2_appartement_median": {
+   "value": 4219.481605351171,
+   "unit": "€/m²",
+   "year": "2023-2025",
+   "source": "dvf",
+   "denominator": 48,
+   "quality_flag": "ok"
+  },
+  "ventes_par_an": {
+   "2021": 118,
+   "2022": 108,
+   "2023": 82,
+   "2024": 64,
+   "2025": 79
+  },
+  "loyer_m2_appartement": {
+   "value": 19.698221120735198,
+   "unit": "€/m²/mois",
+   "year": 2025,
+   "source": "carte_des_loyers",
+   "denominator": 3620,
+   "quality_flag": "ok"
+  },
+  "loyer_m2_maison": {
+   "value": 16.7506270603355,
+   "unit": "€/m²/mois",
+   "year": 2025,
+   "source": "carte_des_loyers",
+   "denominator": 161,
+   "quality_flag": "ok"
+  }
+ }
+}

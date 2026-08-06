@@ -29,7 +29,11 @@
 
   function kpi(label, node, unit, note) {
     const missing = isMissing(node);
-    const display = missing ? '<span class="data-missing">Non disponible</span>' : unit === "%" ? pctFmt(node.value) : fmt(node.value);
+    let display;
+    if (missing) display = '<span class="data-missing">Non disponible</span>';
+    else if (unit === "%") display = pctFmt(node.value);
+    else if (unit === "€") display = fmt(node.value) + " " + node.unit;
+    else display = fmt(node.value);
     return `<div class="kpi"><small>${label}${flagLabel(node)}</small><strong>${display}</strong>${note ? `<span>${note}</span>` : ""}</div>`;
   }
 
@@ -90,6 +94,15 @@
     const dpeFg = val(profile.renovation.dpe_fg_part);
     const dpeObs = val(profile.renovation.dpe_observes);
     const anahProgrammes = profile.renovation.anah_programmes_actifs || [];
+    const marche = profile.marche || {
+      prix_m2_median: { value: null }, prix_m2_maison_median: { value: null }, prix_m2_appartement_median: { value: null },
+      loyer_m2_appartement: { value: null }, loyer_m2_maison: { value: null }, ventes_par_an: {},
+    };
+    const ventesAnnees = Object.keys(marche.ventes_par_an || {}).sort();
+    const maxVentes = Math.max(...ventesAnnees.map((y) => marche.ventes_par_an[y]), 1);
+    const salesVolumeChart = ventesAnnees.length
+      ? `<article class="chart-card visual-card wide-chart"><h3>Nombre de ventes par an (DVF)</h3><div class="age-bars" role="img" aria-label="ventes par an">${ventesAnnees.map((y) => `<div class="age-column"><b>${marche.ventes_par_an[y]}</b><div><i style="--height:${Math.max(4, (marche.ventes_par_an[y] / maxVentes) * 100)}%;--swatch:#9c27b0"></i></div><span>${y}</span></div>`).join("")}</div><p class="method-note-small">Ventes simples (maisons et appartements), tous prix confondus.</p></article>`
+      : `<article class="chart-card visual-card wide-chart"><h3>Nombre de ventes par an (DVF)</h3><p class="data-missing">Données non disponibles.</p></article>`;
 
     const habiterDonut = maison != null && appart != null ? [
       { label: "Maison", pct: pct(maison, rp) || 0 },
@@ -146,9 +159,18 @@
         </div>
         <div class="rank-list"><h3>Opérations programmées Anah actives</h3>${anahProgrammes.length ? anahProgrammes.map((a) => `<div class="rank-row"><span>${a.libelle} (${a.type})</span><b>${a.fin ? "jusqu’au " + a.fin : "en cours"}</b></div>`).join("") : '<p class="data-missing">Aucune opération programmée active recensée.</p>'}</div>
         <p class="method-note-small">Les DPE sont des observations, pas un recensement exhaustif du parc : le nombre de diagnostics est le dénominateur de référence. Une opération programmée signale un dispositif actif, pas le nombre de rénovations réalisées.</p>`)}
-        ${section("07 · SOURCES ET MÉTHODE", "Bien lire cette fiche", `<div class="method-note">
-          <strong>Sources :</strong> Insee, Recensement de la population 2023, Logement (géographie au 1ᵉʳ janvier 2026) · SDES, RPLS, état au 1ᵉʳ janvier 2025 · Ministère chargé du Logement, inventaire SRU 2025 · DGALN/Cerema, LOVAC open data 2020-2026 · SDES, Sitadel3, séries annuelles 2013-2025 (données non estimées, date réelle) · ADEME, DPE v2 logements existants (diagnostics depuis juillet 2021) · Anah, opérations programmées.<br><br>
-          <strong>Limites :</strong> les effectifs Insee sont pondérés par sondage ; les comparaisons entre petits territoires sont déconseillées sous 200 logements. RPLS et inventaire SRU ne couvrent pas exactement le même périmètre de logement social. LOVAC a connu une rupture méthodologique en 2023 (bascule GMBI) puis une rupture de production en 2025 : aucune tendance continue n’est présentée sans cette réserve. Sitadel3 mesure des autorisations et mises en chantier, pas des logements livrés. Les valeurs secrétisées (moins de 11 logements en LOVAC) ne sont jamais affichées comme des zéros.<br><br>
+        ${section("07 · MARCHÉ IMMOBILIER", "Prix, loyers et dynamique des transactions", `<div class="kpi-grid kpi-grid-six">
+          ${kpi("Prix médian au m² (tous biens)", marche.prix_m2_median, "€", marche.prix_m2_median.denominator ? marche.prix_m2_median.denominator + " ventes 2023-2025" : "")}
+          ${kpi("Prix médian au m² — maisons", marche.prix_m2_maison_median, "€")}
+          ${kpi("Prix médian au m² — appartements", marche.prix_m2_appartement_median, "€")}
+          ${kpi("Loyer moyen au m² — appartement", marche.loyer_m2_appartement, "€")}
+          ${kpi("Loyer moyen au m² — maison", marche.loyer_m2_maison, "€")}
+        </div>
+        ${salesVolumeChart}
+        <p class="method-note-small">Prix : médiane sur les ventes simples (un seul bien par mutation) enregistrées dans DVF, 2023-2025 regroupées ; aucune valeur affichée en dessous de 5 ventes exploitables. Loyers : indicateurs prédits (modèle DHUP) sur annonces 2025, donnée secrétisée si moins de 30 observations communales. Les deux mesures ne se compensent pas et ne définissent pas un taux d'effort ou une capacité d'achat.</p>`)}
+        ${section("08 · SOURCES ET MÉTHODE", "Bien lire cette fiche", `<div class="method-note">
+          <strong>Sources :</strong> Insee, Recensement de la population 2023, Logement (géographie au 1ᵉʳ janvier 2026) · SDES, RPLS, état au 1ᵉʳ janvier 2025 · Ministère chargé du Logement, inventaire SRU 2025 · DGALN/Cerema, LOVAC open data 2020-2026 · SDES, Sitadel3, séries annuelles 2013-2025 (données non estimées, date réelle) · ADEME, DPE v2 logements existants (diagnostics depuis juillet 2021) · Anah, opérations programmées · DGFiP, Demandes de valeurs foncières (DVF) 2021-2025 · DHUP, carte des loyers d'annonce 2025.<br><br>
+          <strong>Limites :</strong> les effectifs Insee sont pondérés par sondage ; les comparaisons entre petits territoires sont déconseillées sous 200 logements. RPLS et inventaire SRU ne couvrent pas exactement le même périmètre de logement social. LOVAC a connu une rupture méthodologique en 2023 (bascule GMBI) puis une rupture de production en 2025 : aucune tendance continue n’est présentée sans cette réserve. Sitadel3 mesure des autorisations et mises en chantier, pas des logements livrés. Les valeurs secrétisées (moins de 11 logements en LOVAC, moins de 30 observations en carte des loyers) ne sont jamais affichées comme des zéros. DVF ne couvre pas l'Alsace-Moselle ni les ventes non déclarées ; les prix sont des médianes de ventes simples, pas une valorisation exhaustive du parc. Les loyers DHUP sont des prédictions statistiques sur annonces, pas des loyers réellement pratiqués.<br><br>
           <strong>Licence :</strong> Licence Ouverte / Etalab pour l’ensemble des sources mobilisées.
         </div>`)}
       </div>
@@ -160,18 +182,24 @@
     fetch("data/processed/epci_profiles.json").then((r) => r.json()),
     fetch("data/processed/communes95.json").then((r) => r.json()),
     fetch("data/processed/departement_profile.json").then((r) => r.json()),
+    fetch("data/processed/market_profiles.json").then((r) => r.json()),
+    fetch("data/processed/market_epci_profiles.json").then((r) => r.json()),
+    fetch("data/processed/market_departement_profile.json").then((r) => r.json()),
   ])
-    .then(([communeProfiles, epciProfiles, communes, departementProfile]) => {
+    .then(([communeProfiles, epciProfiles, communes, departementProfile, marketCommune, marketEpci, marketDept]) => {
       const communeNames = Object.fromEntries(communes.map((c) => [c.code, c.name]));
+      departementProfile.marche = marketDept;
       if (scale === "departement") {
         renderProfile(departementProfile, departementProfile.name);
       } else if (scale === "epci") {
         const profile = epciProfiles[selectedId];
         if (!profile) throw new Error("EPCI introuvable");
+        profile.marche = marketEpci[selectedId];
         renderProfile(profile, profile.name);
       } else {
         const profile = communeProfiles[selectedId];
         if (!profile) throw new Error("Commune introuvable");
+        profile.marche = marketCommune[selectedId];
         renderProfile(profile, communeNames[selectedId] || profile.name);
       }
     })

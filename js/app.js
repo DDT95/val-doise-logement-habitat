@@ -24,6 +24,8 @@
     vacance_privee_longue: { label: "Vacance privée depuis plus de 2 ans", unit: "logements", ramp: ["#fdf0e9", "#e07a2f", "#7a3200"], get: (p) => p.vacance.vacance_privee_longue_2025 ? p.vacance.vacance_privee_longue_2025.value : null },
     commences_5ans: { label: "Logements commencés (2021-2025)", unit: "logements", ramp: ["#eef7ee", "#18753c", "#0c3a1e"], get: (p) => p.construction.commences_5ans.value },
     dpe_fg: { label: "Part F/G parmi les DPE observés", unit: "%", ramp: ["#fdeef2", "#e85d8e", "#7a1338"], get: (p) => p.renovation.dpe_fg_part.value },
+    prix_m2: { label: "Prix médian au m² (ventes 2023-2025)", unit: "€/m²", ramp: ["#f3eef9", "#9c27b0", "#3d0a45"], get: (p) => p.marche ? p.marche.prix_m2_median.value : null },
+    loyer_m2: { label: "Loyer moyen au m² (appartement)", unit: "€/m²/mois", ramp: ["#eef7ee", "#009099", "#003d3f"], get: (p) => p.marche ? p.marche.loyer_m2_appartement.value : null },
   };
 
   document.querySelectorAll(".layer-card[data-layer]").forEach((btn) => {
@@ -62,8 +64,13 @@
     d3.json("data/processed/communes95.json"),
     d3.json("data/processed/commune_profiles.json"),
     d3.json("data/processed/epci_profiles.json"),
-  ]).then(([dept95, communes95Geo, epcis95Geo, communes95, communeProfiles, epciProfiles]) => {
+    d3.json("data/processed/market_profiles.json"),
+    d3.json("data/processed/market_epci_profiles.json"),
+  ]).then(([dept95, communes95Geo, epcis95Geo, communes95, communeProfiles, epciProfiles, marketProfiles, marketEpciProfiles]) => {
     deptLayer = L.geoJSON(dept95, { style: { color: "#000091", weight: 2, fill: false, opacity: 0.55 } }).addTo(map);
+
+    Object.entries(marketProfiles).forEach(([code, m]) => { if (communeProfiles[code]) communeProfiles[code].marche = m; });
+    Object.entries(marketEpciProfiles).forEach(([code, m]) => { if (epciProfiles[code]) epciProfiles[code].marche = m; });
 
     state.communes = communes95.map((c) => ({ ...c, profile: communeProfiles[c.code] }));
     state.communesByCode = new Map(state.communes.map((c) => [c.code, c]));
@@ -369,8 +376,15 @@
           <div class="kpi-tile"><small>Logements commencés</small><strong>${fmt(p.construction.commences_5ans.value, "logements")}</strong><em>Cumul 2021-2025</em></div>
         </div>
       </div>
+      <div class="section-block">
+        <strong>Marché immobilier</strong>
+        <div class="kpi-grid">
+          <div class="kpi-tile"><small>Prix médian au m²</small><strong>${fmt(p.marche?.prix_m2_median.value, "€/m²")}</strong><em>${p.marche?.prix_m2_median.denominator ? p.marche.prix_m2_median.denominator + " ventes 2023-2025" : "Trop peu de ventes"}</em></div>
+          <div class="kpi-tile"><small>Loyer moyen (appartement)</small><strong>${fmt(p.marche?.loyer_m2_appartement.value, "€/m²/mois")}</strong><em>Carte des loyers 2025</em></div>
+        </div>
+      </div>
       <a class="profile-link" href="${profileUrl}" target="_blank" rel="noopener">Voir la fiche ${isEpci ? "EPCI" : "communale"} complète et le PDF <span>↗</span></a>
-      <p class="detail-method">Sources : Insee 2023, RPLS 2025, LOVAC 2025, Sitadel3 2021-2025, ADEME DPE. Détail et limites dans « Sources, millésimes et licences ».</p>
+      <p class="detail-method">Sources : Insee 2023, RPLS 2025, LOVAC 2025, Sitadel3 2021-2025, ADEME DPE, DVF, carte des loyers DHUP. Détail et limites dans « Sources, millésimes et licences ».</p>
     `;
     detailPanel.classList.add("open");
   }

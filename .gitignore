@@ -4,3 +4,4 @@ data/raw/insee_td/
 __pycache__/
 .DS_Store
 data/raw/rpls_95.csv
+data/raw/dvf/*.csv

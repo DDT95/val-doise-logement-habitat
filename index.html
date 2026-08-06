@@ -98,10 +98,18 @@
       </div>
     </div>
 
+    <div class="layer-group" aria-label="Marché immobilier">
+      <span>MARCHÉ IMMOBILIER</span>
+      <div class="layer-cards">
+        <button type="button" class="layer-card" data-layer="prix_m2"><i class="layer-swatch" aria-hidden="true"></i><span><b>Prix médian au m²</b><small>Ventes DVF 2023-2025, biens simples</small></span><i class="layer-switch" aria-hidden="true"></i></button>
+        <button type="button" class="layer-card" data-layer="loyer_m2"><i class="layer-swatch" aria-hidden="true"></i><span><b>Loyer moyen au m² (appartement)</b><small>Carte des loyers 2025, DHUP</small></span><i class="layer-switch" aria-hidden="true"></i></button>
+      </div>
+    </div>
+
     <button id="openComprendre3" class="sources-inline">Sources, millésimes et licences</button>
     <div class="sidebar-footer">
       <div class="fresh-dot"></div>
-      <div><strong>7 sources publiques croisées</strong><small>Insee · SDES · Cerema · ADEME · Anah</small></div>
+      <div><strong>9 sources publiques croisées</strong><small>Insee · SDES · Cerema · ADEME · Anah · DGFiP · DHUP</small></div>
     </div>
   </aside>
 
@@ -150,6 +158,8 @@
       <li>SDES, Sitadel3, logements autorisés et commencés, séries annuelles 2013-2025</li>
       <li>ADEME, DPE v2 logements existants, diagnostics depuis juillet 2021</li>
       <li>Anah, opérations programmées d'amélioration de l'habitat</li>
+      <li>DGFiP, Demandes de valeurs foncières (DVF), ventes 2021-2025</li>
+      <li>DHUP, carte des loyers d'annonce par commune, millésime 2025</li>
     </ul>
 
     <h3>Limites méthodologiques</h3>
@@ -159,6 +169,8 @@
       <li>LOVAC : rupture méthodologique en 2023 (GMBI) puis rupture de production en 2025 — ne pas lire de tendance continue sans cette annotation.</li>
       <li>Sitadel3 : autorisations et mises en chantier, pas des logements livrés.</li>
       <li>DPE ADEME : observations, pas un recensement exhaustif du parc — le nombre de diagnostics est toujours affiché.</li>
+      <li>DVF : prix médians sur ventes simples (un seul bien par mutation), pas de valeur en dessous de 5 ventes exploitables ; ne couvre pas l'Alsace-Moselle ni les ventes non déclarées.</li>
+      <li>Carte des loyers DHUP : indicateurs prédits par modèle statistique sur annonces, pas des loyers réellement constatés ; secrétisé sous 30 observations communales.</li>
       <li>Deux EPCI (Roissy Pays de France, Cergy-Pontoise) débordent le Val-d'Oise : leurs indicateurs agrégés ne portent que sur la partie val-d'oisienne, signalé sur leur fiche.</li>
     </ul>
 
