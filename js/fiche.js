@@ -2,7 +2,7 @@
   "use strict";
 
   const fmt = (n) => (n == null ? "n. d." : Math.round(n).toLocaleString("fr-FR"));
-  const pctFmt = (n) => (n == null ? "n. d." : n.toLocaleString("fr-FR", { maximumFractionDigits: 1 }) + "%");
+  const pctFmt = (n) => (n == null ? "n. d." : Math.min(100, Math.max(0, n)).toLocaleString("fr-FR", { maximumFractionDigits: 1 }) + "%");
   const chartColors = ["#000091", "#00a7b5", "#e07a2f", "#e85d8e", "#18753c", "#ffd66b", "#6f4c9b"];
   const root = document.getElementById("profileRoot");
   const dialog = document.getElementById("exportDialog");
@@ -67,7 +67,7 @@
 
   function pct(num, den) {
     if (num == null || !den) return null;
-    return Math.round((num / den) * 1000) / 10;
+    return Math.min(100, Math.max(0, Math.round((num / den) * 1000) / 10));
   }
 
   function renderProfile(profile, name) {

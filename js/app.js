@@ -37,12 +37,12 @@
 
   function pct(num, den) {
     if (num == null || !den) return null;
-    return (num / den) * 100;
+    return Math.min(100, Math.max(0, (num / den) * 100));
   }
   function fmt(v, unit) {
     if (v == null) return "Non disponible";
-    const n = unit === "%" ? v.toFixed(1).replace(".", ",") + " %" : Math.round(v).toLocaleString("fr-FR") + (unit && unit !== "%" ? " " + unit : "");
-    return n;
+    if (unit === "%") return Math.min(100, Math.max(0, v)).toFixed(1).replace(".", ",") + " %";
+    return Math.round(v).toLocaleString("fr-FR") + (unit ? " " + unit : "");
   }
 
   // ---------- Map ----------
@@ -99,7 +99,7 @@
     });
 
     document.getElementById("mapStatus").textContent = `${state.communes.length} communes chargées`;
-    if (deptLayer) map.fitBounds(deptLayer.getBounds(), { padding: [24, 24], animate: false });
+    if (deptLayer) map.fitBounds(deptLayer.getBounds(), { padding: [8, 8], animate: false });
     applyChoropleth();
     renderEmptyState();
 
@@ -130,14 +130,22 @@
   }
 
   // ---------- Choropleth ----------
+  function layerValue(layerDef, profile) {
+    if (!profile) return null;
+    const v = layerDef.get(profile);
+    if (v == null) return null;
+    return layerDef.unit === "%" ? Math.min(100, Math.max(0, v)) : v;
+  }
+
   function valueForTerritoryCode(code) {
     if (!state.activeLayer) return null;
+    const layerDef = LAYERS[state.activeLayer];
     if (state.scale === "commune") {
       const c = state.communesByCode.get(code);
-      return c && c.profile ? LAYERS[state.activeLayer].get(c.profile) : null;
+      return c ? layerValue(layerDef, c.profile) : null;
     }
     const epci = epciForCommune(code);
-    return epci ? LAYERS[state.activeLayer].get(epci) : null;
+    return epci ? layerValue(layerDef, epci) : null;
   }
 
   function applyChoropleth() {
@@ -172,9 +180,9 @@
 
     let values;
     if (state.scale === "commune") {
-      values = state.communes.map((c) => (c.profile ? layerDef.get(c.profile) : null)).filter((v) => v != null);
+      values = state.communes.map((c) => layerValue(layerDef, c.profile)).filter((v) => v != null);
     } else {
-      values = state.epcis.filter((e) => !e.special).map((e) => layerDef.get(e)).filter((v) => v != null);
+      values = state.epcis.filter((e) => !e.special).map((e) => layerValue(layerDef, e)).filter((v) => v != null);
     }
     const extent = d3.extent(values);
     const colorScale = d3.scaleLinear().range(layerDef.ramp);
@@ -183,7 +191,7 @@
     displayLayer.eachLayer((layer) => {
       const code = layer.feature.properties.code;
       const isSelected = code === state.selected;
-      const v = state.scale === "epci" ? LAYERS[state.activeLayer].get(state.epcisByCode.get(code)) : valueForTerritoryCode(code);
+      const v = state.scale === "epci" ? layerValue(layerDef, state.epcisByCode.get(code)) : valueForTerritoryCode(code);
       const fill = v == null ? "#e4e9ec" : colorScale(v);
       layer.setStyle({
         fillColor: fill,
@@ -196,6 +204,7 @@
 
     const legend = document.getElementById("mapLegend");
     legend.hidden = false;
+    legend.style.setProperty("--layer-color", layerDef.ramp[1]);
     legend.querySelector(".ramp").style.background = `linear-gradient(90deg, ${layerDef.ramp.join(",")})`;
     document.getElementById("legendTitle").textContent = layerDef.label;
     document.getElementById("legendMin").textContent = fmt(extent[0], layerDef.unit);
@@ -286,7 +295,7 @@
     sidebarEl.classList.remove("open");
     mobileLayersBtn.setAttribute("aria-expanded", "false");
     document.getElementById("detailPanel").classList.remove("open");
-    if (deptLayer) map.fitBounds(deptLayer.getBounds(), { padding: [24, 24], animate: false });
+    if (deptLayer) map.fitBounds(deptLayer.getBounds(), { padding: [8, 8], animate: false });
     else map.setView(VDO_CENTER, 10, { animate: false });
     applyChoropleth();
     renderEmptyState();
