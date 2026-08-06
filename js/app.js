@@ -99,7 +99,7 @@
     });
 
     document.getElementById("mapStatus").textContent = `${state.communes.length} communes chargées`;
-    if (deptLayer) map.fitBounds(deptLayer.getBounds(), { padding: [8, 8], animate: false });
+    if (deptLayer) { map.fitBounds(deptLayer.getBounds(), { padding: [8, 8], animate: false }); map.setZoom(map.getZoom() + 1, { animate: false }); }
     applyChoropleth();
     renderEmptyState();
 
@@ -295,7 +295,7 @@
     sidebarEl.classList.remove("open");
     mobileLayersBtn.setAttribute("aria-expanded", "false");
     document.getElementById("detailPanel").classList.remove("open");
-    if (deptLayer) map.fitBounds(deptLayer.getBounds(), { padding: [8, 8], animate: false });
+    if (deptLayer) { map.fitBounds(deptLayer.getBounds(), { padding: [8, 8], animate: false }); map.setZoom(map.getZoom() + 1, { animate: false }); }
     else map.setView(VDO_CENTER, 10, { animate: false });
     applyChoropleth();
     renderEmptyState();
