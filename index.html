@@ -7,7 +7,7 @@
 <title>Logement · Habitat · Val-d'Oise · DDT 95</title>
 <link rel="preconnect" href="https://tile.openstreetmap.org">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
-<link rel="stylesheet" href="css/style.css?v=4">
+<link rel="stylesheet" href="css/style.css?v=5">
 </head>
 <body>
 <header class="topbar">
@@ -116,6 +116,14 @@
       </div>
     </div>
 
+    <div class="layer-group" aria-label="Localisation des logements">
+      <span>LOCALISATION (ZOOMER POUR VOIR)</span>
+      <div class="layer-cards">
+        <button type="button" class="layer-card overlay-card" data-overlay="rpls_points" style="--layer-color:#ce0500;--layer-gradient:linear-gradient(135deg,#fdeceb,#ce0500)"><i class="layer-swatch" aria-hidden="true"></i><span><b>Bâtiments de logements sociaux</b><small>13 776 immeubles RPLS géolocalisés</small></span><i class="layer-switch" aria-hidden="true"></i></button>
+        <button type="button" class="layer-card overlay-card" data-overlay="dvf_points" style="--layer-color:#9c27b0;--layer-gradient:linear-gradient(135deg,#f3eef9,#9c27b0)"><i class="layer-swatch" aria-hidden="true"></i><span><b>Ventes immobilières</b><small>10 386 transactions DVF 2023-2025</small></span><i class="layer-switch" aria-hidden="true"></i></button>
+      </div>
+    </div>
+
     <button id="openComprendre3" class="sources-inline">Sources, millésimes et licences</button>
     <div class="sidebar-footer">
       <div class="fresh-dot"></div>
@@ -218,6 +226,6 @@
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
 <script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
-<script src="js/app.js?v=4"></script>
+<script src="js/app.js?v=5"></script>
 </body>
 </html>

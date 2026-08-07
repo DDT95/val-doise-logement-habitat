@@ -57,7 +57,8 @@
     maxZoom: 19,
   }).addTo(map);
 
-  let communesLayer, epciLayer, deptLayer, permisLouerLayer;
+  let communesLayer, epciLayer, deptLayer, permisLouerLayer, rplsPointsLayer, dvfPointsLayer;
+  const pointsRenderer = L.canvas({ padding: 0.5 });
   const territoryTooltip = L.tooltip({ sticky: true, className: "commune-tip", direction: "top", offset: [0, -8] });
 
   Promise.all([
@@ -70,7 +71,9 @@
     d3.json("data/processed/market_profiles.json"),
     d3.json("data/processed/market_epci_profiles.json"),
     d3.json("data/processed/permis_louer.geojson"),
-  ]).then(([dept95, communes95Geo, epcis95Geo, communes95, communeProfiles, epciProfiles, marketProfiles, marketEpciProfiles, permisLouerGeo]) => {
+    d3.json("data/processed/rpls_points.geojson"),
+    d3.json("data/processed/dvf_points.geojson"),
+  ]).then(([dept95, communes95Geo, epcis95Geo, communes95, communeProfiles, epciProfiles, marketProfiles, marketEpciProfiles, permisLouerGeo, rplsPointsGeo, dvfPointsGeo]) => {
     deptLayer = L.geoJSON(dept95, { style: { color: "#000091", weight: 2, fill: false, opacity: 0.55 } }).addTo(map);
 
     permisLouerLayer = L.geoJSON(permisLouerGeo, {
@@ -78,6 +81,18 @@
       onEachFeature: (feature, layer) => {
         layer.bindTooltip(`Permis de louer — ${feature.properties.nom_commune}`, { sticky: true });
       },
+    });
+
+    rplsPointsLayer = L.geoJSON(rplsPointsGeo, {
+      pointToLayer: (feature, latlng) => L.circleMarker(latlng, {
+        renderer: pointsRenderer, radius: 3.2, weight: 1, color: "#7a0300", fillColor: "#ce0500", fillOpacity: 0.85,
+      }).bindTooltip(`${feature.properties.n} logement${feature.properties.n > 1 ? "s" : ""} social${feature.properties.n > 1 ? "aux" : ""}`, { sticky: true }),
+    });
+
+    dvfPointsLayer = L.geoJSON(dvfPointsGeo, {
+      pointToLayer: (feature, latlng) => L.circleMarker(latlng, {
+        renderer: pointsRenderer, radius: 2.6, weight: 0.8, color: "#5c0a70", fillColor: "#9c27b0", fillOpacity: 0.6,
+      }).bindTooltip(`${feature.properties.t === "M" ? "Maison" : "Appartement"} · ${feature.properties.p.toLocaleString("fr-FR")} €/m² · ${feature.properties.y}`, { sticky: true }),
     });
 
     Object.entries(marketProfiles).forEach(([code, m]) => { if (communeProfiles[code]) communeProfiles[code].marche = m; });
@@ -237,13 +252,14 @@
   });
 
   // Overlays de contexte (cumulables, indépendants de la couche choroplèthe active)
+  const OVERLAY_LAYERS = { permis_louer: () => permisLouerLayer, rpls_points: () => rplsPointsLayer, dvf_points: () => dvfPointsLayer };
   document.querySelectorAll(".overlay-card[data-overlay]").forEach((btn) => {
     btn.addEventListener("click", () => {
       const active = btn.classList.toggle("active");
-      if (btn.dataset.overlay === "permis_louer" && permisLouerLayer) {
-        if (active) permisLouerLayer.addTo(map);
-        else map.removeLayer(permisLouerLayer);
-      }
+      const layer = OVERLAY_LAYERS[btn.dataset.overlay]?.();
+      if (!layer) return;
+      if (active) layer.addTo(map);
+      else map.removeLayer(layer);
     });
   });
 
