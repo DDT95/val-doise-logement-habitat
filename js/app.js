@@ -20,6 +20,9 @@
     part_proprietaires: { label: "Part de propriétaires", unit: "%", ramp: ["#eef7ee", "#477a3c", "#173a13"], get: (p) => pct(p.occupation.proprietaires.value, p.parc.residences_principales.value) },
     rpls_count: { label: "Nombre de logements RPLS", unit: "logements", ramp: ["#f3eef9", "#6f4c9b", "#2e1a4d"], get: (p) => p.social.rpls_count.value },
     part_rpls: { label: "Part RPLS des résidences principales", unit: "%", ramp: ["#f3eef9", "#6f4c9b", "#2e1a4d"], get: (p) => p.social.part_rpls_residences_principales.value },
+    financement_tres_social: { label: "Part très social (PLAI et assimilé) du parc RPLS", unit: "%", ramp: ["#fdeef2", "#c2185b", "#5c0a28"], get: (p) => p.social.part_financement_tres_social ? p.social.part_financement_tres_social.value : null },
+    financement_social: { label: "Part social (PLUS/HLM-O et assimilé) du parc RPLS", unit: "%", ramp: ["#f3eef9", "#6f4c9b", "#2e1a4d"], get: (p) => p.social.part_financement_social ? p.social.part_financement_social.value : null },
+    financement_intermediaire: { label: "Part intermédiaire (PLS/PLI et assimilé) du parc RPLS", unit: "%", ramp: ["#eef2f9", "#3978b8", "#0b2f57"], get: (p) => p.social.part_financement_intermediaire ? p.social.part_financement_intermediaire.value : null },
     vacance_rp: { label: "Taux de vacance RP", unit: "%", ramp: ["#fdf0e9", "#e07a2f", "#7a3200"], get: (p) => p.vacance.taux_vacance_rp.value },
     vacance_privee_longue: { label: "Vacance privée depuis plus de 2 ans", unit: "logements", ramp: ["#fdf0e9", "#e07a2f", "#7a3200"], get: (p) => p.vacance.vacance_privee_longue_2025 ? p.vacance.vacance_privee_longue_2025.value : null },
     commences_5ans: { label: "Logements commencés (2021-2025)", unit: "logements", ramp: ["#eef7ee", "#18753c", "#0c3a1e"], get: (p) => p.construction.commences_5ans.value },
@@ -54,7 +57,7 @@
     maxZoom: 19,
   }).addTo(map);
 
-  let communesLayer, epciLayer, deptLayer;
+  let communesLayer, epciLayer, deptLayer, permisLouerLayer;
   const territoryTooltip = L.tooltip({ sticky: true, className: "commune-tip", direction: "top", offset: [0, -8] });
 
   Promise.all([
@@ -66,8 +69,16 @@
     d3.json("data/processed/epci_profiles.json"),
     d3.json("data/processed/market_profiles.json"),
     d3.json("data/processed/market_epci_profiles.json"),
-  ]).then(([dept95, communes95Geo, epcis95Geo, communes95, communeProfiles, epciProfiles, marketProfiles, marketEpciProfiles]) => {
+    d3.json("data/processed/permis_louer.geojson"),
+  ]).then(([dept95, communes95Geo, epcis95Geo, communes95, communeProfiles, epciProfiles, marketProfiles, marketEpciProfiles, permisLouerGeo]) => {
     deptLayer = L.geoJSON(dept95, { style: { color: "#000091", weight: 2, fill: false, opacity: 0.55 } }).addTo(map);
+
+    permisLouerLayer = L.geoJSON(permisLouerGeo, {
+      style: { color: "#ce0500", weight: 2, dashArray: "6 4", fillColor: "#ce0500", fillOpacity: 0.12 },
+      onEachFeature: (feature, layer) => {
+        layer.bindTooltip(`Permis de louer — ${feature.properties.nom_commune}`, { sticky: true });
+      },
+    });
 
     Object.entries(marketProfiles).forEach(([code, m]) => { if (communeProfiles[code]) communeProfiles[code].marche = m; });
     Object.entries(marketEpciProfiles).forEach(([code, m]) => { if (epciProfiles[code]) epciProfiles[code].marche = m; });
@@ -212,16 +223,27 @@
     document.getElementById("legendNote").textContent = "Gris = donnée non disponible ou secrétisée.";
   }
 
-  document.querySelectorAll(".layer-card").forEach((btn) => {
+  document.querySelectorAll(".layer-card:not(.overlay-card)").forEach((btn) => {
     btn.addEventListener("click", () => {
       const turningOff = btn.classList.contains("active");
-      document.querySelectorAll(".layer-card").forEach((b) => b.classList.toggle("active", !turningOff && b === btn));
+      document.querySelectorAll(".layer-card:not(.overlay-card)").forEach((b) => b.classList.toggle("active", !turningOff && b === btn));
       state.activeLayer = turningOff ? null : btn.dataset.layer;
       state.selected = null;
       searchInput.value = "";
       document.getElementById("detailPanel").classList.remove("open");
       applyChoropleth();
       renderEmptyState();
+    });
+  });
+
+  // Overlays de contexte (cumulables, indépendants de la couche choroplèthe active)
+  document.querySelectorAll(".overlay-card[data-overlay]").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const active = btn.classList.toggle("active");
+      if (btn.dataset.overlay === "permis_louer" && permisLouerLayer) {
+        if (active) permisLouerLayer.addTo(map);
+        else map.removeLayer(permisLouerLayer);
+      }
     });
   });
 

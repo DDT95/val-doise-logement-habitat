@@ -465,6 +465,30 @@
    "source": "rpls+insee_logement_2023",
    "denominator": 495214.5152200002,
    "quality_flag": "ok"
+  },
+  "part_financement_tres_social": {
+   "value": 6.303802008608321,
+   "unit": "%",
+   "year": 2025,
+   "source": "rpls",
+   "denominator": 133824.0,
+   "quality_flag": "ok"
+  },
+  "part_financement_social": {
+   "value": 70.60542204686753,
+   "unit": "%",
+   "year": 2025,
+   "source": "rpls",
+   "denominator": 133824.0,
+   "quality_flag": "ok"
+  },
+  "part_financement_intermediaire": {
+   "value": 10.850818986131037,
+   "unit": "%",
+   "year": 2025,
+   "source": "rpls",
+   "denominator": 133824.0,
+   "quality_flag": "ok"
   }
  },
  "vacance": {

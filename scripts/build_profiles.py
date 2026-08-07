@@ -116,6 +116,24 @@ def load_insee_tenure():
 # ---------------------------------------------------------------------------
 # C. RPLS — parc social détaillé
 # ---------------------------------------------------------------------------
+# Regroupement des libellés RPLS FINAN_LIBELLE en quatre familles lisibles.
+# RPLS distingue des dizaines de dispositifs historiques (HLM/O, ILN, HBM...) qui
+# ne correspondent pas exactement aux catégories usuelles PLAI/PLUS/PLS/PLI :
+# on les rattache à la famille la plus proche, en le documentant explicitement.
+FINANCEMENT_BUCKETS = {
+    "très social": {"PLA d’intégration/LLTS dans les DOM", "PLA Loyer Minoré / PLA Très Social / PLA Insertion"},
+    "social": {"HLM/O", "PLA ordinaire", "PLUS/LLS dans les DOM", "HBM"},
+    "intermédiaire": {"PLS/PPLS/PCLS/PLA CFF", "PLI", "ILN", "ILM"},
+}
+
+
+def financement_bucket(libelle):
+    for bucket, labels in FINANCEMENT_BUCKETS.items():
+        if libelle in labels:
+            return bucket
+    return "autre" if libelle else None
+
+
 def load_rpls():
     path = RAW / "rpls_95.csv"
     if not path.exists():
@@ -124,7 +142,7 @@ def load_rpls():
         "count": 0, "dpe_counts": defaultdict(int), "dpe_missing": 0,
         "by_type": defaultdict(int), "by_pieces": defaultdict(int),
         "constructed_before_1971": 0, "constructed_known": 0,
-        "mise_en_location_recente": 0,
+        "mise_en_location_recente": 0, "by_financement": defaultdict(int),
     })
     with open(path, encoding="utf-8") as f:
         reader = csv.reader(f, delimiter=";", quotechar='"')
@@ -153,6 +171,9 @@ def load_rpls():
             nbpiece = row[idx["NBPIECE"]].strip()
             if nbpiece.isdigit():
                 d["by_pieces"][nbpiece] += 1
+            bucket = financement_bucket(row[idx["FINAN_LIBELLE"]].strip())
+            if bucket:
+                d["by_financement"][bucket] += 1
     return data
 
 
@@ -307,6 +328,11 @@ def build_commune_profiles():
             social_dpe_total = sum(r["dpe_counts"].values())
             social_fg = r["dpe_counts"].get("F", 0) + r["dpe_counts"].get("G", 0)
 
+        def financement_pct(bucket):
+            if not r or not social_count:
+                return None
+            return (r["by_financement"].get(bucket, 0) / social_count) * 100
+
         s = sru.get(code)
         lv = lovac.get(code, {})
 
@@ -345,6 +371,9 @@ def build_commune_profiles():
                 "sru_taux_pct": {"value": s["taux_sru_pct"] if s else None, "unit": "%", "year": 2024, "source": "sru", "denominator": None, "quality_flag": QUALITY_OK if (s and s["taux_sru_pct"] is not None) else QUALITY_NA},
                 "sru_deficitaire": {"value": s["deficitaire"] if s else None, "unit": "booléen", "year": 2025, "source": "sru", "denominator": None, "quality_flag": QUALITY_OK if s else QUALITY_NA},
                 "sru_carencee": {"value": s["carencee"] if s else None, "unit": "booléen", "year": 2025, "source": "sru", "denominator": None, "quality_flag": QUALITY_OK if s else QUALITY_NA},
+                "part_financement_tres_social": {"value": financement_pct("très social"), "unit": "%", "year": 2025, "source": "rpls", "denominator": social_count, "quality_flag": QUALITY_OK if financement_pct("très social") is not None else QUALITY_MISSING},
+                "part_financement_social": {"value": financement_pct("social"), "unit": "%", "year": 2025, "source": "rpls", "denominator": social_count, "quality_flag": QUALITY_OK if financement_pct("social") is not None else QUALITY_MISSING},
+                "part_financement_intermediaire": {"value": financement_pct("intermédiaire"), "unit": "%", "year": 2025, "source": "rpls", "denominator": social_count, "quality_flag": QUALITY_OK if financement_pct("intermédiaire") is not None else QUALITY_MISSING},
             },
             "vacance": {
                 "taux_vacance_rp": {"value": (vac / total_parc * 100) if (vac is not None and total_parc) else None, "unit": "%", "year": 2023, "source": "insee_logement_2023", "denominator": total_parc, "quality_flag": QUALITY_OK if (vac is not None and total_parc) else QUALITY_MISSING},
@@ -436,6 +465,14 @@ def build_aggregate_profile(code, name, kind, member_profiles, members=None, mem
         "social": {
             "rpls_count": {"value": social_count, "unit": "logements", "year": 2025, "source": "rpls", "denominator": None, "quality_flag": flag if social_count is not None else QUALITY_MISSING},
             "part_rpls_residences_principales": {"value": (social_count / rp * 100) if (social_count is not None and rp) else None, "unit": "%", "year": 2025, "source": "rpls+insee_logement_2023", "denominator": rp, "quality_flag": flag if (social_count is not None and rp) else QUALITY_MISSING},
+            **{
+                f"part_financement_{key}": {
+                    "value": (sum((p["social"][f"part_financement_{key}"]["value"] or 0) / 100 * (p["social"]["rpls_count"]["value"] or 0) for p in member_profiles if p["social"]["rpls_count"]["value"]) / social_count * 100) if social_count else None,
+                    "unit": "%", "year": 2025, "source": "rpls", "denominator": social_count,
+                    "quality_flag": flag if social_count else QUALITY_MISSING,
+                }
+                for key in ("tres_social", "social", "intermediaire")
+            },
         },
         "vacance": {
             "taux_vacance_rp": {"value": (vac / total_parc * 100) if (vac is not None and total_parc) else None, "unit": "%", "year": 2023, "source": "insee_logement_2023", "denominator": total_parc, "quality_flag": flag if (vac is not None and total_parc) else QUALITY_MISSING},

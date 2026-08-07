@@ -7,7 +7,7 @@
 <title>Logement · Habitat · Val-d'Oise · DDT 95</title>
 <link rel="preconnect" href="https://tile.openstreetmap.org">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
-<link rel="stylesheet" href="css/style.css?v=3">
+<link rel="stylesheet" href="css/style.css?v=4">
 </head>
 <body>
 <header class="topbar">
@@ -73,6 +73,9 @@
       <div class="layer-cards">
         <button type="button" class="layer-card" data-layer="rpls_count"><i class="layer-swatch" aria-hidden="true"></i><span><b>Nombre de logements RPLS</b><small>SDES, 1ᵉʳ janvier 2025</small></span><i class="layer-switch" aria-hidden="true"></i></button>
         <button type="button" class="layer-card" data-layer="part_rpls"><i class="layer-swatch" aria-hidden="true"></i><span><b>Part RPLS des résidences principales</b><small>Logements sociaux / résidences principales</small></span><i class="layer-switch" aria-hidden="true"></i></button>
+        <button type="button" class="layer-card" data-layer="financement_tres_social"><i class="layer-swatch" aria-hidden="true"></i><span><b>Financement très social</b><small>PLAI et assimilé, part du parc RPLS</small></span><i class="layer-switch" aria-hidden="true"></i></button>
+        <button type="button" class="layer-card" data-layer="financement_social"><i class="layer-swatch" aria-hidden="true"></i><span><b>Financement social</b><small>PLUS/HLM-O et assimilé, part du parc RPLS</small></span><i class="layer-switch" aria-hidden="true"></i></button>
+        <button type="button" class="layer-card" data-layer="financement_intermediaire"><i class="layer-swatch" aria-hidden="true"></i><span><b>Financement intermédiaire</b><small>PLS/PLI et assimilé, part du parc RPLS</small></span><i class="layer-switch" aria-hidden="true"></i></button>
       </div>
     </div>
 
@@ -106,10 +109,17 @@
       </div>
     </div>
 
+    <div class="layer-group" aria-label="Réglementation locative">
+      <span>RÉGLEMENTATION LOCATIVE</span>
+      <div class="layer-cards">
+        <button type="button" class="layer-card overlay-card" data-overlay="permis_louer" style="--layer-color:#ce0500;--layer-gradient:linear-gradient(135deg,#fdeceb,#ce0500)"><i class="layer-swatch" aria-hidden="true"></i><span><b>Zones "permis de louer"</b><small>Couverture partielle : CA Plaine Vallée uniquement</small></span><i class="layer-switch" aria-hidden="true"></i></button>
+      </div>
+    </div>
+
     <button id="openComprendre3" class="sources-inline">Sources, millésimes et licences</button>
     <div class="sidebar-footer">
       <div class="fresh-dot"></div>
-      <div><strong>9 sources publiques croisées</strong><small>Insee · SDES · Cerema · ADEME · Anah · DGFiP · DHUP</small></div>
+      <div><strong>11 sources publiques croisées</strong><small>Insee · SDES · Cerema · ADEME · Anah · DGFiP · DHUP · SIRENE</small></div>
     </div>
   </aside>
 
@@ -160,7 +170,24 @@
       <li>Anah, opérations programmées d'amélioration de l'habitat</li>
       <li>DGFiP, Demandes de valeurs foncières (DVF), ventes 2021-2025</li>
       <li>DHUP, carte des loyers d'annonce par commune, millésime 2025</li>
+      <li>CA Plaine Vallée, zonage "permis de louer", open data</li>
+      <li>INSEE, répertoire SIRENE (recherche-entreprises.api.gouv.fr), pour l'annuaire des bailleurs</li>
     </ul>
+
+    <h3>Bailleurs sociaux ayant leur siège dans le Val-d'Oise</h3>
+    <p>RPLS ne diffuse pas l'identité du bailleur propriétaire de chaque logement : impossible d'attribuer un logement social précis à un organisme. Voici, à titre indicatif via le répertoire public SIRENE, les principaux organismes HLM dont le <strong>siège social</strong> est domicilié dans le département — liste non exhaustive, de gros bailleurs opérant dans le 95 (CDC Habitat, Immobilière 3F, ICF Habitat, 1001 Vies Habitat...) ont leur siège hors département et n'y figurent pas.</p>
+    <ul>
+      <li>Office Public Habitat Argenteuil-Bezons (OPH) — Argenteuil</li>
+      <li>Val d'Oise Habitat, ex-OPAC (Office public) — Cergy / Pontoise</li>
+      <li>Val Parisis Habitat (OPAC) — Ermont</li>
+      <li>SA HLM du Val-d'Oise (SAVO) — Eaubonne</li>
+    </ul>
+
+    <h3>Financement du parc social (RPLS)</h3>
+    <p>RPLS distingue des dizaines de dispositifs historiques (HLM/O, PLA ordinaire, ILN, HBM...) sans correspondance exacte avec la grille usuelle PLAI/PLUS/PLS/PLI. La carte les regroupe en trois familles rattachées au dispositif le plus proche — très social, social, intermédiaire — le solde restant non classé (financements anciens ou atypiques).</p>
+
+    <h3>Permis de louer</h3>
+    <p>Certaines communes soumettent la mise en location à une autorisation préalable ("permis de louer") pour lutter contre l'habitat indigne. Il n'existe pas de source ouverte unique et à jour à l'échelle nationale ou même départementale : seule la CA Plaine Vallée a publié son zonage en open data (Andilly, Groslay, Moisselles, Montmagny, Saint-Gratien, Soisy-sous-Montmorency). D'autres communes du Val-d'Oise peuvent avoir instauré un permis de louer par arrêté sans zonage géographique publié — cette couche n'est donc pas exhaustive.</p>
 
     <h3>Limites méthodologiques</h3>
     <ul>
@@ -191,6 +218,6 @@
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
 <script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
-<script src="js/app.js?v=3"></script>
+<script src="js/app.js?v=4"></script>
 </body>
 </html>

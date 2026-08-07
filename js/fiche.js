@@ -143,7 +143,13 @@
           ${kpi("Soumise à l’article 55 SRU", profile.social.sru_soumise, "n", profile.social.sru_soumise && profile.social.sru_soumise.value === 1 ? "Oui" : profile.social.sru_soumise && profile.social.sru_soumise.value === 0 ? "Non" : "")}
           ${kpi("Taux SRU (inventaire)", profile.social.sru_taux_pct, "%")}
           ${kpi("Commune carencée SRU", profile.social.sru_carencee, "n", profile.social.sru_carencee && profile.social.sru_carencee.value === 1 ? "Oui" : profile.social.sru_carencee && profile.social.sru_carencee.value === 0 ? "Non" : "")}
-        </div>`, "RPLS SDES 2025 ; inventaire SRU 2025. Deux périmètres distincts, ne pas confondre.")}
+        </div>
+        <div class="rank-list"><h3>Répartition par financement (part du parc RPLS)</h3>
+          <div class="rank-row"><span>Très social (PLAI et assimilé)</span><b>${pctFmt(val(profile.social.part_financement_tres_social))}</b></div>
+          <div class="rank-row"><span>Social (PLUS/HLM-O et assimilé)</span><b>${pctFmt(val(profile.social.part_financement_social))}</b></div>
+          <div class="rank-row"><span>Intermédiaire (PLS/PLI et assimilé)</span><b>${pctFmt(val(profile.social.part_financement_intermediaire))}</b></div>
+        </div>
+        <p class="method-note-small">RPLS distingue des dizaines de dispositifs historiques (HLM/O, ILN, HBM...) sans correspondance exacte avec la grille usuelle PLAI/PLUS/PLS/PLI ; ils sont rattachés à la famille la plus proche. Le solde non classé correspond aux financements anciens ou atypiques.</p>`, "RPLS SDES 2025 ; inventaire SRU 2025. Deux périmètres distincts, ne pas confondre.")}
         ${section("04 · VACANCE", "Où la vacance est-elle durable ?", `<div class="kpi-grid kpi-grid-six">
           ${kpi("Vacance au recensement", profile.parc.logements_vacants_rp, "n")}
           ${kpi("Taux de vacance RP", profile.vacance.taux_vacance_rp, "%")}

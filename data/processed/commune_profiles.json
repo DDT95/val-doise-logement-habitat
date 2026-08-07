@@ -143,6 +143,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": 0.0,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 10,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 0.0,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 10,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 100.0,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 10,
+    "quality_flag": "ok"
    }
   },
   "vacance": {
@@ -384,6 +408,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": 12.903225806451612,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 31,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 70.96774193548387,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 31,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 16.129032258064516,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 31,
+    "quality_flag": "ok"
    }
   },
   "vacance": {
@@ -625,6 +673,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -866,6 +938,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -1107,6 +1203,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 7.975460122699387,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 163,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 88.34355828220859,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 163,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 3.6809815950920246,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 163,
+    "quality_flag": "ok"
    }
   },
   "vacance": {
@@ -1347,6 +1467,30 @@
     "year": 2025,
     "source": "sru",
     "denominator": null,
+    "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 2.3861766319253976,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 14584,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 66.68952276467361,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 14584,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 8.865880416895228,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 14584,
     "quality_flag": "ok"
    }
   },
@@ -1600,6 +1744,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 3.829787234042553,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 470,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 81.91489361702128,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 470,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 4.680851063829787,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 470,
+    "quality_flag": "ok"
    }
   },
   "vacance": {
@@ -1841,6 +2009,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -2082,6 +2274,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -2323,6 +2539,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": 27.692307692307693,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 65,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 52.307692307692314,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 65,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 20.0,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 65,
+    "quality_flag": "ok"
    }
   },
   "vacance": {
@@ -2564,6 +2804,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": 12.0,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 50,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 28.000000000000004,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 50,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 50.0,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 50,
+    "quality_flag": "ok"
    }
   },
   "vacance": {
@@ -2804,6 +3068,30 @@
     "year": 2025,
     "source": "sru",
     "denominator": null,
+    "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 29.1970802919708,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 274,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 58.3941605839416,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 274,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 5.839416058394161,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 274,
     "quality_flag": "ok"
    }
   },
@@ -3046,6 +3334,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -3287,6 +3599,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -3528,6 +3864,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -3768,6 +4128,30 @@
     "year": 2025,
     "source": "sru",
     "denominator": null,
+    "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 12.5,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 648,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 78.70370370370371,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 648,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 8.796296296296296,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 648,
     "quality_flag": "ok"
    }
   },
@@ -4010,6 +4394,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": 0.9803921568627451,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 918,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 74.29193899782135,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 918,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 13.616557734204793,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 918,
+    "quality_flag": "ok"
    }
   },
   "vacance": {
@@ -4262,6 +4670,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -4503,6 +4935,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -4744,6 +5200,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -4985,6 +5465,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": 4.504504504504505,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 222,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 93.24324324324324,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 222,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 2.2522522522522523,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 222,
+    "quality_flag": "ok"
    }
   },
   "vacance": {
@@ -5232,6 +5736,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -5472,6 +6000,30 @@
     "year": 2025,
     "source": "sru",
     "denominator": null,
+    "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 12.366737739872068,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 938,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 78.67803837953092,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 938,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 8.955223880597014,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 938,
     "quality_flag": "ok"
    }
   },
@@ -5714,6 +6266,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -5954,6 +6530,30 @@
     "year": 2025,
     "source": "sru",
     "denominator": null,
+    "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 6.383725008768853,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 5702,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 74.64047702560505,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 5702,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 5.945282357067695,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 5702,
     "quality_flag": "ok"
    }
   },
@@ -6196,6 +6796,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -6437,6 +7061,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": 18.75,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 48,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 54.166666666666664,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 48,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 27.083333333333332,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 48,
+    "quality_flag": "ok"
    }
   },
   "vacance": {
@@ -6678,6 +7326,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": 22.641509433962266,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 53,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 30.18867924528302,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 53,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 47.16981132075472,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 53,
+    "quality_flag": "ok"
    }
   },
   "vacance": {
@@ -6918,6 +7590,30 @@
     "year": 2025,
     "source": "sru",
     "denominator": null,
+    "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 4.689863842662632,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 661,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 90.77155824508321,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 661,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 4.53857791225416,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 661,
     "quality_flag": "ok"
    }
   },
@@ -7160,6 +7856,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -7401,6 +8121,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": 50.0,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 6,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 50.0,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 6,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 0.0,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 6,
+    "quality_flag": "ok"
    }
   },
   "vacance": {
@@ -7642,6 +8386,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -7883,6 +8651,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -8124,6 +8916,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": 11.324786324786325,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 468,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 78.84615384615384,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 468,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 7.264957264957266,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 468,
+    "quality_flag": "ok"
    }
   },
   "vacance": {
@@ -8371,6 +9187,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -8611,6 +9451,30 @@
     "year": 2025,
     "source": "sru",
     "denominator": null,
+    "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 17.26618705035971,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 139,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 61.15107913669065,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 139,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 21.58273381294964,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 139,
     "quality_flag": "ok"
    }
   },
@@ -8853,6 +9717,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 2.887524855191493,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 11567,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 75.2485519149304,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 11567,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 14.74885449987032,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 11567,
+    "quality_flag": "ok"
    }
   },
   "vacance": {
@@ -9093,6 +9981,30 @@
     "year": 2025,
     "source": "sru",
     "denominator": null,
+    "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 7.6923076923076925,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 403,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 41.43920595533499,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 403,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 50.86848635235732,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 403,
     "quality_flag": "ok"
    }
   },
@@ -9341,6 +10253,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -9582,6 +10518,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -9823,6 +10783,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": 15.584415584415584,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 77,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 84.4155844155844,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 77,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 0.0,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 77,
+    "quality_flag": "ok"
    }
   },
   "vacance": {
@@ -10064,6 +11048,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -10305,6 +11313,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": 0.0,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 15,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 100.0,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 15,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 0.0,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 15,
+    "quality_flag": "ok"
    }
   },
   "vacance": {
@@ -10546,6 +11578,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": 33.33333333333333,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 6,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 66.66666666666666,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 6,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 0.0,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 6,
+    "quality_flag": "ok"
    }
   },
   "vacance": {
@@ -10787,6 +11843,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -11028,6 +12108,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -11269,6 +12373,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": 100.0,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 3,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 0.0,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 3,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 0.0,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 3,
+    "quality_flag": "ok"
    }
   },
   "vacance": {
@@ -11510,6 +12638,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -11751,6 +12903,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": 83.33333333333334,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 6,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 16.666666666666664,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 6,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 0.0,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 6,
+    "quality_flag": "ok"
    }
   },
   "vacance": {
@@ -11992,6 +13168,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -12232,6 +13432,30 @@
     "year": 2025,
     "source": "sru",
     "denominator": null,
+    "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 11.203549639489738,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 1803,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 60.56572379367721,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 1803,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 27.620632279534107,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 1803,
     "quality_flag": "ok"
    }
   },
@@ -12474,6 +13698,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -12715,6 +13963,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -12955,6 +14227,30 @@
     "year": 2025,
     "source": "sru",
     "denominator": null,
+    "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 9.473684210526317,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 665,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 69.32330827067669,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 665,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 18.947368421052634,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 665,
     "quality_flag": "ok"
    }
   },
@@ -13197,6 +14493,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 7.5065616797900265,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 1905,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 65.98425196850394,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 1905,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 18.320209973753283,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 1905,
+    "quality_flag": "ok"
    }
   },
   "vacance": {
@@ -13437,6 +14757,30 @@
     "year": 2025,
     "source": "sru",
     "denominator": null,
+    "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 6.619385342789598,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 1269,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 83.451536643026,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 1269,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 9.613869188337274,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 1269,
     "quality_flag": "ok"
    }
   },
@@ -13679,6 +15023,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 8.041504539559014,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 2313,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 71.68179853004756,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 2313,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 13.79161262429745,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 2313,
+    "quality_flag": "ok"
    }
   },
   "vacance": {
@@ -13919,6 +15287,30 @@
     "year": 2025,
     "source": "sru",
     "denominator": null,
+    "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 5.025125628140704,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 597,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 84.08710217755444,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 597,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 7.705192629815745,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 597,
     "quality_flag": "ok"
    }
   },
@@ -14161,6 +15553,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 15.942028985507244,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 828,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 38.768115942028984,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 828,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 30.07246376811594,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 828,
+    "quality_flag": "ok"
    }
   },
   "vacance": {
@@ -14402,6 +15818,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": 7.142857142857142,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 14,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 92.85714285714286,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 14,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 0.0,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 14,
+    "quality_flag": "ok"
    }
   },
   "vacance": {
@@ -14643,6 +16083,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -14884,6 +16348,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -15125,6 +16613,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -15365,6 +16877,30 @@
     "year": 2025,
     "source": "sru",
     "denominator": null,
+    "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 5.485017775520569,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 1969,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 89.33468765871001,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 1969,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 3.40274250888776,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 1969,
     "quality_flag": "ok"
    }
   },
@@ -15607,6 +17143,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 2.4177949709864603,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 4136,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 84.42940038684719,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 4136,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 12.669245647969053,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 4136,
+    "quality_flag": "ok"
    }
   },
   "vacance": {
@@ -15847,6 +17407,30 @@
     "year": 2025,
     "source": "sru",
     "denominator": null,
+    "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 2.4258760107816713,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 742,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 11.05121293800539,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 742,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 9.568733153638814,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 742,
     "quality_flag": "ok"
    }
   },
@@ -16089,6 +17673,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": 28.8135593220339,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 118,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 46.61016949152542,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 118,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 24.576271186440678,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 118,
+    "quality_flag": "ok"
    }
   },
   "vacance": {
@@ -16329,6 +17937,30 @@
     "year": 2025,
     "source": "sru",
     "denominator": null,
+    "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 5.665024630541872,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 812,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 73.15270935960592,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 812,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 18.103448275862068,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 812,
     "quality_flag": "ok"
    }
   },
@@ -16571,6 +18203,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 9.294265910522999,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 3174,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 85.06616257088847,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 3174,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 3.6231884057971016,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 3174,
+    "quality_flag": "ok"
    }
   },
   "vacance": {
@@ -16812,6 +18468,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -17053,6 +18733,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -17293,6 +18997,30 @@
     "year": 2025,
     "source": "sru",
     "denominator": null,
+    "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 25.116279069767444,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 215,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 61.395348837209305,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 215,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 13.488372093023257,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 215,
     "quality_flag": "ok"
    }
   },
@@ -17535,6 +19263,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 31.636363636363633,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 275,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 64.36363636363637,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 275,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 4.0,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 275,
+    "quality_flag": "ok"
    }
   },
   "vacance": {
@@ -17776,6 +19528,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -18016,6 +19792,30 @@
     "year": 2025,
     "source": "sru",
     "denominator": null,
+    "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 2.179880510253512,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 6193,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 54.77151622799935,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 6193,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 2.4543839819150657,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 6193,
     "quality_flag": "ok"
    }
   },
@@ -18284,6 +20084,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -18525,6 +20349,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -18765,6 +20613,30 @@
     "year": 2025,
     "source": "sru",
     "denominator": null,
+    "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 11.24887285843102,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 4436,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 73.06131650135256,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 4436,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 13.345356176735798,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 4436,
     "quality_flag": "ok"
    }
   },
@@ -19007,6 +20879,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 3.5166240409207163,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 3128,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 89.16240409207161,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 3128,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 4.891304347826087,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 3128,
+    "quality_flag": "ok"
    }
   },
   "vacance": {
@@ -19248,6 +21144,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -19488,6 +21408,30 @@
     "year": 2025,
     "source": "sru",
     "denominator": null,
+    "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 17.10843373493976,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 415,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 70.8433734939759,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 415,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 12.048192771084338,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 415,
     "quality_flag": "ok"
    }
   },
@@ -19730,6 +21674,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -19971,6 +21939,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -20212,6 +22204,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -20453,6 +22469,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -20694,6 +22734,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -20934,6 +22998,30 @@
     "year": 2025,
     "source": "sru",
     "denominator": null,
+    "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 15.09433962264151,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 2332,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 57.37564322469982,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 2332,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 27.4442538593482,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 2332,
     "quality_flag": "ok"
    }
   },
@@ -21176,6 +23264,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -21417,6 +23529,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -21657,6 +23793,30 @@
     "year": 2025,
     "source": "sru",
     "denominator": null,
+    "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 13.725490196078432,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 1275,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 54.8235294117647,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 1275,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 15.294117647058824,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 1275,
     "quality_flag": "ok"
    }
   },
@@ -21899,6 +24059,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -22139,6 +24323,30 @@
     "year": 2025,
     "source": "sru",
     "denominator": null,
+    "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 5.453501722158439,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 1742,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 89.83926521239954,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 1742,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 2.4110218140068884,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 1742,
     "quality_flag": "ok"
    }
   },
@@ -22381,6 +24589,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": 100.0,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 1,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 0.0,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 1,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 0.0,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 1,
+    "quality_flag": "ok"
    }
   },
   "vacance": {
@@ -22622,6 +24854,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -22863,6 +25119,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -23104,6 +25384,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -23344,6 +25648,30 @@
     "year": 2025,
     "source": "sru",
     "denominator": null,
+    "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 11.609498680738787,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 1137,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 63.76429199648197,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 1137,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 23.482849604221638,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 1137,
     "quality_flag": "ok"
    }
   },
@@ -23586,6 +25914,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": 11.224489795918368,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 294,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 72.78911564625851,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 294,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 15.98639455782313,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 294,
+    "quality_flag": "ok"
    }
   },
   "vacance": {
@@ -23827,6 +26179,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": 12.0,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 50,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 14.000000000000002,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 50,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 74.0,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 50,
+    "quality_flag": "ok"
    }
   },
   "vacance": {
@@ -24068,6 +26444,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": 12.327044025157234,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 795,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 67.29559748427673,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 795,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 5.660377358490567,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 795,
+    "quality_flag": "ok"
    }
   },
   "vacance": {
@@ -24309,6 +26709,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": 7.6923076923076925,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 13,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 92.3076923076923,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 13,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 0.0,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 13,
+    "quality_flag": "ok"
    }
   },
   "vacance": {
@@ -24549,6 +26973,30 @@
     "year": 2025,
     "source": "sru",
     "denominator": null,
+    "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 27.77777777777778,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 144,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 49.30555555555556,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 144,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 22.916666666666664,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 144,
     "quality_flag": "ok"
    }
   },
@@ -24791,6 +27239,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": 10.204081632653061,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 147,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 85.03401360544217,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 147,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 4.761904761904762,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 147,
+    "quality_flag": "ok"
    }
   },
   "vacance": {
@@ -25031,6 +27503,30 @@
     "year": 2025,
     "source": "sru",
     "denominator": null,
+    "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 14.122137404580155,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 262,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 77.86259541984732,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 262,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 8.015267175572518,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 262,
     "quality_flag": "ok"
    }
   },
@@ -25273,6 +27769,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -25514,6 +28034,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -25754,6 +28298,30 @@
     "year": 2025,
     "source": "sru",
     "denominator": null,
+    "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 14.071294559099437,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 533,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 72.42026266416511,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 533,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 13.320825515947469,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 533,
     "quality_flag": "ok"
    }
   },
@@ -25996,6 +28564,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 23.295454545454543,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 352,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 62.5,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 352,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 14.204545454545455,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 352,
+    "quality_flag": "ok"
    }
   },
   "vacance": {
@@ -26236,6 +28828,30 @@
     "year": 2025,
     "source": "sru",
     "denominator": null,
+    "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 8.187919463087248,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 745,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 82.95302013422818,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 745,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 6.308724832214765,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 745,
     "quality_flag": "ok"
    }
   },
@@ -26478,6 +29094,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -26719,6 +29359,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": 0.0,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 6,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 100.0,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 6,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 0.0,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 6,
+    "quality_flag": "ok"
    }
   },
   "vacance": {
@@ -26960,6 +29624,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -27200,6 +29888,30 @@
     "year": 2025,
     "source": "sru",
     "denominator": null,
+    "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 4.358353510895883,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 2478,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 56.49717514124294,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 2478,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 15.173527037933818,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 2478,
     "quality_flag": "ok"
    }
   },
@@ -27442,6 +30154,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 24.46808510638298,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 94,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 59.57446808510638,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 94,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 15.957446808510639,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 94,
+    "quality_flag": "ok"
    }
   },
   "vacance": {
@@ -27682,6 +30418,30 @@
     "year": 2025,
     "source": "sru",
     "denominator": null,
+    "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 3.61260568793236,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 1301,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 47.19446579554189,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 1301,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 20.753266717909298,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 1301,
     "quality_flag": "ok"
    }
   },
@@ -27924,6 +30684,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 4.782082324455206,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 1652,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 61.92493946731234,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 1652,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 10.53268765133172,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 1652,
+    "quality_flag": "ok"
    }
   },
   "vacance": {
@@ -28165,6 +30949,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -28406,6 +31214,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": 12.550607287449392,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 247,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 65.9919028340081,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 247,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 18.218623481781375,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 247,
+    "quality_flag": "ok"
    }
   },
   "vacance": {
@@ -28647,6 +31479,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": 0.0,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 1,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 100.0,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 1,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 0.0,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 1,
+    "quality_flag": "ok"
    }
   },
   "vacance": {
@@ -28894,6 +31750,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -29135,6 +32015,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -29375,6 +32279,30 @@
     "year": 2025,
     "source": "sru",
     "denominator": null,
+    "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 13.636363636363635,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 44,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 70.45454545454545,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 44,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 15.909090909090908,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 44,
     "quality_flag": "ok"
    }
   },
@@ -29617,6 +32545,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -29857,6 +32809,30 @@
     "year": 2025,
     "source": "sru",
     "denominator": null,
+    "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 0.0,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 180,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 100.0,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 180,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 0.0,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 180,
     "quality_flag": "ok"
    }
   },
@@ -30099,6 +33075,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -30346,6 +33346,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -30593,6 +33617,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -30834,6 +33882,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -31074,6 +34146,30 @@
     "year": 2025,
     "source": "sru",
     "denominator": null,
+    "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 8.111702127659575,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 1504,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 81.58244680851064,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 1504,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 10.23936170212766,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 1504,
     "quality_flag": "ok"
    }
   },
@@ -31316,6 +34412,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 16.431924882629108,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 213,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 69.95305164319248,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 213,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 13.615023474178404,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 213,
+    "quality_flag": "ok"
    }
   },
   "vacance": {
@@ -31557,6 +34677,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": 0.0,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 37,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 100.0,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 37,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 0.0,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 37,
+    "quality_flag": "ok"
    }
   },
   "vacance": {
@@ -31798,6 +34942,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": 4.552058111380145,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 2065,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 51.719128329297824,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 2065,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 7.602905569007263,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 2065,
+    "quality_flag": "ok"
    }
   },
   "vacance": {
@@ -32050,6 +35218,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 6.8181818181818175,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 968,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 43.388429752066116,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 968,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 6.301652892561983,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 968,
+    "quality_flag": "ok"
    }
   },
   "vacance": {
@@ -32291,6 +35483,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": 0.0,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 8,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 0.0,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 8,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 100.0,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 8,
+    "quality_flag": "ok"
    }
   },
   "vacance": {
@@ -32531,6 +35747,30 @@
     "year": 2025,
     "source": "sru",
     "denominator": null,
+    "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 24.229074889867842,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 454,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 51.76211453744494,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 454,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 24.008810572687224,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 454,
     "quality_flag": "ok"
    }
   },
@@ -32773,6 +36013,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -33014,6 +36278,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -33254,6 +36542,30 @@
     "year": 2025,
     "source": "sru",
     "denominator": null,
+    "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 1.0210332856851132,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 4897,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 73.59607923218296,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 4897,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 12.619971411068,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 4897,
     "quality_flag": "ok"
    }
   },
@@ -33496,6 +36808,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": 20.0,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 25,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 20.0,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 25,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 32.0,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 25,
+    "quality_flag": "ok"
    }
   },
   "vacance": {
@@ -33736,6 +37072,30 @@
     "year": 2025,
     "source": "sru",
     "denominator": null,
+    "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 34.48275862068966,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 58,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 53.44827586206896,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 58,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 12.068965517241379,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 58,
     "quality_flag": "ok"
    }
   },
@@ -33978,6 +37338,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": 33.33333333333333,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 12,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 66.66666666666666,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 12,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 0.0,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 12,
+    "quality_flag": "ok"
    }
   },
   "vacance": {
@@ -34219,6 +37603,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -34459,6 +37867,30 @@
     "year": 2025,
     "source": "sru",
     "denominator": null,
+    "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 0.4444444444444444,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 225,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 47.55555555555556,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 225,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 52.0,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 225,
     "quality_flag": "ok"
    }
   },
@@ -34701,6 +38133,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -34948,6 +38404,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -35188,6 +38668,30 @@
     "year": 2025,
     "source": "sru",
     "denominator": null,
+    "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 5.770964833183047,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 1109,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 72.67808836789901,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 1109,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 21.550946798917945,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 1109,
     "quality_flag": "ok"
    }
   },
@@ -35430,6 +38934,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": 24.561403508771928,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 57,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 75.43859649122807,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 57,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 0.0,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 57,
+    "quality_flag": "ok"
    }
   },
   "vacance": {
@@ -35671,6 +39199,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": 50.0,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 4,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 50.0,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 4,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 0.0,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 4,
+    "quality_flag": "ok"
    }
   },
   "vacance": {
@@ -35912,6 +39464,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": 0.0,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 5,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 100.0,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 5,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 0.0,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 5,
+    "quality_flag": "ok"
    }
   },
   "vacance": {
@@ -36152,6 +39728,30 @@
     "year": 2025,
     "source": "sru",
     "denominator": null,
+    "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 2.525050100200401,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 2495,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 86.4929859719439,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 2495,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 9.97995991983968,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 2495,
     "quality_flag": "ok"
    }
   },
@@ -36394,6 +39994,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 13.13742437337943,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 1157,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 75.02160760587728,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 1157,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 11.840968020743302,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 1157,
+    "quality_flag": "ok"
    }
   },
   "vacance": {
@@ -36635,6 +40259,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": 11.73469387755102,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 196,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 75.0,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 196,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 7.142857142857142,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 196,
+    "quality_flag": "ok"
    }
   },
   "vacance": {
@@ -36875,6 +40523,30 @@
     "year": 2025,
     "source": "sru",
     "denominator": null,
+    "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 4.052287581699346,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 3060,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 68.4640522875817,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 3060,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 5.42483660130719,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 3060,
     "quality_flag": "ok"
    }
   },
@@ -37117,6 +40789,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 17.667238421955403,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 583,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 71.01200686106347,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 583,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 11.149228130360205,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 583,
+    "quality_flag": "ok"
    }
   },
   "vacance": {
@@ -37358,6 +41054,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": 22.448979591836736,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 98,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 46.93877551020408,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 98,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 12.244897959183673,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 98,
+    "quality_flag": "ok"
    }
   },
   "vacance": {
@@ -37598,6 +41318,30 @@
     "year": 2025,
     "source": "sru",
     "denominator": null,
+    "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 5.057705363204345,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 2946,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 76.57841140529531,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 2946,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 11.608961303462321,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 2946,
     "quality_flag": "ok"
    }
   },
@@ -37840,6 +41584,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -38080,6 +41848,30 @@
     "year": 2025,
     "source": "sru",
     "denominator": null,
+    "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 9.31915264580246,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 11471,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 71.34513120041845,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 11471,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 7.043849707959201,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 11471,
     "quality_flag": "ok"
    }
   },
@@ -38328,6 +42120,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -38569,6 +42385,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -38809,6 +42649,30 @@
     "year": 2025,
     "source": "sru",
     "denominator": null,
+    "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 1.0,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 1600,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 62.125,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 1600,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 6.6875,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 1600,
     "quality_flag": "ok"
    }
   },
@@ -39051,6 +42915,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 4.824561403508771,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 456,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 73.90350877192982,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 456,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 10.964912280701753,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 456,
+    "quality_flag": "ok"
    }
   },
   "vacance": {
@@ -39291,6 +43179,30 @@
     "year": 2025,
     "source": "sru",
     "denominator": null,
+    "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 3.964134025483719,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 2119,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 77.91411042944786,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 2119,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 13.685700802265218,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 2119,
     "quality_flag": "ok"
    }
   },
@@ -39533,6 +43445,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -39774,6 +43710,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -40014,6 +43974,30 @@
     "year": 2025,
     "source": "sru",
     "denominator": null,
+    "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 35.04273504273504,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 117,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 42.73504273504273,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 117,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 22.22222222222222,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 117,
     "quality_flag": "ok"
    }
   },
@@ -40256,6 +44240,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -40497,6 +44505,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -40738,6 +44770,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": 85.71428571428571,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 7,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 14.285714285714285,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 7,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 0.0,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 7,
+    "quality_flag": "ok"
    }
   },
   "vacance": {
@@ -40979,6 +45035,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -41219,6 +45299,30 @@
     "year": 2025,
     "source": "sru",
     "denominator": null,
+    "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 8.753993610223642,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 1565,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 86.8370607028754,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 1565,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 4.281150159744409,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 1565,
     "quality_flag": "ok"
    }
   },
@@ -41461,6 +45565,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": 14.824120603015075,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 398,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 40.95477386934673,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 398,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 13.06532663316583,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 398,
+    "quality_flag": "ok"
    }
   },
   "vacance": {
@@ -41702,6 +45830,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": 37.5,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 8,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 37.5,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 8,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 25.0,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 8,
+    "quality_flag": "ok"
    }
   },
   "vacance": {
@@ -41943,6 +46095,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": 8.080808080808081,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 99,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 85.85858585858585,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 99,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 0.0,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 99,
+    "quality_flag": "ok"
    }
   },
   "vacance": {
@@ -42184,6 +46360,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -42425,6 +46625,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": 26.923076923076923,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 26,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 30.76923076923077,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 26,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 0.0,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 26,
+    "quality_flag": "ok"
    }
   },
   "vacance": {
@@ -42666,6 +46890,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": 38.88888888888889,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 18,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 33.33333333333333,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 18,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 27.77777777777778,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 18,
+    "quality_flag": "ok"
    }
   },
   "vacance": {
@@ -42907,6 +47155,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": 29.133858267716533,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 127,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 40.94488188976378,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 127,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 29.133858267716533,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 127,
+    "quality_flag": "ok"
    }
   },
   "vacance": {
@@ -43148,6 +47420,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -43389,6 +47685,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -43629,6 +47949,30 @@
     "year": 2025,
     "source": "sru",
     "denominator": null,
+    "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 4.47139067828723,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 5278,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 69.47707464948844,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 5278,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 9.549071618037134,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 5278,
     "quality_flag": "ok"
    }
   },
@@ -43887,6 +48231,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {
@@ -44128,6 +48496,30 @@
     "source": "sru",
     "denominator": null,
     "quality_flag": "not_applicable"
+   },
+   "part_financement_tres_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_social": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
+   },
+   "part_financement_intermediaire": {
+    "value": null,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 0,
+    "quality_flag": "missing"
    }
   },
   "vacance": {

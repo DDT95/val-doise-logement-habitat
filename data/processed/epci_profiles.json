@@ -166,6 +166,30 @@
     "source": "rpls+insee_logement_2023",
     "denominator": 9778.95283,
     "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 13.675213675213676,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 351.0,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 74.64387464387464,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 351.0,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 8.547008547008547,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 351.0,
+    "quality_flag": "ok"
    }
   },
   "vacance": {
@@ -394,6 +418,30 @@
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 93393.20291000002,
+    "quality_flag": "partial_perimeter"
+   },
+   "part_financement_tres_social": {
+    "value": 7.224699441214652,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 35434.0,
+    "quality_flag": "partial_perimeter"
+   },
+   "part_financement_social": {
+    "value": 69.25551729976858,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 35434.0,
+    "quality_flag": "partial_perimeter"
+   },
+   "part_financement_intermediaire": {
+    "value": 8.655528588361461,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 35434.0,
     "quality_flag": "partial_perimeter"
    }
   },
@@ -639,6 +687,30 @@
     "source": "rpls+insee_logement_2023",
     "denominator": 75466.34297000001,
     "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 6.209650582362729,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 15025.0,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 65.97670549084859,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 15025.0,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 13.72379367720466,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 15025.0,
+    "quality_flag": "ok"
    }
   },
   "vacance": {
@@ -830,6 +902,30 @@
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 115612.9449,
+    "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 8.25242718446602,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 25956.0,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 71.9178609955309,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 25956.0,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 13.838804130066265,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 25956.0,
     "quality_flag": "ok"
    }
   },
@@ -1031,6 +1127,30 @@
     "source": "rpls+insee_logement_2023",
     "denominator": 13207.046040000003,
     "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 12.738214643931794,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 997.0,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 68.50551654964895,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 997.0,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 16.148445336008024,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 997.0,
+    "quality_flag": "ok"
    }
   },
   "vacance": {
@@ -1217,6 +1337,30 @@
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 84393.83518,
+    "quality_flag": "partial_perimeter"
+   },
+   "part_financement_tres_social": {
+    "value": 4.015310175489276,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 27694.0,
+    "quality_flag": "partial_perimeter"
+   },
+   "part_financement_social": {
+    "value": 77.0852892323247,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 27694.0,
+    "quality_flag": "partial_perimeter"
+   },
+   "part_financement_intermediaire": {
+    "value": 10.894056474326568,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 27694.0,
     "quality_flag": "partial_perimeter"
    }
   },
@@ -1410,6 +1554,30 @@
     "source": "rpls+insee_logement_2023",
     "denominator": 7782.24045,
     "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 24.63465553235908,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 479.0,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 60.5427974947808,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 479.0,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 11.064718162839249,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 479.0,
+    "quality_flag": "ok"
    }
   },
   "vacance": {
@@ -1590,6 +1758,30 @@
     "source": "rpls+insee_logement_2023",
     "denominator": 16480.22268,
     "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 13.71647509578544,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 2610.0,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 64.78927203065135,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 2610.0,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 12.60536398467433,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 2610.0,
+    "quality_flag": "ok"
    }
   },
   "vacance": {
@@ -1769,6 +1961,30 @@
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 15524.168450000001,
+    "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 4.831984302182978,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 4077.0,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 61.172430708854556,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 4077.0,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 12.901643365219522,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 4077.0,
     "quality_flag": "ok"
    }
   },
@@ -1995,6 +2211,30 @@
     "source": "rpls+insee_logement_2023",
     "denominator": 6797.0922500000015,
     "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 14.098360655737704,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 915.0,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 67.43169398907104,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 915.0,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 5.6830601092896185,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 915.0,
+    "quality_flag": "ok"
    }
   },
   "vacance": {
@@ -2158,6 +2398,30 @@
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 43213.48265,
+    "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 2.3861766319253976,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 14584.0,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 66.68952276467361,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 14584.0,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 8.865880416895228,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 14584.0,
     "quality_flag": "ok"
    }
   },
@@ -2333,6 +2597,30 @@
     "year": 2025,
     "source": "rpls+insee_logement_2023",
     "denominator": 13564.983909999999,
+    "quality_flag": "ok"
+   },
+   "part_financement_tres_social": {
+    "value": 6.383725008768853,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 5702.0,
+    "quality_flag": "ok"
+   },
+   "part_financement_social": {
+    "value": 74.64047702560505,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 5702.0,
+    "quality_flag": "ok"
+   },
+   "part_financement_intermediaire": {
+    "value": 5.945282357067695,
+    "unit": "%",
+    "year": 2025,
+    "source": "rpls",
+    "denominator": 5702.0,
     "quality_flag": "ok"
    }
   },
