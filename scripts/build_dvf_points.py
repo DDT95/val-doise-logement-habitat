@@ -49,14 +49,20 @@ def main():
                 prix_m2 = valeur / surface
                 if prix_m2 < 300 or prix_m2 > 25000:
                     continue
+                adresse = " ".join(p for p in (r["adresse_numero"], r["adresse_nom_voie"]) if p).strip()
                 features.append({
                     "type": "Feature",
-                    "properties": {"p": round(prix_m2), "t": r["type_local"][0], "y": year},
+                    "properties": {
+                        "p": round(prix_m2), "t": r["type_local"][0], "y": year,
+                        "d": r["date_mutation"], "v": round(valeur), "s": round(surface),
+                        "pc": int(float(r["nombre_pieces_principales"])) if r.get("nombre_pieces_principales") else None,
+                        "a": adresse or None, "cn": r["nom_commune"],
+                    },
                     "geometry": {"type": "Point", "coordinates": [round(lon, 6), round(lat, 6)]},
                 })
 
     out = {"type": "FeatureCollection", "features": features}
-    json.dump(out, open(PROCESSED / "dvf_points.geojson", "w"), separators=(",", ":"))
+    json.dump(out, open(PROCESSED / "dvf_points.geojson", "w"), separators=(",", ":"), ensure_ascii=False)
     print(f"{len(features)} ventes géolocalisées 2023-2025.")
 
 

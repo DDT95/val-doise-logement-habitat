@@ -84,15 +84,25 @@
     });
 
     rplsPointsLayer = L.geoJSON(rplsPointsGeo, {
-      pointToLayer: (feature, latlng) => L.circleMarker(latlng, {
-        renderer: pointsRenderer, radius: 3.2, weight: 1, color: "#7a0300", fillColor: "#ce0500", fillOpacity: 0.85,
-      }).bindTooltip(`${feature.properties.n} logement${feature.properties.n > 1 ? "s" : ""} social${feature.properties.n > 1 ? "aux" : ""}`, { sticky: true }),
+      pointToLayer: (feature, latlng) => {
+        const marker = L.circleMarker(latlng, {
+          renderer: pointsRenderer, radius: 3.2, weight: 1, color: "#7a0300", fillColor: "#ce0500", fillOpacity: 0.85,
+        });
+        marker.bindTooltip(`${feature.properties.n} logement${feature.properties.n > 1 ? "s" : ""} social${feature.properties.n > 1 ? "aux" : ""}`, { sticky: true });
+        marker.on("click", (e) => { L.DomEvent.stopPropagation(e); renderRplsPointDetail(feature.properties); });
+        return marker;
+      },
     });
 
     dvfPointsLayer = L.geoJSON(dvfPointsGeo, {
-      pointToLayer: (feature, latlng) => L.circleMarker(latlng, {
-        renderer: pointsRenderer, radius: 2.6, weight: 0.8, color: "#5c0a70", fillColor: "#9c27b0", fillOpacity: 0.6,
-      }).bindTooltip(`${feature.properties.t === "M" ? "Maison" : "Appartement"} · ${feature.properties.p.toLocaleString("fr-FR")} €/m² · ${feature.properties.y}`, { sticky: true }),
+      pointToLayer: (feature, latlng) => {
+        const marker = L.circleMarker(latlng, {
+          renderer: pointsRenderer, radius: 2.6, weight: 0.8, color: "#5c0a70", fillColor: "#9c27b0", fillOpacity: 0.6,
+        });
+        marker.bindTooltip(`${feature.properties.t === "M" ? "Maison" : "Appartement"} · ${feature.properties.p.toLocaleString("fr-FR")} €/m² · ${feature.properties.y}`, { sticky: true });
+        marker.on("click", (e) => { L.DomEvent.stopPropagation(e); renderDvfPointDetail(feature.properties); });
+        return marker;
+      },
     });
 
     Object.entries(marketProfiles).forEach(([code, m]) => { if (communeProfiles[code]) communeProfiles[code].marche = m; });
@@ -383,6 +393,58 @@
   }
 
   // ---------- Detail panel ----------
+  const DPE_LABELS = { A: "A", B: "B", C: "C", D: "D", E: "E", F: "F", G: "G" };
+  const FIN_LABELS = { ts: "Très social (PLAI et assimilé)", s: "Social (PLUS/HLM-O et assimilé)", i: "Intermédiaire (PLS/PLI et assimilé)", a: "Autre financement" };
+
+  function barListHtml(counts, labels, total) {
+    return Object.entries(counts)
+      .sort((a, b) => b[1] - a[1])
+      .map(([key, n]) => `<div class="bar-row"><span>${labels[key] || key}</span><div class="track"><div class="fill" style="width:${Math.max(6, (n / total) * 100)}%"></div></div><span>${n}</span></div>`)
+      .join("");
+  }
+
+  function renderRplsPointDetail(p) {
+    const detailPanel = document.getElementById("detailPanel");
+    const detailContent = document.getElementById("detailContent");
+    const dpeTotal = p.dpe ? Object.values(p.dpe).reduce((a, b) => a + b, 0) : 0;
+    const finTotal = p.fin ? Object.values(p.fin).reduce((a, b) => a + b, 0) : 0;
+    const periode = p.ymin ? (p.ymin === p.ymax ? `${p.ymin}` : `${p.ymin}–${p.ymax}`) : "Non disponible";
+    detailContent.innerHTML = `
+      <span class="detail-tag">BÂTIMENT · LOGEMENT SOCIAL</span>
+      <h2>${p.a || "Adresse non renseignée"}</h2>
+      <p class="subtitle">${p.cn} · RPLS, 1ᵉʳ janvier 2025</p>
+      <div class="kpi-grid">
+        <div class="kpi-tile"><small>Logements sociaux</small><strong>${p.n}</strong></div>
+        <div class="kpi-tile"><small>Type dominant</small><strong>${p.t || "Non disponible"}</strong></div>
+        <div class="kpi-tile"><small>Période de construction</small><strong>${periode}</strong></div>
+        <div class="kpi-tile"><small>Bailleur</small><strong style="font-size:12px">Non disponible</strong><em>RPLS ne diffuse pas l'identité du propriétaire</em></div>
+      </div>
+      ${dpeTotal ? `<div class="section-block"><strong>DPE (${dpeTotal} logement${dpeTotal > 1 ? "s" : ""})</strong><div class="bar-list">${barListHtml(p.dpe, DPE_LABELS, dpeTotal)}</div></div>` : ""}
+      ${finTotal ? `<div class="section-block"><strong>Financement (${finTotal} logement${finTotal > 1 ? "s" : ""})</strong><div class="bar-list">${barListHtml(p.fin, FIN_LABELS, finTotal)}</div></div>` : ""}
+      <p class="detail-method">Source : SDES, RPLS 2025. Bâtiment dédoublonné par coordonnées ; le nom du bailleur n'est pas diffusé dans le fichier public.</p>
+    `;
+    detailPanel.classList.add("open");
+  }
+
+  function renderDvfPointDetail(p) {
+    const detailPanel = document.getElementById("detailPanel");
+    const detailContent = document.getElementById("detailContent");
+    const typeLabel = p.t === "M" ? "Maison" : "Appartement";
+    detailContent.innerHTML = `
+      <span class="detail-tag">VENTE IMMOBILIÈRE · DVF</span>
+      <h2>${p.a || "Adresse non renseignée"}</h2>
+      <p class="subtitle">${p.cn} · vendu le ${p.d ? new Date(p.d).toLocaleDateString("fr-FR") : "date inconnue"}</p>
+      <div class="kpi-grid">
+        <div class="kpi-tile"><small>Prix au m²</small><strong>${p.p.toLocaleString("fr-FR")} €/m²</strong></div>
+        <div class="kpi-tile"><small>Prix de vente</small><strong>${p.v.toLocaleString("fr-FR")} €</strong></div>
+        <div class="kpi-tile"><small>Surface</small><strong>${p.s} m²</strong></div>
+        <div class="kpi-tile"><small>Type</small><strong>${typeLabel}${p.pc ? ` · ${p.pc} pièce${p.pc > 1 ? "s" : ""}` : ""}</strong></div>
+      </div>
+      <p class="detail-method">Source : DGFiP, Demandes de valeurs foncières (DVF). Vente simple (un seul bien par mutation).</p>
+    `;
+    detailPanel.classList.add("open");
+  }
+
   function renderDetail(code) {
     const isEpci = state.scale === "epci";
     const p = isEpci ? state.epcisByCode.get(code) : state.communesByCode.get(code)?.profile;
