@@ -123,6 +123,32 @@ input[type="range"]{width:100%;accent-color:var(--blue)}
 .dialog-body ul{padding-left:1.1em;margin:8px 0}
 .dialog-body a{font-weight:600}
 
+.synthesis-dialog{width:min(1240px,calc(100% - 56px));max-height:calc(100% - 56px);padding:30px;background:#f7f8fa;border-radius:16px}
+.synthesis-dialog::backdrop{background:rgba(9,25,42,.7);backdrop-filter:blur(4px)}
+.synthesis-dialog .dialog-close{position:fixed;right:max(calc((100vw - 1240px)/2 + 18px),46px);top:42px;border:2px solid var(--blue);background:#fff;font-weight:700}
+.synthesis-dashboard{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:12px}
+.synthesis-dashboard-head{grid-column:1/-1;padding:4px 0 8px}
+.synthesis-dashboard-head h2{margin:8px 46px 5px 0;color:var(--navy);font-size:29px;letter-spacing:-.025em}
+.synthesis-dashboard-head p{margin:0;max-width:900px;color:var(--muted);font-size:12px;line-height:1.45}
+.synthesis-dashboard>.flag-note{grid-column:1/-1;margin:0}
+.synthesis-dashboard-kpis{grid-column:1/-1;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px}
+.synthesis-dashboard-kpis .kpi-tile{min-height:92px;padding:13px;border:1px solid var(--line);border-top:4px solid var(--cyan);border-radius:11px;background:#fff}
+.synthesis-dashboard-kpis .kpi-tile.warn{border-top-color:var(--orange)}
+.synthesis-dashboard-kpis .kpi-tile strong{font-size:21px}
+.synthesis-dashboard>.synthesis-viz{margin:0;border-radius:12px;padding:17px;min-height:260px}
+.synthesis-dashboard>.synthesis-viz:nth-of-type(1){grid-column:span 4}
+.synthesis-dashboard>.synthesis-viz:nth-of-type(2){grid-column:span 4}
+.synthesis-dashboard>.synthesis-viz:nth-of-type(3){grid-column:span 4}
+.synthesis-dashboard>.synthesis-viz:nth-of-type(4){grid-column:span 8;grid-row:span 2}
+.synthesis-dashboard>.synthesis-insights{grid-column:span 4;margin:0;min-height:180px;border-left:5px solid var(--blue);border-radius:12px;padding:22px;background:#eef4ff}
+.synthesis-dashboard>.profile-link{grid-column:1/-1;margin:0}
+.synthesis-dashboard>.detail-method{grid-column:1/-1;margin:0}
+.synthesis-dashboard .synthesis-section-head strong{font-size:14px}
+.synthesis-dashboard .synthesis-section-head span{font-size:9px}
+.synthesis-dashboard .annual-construction{height:190px}
+.synthesis-dashboard .annual-bars i{width:22px}
+.synthesis-dashboard .market-summary-grid{grid-template-columns:1fr}
+
 .source-cards{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:20px}
 .source-card{background:#fff;border:1px solid var(--line);border-radius:8px;padding:14px}
 .source-card h3{font-size:13px;margin:0 0 5px;color:var(--navy)}
@@ -173,6 +199,11 @@ input[type="range"]{width:100%;accent-color:var(--blue)}
   .workspace{grid-template-columns:330px 1fr;padding:9px;gap:9px}
   .title-block h1{font-size:24px}
   .source-cards{grid-template-columns:1fr}
+  .synthesis-dialog{width:calc(100% - 28px);max-height:calc(100% - 28px);padding:22px}
+  .synthesis-dialog .dialog-close{position:absolute;right:14px;top:14px}
+  .synthesis-dashboard-kpis{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .synthesis-dashboard>.synthesis-viz:nth-of-type(n){grid-column:span 6;grid-row:auto}
+  .synthesis-dashboard>.synthesis-insights{grid-column:span 6}
 }
 .mobile-layers{display:none;border:1px solid #000091;border-radius:10px;background:#fff;color:#000091;padding:9px 12px;font-weight:700}
 /* Résumé du marché dans le panneau de synthèse */
@@ -188,4 +219,9 @@ input[type="range"]{width:100%;accent-color:var(--blue)}
   .sidebar.open{transform:none}
   .map-shell{height:100%;width:100%}
   .detail-panel{width:calc(100% - 32px);right:16px;top:16px;bottom:16px;padding:22px}
+  .synthesis-dialog{width:calc(100% - 16px);max-height:calc(100% - 16px);padding:18px 14px}
+  .synthesis-dashboard{display:block}
+  .synthesis-dashboard-head h2{font-size:23px;margin-right:42px}
+  .synthesis-dashboard-kpis{grid-template-columns:1fr 1fr;margin:14px 0}
+  .synthesis-dashboard>.synthesis-viz,.synthesis-dashboard>.synthesis-insights,.synthesis-dashboard>.profile-link,.synthesis-dashboard>.detail-method{margin-top:12px}
 }

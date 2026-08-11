@@ -537,8 +537,8 @@
 
   function openSynthesisPanel() {
     state.synthesisRequested = true;
-    const detailPanel = document.getElementById("detailPanel");
-    const detailContent = document.getElementById("detailContent");
+    const synthesisDialog = document.getElementById("synthesisDialog");
+    const detailContent = document.getElementById("synthesisContent");
     let profile = state.departementProfile;
     let name = "Val-d’Oise";
     let territoryType = "Synthèse départementale";
@@ -558,8 +558,8 @@
     }
 
     if (!profile) {
-      detailContent.innerHTML = `<span class="detail-tag">DONNÉES & ÉVOLUTIONS</span><h2>Préparation de la synthèse…</h2><p class="subtitle">Les indicateurs territoriaux sont en cours de chargement.</p>`;
-      detailPanel.classList.add("open");
+      detailContent.innerHTML = `<div class="synthesis-dashboard-head"><span class="detail-tag">DONNÉES & ÉVOLUTIONS</span><h2 id="synthesisTitle">Préparation de la synthèse…</h2><p>Les indicateurs territoriaux sont en cours de chargement.</p></div>`;
+      if (!synthesisDialog.open) synthesisDialog.showModal();
       return;
     }
 
@@ -591,12 +591,14 @@
     const partialNote = profile.perimetre_partiel ? `<div class="flag-note">Indicateurs calculés uniquement sur les communes val-d’oisiennes couvertes par ce territoire.</div>` : "";
 
     detailContent.innerHTML = `
-      <span class="detail-tag">DONNÉES & ÉVOLUTIONS · ${territoryType}</span>
-      <h2>${name}</h2>
-      <p class="subtitle">Les grands équilibres du logement, avec les derniers millésimes disponibles.</p>
+      <div class="synthesis-dashboard-head">
+        <span class="detail-tag">DONNÉES & ÉVOLUTIONS · ${territoryType}</span>
+        <h2 id="synthesisTitle">Le logement en chiffres · ${name}</h2>
+        <p>Un tableau de bord pour lire le parc, le marché, la vacance, la construction et les besoins de rénovation.</p>
+      </div>
       ${partialNote}
-      <div class="synthesis-highlight"><small>PARC DE LOGEMENTS · INSEE 2023</small><strong>${fmt(total, "logements")}</strong><span>${fmt(rp, "logements")} résidences principales</span></div>
-      <div class="kpi-grid synthesis-kpis">
+      <div class="synthesis-dashboard-kpis">
+        <div class="kpi-tile"><small>Parc de logements</small><strong>${fmt(total, "logements")}</strong><em>${fmt(rp, "logements")} résidences principales</em></div>
         <div class="kpi-tile"><small>Logements sociaux RPLS</small><strong>${fmt(nodeValue(profile.social.rpls_count), "logements")}</strong><em>${pctLabel(rplsShare)} des résidences principales</em></div>
         <div class="kpi-tile${vacancyRate != null && vacancyRate > 8 ? " warn" : ""}"><small>Vacance au recensement</small><strong>${pctLabel(vacancyRate)}</strong><em>${fmt(vacant, "logements")}</em></div>
         <div class="kpi-tile"><small>Vacance privée +2 ans</small><strong>${fmt(longVacancy, "logements")}</strong><em>LOVAC 2025</em></div>
@@ -633,11 +635,16 @@
       <a class="profile-link" href="${profileUrl}">Ouvrir la fiche détaillée et les options PDF <span>→</span></a>
       <p class="detail-method">Sources : Insee RP 2023, SDES RPLS 2025, LOVAC 2025, Sitadel3 2021-2025 et ADEME DPE (extraction 2026). Les millésimes diffèrent selon les sources ; les comparaisons doivent respecter les définitions et ruptures méthodologiques indiquées.</p>
     `;
-    detailPanel.classList.add("open");
+    document.getElementById("detailPanel").classList.remove("open");
+    if (!synthesisDialog.open) synthesisDialog.showModal();
   }
 
   document.getElementById("openData").addEventListener("click", openSynthesisPanel);
   document.getElementById("openDataTop").addEventListener("click", openSynthesisPanel);
+
+  const synthesisDialog = document.getElementById("synthesisDialog");
+  synthesisDialog.querySelectorAll("[data-close]").forEach((btn) => btn.addEventListener("click", () => synthesisDialog.close()));
+  synthesisDialog.addEventListener("click", (event) => { if (event.target === synthesisDialog) synthesisDialog.close(); });
 
   function renderEmptyState() {
     document.getElementById("detailPanel").classList.remove("open");

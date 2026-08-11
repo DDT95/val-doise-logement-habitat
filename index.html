@@ -7,7 +7,7 @@
 <title>Logement · Habitat · Val-d'Oise · DDT 95</title>
 <link rel="preconnect" href="https://tile.openstreetmap.org">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
-<link rel="stylesheet" href="css/style.css?v=7">
+<link rel="stylesheet" href="css/style.css?v=8">
 </head>
 <body>
 <header class="topbar">
@@ -18,7 +18,7 @@
     <p>Parc social, vacance, construction et rénovation expliqués à hauteur de territoire</p>
   </div>
   <button id="mobileLayers" class="mobile-layers" aria-controls="layerSidebar" aria-expanded="false">Données</button>
-  <button id="openDataTop" class="livebox" type="button" aria-controls="detailPanel">
+  <button id="openDataTop" class="livebox" type="button" aria-controls="synthesisDialog">
     <span class="fresh-dot"></span>
     <div><strong>Données & évolutions</strong><small>Synthèse Val-d’Oise ou territoire choisi</small></div>
   </button>
@@ -42,7 +42,7 @@
 
     <div class="quick-actions">
       <button id="resetView">Recentrer</button>
-      <button id="openData" type="button" aria-controls="detailPanel">Données & évolutions</button>
+      <button id="openData" type="button" aria-controls="synthesisDialog">Données & évolutions</button>
     </div>
 
     <section class="territory-mode" aria-label="Échelle d’analyse">
@@ -148,6 +148,11 @@
   </aside>
 </main>
 
+<dialog id="synthesisDialog" class="dialog synthesis-dialog" aria-labelledby="synthesisTitle">
+  <button class="dialog-close" data-close="synthesisDialog" aria-label="Fermer la synthèse">×</button>
+  <div id="synthesisContent" class="synthesis-dashboard"></div>
+</dialog>
+
 <dialog id="comprendreDialog" class="dialog">
   <button class="dialog-close" data-close="comprendreDialog" aria-label="Fermer">×</button>
   <div class="dialog-header">
@@ -226,6 +231,6 @@
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
 <script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
-<script src="js/app.js?v=7"></script>
+<script src="js/app.js?v=8"></script>
 </body>
 </html>
