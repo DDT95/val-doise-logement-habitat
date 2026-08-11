@@ -527,7 +527,28 @@
    "denominator": null,
    "quality_flag": "ok"
   },
-  "serie_annuelle": []
+  "serie_annuelle": [
+   {
+    "annee": "2022",
+    "autorises": 6754.0,
+    "commences": 6208.0
+   },
+   {
+    "annee": "2023",
+    "autorises": 5929.0,
+    "commences": 3777.0
+   },
+   {
+    "annee": "2024",
+    "autorises": 3696.0,
+    "commences": 2805.0
+   },
+   {
+    "annee": "2025",
+    "autorises": 4606.0,
+    "commences": 0.0
+   }
+  ]
  },
  "renovation": {
   "dpe_observes": {

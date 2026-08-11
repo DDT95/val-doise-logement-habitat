@@ -426,6 +426,23 @@ def build_aggregate_profile(code, name, kind, member_profiles, members=None, mem
     avant_1971_vals = [p["parc"]["part_avant_1971"]["value"] for p in member_profiles if p["parc"]["part_avant_1971"]["value"] is not None]
     part_avant_1971 = sum(avant_1971_vals) / len(avant_1971_vals) if avant_1971_vals else None
 
+    annual_by_year = defaultdict(lambda: {"autorises": 0, "commences": 0, "observations": 0})
+    for p in member_profiles:
+        for item in p["construction"].get("serie_annuelle", []):
+            year = str(item["annee"])
+            annual_by_year[year]["autorises"] += item.get("autorises") or 0
+            annual_by_year[year]["commences"] += item.get("commences") or 0
+            annual_by_year[year]["observations"] += 1
+    annual_series = [
+        {
+            "annee": year,
+            "autorises": annual_by_year[year]["autorises"],
+            "commences": annual_by_year[year]["commences"],
+        }
+        for year in sorted(annual_by_year)
+        if annual_by_year[year]["observations"]
+    ]
+
     dpe_fg_count = None
     if dpe_obs:
         fg_vals = [(p["renovation"]["dpe_fg_part"]["value"] or 0) / 100 * p["renovation"]["dpe_observes"]["value"] for p in member_profiles if p["renovation"]["dpe_observes"]["value"]]
@@ -482,7 +499,7 @@ def build_aggregate_profile(code, name, kind, member_profiles, members=None, mem
         "construction": {
             "autorises_5ans": {"value": aut_5y, "unit": "logements", "year": "2021-2025", "source": "sitadel3", "denominator": None, "quality_flag": flag if aut_5y is not None else QUALITY_MISSING},
             "commences_5ans": {"value": com_5y, "unit": "logements", "year": "2021-2025", "source": "sitadel3", "denominator": None, "quality_flag": flag if com_5y is not None else QUALITY_MISSING},
-            "serie_annuelle": [],
+            "serie_annuelle": annual_series,
         },
         "renovation": {
             "dpe_observes": {"value": dpe_obs, "unit": "diagnostics", "year": 2026, "source": "dpe_ademe", "denominator": None, "quality_flag": flag if dpe_obs else QUALITY_MISSING},

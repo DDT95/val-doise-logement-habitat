@@ -10,6 +10,8 @@
     scale: "commune",
     selected: null,
     activeLayer: null,
+    departementProfile: null,
+    synthesisRequested: false,
   };
 
   const LAYERS = {
@@ -70,10 +72,12 @@
     d3.json("data/processed/epci_profiles.json"),
     d3.json("data/processed/market_profiles.json"),
     d3.json("data/processed/market_epci_profiles.json"),
+    d3.json("data/processed/departement_profile.json"),
+    d3.json("data/processed/market_departement_profile.json"),
     d3.json("data/processed/permis_louer.geojson"),
     d3.json("data/processed/rpls_points.geojson"),
     d3.json("data/processed/dvf_points.geojson"),
-  ]).then(([dept95, communes95Geo, epcis95Geo, communes95, communeProfiles, epciProfiles, marketProfiles, marketEpciProfiles, permisLouerGeo, rplsPointsGeo, dvfPointsGeo]) => {
+  ]).then(([dept95, communes95Geo, epcis95Geo, communes95, communeProfiles, epciProfiles, marketProfiles, marketEpciProfiles, departementProfile, marketDepartementProfile, permisLouerGeo, rplsPointsGeo, dvfPointsGeo]) => {
     deptLayer = L.geoJSON(dept95, { style: { color: "#000091", weight: 2, fill: false, opacity: 0.55 } }).addTo(map);
 
     permisLouerLayer = L.geoJSON(permisLouerGeo, {
@@ -107,11 +111,13 @@
 
     Object.entries(marketProfiles).forEach(([code, m]) => { if (communeProfiles[code]) communeProfiles[code].marche = m; });
     Object.entries(marketEpciProfiles).forEach(([code, m]) => { if (epciProfiles[code]) epciProfiles[code].marche = m; });
+    departementProfile.marche = marketDepartementProfile;
 
     state.communes = communes95.map((c) => ({ ...c, profile: communeProfiles[c.code] }));
     state.communesByCode = new Map(state.communes.map((c) => [c.code, c]));
     state.epcis = Object.values(epciProfiles);
     state.epcisByCode = new Map(state.epcis.map((e) => [e.code, e]));
+    state.departementProfile = departementProfile;
     prepareEpciColors();
 
     communesLayer = L.geoJSON(communes95Geo, {
@@ -148,6 +154,7 @@
     } else if (initialParams.get("type") === "commune" && state.communesByCode.has(initialParams.get("id"))) {
       selectCommune(initialParams.get("id"));
     }
+    if (state.synthesisRequested) openSynthesisPanel();
   });
 
   function prepareEpciColors() {
@@ -494,6 +501,143 @@
     `;
     detailPanel.classList.add("open");
   }
+
+  function nodeValue(node) {
+    return node && node.value != null ? Number(node.value) : null;
+  }
+
+  function share(value, total) {
+    return value == null || !total ? null : Math.max(0, (value / total) * 100);
+  }
+
+  function pctLabel(value) {
+    return value == null ? "n. d." : value.toLocaleString("fr-FR", { maximumFractionDigits: 1 }) + " %";
+  }
+
+  function synthesisBar(label, value, max, color) {
+    const width = value == null || !max ? 0 : Math.max(2, (value / max) * 100);
+    return `<div class="synthesis-bar-row"><div><span>${label}</span><b>${fmt(value, "logements")}</b></div><div class="synthesis-bar-track"><i style="--bar-width:${width}%;--bar-color:${color}"></i></div></div>`;
+  }
+
+  function percentageBar(label, value, color) {
+    const width = value == null ? 0 : Math.max(2, Math.min(100, value));
+    return `<div class="percentage-row"><div><span>${label}</span><b>${pctLabel(value)}</b></div><div class="percentage-track"><i style="--bar-width:${width}%;--bar-color:${color}"></i></div></div>`;
+  }
+
+  function annualConstructionChart(series) {
+    if (!Array.isArray(series) || !series.length) return "";
+    const max = Math.max(...series.flatMap((item) => [item.autorises || 0, item.commences || 0]), 1);
+    const description = series.map((item) => `${item.annee} : ${fmt(item.autorises, "logements")} autorisés et ${fmt(item.commences, "logements")} commencés`).join(" ; ");
+    return `<div class="annual-construction" role="img" aria-label="${description}">${series.map((item) => `
+      <div class="annual-group">
+        <div class="annual-bars"><i class="authorized" style="--bar-height:${((item.autorises || 0) / max) * 100}%" title="${fmt(item.autorises, "logements")} autorisés"></i><i class="started" style="--bar-height:${((item.commences || 0) / max) * 100}%" title="${fmt(item.commences, "logements")} commencés"></i></div>
+        <b>${item.annee}</b>
+      </div>`).join("")}</div><div class="annual-legend"><span><i class="authorized"></i>Autorisés</span><span><i class="started"></i>Commencés</span></div>`;
+  }
+
+  function openSynthesisPanel() {
+    state.synthesisRequested = true;
+    const detailPanel = document.getElementById("detailPanel");
+    const detailContent = document.getElementById("detailContent");
+    let profile = state.departementProfile;
+    let name = "Val-d’Oise";
+    let territoryType = "Synthèse départementale";
+    let profileUrl = "fiche.html?type=departement";
+
+    if (state.selected && state.scale === "epci") {
+      profile = state.epcisByCode.get(state.selected);
+      name = profile?.name || name;
+      territoryType = profile?.special ? "Synthèse communale" : "Synthèse EPCI";
+      profileUrl = `fiche.html?type=epci&id=${encodeURIComponent(state.selected)}`;
+    } else if (state.selected) {
+      const commune = state.communesByCode.get(state.selected);
+      profile = commune?.profile;
+      name = commune?.name || name;
+      territoryType = "Synthèse communale";
+      profileUrl = `fiche.html?type=commune&id=${encodeURIComponent(state.selected)}`;
+    }
+
+    if (!profile) {
+      detailContent.innerHTML = `<span class="detail-tag">DONNÉES & ÉVOLUTIONS</span><h2>Préparation de la synthèse…</h2><p class="subtitle">Les indicateurs territoriaux sont en cours de chargement.</p>`;
+      detailPanel.classList.add("open");
+      return;
+    }
+
+    state.synthesisRequested = false;
+    const total = nodeValue(profile.parc.total);
+    const rp = nodeValue(profile.parc.residences_principales);
+    const vacant = nodeValue(profile.parc.logements_vacants_rp);
+    const other = total == null || rp == null || vacant == null ? null : Math.max(0, total - rp - vacant);
+    const owners = nodeValue(profile.occupation.proprietaires);
+    const privateTenants = nodeValue(profile.occupation.locataires_prive);
+    const socialTenants = nodeValue(profile.occupation.locataires_social);
+    const otherOccupancy = rp == null ? null : Math.max(0, rp - (owners || 0) - (privateTenants || 0) - (socialTenants || 0));
+    const authorized = nodeValue(profile.construction.autorises_5ans);
+    const started = nodeValue(profile.construction.commences_5ans);
+    const constructionMax = Math.max(authorized || 0, started || 0, 1);
+    const rplsShare = nodeValue(profile.social.part_rpls_residences_principales);
+    const vacancyRate = nodeValue(profile.vacance.taux_vacance_rp);
+    const longVacancy = nodeValue(profile.vacance.vacance_privee_longue_2025);
+    const oldShare = nodeValue(profile.parc.part_avant_1971);
+    const fgShare = nodeValue(profile.renovation.dpe_fg_part);
+    const dpeObserved = nodeValue(profile.renovation.dpe_observes);
+    const market = profile.marche || {};
+    const salePrice = nodeValue(market.prix_m2_median);
+    const flatRent = nodeValue(market.loyer_m2_appartement);
+    const houseRent = nodeValue(market.loyer_m2_maison);
+    const rpShare = share(rp, total);
+    const vacantShare = share(vacant, total);
+    const otherShare = share(other, total);
+    const partialNote = profile.perimetre_partiel ? `<div class="flag-note">Indicateurs calculés uniquement sur les communes val-d’oisiennes couvertes par ce territoire.</div>` : "";
+
+    detailContent.innerHTML = `
+      <span class="detail-tag">DONNÉES & ÉVOLUTIONS · ${territoryType}</span>
+      <h2>${name}</h2>
+      <p class="subtitle">Les grands équilibres du logement, avec les derniers millésimes disponibles.</p>
+      ${partialNote}
+      <div class="synthesis-highlight"><small>PARC DE LOGEMENTS · INSEE 2023</small><strong>${fmt(total, "logements")}</strong><span>${fmt(rp, "logements")} résidences principales</span></div>
+      <div class="kpi-grid synthesis-kpis">
+        <div class="kpi-tile"><small>Logements sociaux RPLS</small><strong>${fmt(nodeValue(profile.social.rpls_count), "logements")}</strong><em>${pctLabel(rplsShare)} des résidences principales</em></div>
+        <div class="kpi-tile${vacancyRate != null && vacancyRate > 8 ? " warn" : ""}"><small>Vacance au recensement</small><strong>${pctLabel(vacancyRate)}</strong><em>${fmt(vacant, "logements")}</em></div>
+        <div class="kpi-tile"><small>Vacance privée +2 ans</small><strong>${fmt(longVacancy, "logements")}</strong><em>LOVAC 2025</em></div>
+        <div class="kpi-tile${fgShare != null && fgShare > 25 ? " warn" : ""}"><small>DPE classés F ou G</small><strong>${pctLabel(fgShare)}</strong><em>sur ${fmt(dpeObserved, "diagnostics")}</em></div>
+      </div>
+      ${salePrice != null || flatRent != null ? `<section class="synthesis-viz" aria-labelledby="marketTitle">
+        <div class="synthesis-section-head"><strong id="marketTitle">Marché du logement</strong><span>Dernières données disponibles</span></div>
+        <div class="market-summary-grid">
+          <div><small>Prix médian des ventes</small><strong>${salePrice == null ? "n. d." : Math.round(salePrice).toLocaleString("fr-FR") + " €/m²"}</strong><span>DVF · 2023-2025 · ${fmt(market.prix_m2_median?.denominator, "ventes")}</span></div>
+          <div><small>Loyer appartement</small><strong>${flatRent == null ? "n. d." : flatRent.toLocaleString("fr-FR", { maximumFractionDigits: 1 }) + " €/m²/mois"}</strong><span>Carte des loyers · 2025</span></div>
+          ${houseRent == null ? "" : `<div><small>Loyer maison</small><strong>${houseRent.toLocaleString("fr-FR", { maximumFractionDigits: 1 })} €/m²/mois</strong><span>Carte des loyers · 2025</span></div>`}
+        </div>
+      </section>` : ""}
+      <section class="synthesis-viz" aria-labelledby="parkStructureTitle">
+        <div class="synthesis-section-head"><strong id="parkStructureTitle">Composition du parc</strong><span>Insee 2023</span></div>
+        <div class="stacked-housing" role="img" aria-label="Résidences principales ${pctLabel(rpShare)}, logements vacants ${pctLabel(vacantShare)}, autres logements ${pctLabel(otherShare)}"><i class="main" style="--segment:${rpShare || 0}%"></i><i class="vacant" style="--segment:${vacantShare || 0}%"></i><i class="other" style="--segment:${otherShare || 0}%"></i></div>
+        <div class="stacked-legend"><span><i class="main"></i>Résidences principales <b>${pctLabel(rpShare)}</b></span><span><i class="vacant"></i>Logements vacants <b>${pctLabel(vacantShare)}</b></span><span><i class="other"></i>Secondaires et occasionnels <b>${pctLabel(otherShare)}</b></span></div>
+      </section>
+      <section class="synthesis-viz" aria-labelledby="occupancyTitle">
+        <div class="synthesis-section-head"><strong id="occupancyTitle">Statut d’occupation</strong><span>Résidences principales · Insee 2023</span></div>
+        ${percentageBar("Propriétaires", share(owners, rp), "#000091")}
+        ${percentageBar("Locataires du parc social", share(socialTenants, rp), "#00a7b5")}
+        ${percentageBar("Locataires du parc privé", share(privateTenants, rp), "#e07a2f")}
+        ${otherOccupancy > 0 ? percentageBar("Autres statuts", share(otherOccupancy, rp), "#a7b1ba") : ""}
+      </section>
+      <section class="synthesis-viz" aria-labelledby="constructionTitle">
+        <div class="synthesis-section-head"><strong id="constructionTitle">Construction : volumes et évolution</strong><span>Sitadel3 · 2022-2025</span></div>
+        ${synthesisBar("Logements autorisés", authorized, constructionMax, "#000091")}
+        ${synthesisBar("Logements commencés", started, constructionMax, "#00a7b5")}
+        ${annualConstructionChart(profile.construction.serie_annuelle)}
+        <p class="viz-note">Cumul affiché : 2021-2025. Comparaison annuelle disponible : 2022-2025. Les données récentes sont incomplètes lorsque des documents ne sont pas encore reçus, notamment pour les mises en chantier 2025. Il s’agit d’autorisations et de chantiers, pas de logements livrés.</p>
+      </section>
+      <div class="synthesis-insights"><strong>Points de repère</strong><p><b>${pctLabel(oldShare)}</b> des résidences principales ont été construites avant 1971.</p><p><b>${pctLabel(rplsShare)}</b> des résidences principales correspondent au parc RPLS 2025.</p><p>Les DPE sont des observations : la part F/G repose sur <b>${fmt(dpeObserved, "diagnostics")}</b>.</p></div>
+      <a class="profile-link" href="${profileUrl}">Ouvrir la fiche détaillée et les options PDF <span>→</span></a>
+      <p class="detail-method">Sources : Insee RP 2023, SDES RPLS 2025, LOVAC 2025, Sitadel3 2021-2025 et ADEME DPE (extraction 2026). Les millésimes diffèrent selon les sources ; les comparaisons doivent respecter les définitions et ruptures méthodologiques indiquées.</p>
+    `;
+    detailPanel.classList.add("open");
+  }
+
+  document.getElementById("openData").addEventListener("click", openSynthesisPanel);
+  document.getElementById("openDataTop").addEventListener("click", openSynthesisPanel);
 
   function renderEmptyState() {
     document.getElementById("detailPanel").classList.remove("open");

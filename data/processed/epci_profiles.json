@@ -228,7 +228,28 @@
     "denominator": null,
     "quality_flag": "ok"
    },
-   "serie_annuelle": []
+   "serie_annuelle": [
+    {
+     "annee": "2022",
+     "autorises": 58.0,
+     "commences": 63.0
+    },
+    {
+     "annee": "2023",
+     "autorises": 45.0,
+     "commences": 35.0
+    },
+    {
+     "annee": "2024",
+     "autorises": 40.0,
+     "commences": 15.0
+    },
+    {
+     "annee": "2025",
+     "autorises": 34.0,
+     "commences": 0.0
+    }
+   ]
   },
   "renovation": {
    "dpe_observes": {
@@ -481,7 +502,28 @@
     "denominator": null,
     "quality_flag": "partial_perimeter"
    },
-   "serie_annuelle": []
+   "serie_annuelle": [
+    {
+     "annee": "2022",
+     "autorises": 950.0,
+     "commences": 596.0
+    },
+    {
+     "annee": "2023",
+     "autorises": 911.0,
+     "commences": 436.0
+    },
+    {
+     "annee": "2024",
+     "autorises": 343.0,
+     "commences": 324.0
+    },
+    {
+     "annee": "2025",
+     "autorises": 1114.0,
+     "commences": 0.0
+    }
+   ]
   },
   "renovation": {
    "dpe_observes": {
@@ -749,7 +791,28 @@
     "denominator": null,
     "quality_flag": "ok"
    },
-   "serie_annuelle": []
+   "serie_annuelle": [
+    {
+     "annee": "2022",
+     "autorises": 881.0,
+     "commences": 339.0
+    },
+    {
+     "annee": "2023",
+     "autorises": 498.0,
+     "commences": 602.0
+    },
+    {
+     "annee": "2024",
+     "autorises": 198.0,
+     "commences": 364.0
+    },
+    {
+     "annee": "2025",
+     "autorises": 390.0,
+     "commences": 0.0
+    }
+   ]
   },
   "renovation": {
    "dpe_observes": {
@@ -965,7 +1028,28 @@
     "denominator": null,
     "quality_flag": "ok"
    },
-   "serie_annuelle": []
+   "serie_annuelle": [
+    {
+     "annee": "2022",
+     "autorises": 2279.0,
+     "commences": 1916.0
+    },
+    {
+     "annee": "2023",
+     "autorises": 1314.0,
+     "commences": 1052.0
+    },
+    {
+     "annee": "2024",
+     "autorises": 1121.0,
+     "commences": 311.0
+    },
+    {
+     "annee": "2025",
+     "autorises": 499.0,
+     "commences": 0.0
+    }
+   ]
   },
   "renovation": {
    "dpe_observes": {
@@ -1189,7 +1273,28 @@
     "denominator": null,
     "quality_flag": "ok"
    },
-   "serie_annuelle": []
+   "serie_annuelle": [
+    {
+     "annee": "2022",
+     "autorises": 194.0,
+     "commences": 38.0
+    },
+    {
+     "annee": "2023",
+     "autorises": 229.0,
+     "commences": 27.0
+    },
+    {
+     "annee": "2024",
+     "autorises": 223.0,
+     "commences": 31.0
+    },
+    {
+     "annee": "2025",
+     "autorises": 162.0,
+     "commences": 0.0
+    }
+   ]
   },
   "renovation": {
    "dpe_observes": {
@@ -1400,7 +1505,28 @@
     "denominator": null,
     "quality_flag": "partial_perimeter"
    },
-   "serie_annuelle": []
+   "serie_annuelle": [
+    {
+     "annee": "2022",
+     "autorises": 784.0,
+     "commences": 1935.0
+    },
+    {
+     "annee": "2023",
+     "autorises": 975.0,
+     "commences": 670.0
+    },
+    {
+     "annee": "2024",
+     "autorises": 979.0,
+     "commences": 710.0
+    },
+    {
+     "annee": "2025",
+     "autorises": 1267.0,
+     "commences": 0.0
+    }
+   ]
   },
   "renovation": {
    "dpe_observes": {
@@ -1616,7 +1742,28 @@
     "denominator": null,
     "quality_flag": "ok"
    },
-   "serie_annuelle": []
+   "serie_annuelle": [
+    {
+     "annee": "2022",
+     "autorises": 38.0,
+     "commences": 29.0
+    },
+    {
+     "annee": "2023",
+     "autorises": 26.0,
+     "commences": 35.0
+    },
+    {
+     "annee": "2024",
+     "autorises": 58.0,
+     "commences": 11.0
+    },
+    {
+     "annee": "2025",
+     "autorises": 22.0,
+     "commences": 0.0
+    }
+   ]
   },
   "renovation": {
    "dpe_observes": {
@@ -1820,7 +1967,28 @@
     "denominator": null,
     "quality_flag": "ok"
    },
-   "serie_annuelle": []
+   "serie_annuelle": [
+    {
+     "annee": "2022",
+     "autorises": 115.0,
+     "commences": 46.0
+    },
+    {
+     "annee": "2023",
+     "autorises": 135.0,
+     "commences": 67.0
+    },
+    {
+     "annee": "2024",
+     "autorises": 144.0,
+     "commences": 159.0
+    },
+    {
+     "annee": "2025",
+     "autorises": 350.0,
+     "commences": 0.0
+    }
+   ]
   },
   "renovation": {
    "dpe_observes": {
@@ -2024,7 +2192,28 @@
     "denominator": null,
     "quality_flag": "ok"
    },
-   "serie_annuelle": []
+   "serie_annuelle": [
+    {
+     "annee": "2022",
+     "autorises": 283.0,
+     "commences": 229.0
+    },
+    {
+     "annee": "2023",
+     "autorises": 367.0,
+     "commences": 137.0
+    },
+    {
+     "annee": "2024",
+     "autorises": 223.0,
+     "commences": 207.0
+    },
+    {
+     "annee": "2025",
+     "autorises": 176.0,
+     "commences": 0.0
+    }
+   ]
   },
   "renovation": {
    "dpe_observes": {
@@ -2273,7 +2462,28 @@
     "denominator": null,
     "quality_flag": "ok"
    },
-   "serie_annuelle": []
+   "serie_annuelle": [
+    {
+     "annee": "2022",
+     "autorises": 93.0,
+     "commences": 48.0
+    },
+    {
+     "annee": "2023",
+     "autorises": 33.0,
+     "commences": 78.0
+    },
+    {
+     "annee": "2024",
+     "autorises": 12.0,
+     "commences": 35.0
+    },
+    {
+     "annee": "2025",
+     "autorises": 15.0,
+     "commences": 0.0
+    }
+   ]
   },
   "renovation": {
    "dpe_observes": {
@@ -2461,7 +2671,28 @@
     "denominator": null,
     "quality_flag": "ok"
    },
-   "serie_annuelle": []
+   "serie_annuelle": [
+    {
+     "annee": "2022",
+     "autorises": 418.0,
+     "commences": 302.0
+    },
+    {
+     "annee": "2023",
+     "autorises": 77.0,
+     "commences": 198.0
+    },
+    {
+     "annee": "2024",
+     "autorises": 331.0,
+     "commences": 159.0
+    },
+    {
+     "annee": "2025",
+     "autorises": 271.0,
+     "commences": 0.0
+    }
+   ]
   },
   "renovation": {
    "dpe_observes": {
@@ -2660,7 +2891,28 @@
     "denominator": null,
     "quality_flag": "ok"
    },
-   "serie_annuelle": []
+   "serie_annuelle": [
+    {
+     "annee": "2022",
+     "autorises": 661.0,
+     "commences": 667.0
+    },
+    {
+     "annee": "2023",
+     "autorises": 1319.0,
+     "commences": 440.0
+    },
+    {
+     "annee": "2024",
+     "autorises": 24.0,
+     "commences": 479.0
+    },
+    {
+     "annee": "2025",
+     "autorises": 306.0,
+     "commences": 0.0
+    }
+   ]
   },
   "renovation": {
    "dpe_observes": {
