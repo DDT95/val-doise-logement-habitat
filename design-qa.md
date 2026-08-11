@@ -2,6 +2,7 @@
 
 - Source visuelle : `/var/folders/3h/px_6bwl96w50x8y34bkz_k_80000gn/T/TemporaryItems/NSIRD_screencaptureui_j8jlBw/Capture d’écran 2026-08-11 à 11.58.54.png`
 - Implémentation : `.qa/synthesis-modal-implementation.png`
+- Révision circulaire : `.qa/synthesis-modal-round.png`
 - Source : 4346 × 2214 px, capture Retina avec chrome du navigateur.
 - Implémentation : 2147 × 973 px, viewport de navigateur à densité 1.
 - Normalisation : comparaison du contenu applicatif à proportions équivalentes ; le chrome et la densité Retina de la source ont été exclus du jugement.
@@ -26,6 +27,9 @@ Le contrôle ciblé de l’en-tête, des KPI, du bouton de fermeture et des cart
 - P1 initial : le contenu s’ouvrait dans un panneau latéral, contrairement à la grande modale de référence.
 - Correction : création d’un dialogue modal dédié, centré, large, avec fond assombri et grille de tableau de bord.
 - Preuve après correction : `.qa/synthesis-modal-implementation.png` montre la modale dans le même état que la référence.
+- P1 signalé ensuite : le graphique annuel en barres était trop anguleux, trop étiré et laissait un vide important.
+- Correction : remplacement par quatre graphiques radiaux à double anneau, valeurs visibles par année, cumuls présentés dans des capsules arrondies et carte de repères davantage arrondie.
+- Preuve après correction : `.qa/synthesis-modal-round.png`. La zone est plus compacte, le rapprochement entre les deux séries reste immédiat et toutes les valeurs sont conservées.
 
 ## Surfaces de fidélité
 

@@ -514,11 +514,6 @@
     return value == null ? "n. d." : value.toLocaleString("fr-FR", { maximumFractionDigits: 1 }) + " %";
   }
 
-  function synthesisBar(label, value, max, color) {
-    const width = value == null || !max ? 0 : Math.max(2, (value / max) * 100);
-    return `<div class="synthesis-bar-row"><div><span>${label}</span><b>${fmt(value, "logements")}</b></div><div class="synthesis-bar-track"><i style="--bar-width:${width}%;--bar-color:${color}"></i></div></div>`;
-  }
-
   function percentageBar(label, value, color) {
     const width = value == null ? 0 : Math.max(2, Math.min(100, value));
     return `<div class="percentage-row"><div><span>${label}</span><b>${pctLabel(value)}</b></div><div class="percentage-track"><i style="--bar-width:${width}%;--bar-color:${color}"></i></div></div>`;
@@ -528,11 +523,24 @@
     if (!Array.isArray(series) || !series.length) return "";
     const max = Math.max(...series.flatMap((item) => [item.autorises || 0, item.commences || 0]), 1);
     const description = series.map((item) => `${item.annee} : ${fmt(item.autorises, "logements")} autorisés et ${fmt(item.commences, "logements")} commencés`).join(" ; ");
-    return `<div class="annual-construction" role="img" aria-label="${description}">${series.map((item) => `
-      <div class="annual-group">
-        <div class="annual-bars"><i class="authorized" style="--bar-height:${((item.autorises || 0) / max) * 100}%" title="${fmt(item.autorises, "logements")} autorisés"></i><i class="started" style="--bar-height:${((item.commences || 0) / max) * 100}%" title="${fmt(item.commences, "logements")} commencés"></i></div>
-        <b>${item.annee}</b>
-      </div>`).join("")}</div><div class="annual-legend"><span><i class="authorized"></i>Autorisés</span><span><i class="started"></i>Commencés</span></div>`;
+    const outer = 270;
+    const inner = 207;
+    return `<div class="construction-rounds" role="img" aria-label="${description}">${series.map((item) => {
+      const authorizedShare = Math.max(0, (item.autorises || 0) / max);
+      const startedShare = Math.max(0, (item.commences || 0) / max);
+      return `<div class="construction-orbit">
+        <div class="orbit-chart">
+          <svg viewBox="0 0 112 112" aria-hidden="true">
+            <circle class="orbit-track outer" cx="56" cy="56" r="43"></circle>
+            <circle class="orbit-value authorized" cx="56" cy="56" r="43" stroke-dasharray="${outer * authorizedShare} ${outer}"></circle>
+            <circle class="orbit-track inner" cx="56" cy="56" r="33"></circle>
+            <circle class="orbit-value started" cx="56" cy="56" r="33" stroke-dasharray="${inner * startedShare} ${inner}"></circle>
+          </svg>
+          <b>${item.annee}</b>
+        </div>
+        <div class="orbit-values"><span class="authorized"><i></i><b>${Math.round(item.autorises || 0).toLocaleString("fr-FR")}</b><small>autorisés</small></span><span class="started"><i></i><b>${Math.round(item.commences || 0).toLocaleString("fr-FR")}</b><small>commencés</small></span></div>
+      </div>`;
+    }).join("")}</div>`;
   }
 
   function openSynthesisPanel() {
@@ -574,7 +582,6 @@
     const otherOccupancy = rp == null ? null : Math.max(0, rp - (owners || 0) - (privateTenants || 0) - (socialTenants || 0));
     const authorized = nodeValue(profile.construction.autorises_5ans);
     const started = nodeValue(profile.construction.commences_5ans);
-    const constructionMax = Math.max(authorized || 0, started || 0, 1);
     const rplsShare = nodeValue(profile.social.part_rpls_residences_principales);
     const vacancyRate = nodeValue(profile.vacance.taux_vacance_rp);
     const longVacancy = nodeValue(profile.vacance.vacance_privee_longue_2025);
@@ -626,8 +633,7 @@
       </section>
       <section class="synthesis-viz" aria-labelledby="constructionTitle">
         <div class="synthesis-section-head"><strong id="constructionTitle">Construction : volumes et évolution</strong><span>Sitadel3 · 2022-2025</span></div>
-        ${synthesisBar("Logements autorisés", authorized, constructionMax, "#000091")}
-        ${synthesisBar("Logements commencés", started, constructionMax, "#00a7b5")}
+        <div class="construction-total-pills"><span class="authorized"><i></i>Autorisés sur 5 ans <b>${fmt(authorized, "logements")}</b></span><span class="started"><i></i>Commencés sur 5 ans <b>${fmt(started, "logements")}</b></span></div>
         ${annualConstructionChart(profile.construction.serie_annuelle)}
         <p class="viz-note">Cumul affiché : 2021-2025. Comparaison annuelle disponible : 2022-2025. Les données récentes sont incomplètes lorsque des documents ne sont pas encore reçus, notamment pour les mises en chantier 2025. Il s’agit d’autorisations et de chantiers, pas de logements livrés.</p>
       </section>

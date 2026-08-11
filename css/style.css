@@ -148,6 +148,8 @@ input[type="range"]{width:100%;accent-color:var(--blue)}
 .synthesis-dashboard .annual-construction{height:190px}
 .synthesis-dashboard .annual-bars i{width:22px}
 .synthesis-dashboard .market-summary-grid{grid-template-columns:1fr}
+.construction-total-pills{display:flex;flex-wrap:wrap;gap:8px;margin:4px 0 18px}.construction-total-pills span{display:grid;grid-template-columns:10px auto;column-gap:7px;align-items:center;padding:9px 13px;border:1px solid var(--line);border-radius:999px;background:#f8fafc;color:var(--muted);font-size:9px}.construction-total-pills i,.orbit-values i{width:9px;height:9px;border-radius:50%}.construction-total-pills b{grid-column:2;color:var(--navy);font-size:12px}.construction-total-pills .authorized i,.orbit-values .authorized i{background:var(--blue)}.construction-total-pills .started i,.orbit-values .started i{background:var(--cyan)}
+.construction-rounds{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;align-items:start}.construction-orbit{text-align:center}.orbit-chart{position:relative;width:min(132px,100%);aspect-ratio:1;margin:0 auto}.orbit-chart svg{display:block;width:100%;height:100%;transform:rotate(-90deg);overflow:visible}.orbit-track,.orbit-value{fill:none;stroke-width:8}.orbit-track{stroke:#e8edf1}.orbit-track.inner{stroke:#eef4f5;stroke-width:7}.orbit-value{stroke-linecap:round}.orbit-value.authorized{stroke:var(--blue)}.orbit-value.started{stroke:var(--cyan);stroke-width:7}.orbit-chart>b{position:absolute;inset:0;display:grid;place-items:center;color:var(--navy);font-size:18px}.orbit-values{display:grid;gap:4px;margin-top:7px}.orbit-values span{display:grid;grid-template-columns:8px auto 1fr;align-items:center;justify-content:center;gap:4px;font-size:9px;text-align:left}.orbit-values b{color:var(--navy);font-size:10px}.orbit-values small{color:var(--muted);font-size:8px}.orbit-values i{width:7px;height:7px}.synthesis-dashboard>.synthesis-insights{border-radius:28px}
 
 .source-cards{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:20px}
 .source-card{background:#fff;border:1px solid var(--line);border-radius:8px;padding:14px}
@@ -224,4 +226,5 @@ input[type="range"]{width:100%;accent-color:var(--blue)}
   .synthesis-dashboard-head h2{font-size:23px;margin-right:42px}
   .synthesis-dashboard-kpis{grid-template-columns:1fr 1fr;margin:14px 0}
   .synthesis-dashboard>.synthesis-viz,.synthesis-dashboard>.synthesis-insights,.synthesis-dashboard>.profile-link,.synthesis-dashboard>.detail-method{margin-top:12px}
+  .construction-rounds{grid-template-columns:1fr 1fr;gap:22px 10px}
 }
