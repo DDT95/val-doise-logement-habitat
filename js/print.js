@@ -27,7 +27,7 @@
   const ramp = layerDef?.ramp || [first.fillColor || "#dce8f1", first.fillColor || "#dce8f1"];
   const valueLabels = layerDef && values.length ? `<div class="legend-range"><span>${formatValue(Math.min(...values), layerDef.unit)}</span><span>${formatValue(Math.max(...values), layerDef.unit)}</span></div><small class="legend-note">Gris : donnée non disponible ou secrétisée</small>` : "";
   const overlayLegend = overlays.length ? `<div class="legend-overlays">${overlays.map((o) => `<span><i class="${o.id.includes("points") ? "point" : ""}" style="background:${o.style.fillColor};border-color:${o.style.color}"></i>${o.label}</span>`).join("")}</div>` : "";
-  document.getElementById("printLegend").innerHTML = layerDef ? `<strong class="legend-title">${layerDef.label}</strong><div class="legend-ramp" style="background:linear-gradient(90deg,${ramp.join(",")})"></div>${valueLabels}${overlayLegend}` : `<strong class="legend-title">Territoires du Val-d’Oise</strong>${overlayLegend || '<div class="legend-empty">Aucune couche thématique sélectionnée</div>'}`;
+  document.getElementById("printLegend").innerHTML = layerDef ? `<strong class="legend-title">${layerDef.label}</strong><div class="legend-ramp" style="background:linear-gradient(90deg,${ramp.join(",")})"></div>${valueLabels}${overlayLegend}` : `<strong class="legend-title">Légende</strong>${overlayLegend || '<div class="legend-empty">Aucune couche thématique sélectionnée</div>'}`;
 
   function formatValue(value, unit) {
     if (!Number.isFinite(value)) return "n. d.";
@@ -64,7 +64,7 @@
 
   function niceScaleNumber(number) { const power = Math.pow(10, String(Math.floor(number)).length - 1); const digit = number / power; return power * (digit >= 10 ? 10 : digit >= 5 ? 5 : digit >= 3 ? 3 : digit >= 2 ? 2 : 1); }
   function renderScaleBar() {
-    const targetPx = 160, size = map.getSize(), y = size.y / 2, maxMeters = map.distance(map.containerPointToLatLng([0, y]), map.containerPointToLatLng([targetPx, y])), meters = niceScaleNumber(maxMeters), fullPx = targetPx * meters / maxMeters, segments = 4, segmentPx = fullPx / segments, unit = meters >= 1000 ? meters / 1000 : meters, unitLabel = meters >= 1000 ? "km" : "m";
+    const targetPx = 190, size = map.getSize(), y = size.y / 2, maxMeters = map.distance(map.containerPointToLatLng([0, y]), map.containerPointToLatLng([targetPx, y])), meters = niceScaleNumber(maxMeters), fullPx = targetPx * meters / maxMeters, segments = 4, segmentPx = fullPx / segments, unit = meters >= 1000 ? meters / 1000 : meters, unitLabel = meters >= 1000 ? "km" : "m";
     const bars = Array.from({ length: segments }, (_, i) => `<div class="scale-seg ${i % 2 ? "off" : "on"}" style="width:${segmentPx}px"></div>`).join("");
     const ticks = Array.from({ length: segments + 1 }, (_, i) => `<span style="left:${i * segmentPx}px">${(unit / segments * i).toLocaleString("fr-FR", { maximumFractionDigits: 1 })}</span>`).join("");
     document.getElementById("printScale").innerHTML = `<div class="scale-frame" style="width:${fullPx}px"><div class="scale-bar-row">${bars}</div><div class="scale-ticks" style="width:${fullPx}px">${ticks}<span class="scale-unit" style="left:${fullPx}px">${unitLabel}</span></div></div>`;
