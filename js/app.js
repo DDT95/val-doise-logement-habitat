@@ -658,4 +658,47 @@
   }
 
   document.getElementById("closeDetail").addEventListener("click", () => document.getElementById("detailPanel").classList.remove("open"));
+
+  function printTerritories() {
+    const source = state.scale === "epci" ? epciLayer : communesLayer;
+    if (!source) return { type: "FeatureCollection", features: [] };
+    const features = [];
+    source.eachLayer((layer) => {
+      if (!layer.feature) return;
+      const feature = layer.toGeoJSON();
+      const code = layer.feature.properties.code;
+      const profile = state.scale === "epci" ? state.epcisByCode.get(code) : state.communesByCode.get(code)?.profile;
+      const printValue = state.activeLayer && profile ? layerValue(LAYERS[state.activeLayer], profile) : null;
+      feature.properties = { ...feature.properties, _printValue: printValue, _printStyle: {
+        color: layer.options.color,
+        weight: layer.options.weight,
+        opacity: layer.options.opacity,
+        fillColor: layer.options.fillColor,
+        fillOpacity: layer.options.fillOpacity,
+      } };
+      features.push(feature);
+    });
+    return { type: "FeatureCollection", features };
+  }
+
+  function printOverlays() {
+    return [
+      ["permis_louer", "Zones permis de louer", permisLouerLayer, { color: "#ce0500", weight: 2, dashArray: "6 4", fillColor: "#ce0500", fillOpacity: 0.12 }],
+      ["rpls_points", "Bâtiments de logements sociaux", rplsPointsLayer, { color: "#7a0300", fillColor: "#ce0500", radius: 3.2 }],
+      ["dvf_points", "Ventes immobilières 2023-2025", dvfPointsLayer, { color: "#5c0a70", fillColor: "#9c27b0", radius: 2.6 }],
+    ].filter(([, , layer]) => layer && map.hasLayer(layer)).map(([id, label, layer, style]) => ({ id, label, data: layer.toGeoJSON(), style }));
+  }
+
+  window.logementApp = {
+    state,
+    map,
+    layers: LAYERS,
+    department: () => deptLayer?.toGeoJSON(),
+    territories: printTerritories,
+    overlays: printOverlays,
+  };
+  document.getElementById("printMap").addEventListener("click", () => {
+    const preview = new URLSearchParams(location.search).has("printPreview");
+    window.open(`print.html${preview ? "?preview=1" : ""}`, "_blank");
+  });
 })();
